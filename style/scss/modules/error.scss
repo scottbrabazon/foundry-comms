@@ -1,0 +1,37 @@
+/* Mixins */
+
+/* Module */
+
+a.error { color: $error; }
+
+input[type="email"].error, input[type="password"].error, input[type="search"].error, input[type="tel"].error, input[type="text"].error, textarea.error { box-shadow: 1px 1px 1px $error; }
+
+.ie {
+
+	input[type="email"].error, input[type="password"].error, input[type="search"].error, input[type="tel"].error, input[type="text"].error, textarea.error { border-color: $error !important; }
+
+}
+
+label.error {
+	background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/error.svg) 0 2px no-repeat;
+	color: $error;
+	padding: em(6,13) 0 em(6,13) em(16,13);
+
+	.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/error.png); }
+
+}
+
+/* Sub-modules */
+
+/* State */
+
+@media print {
+
+	input[type="email"].error, input[type="password"].error, input[type="search"].error, input[type="tel"].error, input[type="text"].error, textarea.error {
+		border-color: $error;
+		box-shadow: none;
+	}
+
+	label.error { padding-left: 0; }
+
+}

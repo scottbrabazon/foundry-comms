@@ -1,0 +1,199 @@
+/* Mixins */
+
+/* Module */
+
+.project {
+	
+	h1 {
+		background-image: url(/img/projects/project-header-rule.gif);
+		background-position: left top;
+		background-repeat: no-repeat;
+		font-weight: 500;
+		font-size: em(24);
+		margin-left: 0;
+		margin-bottom: em(0);
+		padding-top: em(16);
+		text-transform: uppercase;
+		width: 100%;
+	}
+	
+	h2 {
+		display: block;
+		float: left;
+		font-weight: 500;
+		font-size: em(24);
+		margin-bottom: em(0);
+		margin-left: 0;
+		padding-bottom: em(9);
+		padding-top: em(6);
+		text-transform: uppercase;
+		width: 100%;
+	}
+	
+	p {
+		font-weight: 500;
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	#shiva p {margin-left: 0;}
+	
+	.groupthree-projects .groupthree-content {
+		
+		background-color:#d5d5d5;
+		padding-bottom:em(40);
+		padding-top:em(40);
+		
+		p {
+			color: #5b6270;
+			font-weight: 500;
+			margin-left: 0;
+			padding-bottom: 0;
+			text-align: center;
+			width: 100%;
+		}
+		
+		a {
+			color: #5b6270;
+		}
+		
+		&.archer-academy {
+			background-image: url(/img/projects/archer-academy/carousel/01.jpg);
+			padding-bottom:em(40);
+			background-size: cover;
+			padding-top:em(40);
+			
+			a {
+				p {
+					color: #FFFFFF;
+				}
+			}
+		}
+		
+		&.connection {
+			background-image: url(/img/projects/connection/carousel/01.jpg);
+			padding-bottom:em(40);
+			background-size: cover;
+			padding-top:em(40);
+			
+			a {
+				p {
+					color: #FFFFFF;
+				}
+			}
+		}
+		
+		&.gateacre-school {
+			background-image: url(/img/projects/gateacre/carousel/02.jpg);
+			padding-bottom:em(40);
+			background-size: cover;
+			padding-top:em(40);
+			
+			a {
+				p {
+					color: #FFFFFF;
+				}
+			}
+		}
+	}
+	
+	.grouptwo {
+		background: #55c6d4;
+		text-align: center;
+		width: 97%;
+		
+		p {
+			color: #FFF;
+		}
+		
+		h3 {
+			color: #FFF;
+			font-size: em(22);
+			padding-left: em(30);
+			padding-right: em(30);
+			padding-top: em(24);
+		}
+	}
+	
+	.groupthree {
+		width: 97%;
+	}
+	
+	.single.project-quote {
+		background-color: #55c6d4;
+		background-image: url(/img/projects/gateacre/blockquote-image-two.jpg);
+		background-position: left top;
+		background-repeat: no-repeat;
+	    margin-bottom: em(24);
+		margin-left: 0;
+	    margin-right: 0;
+		padding-bottom: em(34);
+		padding-top: em(36);
+		text-align: center;
+	    width: 95.7143%;
+		
+		p {
+			color: #000;
+		}
+		
+		h3 {
+			color: #000;
+			font-size: em(18);
+			padding-left: em(12);
+			padding-right: em(12);
+		}
+	}
+	
+	.groupthree-projects {
+		&.clients {
+			.groupthree-content {
+				padding-bottom:em(0);
+				padding-top:em(0);
+				width: 100%;
+			}
+		}
+	}
+}
+
+@include media($grid2) {
+	.project {
+		.groupthree-projects {
+			&.clients {
+				.groupthree-content {
+					margin-left: 1.66667%;
+					width: 32.1637%;
+					
+					&:nth-child(2n+1) {
+						clear:none;
+					}
+					
+					&:nth-child(3n+1) {
+						clear:none;
+						margin-left: 0;
+					}
+					
+				}
+			}
+		}
+	}
+}
+
+@include media($grid3) {
+	.project {
+		p, h1, h2 {
+			width: 97%;
+		}
+		
+		.single.project-quote {
+			padding-bottom: em(34);
+			padding-top: em(36);
+		
+			h3 {
+				color: #000;
+				font-size: em(22);
+				padding-left: em(48);
+				padding-right: em(48);
+			}
+		}
+	}
+}

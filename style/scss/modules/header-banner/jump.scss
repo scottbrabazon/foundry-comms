@@ -1,0 +1,79 @@
+/* Mixins */
+
+/* Module */
+
+.jump {
+	background: $corporate4;
+	@include hide();
+}
+
+.jump-isactive { @include show(); }
+
+.jump-links {
+	margin: em(16,13) 0 0 em(9,13);
+
+	a, ul { color: white; }
+
+	li {
+		background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/yellow/right.svg) 0 2px no-repeat;
+		margin-left: 0;
+
+		a {
+			display: block;
+			padding-left: em(16,13);
+		}
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/yellow/right.png); }
+
+	}
+
+	ul { list-style-type: none; }
+
+}
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid2) {
+
+	.jump-links {
+
+		li {
+			float: left;
+			width: 50%;
+		}
+
+		ul { overflow: hidden; }
+
+	}
+
+}
+
+@include media($grid3) {
+
+	.jump-links {
+		margin-bottom: em(4,13);
+		margin-left: 140px;
+		margin-left: 8.75rem;
+		margin-top: em(20,13);
+
+		li {
+			margin-right: em(16,13);
+			width: auto;
+		}
+
+	}
+
+}
+
+@include media($grid4) {
+
+	.jump-links {
+		width: em(600);
+
+		li { margin-right: em(32,13); }
+
+	}
+
+}

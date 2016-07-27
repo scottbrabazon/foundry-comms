@@ -1,0 +1,365 @@
+/*
+
+Base rules
+
+A Base rule is applied to an element using an element selector, a descendent selector, or a child selector, along with any pseudo-classes.
+
+It doesn’t include any class or ID selectors. It is defining the default styling for how that element should look in all occurrences on the page.
+
+There should be no need to use !important in a Base style.
+
+http://smacss.com/book/type-base
+
+*/
+
+@-ms-viewport { width: device-width; } /* Support for IE10 "snap" mode */
+
+a, blockquote, figcaption, dl, h1, h2, h3, h4, h5, h6, input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], label, ol, p, td, textarea, tfoot td, th, ul { color: $corporate1; }
+
+a { text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+article, fieldset, header[role="banner"], input[type="image"], table { @include spacer(); }
+
+header[role="banner"] {
+	margin-bottom: 0em;
+	padding-bottom: 0.3em;
+	background-image: url("/img/header/background.jpg");
+	background-repeat: repeat-x;
+	background-position: center;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+b, caption, dt, h1, h2, h3, input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], label, strong, textarea, tfoot td, th { font-weight: 500; }
+
+b, caption, h1, h2, h3, h4, h5, h6, strong, tfoot td, th { font-weight: normal; }
+
+body {
+	background: white;
+	text-align: center;
+	font-family:'Museo Sans W01';
+	-webkit-text-size-adjust: 100%; /* Disable WebKit’s automatic resizing of small type, but still allow user-initiated zoom */
+}
+
+blockquote, dd, figcaption, h4, h5, h6, ol, p, table, ul { font-weight: 200 Extra-light; }
+
+blockquote {
+	font-size: em(15);
+	line-height: em(24,15);
+}
+
+caption {
+	background: $corporate2;
+	color: white;
+	padding: em(8);
+
+	small {
+		display: inline-block;
+		font-weight: 500;
+		padding-top: em(6);
+	}
+
+}
+
+embed, img, input[type="image"], iframe, label, main, object, video {
+	/* Ensure main displays as a block level element in browsers that don’t support it */
+	display: block;
+}
+
+embed, iframe, object, video { max-width: 100%; }
+
+fieldset {
+	border-bottom-color: tint($corporate1,60%);
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+}
+
+figcaption, input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], label, ol, p, td, textarea, th, ul { font-size: em(13); }
+
+figcaption, li, p, td {
+
+	a { color: $corporate2; }
+
+}
+
+figcaption, p { line-height: em(19,13); }
+
+figcaption { padding-top: em(8,13); }
+
+footer[role="contentinfo"] {
+	background: none;
+	padding-top: 0;
+}
+
+h1 {
+	font-size: em(20);
+	line-height: em(26,20);
+	padding-bottom: em(12,20);
+}
+
+h2 {
+	font-size: em(18);
+	line-height: em(26,18);
+	padding-bottom: em(12,18);
+}
+
+h3 {
+	font-size: em(13,13);
+	font-weight: 900;
+	line-height: em(26,18);
+	padding-bottom: em(12,18);
+}
+
+h4, h5, h6 {
+	font-size: em(16);
+	line-height: em(22,16);
+	padding-bottom: em(12,16);
+}
+
+hr, img[src=""], p:empty {
+	/*
+	A couple of Dynamic Web workarounds:
+	img[src=""] selects any images that have an empty src attribute
+	p:empty selects the empty paragraphs DW likes to insert
+	*/
+	@include hide();
+}
+
+img, input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], select, table, textarea {
+	/*
+	On img instead of max-width – makes the site more tolerant of sub-optimal images
+	Fix for browsers where SVG images don’t scale in proportion correctly
+	*/
+	width: 100%;
+}
+
+img[src$=".svg"], input[src$=".svg"] {
+	/* Fix for browsers where SVG images don’t scale in proportion correctly */
+	height: auto;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	float: left;
+	margin-left: 0;
+	margin-right: em(16);
+}
+
+/*input[type="email"], input[type="image"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], textarea { border-radius: em(4); }*/
+
+input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], textarea {
+	background: tint($corporate1,90%);
+	border: none;
+	/*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);*/
+	padding: em(4,13);
+	margin-bottom: em(18,13);
+	-webkit-appearance: none; /* Stops Safari adding styling malarkey */
+}
+
+.ie { /* IE8 doesn't support box-shadow, so make do with a border (wouldn’t normally have a class here, but this is a site-wide browser fix) */
+
+	input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], textarea { border: 1px solid tint($corporate1,50%) !important; }
+
+}
+
+input[type="image"] {
+	background: $corporate2;
+	display: inline-block;
+	margin-left: em(16);
+	width: auto;
+
+	&:first-child { margin-left: 0; }
+
+	&[disabled="disabled"] { background: tint($corporate2,80%); }
+
+}
+
+label {
+	overflow: hidden;
+	padding-bottom: em(6,13);
+
+	a { text-decoration: underline; }
+
+}
+
+li {
+	margin-left: em(16,13);
+	padding-bottom: em(8,13);
+}
+
+p { padding-bottom: em(9,13); line-height: 1.9em; font-size: em(13,13); }
+
+small { font-size: 0.8em; }
+
+sup { vertical-align: super; }
+
+table { border: 1px solid tint($corporate1,80%); }
+
+tbody th[scope="row"] { background: tint($corporate1,90%); }
+
+td, th {
+	padding: em(8,13);
+	text-align: left;
+}
+
+td { line-height: em(19,13); }
+
+textarea { height: em(160,13); }
+
+tfoot, th[scope="col"] { background: tint($corporate1,80%); }
+
+tr { border-top: 1px solid tint($corporate1,80%); }
+
+tr:nth-child(2n+2) { background: tint($corporate1,96%); }
+
+ol, ul {
+	line-height: em(16,13);
+	padding-bottom: em(8,13);
+}
+
+hr {
+    border-color: #000;
+    border-width: 2px;
+    display: block;
+    margin: 0.5em 0 1.3em 0em;
+    visibility: visible;
+    width: 20px;
+}
+
+.center {
+	text-align: center;
+	
+	hr {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	img {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+.attractor {
+	text-align: center;
+	
+	hr {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	img {
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+	
+	p {
+		text-align: center !important;
+		padding: 0 12em 1em 12em;
+	}
+	
+	h3 {
+		text-align: center;
+		padding: 0 12em 0 12em;
+	}
+	
+	h4 {
+		text-align: center;
+		font-weight: 900;
+		font-size: 1.45em;
+		line-height: 1.3125em;
+	}
+	
+	.grouptwo-content-info {
+		width: 100%;
+	}
+	
+	&.right {
+	    background-image: url("/img/home-page/carousel/background.jpg");
+	    background-position: right center;
+	    background-repeat: no-repeat;
+		width: 100%;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+		
+		.grouptwo {
+		    margin-left: 0%;
+		    width: 100%;
+		}
+	}
+	
+	&.left {
+	    background-image: url("/img/home-page/carousel/background.jpg");
+	    background-position: left center;
+	    background-repeat: no-repeat;
+		width: 100%;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+		
+		.grouptwo {
+		    margin-left: 0%;
+		    width: 100%;
+		}
+	}
+}
+
+.large-text {
+	font-size: em(19,13);
+	line-height: 2.1em;
+}
+
+.address p {
+  color: #333;
+}
+
+/* State */
+
+@include media($grid3) {
+
+	h2 {
+		font-size: em(20);
+		line-height: em(26,20);
+		padding-bottom: em(12,20);
+	}
+	
+	.attractor  {
+		.grouptwo-content-info {
+			@include vertical-align(absolute);
+			width: 50%;
+		}
+	}
+
+}
+
+@media print {
+
+	caption {
+		border-left: 1px solid tint($corporate1,80%);
+		border-top: 1px solid tint($corporate1,80%);
+		border-right: 1px solid tint($corporate1,80%);
+	}
+
+	footer[role="contentinfo"] { border-top: 1px solid $corporate1; }
+
+	h1, h2, h3, h4, h5, h6 { page-break-after: avoid; }
+
+	img, ul { page-break-inside: avoid; }
+
+	input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], textarea {
+		border: 1px solid tint($corporate1,50%) !important;
+		box-shadow: none;
+	}
+
+	p a { color: black; text-decoration: underline; }
+
+	p a[href^="http://"]:after, a[href^="https://"]:after {
+		color: black;
+		content: " (" attr(href) ")";
+		word-wrap: break-word;
+	}
+
+	tbody th[scope="row"] { border-right: 1px solid tint($corporate1,80%); }
+
+}

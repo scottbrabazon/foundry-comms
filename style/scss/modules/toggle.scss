@@ -1,0 +1,126 @@
+/* Mixins */
+
+/* Module */
+
+.toggle { position: relative;}
+
+.toggle-favourite a {
+	background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/header/favourite.svg) em(9,13) top no-repeat;
+	color: $corporate1;
+	display: inline-block;
+	height: em(17,13);
+	padding: 0 0 0 em(38,13);
+
+	.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/header/favourite.png); }
+
+}
+
+.toggle-favourite-isactive a { background-position: em(9,13) bottom; }
+
+.toggle-help {
+	background: $corporate2;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	width: em(20);
+}
+
+.toggle-icon { display: block; }
+
+.toggle-icon-isactive { background: $corporate1; }
+
+.toggle-jump {
+	background: $corporate4 url(/Files/Templates/Designs/PGLCore/res/img/themes/core/header/toggle/jump.svg) left top no-repeat;
+	float: left;
+	height: 28px;
+	height: 1.75rem;
+	@include hide-text;
+	margin-bottom: 8px;
+	margin-bottom: 0.5rem;
+	width: 28px;
+	width: 1.75rem;
+
+	.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/header/toggle/jump.gif); }
+
+}
+
+.toggle-jump-isactive { background-position: bottom left; }
+
+.toggle-navigation {
+	bottom: 0;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: em(30);
+	z-index:60;
+}
+
+.toggle-status {
+	font-size: 1em;
+	padding-bottom: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	li {
+		display: inline-block;
+		margin-left: em(2);
+		padding-bottom: 0;
+		width: em(35);
+	}
+
+}
+
+.toggle-table { padding-bottom: em(8,13); }
+
+.toggle-table-col {
+	border: 1px solid tint($corporate2,80);
+	border-radius: em(4,13);
+	display: inline-block;
+	margin-bottom: em(8,13);
+	margin-right: em(8,13);
+	padding: em(4,13);
+
+	&, &:hover { text-decoration: none; }
+
+}
+
+.toggle-table-col-isactive {
+	background: $corporate2;
+	border-color: $corporate2;
+	color: white;
+}
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid2) {
+
+	.toggle-navigation, .toggle-status { @include hide(); }
+
+}
+
+@include media($grid3) {
+
+	.toggle-jump {
+		margin-left: 128px;
+		margin-left: 8rem;
+	}
+
+	.toggle-table { @include hide(); }
+
+}
+
+@media print {
+
+	.toggle-favourite, .toggle-jump, .toggle-navigation, .toggle-status, .toggle-table { @include hide(); }
+
+}
+
+/* Module and sub-module rules below are here because they affect all breakpoints */
+
+/* Module */
+
+.toggle-jtable-col-isinactive { @include hide(); }

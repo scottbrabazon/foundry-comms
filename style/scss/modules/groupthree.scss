@@ -1,0 +1,298 @@
+/* Mixins */
+
+.groupthree-projects {
+	@include span-columns(80 of 80);
+	@include shift(0);
+	
+	.groupthree-content {
+		@include span-columns(74 of 74);
+		margin-bottom: em(12);
+	}
+}
+
+@mixin grid2-groupthree-all {
+
+	/* Module */
+
+	.groupthree {
+		@include span-columns(80 of 80);
+		@include shift(0);
+	}
+
+	.groupthree-content { @include span-columns(74 of 74); }
+
+	.groupthree-content:nth-child(2n+1) {
+		clear: left;
+		@include shift(0);
+	}
+
+	.ie-groupthree-content-odd {
+		clear: left !important;
+		margin-left: 0 !important;
+	}
+
+	/* Sub-modules */
+
+	.groupthree-medium, .groupthree-small { @include span-columns(74 of 74); } 
+
+	.groupthree-content, li.groupthree-content { @include shift(0); } /* Out of alphabetical order because it affects rules set above */
+
+}
+
+/* Module */
+
+.groupthree, .groupthree-content { @extend %clearfix; }
+
+.groupthree {
+	clear: both;
+	@include span-columns(40 of 40);
+	@include shift(0);
+	text-align: left;
+}
+
+.groupthree-projects {
+	clear: both;
+	@include span-columns(40 of 40);
+	@include shift(0);
+	text-align: left;
+}
+
+/* Sub-modules */
+
+.groupthree-medium, .groupthree-small {
+	@include span-columns(36 of 36);
+	margin-top: 0;
+}
+
+/* State */
+
+@include media($grid2) {
+
+	@include grid2-groupthree-all;
+	
+	.groupthree-conent {border: 1px solid lime;}
+
+}
+
+@include media($grid3) {
+
+	/* Module */
+
+	.groupthree {
+		@include span-columns(120 of 120);
+		@include shift(0);
+	}
+	
+	.groupthree-projects {
+		@include span-columns(117 of 120);
+		@include shift(0);
+	}
+
+	.groupthree-content {
+		@include span-columns(38 of 114);
+		@include shift(0);
+
+		&:nth-child(2n+1) {
+			clear: none;
+			@include shift(0);
+		}
+
+		&:nth-child(3n+1) {
+			clear: left;
+			@include shift(0);
+		}
+
+	}
+	
+	.groupthree-projects .groupthree-content {
+		@include span-columns(38 of 114);
+		@include shift(0);
+		@include shift(2);
+		margin-bottom: em(12);
+
+		&:nth-child(2n+1) {
+			clear: none;
+			@include shift(2);
+		}
+
+		&:nth-child(3n+1) {
+			clear: left;
+			@include shift(0);
+		}
+
+	}
+	
+	.ie-groupthree-content-first {
+		clear: left !important;
+		margin-left: 0 !important;
+	}
+	
+	.ie-groupthree-content-second, .ie-groupthree-content-third {
+		clear: none !important;
+		margin-left: 1.66667% !important;
+	}
+
+	/* Sub-modules */
+
+	.groupthree-medium {
+		@include span-columns(85 of 85);
+
+		.groupthree-content {
+			@include span-columns(27 of 85);
+			@include shift(2);
+
+			&:nth-child(2n+1) {
+				clear: none;
+				@include span-columns(27 of 85);
+				@include shift(2);
+			}
+
+			&:nth-child(3n+1) {
+				clear: left;
+				@include shift(0);
+			}
+
+		}
+		
+		.ie-groupthree-content-second, .ie-groupthree-content-third {
+			clear: none !important;
+			margin-left: 2.35294% !important;
+		}
+
+	}
+
+	.groupthree-small {
+		@include span-columns(56 of 56);
+
+		.groupthree-content {
+			@include span-columns(17.3333333 of 56);
+			@include shift(2);
+
+			&:nth-child(2n+1) {
+				clear: none;
+				@include span-columns(17.3333333 of 56);
+				@include shift(2);
+			}
+
+			&:nth-child(3n+1) {
+				clear: left;
+				@include shift(0);
+			}
+
+		}
+		
+		.ie-groupthree-content-second, .ie-groupthree-content-third {
+			clear: none !important;
+			margin-left: 3.57143% !important;
+		}
+
+	}
+
+}
+
+@include media($grid4) {
+
+	/* Module */
+
+	.groupthree {
+		@include span-columns(140 of 140);
+		@include shift(0);
+	}
+
+	.groupthree-content {
+		@include span-columns(44.6666666 of 134);
+		@include shift(0);
+		
+		&:nth-child(2n+1) {
+			clear: none;
+			@include shift(0);
+		}
+
+		&:nth-child(3n+1) {
+			clear: left;
+			@include shift(0);
+		}
+
+	}
+	
+	.ie-groupthree-content-second, .ie-groupthree-content-third {
+		clear: none !important;
+		margin-left: 1.42857% !important;
+	}
+
+	/* Sub-modules */
+
+	.groupthree-medium {
+		@include span-columns(100 of 100);
+
+		.groupthree-content {
+			@include span-columns(32 of 100);
+			@include shift(2);
+	
+			&:nth-child(2n+1) {
+				@include span-columns(32 of 100);
+				@include shift(2);
+			}
+
+			&:nth-child(3n+1) { @include shift(0); }
+
+		}
+		
+		.ie-groupthree-content-second, .ie-groupthree-content-third {
+			clear: none !important;
+			margin-left: 2% !important;
+		}
+
+	}
+
+	.groupthree-small {
+		@include span-columns(66 of 66);
+
+		.groupthree-content {
+			@include span-columns(20.666666 of 66);
+			@include shift(2);
+
+			&:nth-child(2n+1) {
+				@include span-columns(20.666666 of 66);
+				@include shift(2);
+			}
+
+			&:nth-child(3n+1) { @include shift(0); }
+
+		}
+		
+		.ie-groupthree-content-second, .ie-groupthree-content-third {
+			clear: none !important;
+			margin-left: 3.0303% !important;
+		}
+
+	}
+
+	.groupthree-content:nth-child(3n+1) { /* Out of alphabetical order because it affects rules set above */
+		clear: left;
+		@include shift(0);
+	}
+
+}
+
+@media print {
+
+	@include grid2-groupthree-all;
+
+}
+
+/* Module and sub-module rules below are here because they affect all breakpoints */
+
+/* Module */
+
+.groupthree, .groupthree-medium, .groupthree-small { float: none; } /* Override Bourbon Neat’s left float */
+
+/* Sub-modules */
+
+.groupthree-medium, .groupthree-small { @include shift(0); } /* The zero shift can be set here, because it's not dependent on span-columns – zero is zero */
+
+.ie {
+
+	.groupthree-medium, .groupthree-small { margin-left: 0 !important; }
+
+}

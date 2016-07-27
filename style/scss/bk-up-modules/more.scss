@@ -1,0 +1,32 @@
+/* Mixins */
+
+/* Module */
+
+.more { text-align: right; }
+
+.more-link {
+	background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.svg) 0 4px no-repeat;
+	display: inline-block;
+	margin-right: em(24,13);
+	padding-left: em(16,13);
+
+	&:last-child { margin-right: 0; }
+
+	.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.png); }
+
+}
+
+/* Sub-modules */
+
+.more-results {
+	@include spacer();
+	padding-top: em(16);
+}
+
+/* State */
+
+@media print {
+
+	.more-link { padding-left: 0; }
+
+}

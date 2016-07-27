@@ -1,0 +1,16 @@
+/* Mixins */
+/* Module */
+/* line 5, ../../scss/bk-up-modules/sort-results.scss */
+.sort-results label {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  padding-top: 1px;
+}
+
+/* line 12, ../../scss/bk-up-modules/sort-results.scss */
+.sort-results select {
+  display: block;
+  float: left;
+  width: auto;
+}

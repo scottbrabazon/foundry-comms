@@ -1,0 +1,23 @@
+/* Mixins */
+
+/* Module */
+
+.tipsy {
+	font-weight: 500;
+	font-size: em(13);
+	letter-spacing: 0.05em;
+}
+
+.tipsy-arrow-s { border-top-color: $corporate2; }
+
+.tipsy-inner {
+	background-color: $corporate2;
+	box-shadow: 0 1px 1px $corporate1;
+	color: white;
+	max-width: em(200);
+	padding: em(4,13) em(8,13) em(4,13) em(8,13);
+}
+
+/* Sub-modules */
+
+/* State */

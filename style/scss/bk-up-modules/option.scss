@@ -1,0 +1,239 @@
+/* Mixins */
+
+/* Module */
+
+.option {
+	@include spacer();
+	position: relative;
+
+	h3 { line-height: em(22,18); }
+
+	dd, dt {
+		float: left;
+		padding-bottom: em(8,12.5);
+		width: 50%;
+	}
+
+	dl {
+		@extend %clearfix;
+		padding-bottom: em(8,12.5);
+		font-size: em(12.5);
+	}
+
+	dt { clear: left; }
+
+	select { width: auto; }
+
+}
+
+.option-availability {
+	background: tint($corporate1,88%);
+
+	img, p {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	img { width: em(24); }
+
+	p {
+		color: $corporate1;
+		font-weight: 500;
+		font-size: em(13);
+		line-height: em(24,13);
+		padding: 0 0 0 em(8,13);
+	}
+
+}
+
+.option-classification {
+	background: $corporate1;
+	color: white;
+	font-weight: 900;
+	font-size: em(13);
+	padding: em(4,13) em(16,13) em(4,13) em(16,13);
+}
+
+.option-cta {
+	background: tint($corporate2,80%);
+	padding: em(4) em(16) em(4) em(16);
+
+	li, ul { padding-bottom: 0; }
+
+	li {
+		background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.svg) 0 6px no-repeat;
+		margin-left: 0;
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.png); }
+
+		a {
+			display: block;
+			padding: em(4,13) em(16,13) em(4,13) em(16,13);
+		}
+
+	}
+
+	ul {
+		font-weight: 900;
+		font-size: em(13);
+		list-style-type: none;
+	}
+
+}
+
+.option-cta-button { padding-top: em(8); }
+
+.option-decal {
+	position: absolute;
+	right: em(16);
+	top: em(16);
+
+	ul { list-style-type: none; }
+
+	li {
+		padding-bottom: em(8);
+		width: em(50);
+	}
+
+}
+
+.option-features {
+	background: tint($corporate1,88%);
+	padding: em(4) em(16) em(4) em(16);
+	
+	p {
+		color: $corporate1;
+		font-weight: 500;
+		font-size: em(13);
+		padding-bottom: 0;
+	}
+	
+	strong { color: $corporate2; }
+
+}
+
+.option-info, .option-proximity { background: tint($corporate1,95%); }
+
+.option-info, .option-title { padding: em(16) em(16) 0 em(16); }
+
+.option-proximity {
+	color: $corporate1;
+	font-weight: 500;
+	font-size: em(13);
+	padding: 0 em(16,13) em(8,13) em(16,13);
+
+	strong { color: $corporate2; }
+
+}
+
+.option-visual { background: tint($corporate1,85%); }
+
+/* Sub-modules */
+
+.option-result {
+
+	h3 {
+		font-size: em(16);
+		line-height: em(26,16);
+	}
+
+}
+
+/* Special sub-modules for homepage */
+
+.option-home {
+
+	.option-cta a { color: $corporate1; }
+
+	.option-title a { color: white; }
+
+}
+
+.option-home-adventureholidays {
+
+	li {
+		background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/adventure-holidays/arrows/orange/right.svg);
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/adventure-holidays/arrows/orange/right.png); }
+
+	}
+
+	.option-cta { background-color: tint($adventureholidays2,80%); }
+
+	.option-info { background-color: tint($adventureholidays2,90%); }
+
+	.option-title { background: $adventureholidays2; }
+
+}
+
+.option-home-familyadventures {
+
+	li {
+		background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/family-adventures/arrows/blue/right.svg);
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/family-adventures/arrows/blue/right.png); }
+
+	}
+
+	.option-cta { background-color: tint($familyadventures3,80%); }
+
+	.option-info { background-color: tint($familyadventures3,90%); }
+
+	.option-title { background: $familyadventures3; }
+
+}
+
+.option-home-groupresidentials {
+
+	li {
+		background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/group-residentials/arrows/aqua/right.svg);
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/group-residentials/arrows/aqua/right.png); }
+
+	}
+
+	.option-cta { background-color: tint($groupresidentials1,80%); }
+
+	.option-info { background-color: tint($groupresidentials1,90%); }
+
+	.option-title { background: $groupresidentials1; }
+
+}
+
+.option-home-schooltrips {
+
+	li {
+		background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/school-trips/primary/arrows/berry/right.svg);
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/school-trips/primary/arrows/berry/right.png); }
+
+	}
+
+	.option-cta { background-color: tint($schooltrips1,80%); }
+
+	.option-info { background-color: tint($schooltrips1,90%); }
+
+	.option-title { background: $schooltrips1; }
+
+}
+
+/* State */
+
+@include media($grid3) {
+
+	.option-decal li { width: em(40); }
+
+}
+
+@media print {
+
+	.option {
+		border: 1px solid tint($corporate1,50%);
+		page-break-inside: avoid;
+	}
+
+	.option-cta, .option-features { border-top: 1px solid tint($corporate1,50%); }
+
+	.option-cta a { padding-left: 0; }
+
+}

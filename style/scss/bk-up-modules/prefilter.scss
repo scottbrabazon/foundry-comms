@@ -1,0 +1,20 @@
+/* Mixins */
+
+/* Module */
+
+.prefilter {
+	clear: both;
+	@extend %clearfix;
+	@include spacer();
+
+	a {
+		color: $corporate1;
+		font-weight: 500;
+		font-size: em(16,13);
+	}
+
+}
+
+/* Sub-modules */
+
+/* State */

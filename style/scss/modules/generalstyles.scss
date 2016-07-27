@@ -1,0 +1,25 @@
+/* Mixins */
+
+/* Module */
+
+.our-story {
+	font-size: 1.2em;
+	margin-top: 5em;
+	padding-left: 12em;
+	padding-right: 12em;
+}
+
+/* Sub-modules */
+
+/* Disabled until further notice
+.generalcontent-foreword { border-bottom: 1px solid tint($corporate1,60%); }
+*/
+
+/* State */
+
+
+@media print {
+
+	.generalcontent-quicklinks { @include hide(); }
+
+}

@@ -1,0 +1,170 @@
+/* Will be making liberal use of !important here, to override inline style */
+
+/* Mixins */
+@mixin grid3-jtable {
+
+	.jtable {
+
+		td, th {
+			display: table-cell !important;
+			visibility: visible !important;
+		}
+
+	}
+
+	.jtable-10col {
+
+		td, th { width: 10% !important; }
+
+	}
+
+	.jtable-11col {
+
+		td, th { width: 9.09090909% !important; }
+
+	}
+
+	.jtable-12col {
+
+		td, th { width: 8.33333333% !important; }
+
+	}
+
+	.jtable-13col {
+
+		td, th { width: 7.69230769% !important; }
+
+	}
+
+	.jtable-14col {
+
+		td, th { width: 7.14285714% !important; }
+
+	}
+
+	.jtable-15col {
+
+		td, th { width: 6.66666667% !important; }
+
+	}
+
+	.jtable-page-list { display: inline; }
+
+}
+
+/* Module */
+
+.jtable {
+	margin-bottom: 0;
+
+	td, th {
+		display: none !important;
+		visibility: hidden !important;
+		width: 50% !important;
+	}
+	
+	td:first-child { background: tint($corporate1,90%); }
+
+	th {
+		background: tint($corporate1,80%);
+
+		img {
+			display: inline-block;
+			@include prepare_transform(scale(1.8));
+			width: 14px;
+
+			.ie & {
+				height: 24px !important;
+				width: 24px !important;
+			}
+
+		}
+
+	}
+
+	th:first-child, td:first-child, .jtable-col-isactive {
+		display: table-cell !important;
+		visibility: visible !important;
+	}
+
+}
+
+.jtable-availability { font-weight: 500; }
+
+.jtable-availability-available { color: green; }
+
+.jtable-availability-few { color: red; }
+
+.jtable-bottom-panel { /* Equivalent to tfoot */
+	background: tint($corporate1,80%);
+	color: $corporate1;
+	font-weight: 500;
+	font-size: em(13);
+	padding: em(8,13) em(8,13) 0 em(8,13);
+}
+
+.jtable-busy-message {
+	left: em(8);
+	position: absolute;
+	top: em(8);
+	width: em(16);
+}
+
+.jtable-goto-page, .jtable-page-size-change, .jtable-page-list { padding-bottom: em(8,13); }
+
+.jtable-goto-page, .jtable-page-size-change { display: inline-block; }
+
+.jtable-left-area > span { margin-right: em(8,13); }
+
+.jtable-main-container {
+	@include spacer();
+	position: relative;
+
+	a { color: $corporate2; }
+
+	select { width: auto !important; }
+
+}
+
+.jtable-page-info { @include hide(); }
+
+.jtable-page-list { display: block; }
+
+.jtable-title { /* Equivalent to caption */
+	background: $corporate2;
+	color: white;
+	font-weight: 500;
+	padding: em(8);
+	text-align: center;
+}
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid2) {
+
+	.jtable-page-list { display: inline; }
+
+}
+
+@include media($grid3) {
+
+	@include grid3-jtable;
+
+}
+
+@media print {
+
+	@include grid3-jtable;
+
+}
+
+/* Module and sub-module rules below are here because they affect all breakpoints */
+
+/* Module */
+
+.jtable .jtable-col-isinactive {
+	display: none !important;
+	visibility: hidden !important;
+}

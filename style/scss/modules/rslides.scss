@@ -1,0 +1,62 @@
+/* Mixins */
+
+/* Module */
+
+.rslides {
+	font-size: 1em;
+
+	li {
+		margin-left: 0;
+		padding: 0;
+	}
+
+}
+
+.rslides_tabs {
+	bottom: 0;
+	list-style-type: none;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 1000;
+
+	a {
+		background: white;
+		border-color: tint($corporate1,70%);
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 50%;
+		display: block;
+		height: 14px;
+		@include hide-text;
+		@include prepare_transition(all 0.4s ease);
+		width: 14px;
+	}
+
+	li {
+		display: inline-block;
+		margin: 0 em(12) 0 em(12);
+	}
+}
+
+.rslides_here a {
+	background: $corporate3;
+	@include prepare_transform(scale(1.2));
+}
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid3) {
+
+	.rslides_tabs { bottom: em(16); }
+
+	.rslides_tabs a {
+		height: 12px;
+		width: 12px;
+	}
+
+	.rslides_tabs li { margin: 0 em(8) 0 em(8); }
+
+}

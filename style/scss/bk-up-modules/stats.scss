@@ -1,0 +1,188 @@
+/* Mixins */
+
+/* Module */
+
+#shiva
+{
+  float:left;
+  text-align:center;
+  font-size:500%;
+  font-weight: 500;
+  
+  p {
+	font-weight: 500;
+	font-size: 17%;
+	height: 40px;
+	line-height: 1.3em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	text-align: center;
+	width: 100%;
+  }
+}
+
+.stats {
+	background: #e8e9ea;
+	display: block;
+	float: left;
+	margin-top: 0.5em;
+	width: 100%;
+	text-align: center;
+	
+	h3 {
+		font-weight: 900;
+		font-size: 150%;
+		padding-bottom: 0.4em;
+		padding-top: 0.8em;
+		width: 100%;
+	}
+}
+
+.stat1 {width:100%; color: #55c6d4; border-right: none; padding-left: 5%; padding-right: 5%;}
+.stat2 {width:100%; color: #55c6d4; border-right: none; padding-left: 5%; padding-right: 5%;}
+.stat3 {width:100%; color: #55c6d4; border-right: none; padding-left: 5%; padding-right: 5%;}
+
+#stats {
+	display:block;
+	float:left;
+	width: 100%;
+}
+
+.project-stats {
+	.stat1 {width:100%; color: #000; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $light-turquoise;}
+	.stat2 {width:100%; color: #FFF; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $dark_grey;}
+	.stat3 {width:100%; color: #000; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $light_grey;}
+	
+	.contractor {
+		width:100%; color: #000; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $light-turquoise;
+		
+		p {
+			height: 16px !important;
+		}
+		
+		span {
+			font-size: em(7,16);
+		}
+	}
+	
+	.architect {
+		width:100%; color: #000; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $turquoise;
+		
+		p {
+			height: 16px !important;
+		}
+		
+		span {
+			font-size: em(7,16);
+		}
+	}
+	
+	#shiva {
+		
+	border-bottom: 3px solid #FFF;
+	
+		p {
+			color: #000;
+			height: 30px;
+			text-align: center;
+			padding-top: 12px;
+		}
+	}
+	
+	.stat2 p {color: #FFF !important;}
+	
+	h3 {
+		background: $turquoise;
+		background-position: em(12) top;
+		background-image: url(/img/projects/project-header-rule-white.gif);
+		background-repeat: no-repeat;
+		border-bottom: 5px solid #FFF;
+		color: #FFF;
+		padding-left: em(12);
+		margin-top: em(14);
+		padding-top: em(8);
+		text-align: left;
+	}
+	
+	#stats {
+		background: $turquoise;
+	}
+	
+}
+
+.stats.project {
+	background: $turquoise;
+}
+
+@include media($grid3) {
+	
+	#shiva
+	{
+	  font-size:650%;
+	  text-align:center;
+	  
+	  p {
+		height: 55px;
+		text-align: center;
+		font-size: 13%;
+	  }
+	}
+	
+	.stats {
+		text-align: center;
+		h3 {
+
+		}
+	}
+
+	.stat1 {width:29.33333%; color: #55c6d4; padding-left: 2%; padding-right: 2%;}
+	.stat2 {width:27.33333%; color: #55c6d4; padding-left: 2%; padding-right: 2%;}
+	.stat3 {width:43.33333%; color: #55c6d4; border-right: none; padding-left: 2%; padding-right: 2%;}
+	
+	.project-stats {
+		.stat1 {width:100%; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $light-turquoise;}
+		.stat2 {width:100%; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $dark_grey;}
+		.stat3 {width:100%; border-right: none; padding-bottom: 0.2em; padding-left: 5%; padding-right: 5%; background: $light_grey;}
+		
+		#shiva {
+			
+		font-size:350%;
+		text-align: left;
+			
+		p {
+			font-size:30%;
+			height: 40px;
+			text-align: left;
+			padding-top: 12px;
+		  }
+		  
+		  .count {
+			  font-size:160%;
+		  }
+		}
+		
+		#stats {
+			background: $turquoise;
+		}
+		
+	}
+	
+	.stats.project {
+		background: $turquoise;
+	}
+
+}
+
+@include media($grid4) {
+	
+	#shiva
+	{
+	  font-size:700%;
+	}
+	
+
+	.stat1 {width:29.33333%; color: #55c6d4; padding-left: 2%; padding-right: 2%;}
+	.stat2 {width:27.33333%; color: #55c6d4; padding-left: 2%; padding-right: 2%;}
+	.stat3 {width:43.33333%; color: #55c6d4; border-right: none; padding-left: 2%; padding-right: 2%;}
+
+}

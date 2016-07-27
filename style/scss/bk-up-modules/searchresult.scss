@@ -1,0 +1,12 @@
+/* Mixins */
+
+/* Module */
+
+.searchresult {
+	border-bottom: 1px solid tint($corporate1,80%);
+	@include spacer();
+}
+
+/* Sub-modules */
+
+/* State */

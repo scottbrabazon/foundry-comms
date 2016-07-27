@@ -1,0 +1,27 @@
+/* Mixins */
+
+/* Module */
+
+.cta {
+
+	em {
+		color: $corporate2;
+		font-style: normal;
+	}
+
+	p {
+		font-size: em(17);
+		line-height: em(24,17);
+	}
+
+}
+
+/* Sub-modules */
+
+/* State */
+
+@media print {
+
+	.cta em { color: black; }
+
+}

@@ -1,0 +1,89 @@
+/* line 1, ../../scss/modules/feature-panels.scss */
+.feature-panel-holder {
+  padding-top: 1em;
+}
+/* line 4, ../../scss/modules/feature-panels.scss */
+.feature-panel-holder.range {
+  margin: 0 1em 1em 0;
+  background-image: url("/img/home-page/range-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 270px;
+}
+/* line 12, ../../scss/modules/feature-panels.scss */
+.feature-panel-holder.projects {
+  margin: 0 0 0 0;
+  background-image: url("/img/home-page/projects-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 270px;
+  height: 556px;
+}
+/* line 21, ../../scss/modules/feature-panels.scss */
+.feature-panel-holder.underlay {
+  margin: 0 1em 1em 0;
+  background-image: url("/img/home-page/underlay-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 270px;
+}
+/* line 28, ../../scss/modules/feature-panels.scss */
+.feature-panel-holder.underlay p {
+  color: #FFF;
+}
+/* line 32, ../../scss/modules/feature-panels.scss */
+.feature-panel-holder.underlay a {
+  color: #FFF;
+}
+/* line 36, ../../scss/modules/feature-panels.scss */
+.feature-panel-holder.underlay hr {
+  border-color: #FFF !important;
+}
+
+/* line 44, ../../scss/modules/feature-panels.scss */
+.feature-panels p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin: 0 0 0 1em;
+  padding-bottom: em(16, 13) !important;
+  text-align: left;
+  width: 70%;
+}
+/* line 53, ../../scss/modules/feature-panels.scss */
+.feature-panels a {
+  font-size: 0.8em;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 70%;
+  color: #000;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+/* line 63, ../../scss/modules/feature-panels.scss */
+.feature-panels img {
+  display: block;
+  margin: 0 auto 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+/* line 71, ../../scss/modules/feature-panels.scss */
+.feature-panels hr {
+  border-color: #000;
+  border-width: 2px;
+  display: block;
+  visibility: visible;
+  width: 20px;
+  margin: -0.4em 0 0.8em 1.1em;
+}
+
+/* line 81, ../../scss/modules/feature-panels.scss */
+.grey-copy-panel {
+  padding: 30px 20%;
+  background: #f2f2f3;
+}
+/* line 84, ../../scss/modules/feature-panels.scss */
+.grey-copy-panel p {
+  text-align: center;
+  padding: 0;
+}

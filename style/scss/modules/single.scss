@@ -1,0 +1,68 @@
+/* Mixins */
+
+/* Module */
+
+.single {
+	clear: both;
+	@extend %clearfix;
+	@include span-columns(36 of 40);
+	@include shift(2);
+	text-align: left;
+}
+
+.single-medium {
+	@include span-columns(36 of 36);
+	@include shift(0);
+}
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid2) {
+
+	.single {
+		@include span-columns(74 of 80);
+		@include shift(3);
+	}
+
+	.single-medium {
+		@include span-columns(74 of 74);
+		@include shift(0);
+	}
+
+}
+
+@include media($grid3) {
+
+	.single {
+		@include span-columns(114 of 120);
+		@include shift(3);
+	}
+
+	.single-medium {
+		@include span-columns(85 of 114);
+		@include shift(14.5);
+	}
+
+}
+
+@include media($grid4) {
+
+	.single {
+		@include span-columns(134 of 140);
+		@include shift(3);
+	}
+
+	.single-medium {
+		@include span-columns(100 of 134);
+		@include shift(17);
+	}
+
+}
+
+/* Module and sub-module rules below are here because they affect all breakpoints */
+
+/* Module */
+
+.single, .single-medium { float: none; } /* Override Bourbon Neat’s left float */

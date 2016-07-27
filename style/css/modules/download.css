@@ -1,0 +1,89 @@
+/* Mixins */
+/* Module */
+/* line 5, ../../scss/modules/download.scss */
+.download {
+  clear: both;
+  list-style-type: none;
+}
+/* line 10, ../../scss/modules/download.scss */
+.download, .download li:last-child {
+  padding-bottom: 0;
+}
+/* line 12, ../../scss/modules/download.scss */
+.download li {
+  margin-left: 0;
+}
+/* line 15, ../../scss/modules/download.scss */
+.download li, .nosvg .download li {
+  background: none;
+}
+/* line 17, ../../scss/modules/download.scss */
+.download li a {
+  background-color: transparent;
+  background-position: top left;
+  background-repeat: no-repeat;
+  display: inline-block;
+  min-height: em(26, 13);
+  padding: em(5, 13) em(16, 13) 0 em(38, 13);
+}
+/* line 26, ../../scss/modules/download.scss */
+.download li a[href$=".doc"], .download li a[href$=".docx"], .download li a[href*="FileType=DOC"], .download li a[href*="FileType=DOCX"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/doc.svg);
+}
+/* line 29, ../../scss/modules/download.scss */
+.nosvg .download li a[href$=".doc"], .nosvg .download li a[href$=".docx"], .nosvg .download li a[href*="FileType=DOC"], .nosvg .download li a[href*="FileType=DOCX"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/doc.png);
+}
+/* line 33, ../../scss/modules/download.scss */
+.download li a[href$=".pdf"], .download li a[href*="FileType=PDF"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/pdf.svg);
+}
+/* line 36, ../../scss/modules/download.scss */
+.nosvg .download li a[href$=".pdf"], .nosvg .download li a[href*="FileType=PDF"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/pdf.png);
+}
+/* line 40, ../../scss/modules/download.scss */
+.download li a[href$=".ppt"], .download li a[href$=".pptx"], .download li a[href*="FileType=PPT"], .download li a[href*="FileType=PPTX"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/ppt.svg);
+}
+/* line 43, ../../scss/modules/download.scss */
+.nosvg .download li a[href$=".ppt"], .nosvg .download li a[href$=".pptx"], .nosvg .download li a[href*="FileType=PPT"], .nosvg .download li a[href*="FileType=PPTX"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/ppt.png);
+}
+/* line 47, ../../scss/modules/download.scss */
+.download li a[href$=".xls"], .download li a[href$=".xlsx"], .download li a[href*="FileType=XLS"], .download li a[href*="FileType=XLSX"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/xls.svg);
+}
+/* line 50, ../../scss/modules/download.scss */
+.nosvg .download li a[href$=".xls"], .nosvg .download li a[href$=".xlsx"], .nosvg .download li a[href*="FileType=XLS"], .nosvg .download li a[href*="FileType=XLSX"] {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/download/xls.png);
+}
+/* line 56, ../../scss/modules/download.scss */
+.download small, .download strong {
+  display: block;
+}
+/* line 58, ../../scss/modules/download.scss */
+.download small {
+  font-size: 0.9em;
+}
+/* line 60, ../../scss/modules/download.scss */
+.download strong {
+  padding-bottom: em(3, 13);
+}
+
+/* Sub-modules */
+/* State */
+@media print {
+  /* line 70, ../../scss/modules/download.scss */
+  .download a {
+    color: black;
+    padding-left: 0;
+    text-decoration: underline;
+  }
+  /* line 75, ../../scss/modules/download.scss */
+  .download a:after {
+    color: black;
+    content: " (" attr(href) ")";
+    word-wrap: break-word;
+  }
+}

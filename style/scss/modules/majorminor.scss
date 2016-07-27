@@ -1,0 +1,222 @@
+/* Mixins */
+
+@mixin grid2-majorminor-medium-small {
+
+	/* Sub-modules */
+
+	.majorminor-medium, .majorminor-small {
+		@include span-columns(74 of 74);
+		@include shift(0);
+	}
+	
+	.majorminor-small {
+		@include span-columns(74 of 74);
+		@include shift(0);
+
+		.majorminor-major { @include span-columns(44 of 74); }
+
+		.majorminor-minor {
+			@include span-columns(28 of 74);
+			float: right;
+		}
+
+	}
+
+	.majorminor-alt {
+
+		> .majorminor-major { float: right; }
+
+		> .majorminor-minor {
+			clear: left;
+			float: left;
+		}
+
+	}
+
+}
+
+/* Module */
+
+.majorminor {
+	clear: both;
+	@extend %clearfix;
+	@include span-columns(36 of 40);
+	@include shift(2);
+	text-align: left;
+}
+
+/* Sub-modules */
+
+.majorminor-medium, .majorminor-small {
+	@include span-columns(36 of 36);
+	@include shift(0);
+	margin-top: 0;
+}
+
+/* State */
+
+@include media($grid2) {
+
+	/* Module */
+
+	.majorminor {
+		@include span-columns(74 of 80);
+		@include shift(3);
+	}
+
+	.majorminor-major, .majorminor-minor { @include span-columns(74 of 74); }
+
+	@include grid2-majorminor-medium-small;
+
+	.project .majorminor-minor {
+		margin-top: 2.5em;
+	}
+
+}
+
+@include media($grid3) {
+
+	/* Module */
+
+	.majorminor {
+		@include span-columns(114 of 120);
+		@include shift(3);
+	}
+
+	.majorminor-major { @include span-columns(76 of 114); }
+
+	.majorminor-minor {
+		@include span-columns(38 of 114);
+		float: right;
+	}
+
+	/* Sub-modules */
+
+	.majorminor-medium {
+		@include span-columns(85 of 85);
+		@include shift(0);
+
+		.majorminor-major { @include span-columns(56 of 85); }
+
+		.majorminor-minor {
+			@include span-columns(27 of 85);
+			float: right;
+		}
+
+	}
+	
+	.majorminor-small {
+		@include span-columns(56 of 56);
+		@include shift(0);
+
+		.majorminor-major { @include span-columns(38 of 56); }
+
+		.majorminor-minor {
+			@include span-columns(16 of 56);
+			float: right;
+		}
+
+	}
+	
+	.majorminor-small-linear {
+
+		&, .majorminor-major, .majorminor-minor {
+			float: none;
+			margin: 0;
+			width: 100%;
+		}
+
+	}
+
+	.majorminor-alt {
+
+		> .majorminor-major { float: right; }
+
+		> .majorminor-minor {
+			clear: left;
+			float: left;
+		}
+
+	}
+
+}
+
+@include media($grid4) {
+
+	/* Module */
+
+	.majorminor {
+		@include span-columns(134 of 140);
+		@include shift(3);
+	}
+
+	.majorminor-major { @include span-columns(89 of 134); }
+
+	.majorminor-minor {
+		@include span-columns(45 of 134);
+		float: right;
+	}
+
+	/* Sub-modules */
+
+	.majorminor-medium {
+		@include span-columns(100 of 100);
+		@include shift(0);
+
+		.majorminor-major { @include span-columns(66 of 100); }
+
+		.majorminor-minor {
+			@include span-columns(32 of 100);
+			float: right;
+		}
+
+	}
+	
+	.majorminor-small {
+		@include span-columns(66 of 66);
+		@include shift(0);
+
+		.majorminor-major { @include span-columns(43.333333 of 66); }
+
+		.majorminor-minor {
+			@include span-columns(20.666666 of 66);
+			float: right;
+		}
+
+	}
+	
+	.majorminor-small-linear {
+
+		&, .majorminor-major, .majorminor-minor {
+			float: none;
+			margin: 0;
+			width: 100%;
+		}
+
+	}
+
+	.majorminor-alt {
+
+		> .majorminor-major { float: right; }
+
+		> .majorminor-minor {
+			clear: left;
+			float: left;
+			padding-right: 3em;
+		}
+
+	}
+
+}
+
+@media print {
+
+	@include grid2-majorminor-medium-small;
+
+}
+
+/* Module and sub-module rules below are here because they affect all breakpoints */
+
+/* Module */
+
+.majorminor, .majorminor-medium, .majorminor-small { float: none; } /* Override Bourbon Neat’s left float */

@@ -1,0 +1,66 @@
+/* Mixins */
+@mixin grid3-table {
+
+	.table-3col, .table-4col, .table-5col, .table-6col {
+
+		td, th { @include show($display:table-cell); }
+
+	}
+
+	.table-3col {
+
+		td, th { width: 33.333333%; }
+
+	}
+
+	.table-4col {
+
+		td, th { width: 25%; }
+
+	}
+
+	.table-5col {
+
+		td, th { width: 20%; }
+
+	}
+
+	.table-6col {
+
+		td, th { width: 16.666666%; }
+
+	}
+
+}
+
+/* Module */
+
+	.table-2col, .table-3col, .table-4col, .table-5col, .table-6col {
+
+		td, th { width: 50%; }
+
+	}
+
+	.table-3col, .table-4col, .table-5col, .table-6col {
+
+		td, th { @include hide(); }
+
+		th[scope="col"]:first-child, th[scope="row"], .table-col-isactive { @include show($display:table-cell); }
+
+	}
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid3) {
+
+	@include grid3-table;
+
+}
+
+@media print {
+
+	@include grid3-table;
+
+}

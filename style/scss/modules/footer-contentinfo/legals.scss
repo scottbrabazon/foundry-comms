@@ -1,0 +1,47 @@
+/* Mixins */
+
+/* Module */
+
+.legals {
+	text-align: center;
+
+	a, p, ul { color: white; }
+
+	p, ul {
+		font-size: em(11);
+		line-height: em(12,11);
+	}
+
+}
+
+.legals-copyright { padding-bottom: em(26,11); }
+
+.legals-links {
+	padding-bottom: em(16,11);
+
+	li {
+		border-left: 1px solid tint($corporate1,40%);
+		display: inline-block;
+		margin-left: 0;
+		padding: em(2,11) em(8,11) em(2,11) em(8,11);
+
+		&:first-child { border: none; }
+
+	}
+
+}
+
+/* Sub-modules */
+
+/* State */
+
+@media print {
+
+	.legals {
+		border-top: 1px solid $corporate1;
+		padding-top: em(16);
+	}
+
+	.legals-links { @include hide(); }
+
+}

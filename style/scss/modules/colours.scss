@@ -1,0 +1,35 @@
+.turquoise {
+	&.background {
+		background: $turquoise;
+	}
+	&.text {
+		color: $turquoise;
+	}
+}
+
+.light-turquoise {
+	&.background {
+		background: $light-turquoise;
+	}
+	&.text {
+		color: $light-turquoise;
+	}
+}
+
+.green {
+	&.background {
+		background: $green;
+	}
+	&.text {
+		color: $green;
+	}
+}
+
+.dark_grey {
+	&.background {
+		background: $dark_grey;
+	}
+	&.text {
+		color: $dark_grey;
+	}
+}

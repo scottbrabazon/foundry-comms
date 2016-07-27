@@ -1,0 +1,70 @@
+/* Mixins */
+
+/* Module */
+
+.logo {
+	
+	@include spacer();
+	margin-top:1em;
+	position: relative;
+	z-index: 60;
+	float: left;
+
+	a, img {
+		display: block;
+		height: 23px;
+		height: 1.4375rem;
+		width: 252px;
+		width: 15.7500rem;
+	}
+
+}
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid2) {
+
+	.logo {
+		margin-bottom: 0;
+	}
+
+}
+
+@include media($grid3) {
+
+	.logo {
+		margin: 3em auto 0 auto;
+		width: 320px;
+		z-index: 60;
+
+		a {
+			height: 23px;
+			height: 1.4375rem;
+			width: 252px;
+			width: 15.7500rem;
+
+			/* Fallback for IE8 that doesn’t support multiple backgrounds */
+			.ie & { background-image: url(/img/header/footfall-large.png); }
+
+		}
+
+	}
+
+}
+
+@media print {
+
+	.logo {
+		margin-top: 1em;
+		position: absolute;
+		z-index: 40;
+
+		a { @include hide(); }
+
+		img { @include show(); }
+
+	}
+
+}

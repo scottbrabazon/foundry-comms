@@ -1,0 +1,29 @@
+/* Mixins */
+
+/* Module */
+
+.embedcontainer, .embedcontainer embed, .embedcontainer iframe, .embedcontainer object { width: 100%; }
+
+.embedcontainer {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.embedcontainer embed, .embedcontainer iframe, .embedcontainer object {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.ie .embedcontainer { overflow: hidden; }
+
+/* Sub-modules */
+
+/* State */
+
+@media print {
+
+	.embedcontainer { border: 1px solid tint($corporate1,80%); }
+
+}

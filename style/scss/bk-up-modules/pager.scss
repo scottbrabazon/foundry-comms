@@ -1,0 +1,48 @@
+/* Mixins */
+
+/* Module */
+
+.pager {
+
+	li {
+		display: inline-block;
+		margin: 0 em(16,13) 0 0;
+
+		&:last-child { margin: 0; }
+
+	}
+
+	ul { list-style-type: none; }
+
+}
+
+.pager-next, .pager-previous {
+
+	a {
+		color: $corporate2;
+		display: block;
+	}
+
+}
+
+.pager-next {
+	background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.svg) right 2px no-repeat;
+
+	a { padding-right: em(16,13); }
+
+	.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.png); }
+
+}
+
+.pager-previous {
+	background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/left.svg) 0 2px no-repeat;
+
+	a { padding-left: em(16,13); }
+
+	.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/left.png); }
+
+}
+
+/* Sub-modules */
+
+/* State */

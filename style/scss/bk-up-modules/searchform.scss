@@ -1,0 +1,50 @@
+/* Mixins */
+
+/* Module */
+
+.searchform {
+	background: tint($corporate2,80%);
+	@extend %clearfix;
+	@include spacer();
+	padding: em(16);
+
+	input { margin: 0; }
+
+}
+
+.searchform-button {
+	float: right;
+	@include hide();
+	margin-left: em(16);
+}
+
+.searchform-field {
+	overflow: hidden;
+	padding: 0 em(4) em(4) 0;
+	width: auto;
+
+	input {
+		background: white url("/Files/Templates/Designs/PGLCore/res/img/themes/core/search.svg") right center no-repeat;
+		font-size: em(17);
+		line-height: em(17,17);
+		padding: em(6,17) em(30,17) em(6,17) em(6,17);
+
+		.nosvg & { background-image: url("/Files/Templates/Designs/PGLCore/res/img/themes/core/search.png");  }
+
+	}
+
+}
+
+.searchform-offercode-field input { background-image: none; }
+
+/* Sub-modules */
+
+.searchform-offercode { margin: 0; }
+
+/* State */
+
+@include media($grid2) {
+
+	.searchform-button { @include show(); }
+
+}

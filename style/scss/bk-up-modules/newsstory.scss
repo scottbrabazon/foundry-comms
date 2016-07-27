@@ -1,0 +1,41 @@
+/* Mixins */
+
+/* Module */
+
+.newsstory {
+	clear: both;
+	@extend %clearfix;
+	@include spacer();
+
+	h1 a { color: $corporate2; }
+
+	time { font-weight: 500; }
+
+}
+
+.newsstory footer {
+	background: tint($corporate2,90%);
+
+	p { padding: em(4,13); }
+
+}
+
+.newsstory-excerpt { border-bottom: 1px solid tint($corporate1,80%); }
+
+.newsstory-visual { padding-bottom: em(16); }
+
+/* Sub-modules */
+
+/* State */
+
+@include media($grid3) {
+
+	.newsstory footer { @include spacer(); }
+
+}
+
+@media print {
+
+	.newsstory-excerpt .newsstory-visual { @include hide(); }
+
+}

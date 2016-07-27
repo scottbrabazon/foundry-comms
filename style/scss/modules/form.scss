@@ -1,0 +1,43 @@
+/* Mixins */
+
+/* Module */
+
+.field {
+	padding-bottom: 30px;
+}
+
+.majorminor-minor {
+	p {
+		padding: 0;
+	}
+}
+
+label {
+	font-size: 1em;
+}
+
+
+input {
+	box-shadow: 0;
+	border-radius: 0;
+}
+
+input[type="submit"]{
+  background: #b07e5b;
+  color: #fff;
+  height: 28px;
+  width: 75px;
+  border: none;
+  font-size: 1em;
+  font-family: inherit;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.sample-request {
+	margin-top: 2em;
+}
+
+select {
+	margin-bottom: 2em;
+}

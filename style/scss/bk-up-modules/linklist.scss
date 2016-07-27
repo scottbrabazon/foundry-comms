@@ -1,0 +1,102 @@
+/* Mixins */
+
+/* Module */
+
+.linklist {
+	border-top: 1px solid tint($corporate1,60%);
+	clear: both;
+	@extend %clearfix;
+	@include spacer();
+	padding: 0 em(16) 0 em(16);
+	position: relative;
+
+	h2 {
+		font-size: em(20);
+		padding: em(12,20) 0 em(12,20) 0;
+	}
+
+	li {
+		background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.svg) 0 2px no-repeat;
+		margin-left: 0;
+
+		a {
+			display: block;
+			padding-left: em(16,13);
+		}
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.png); }
+
+	}
+
+	p, ul { clear: both; }
+
+	ul { list-style-type: none; }
+
+}
+
+.linklist-badge {
+	position: absolute;
+	right: em(16);
+	top: 0;
+
+	&, &[src$=".svg"] { width: em(45); }
+
+	+ h2 { width: 70%; }
+
+}
+
+/* Sub-modules */
+
+.linklist-alt1, .linklist-alt2, .linklist-section { border-top: none; }
+
+.linklist-alt1, .linklist-alt2 { background: tint($corporate1,95%); }
+
+.linklist-alt1 {
+	background: $corporate2;
+
+	&, a, h2, p, ul { color: white; }
+
+	li {
+		background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/white/right.svg);
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/white/right.png); }
+
+	}
+
+}
+
+/* State */
+
+@include media($grid2) {
+
+	.linklist-section { height: em(280); }
+
+	.linklist {
+
+		li {
+			float: left;
+			width: 50%;
+		}
+
+		ul { overflow: hidden; }
+
+	}
+
+}
+
+@include media($grid3) {
+
+	.linklist-section h2 { padding-right: em(90,22); }
+
+	.linklist li {
+		float: none;
+		width: auto;
+	}
+
+}
+
+@media print {
+
+	.linklist { @include hide(); }
+
+}

@@ -1,0 +1,38 @@
+/* Mixins */
+
+/* Module */
+
+.quote {
+	border-top-color: tint($corporate1,60%);
+	border-top-style: solid;
+	border-top-width: 1px;
+	@include spacer();
+	padding-top: em(12);
+
+	figcaption {
+		font-weight: 500;
+		font-weight: normal;
+		padding-top: em(16,13);
+	}
+
+}
+
+.quote-rating {
+
+	li {
+		display: inline-block;
+		margin: 0 em(1,13) 0 em(1,13);
+		padding-bottom: 0;
+		width: em(20,13);
+	}
+
+	ul {
+		list-style-type: none;
+		padding: em(16,13) 0 0 0;
+	}
+
+}
+
+/* Sub-modules */
+
+/* State */

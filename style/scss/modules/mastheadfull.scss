@@ -1,0 +1,289 @@
+/* Mixins */
+
+/* Module */
+
+.mastheadfull-info:last-child, .ie-mastheadfull-info-last {
+	clear: both;
+	padding-top: em(16);
+}
+
+.ie-mastheadfull-info-last { padding-top: em(16) !important; }
+
+.mastheadfull-info {
+
+	&:first-child {
+		left: 0;
+		position: absolute;
+		text-align: left;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+
+	&:first-child .mastheadfull-info-content { width: 50%; }
+
+	h1, h1 strong { font-weight: 900; }
+
+	h1 {
+		color: white;
+		font-size: em(24);
+		line-height: em(32,24);
+		padding-top: em(16,24);
+		text-transform: uppercase;
+	}
+
+	h2, p { color: $corporate1; }
+
+	h2 strong { color: $corporate2; }
+
+	p a {
+		background: transparent url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.svg) 0 4px no-repeat;
+		display: inline-block;
+		padding-left: em(16,13);
+
+		.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/blue/right.png); }
+
+	}
+
+}
+
+.mastheadfull-info-haspager:last-child, .ie-mastheadfull-info-haspager-last { height: 100%; }
+
+.mastheadfull-visual {
+	margin: 0 auto 0 auto;
+	max-width: em(1504);
+	position: relative;
+}
+
+p.intro-copy {
+	visibility: hidden;
+}
+
+.mastheadfull-visual:hover p.intro-copy {
+    -webkit-transition: visibility 0.3s ease;
+    -moz-transition: visibility 0.3s ease;
+    -o-transition: visibility 0.3s ease;
+    transition: visibility 0.3s ease;
+    display: block;
+    visibility: visible;
+  }
+  
+.intro-copy-holder {
+  position: absolute;
+  transition: background-color 0.3s ease;
+  background-color: rgba(10, 10, 10, 0);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.mastheadfull-visual:hover .intro-copy-holder {
+	background-color: rgba(10, 10, 10, 0.1);
+}
+
+.button-next {
+	
+	background: #c62b32;
+	overflow: auto;
+	padding: 10px 10px 8px 10px;
+	width: auto;
+	float: left;
+	margin-top: 25px;
+	
+	p {
+		text-transform: uppercase;
+		float: left;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+	}
+	
+	img {
+		width: auto;
+		float: left;
+		margin-left: 10px;
+	}
+}
+
+.rule {
+	width: 100%;
+	float: left;
+	margin-bottom: 45px;
+	
+	img {
+		width: auto;
+		float: left;
+	}
+}
+
+
+.video {
+  width: 100%;
+}
+/* Sub-modules */
+
+/* State */
+
+@include media($grid2) {
+
+	.mastheadfull-info {
+
+		h1 {
+			font-size: em(40);
+			line-height: em(48,40);
+			padding-bottom: em(16,40);
+		}
+		
+	}
+
+	.mastheadfull-info-haspager:last-child, .ie-mastheadfull-info-haspager-last { height: 100%; }
+	
+	p.intro-copy {
+    /*color: #404652;*/
+		/*display: block;*/
+		/*visibility: visible;*/
+		color: #fff;
+		font-size: em(16,16);
+		left: 1.5em;
+		line-height: 1.4em;
+		position: absolute;
+		text-align: left;
+		top: 1.5em;
+		width: 48%;
+		z-index: 20;
+		font-weight: 900; 
+	}
+
+}
+
+@include media($grid3) {
+
+	.mastheadfull { background: tint($corporate1,90%); }
+
+	.mastheadfull-info:last-child, .ie-mastheadfull-info-last {
+		bottom: 60px;
+		height: 100%;
+		padding-top: 0;
+	}
+
+	.ie-mastheadfull-info-last {
+		bottom: 0 !important;
+		padding-top: 0 !important;
+	}
+
+	.mastheadfull-info {
+		left: 0;
+		position: absolute;
+		width: 100%;
+		z-index: 1000;
+
+		&:first-child {
+			height: 100%;
+			top: 0;
+		}
+
+		&:first-child .mastheadfull-info-content {
+			bottom: 60px;
+			position: absolute;
+		}
+
+		h1, h2, p { color: white; }
+
+		h2 strong { color: $corporate3; }
+
+		h1 {
+			font-size: em(32);
+			line-height: em(40,32);
+			padding-bottom: em(16,32);
+			padding-top: 0;
+		}
+
+		h2 {
+			font-size: em(16);
+			line-height: em(16);
+			padding-bottom: em(16);
+		}
+
+		p a {
+			background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/yellow/right.svg);
+			color: $corporate3;
+
+			.nosvg & { background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/arrows/yellow/right.png); }
+
+		}
+
+	}
+
+	.mastheadfull-info-container {
+		height: 100%;
+		position: relative;
+	}
+
+	.mastheadfull-info-content { width: 50%; }
+	
+	p.intro-copy {
+		font-size: em(21,16);
+		line-height: 1.4em;
+		width: 40%;
+	}
+
+}
+
+@media screen and (min-width: 55em) {
+
+	.mastheadfull-info {
+
+		h1 {
+			font-size: em(48);
+			line-height: em(56,48);
+			padding-bottom: em(16,48);
+		}
+
+	}
+
+}
+
+@include media($grid4) {
+
+}
+
+@media screen and (min-width: 65em) {
+
+	.mastheadfull-info h2 {
+		font-size: em(24);
+		line-height: em(24,24);
+		padding-bottom: em(16,24);
+	}
+
+}
+
+@media screen and (min-width: 75em) {
+
+	.mastheadfull-info {
+
+		h1 {
+			font-size: em(80);
+			line-height: em(80,80);
+			padding-bottom: em(40,80);
+		}
+
+		h2 {
+			font-size: em(32);
+			line-height: em(32,32);
+			padding-bottom: em(16,32);
+		}
+
+	}
+
+}
+
+@media print {
+
+	.mastheadfull-info {
+
+		h1, h1 strong { color: $corporate3 !important; }
+
+	}
+
+}

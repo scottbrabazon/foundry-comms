@@ -1,0 +1,71 @@
+/* Mixins */
+
+/* Module */
+
+footer[role="contentinfo"] {
+	
+	margin-top: 0em;
+	background-image: url("/img/header/background.jpg");
+	background-repeat: repeat-x;
+	background-position: center;
+	height: 125px;
+	margin-top: 2em;
+	padding-top: 1.5em;
+	
+	.logo {
+		margin-top: 0em;
+		
+		a {
+			text-align: center;
+		}
+	}
+	
+	p {
+		font-size: 80%;
+		padding-top: 0;
+		text-align: left;
+	}
+	
+	.telephone {
+		margin-top: 0em;
+		padding-right: 2.2em;
+		position: absolute;
+		visibility: visible;
+		display: block;
+		width: 100%;
+		z-index: 80;
+		background-image: url(/img/header/social/icon-telephone.png);
+		background-position: left top;
+		background-repeat: no-repeat;
+		color: #000000;
+	
+		p {
+			font-size: em(16,13);
+			color: #000000;
+			margin-top: 0px;
+			padding-left: 42px;
+			padding-top: 0px;
+			text-align:left;
+		}
+		
+		a {
+			color: #000000;
+		}
+
+	}
+	
+	.social {
+	    margin-top: 0.9em;
+		display: block;
+		visibility: visible;
+	}
+	
+	.navigation {
+	    margin-top: 3.4em;
+	}
+	
+}
+
+@include media($grid2) {
+
+}

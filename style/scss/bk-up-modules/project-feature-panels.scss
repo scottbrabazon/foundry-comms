@@ -1,0 +1,927 @@
+.project-feature-panels {
+	
+	h3 {
+	color: #FFF;
+	font-size: em(24,16);
+	line-height: em(20,16);
+	padding-bottom: em(4);
+	text-transform: uppercase;
+	}
+	
+	.left {
+		padding: em(24) em(48) em(0) em(24);
+		text-align: left;
+		
+		h3 {
+			
+			&.rule {
+				background-position: left top;
+				background-repeat: no-repeat;
+				padding-top: em(16);
+				
+				&.grey {
+					background-image: url(/img/projects/project-header-rule-grey.gif);
+				}
+			
+				&.white {
+					background-image: url(/img/projects/project-header-rule-white.gif);
+				}
+			}
+		}
+	}
+		
+	.right {
+		padding: em(24) em(24) em(0) em(48);
+		text-align: right;
+		
+		h3 {
+			
+			&.rule {
+				background-position: right top;
+				background-repeat: no-repeat;
+				padding-top: em(16);
+				
+				&.grey {
+					background-image: url(/img/projects/project-header-rule-grey.gif);
+				}
+			
+				&.white {
+					background-image: url(/img/projects/project-header-rule-white.gif);
+				}
+			}
+		}
+	}
+	
+	p {
+		color: #FFF;
+		font-size: em(15,16);
+		font-weight: 500;
+		
+		&.rule {
+			background-position: left top;
+			background-repeat: no-repeat;
+			padding-top: em(16);
+			
+			&.grey {
+				background-image: url(/img/projects/project-header-rule-grey.gif);
+			}
+			
+			&.white {
+				background-image: url(/img/projects/project-header-rule-white.gif);
+			}
+		}
+		
+		&.small {
+			font-size: em(12.5,16);
+			line-height: 1.36154em;
+		}
+	}
+	
+	p.client-details {
+		font-size: em(12,16);
+	}
+	
+	p.link {
+		background-image: url(/img/projects/more.gif);
+		background-position: left top;
+		background-repeat: no-repeat;
+		bottom: 0px;
+		font-size: em(14,16);
+		padding-left: 24px;
+		position: absolute;
+		right: em(24);
+		
+		a, a:active, a:hover {
+			color: #FFF;
+		}
+	}
+	
+	.panel-one {
+		&.image {	
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-one.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-one.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-one.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-one.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-one.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-one.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+		
+	}
+	
+	.panel-two {
+		&.image {
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-two.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-two.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-two.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-two.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-two.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-two.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+	}
+	
+	.panel-three {
+		&.image {
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-three.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-three.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-three.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-three.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-three.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-three.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+	}
+	
+	.panel-four {
+		&.image {
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-four.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-four.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-four.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-four.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-four.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-four.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+	}
+	
+	.panel-five {
+		&.image {
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-five.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-five.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-five.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-five.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-five.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-five.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+	}
+	
+	.panel-six {
+		&.image {
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-six.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-six.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-six.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-six.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-six.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-six.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+	}
+	
+	.panel-seven {
+		&.image {
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-seven.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-seven.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-seven.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-seven.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-seven.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-seven.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+	}
+	
+	.panel-eight {
+		&.image {
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 85px;
+			
+			&.gateacre {
+				background-image: url(/img/projects/gateacre/project-panel/panel-eight.jpg);
+			}
+			
+			&.connection {
+				background-image: url(/img/projects/connection/project-panel/panel-eight.jpg);
+			}
+			
+			&.archer-academy {
+				background-image: url(/img/projects/archer-academy/project-panel/panel-eight.jpg);
+			}
+			
+			&.cerney {
+				background-image: url(/img/projects/cerney/project-panel/panel-eight.jpg);
+			}
+			
+			&.michaela-school {
+				background-image: url(/img/projects/michaela-school/project-panel/panel-eight.jpg);
+			}
+			
+			&.oldham-college {
+				background-image: url(/img/projects/oldham-college/project-panel/panel-eight.jpg);
+			}
+		}
+		
+		&.text {
+			background-image: none;
+		}
+	}
+	
+	.groupthree-content {
+		width: 100%;
+	}
+	
+}
+
+@include media($grid2) {
+	
+	.project-feature-panels {
+		
+		.panel-one {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-one.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-one.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-one.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-one.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-one.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-one.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-two {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-two.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-two.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-two.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-two.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-two.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-two.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-three {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-three.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-three.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-three.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-three.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-three.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-three.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-four {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-four.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-four.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-four.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-four.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-four.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-four.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-five {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-five.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-five.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-five.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-five.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-five.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-five.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-six {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-six.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-six.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-six.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-six.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-six.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-six.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-seven{
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-seven.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-seven.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-seven.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-seven.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-seven.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-seven.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-eight {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-eight.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-eight.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-eight.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-eight.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-eight.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-eight.jpg);
+				}
+			}
+		
+		}
+	}
+}
+
+
+
+@include media($grid3) {
+	
+	.project-feature-panels {
+		
+		.grouptwo-content {
+			
+			&.panel-one {
+				@include span-columns(76 of 114);
+				@include shift(0);	
+			}
+			
+			&.panel-two {
+				@include span-columns(38 of 114);
+				@include shift(0);	
+			}
+		}
+		
+		.groupthree-content {
+			width: 33.333333%;
+		}
+		
+		.panel-one {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-one-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-one-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-one-square.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-one-square.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-one-square.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-one-square.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-two {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-two-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-two-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-two-square.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-two-square.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-two-square.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-two-square.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-three {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-three-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-three-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-three-square.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-three-square.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-three-square.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-three-square.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-four {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-four-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-four-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-four-square.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-four-square.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-four-square.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-four-square.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-five {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-five-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-five-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-five-square.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-five-square.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-five-square.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-five-square.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-six {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-six-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-six-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-six-square.jpg);
+				}
+				
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-six-square.jpg);
+				}
+				
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-six-square.jpg);
+				}
+				
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-six-square.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-seven{
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-seven-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-seven-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-seven-square.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-seven-square.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-seven-square.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-seven-square.jpg);
+				}
+			}
+		
+		}
+		
+		.panel-eight {
+			&.image {	
+				height: 250px;
+			
+				&.gateacre {
+					background-image: url(/img/projects/gateacre/project-panel/panel-eight-square.jpg);
+				}
+				
+				&.connection {
+					background-image: url(/img/projects/connection/project-panel/panel-eight-square.jpg);
+				}
+				
+				&.archer-academy {
+					background-image: url(/img/projects/archer-academy/project-panel/panel-eight-square.jpg);
+				}
+			
+				&.cerney {
+					background-image: url(/img/projects/cerney/project-panel/panel-eight-square.jpg);
+				}
+			
+				&.michaela-school {
+					background-image: url(/img/projects/michaela-school/project-panel/panel-eight-square.jpg);
+				}
+			
+				&.oldham-college {
+					background-image: url(/img/projects/oldham-college/project-panel/panel-eight-square.jpg);
+				}
+			}
+		
+		}
+	}
+}
