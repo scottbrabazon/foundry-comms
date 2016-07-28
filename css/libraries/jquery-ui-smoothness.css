@@ -1,1 +1,1497 @@
-.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default !important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}.ui-widget{font-family:Verdana,Arial,sans-serif;font-size:1.1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Verdana,Arial,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #aaaaaa;background:#fff url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;color:#222222}.ui-widget-content a{color:#222222}.ui-widget-header{border:1px solid #aaaaaa;background:#ccc url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;color:#222222;font-weight:bold}.ui-widget-header a{color:#222222}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #d3d3d3;background:#e6e6e6 url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#555555}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#555555;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #999999;background:#dadada url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#212121}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{color:#212121;text-decoration:none}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #aaaaaa;background:#fff url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#212121}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#212121;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #fcefa1;background:#fbf9ee url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;color:#363636}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#fef1ec url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;color:#cd0a0a}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#cd0a0a}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#cd0a0a}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_222222_256x240.png)}.ui-widget-header .ui-icon{background-image:url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_222222_256x240.png)}.ui-state-default .ui-icon{background-image:url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_888888_256x240.png)}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_454545_256x240.png)}.ui-state-active .ui-icon{background-image:url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_454545_256x240.png)}.ui-state-highlight .ui-icon{background-image:url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_2e83ff_256x240.png)}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_cd0a0a_256x240.png)}.ui-icon-blank{background-position:16px 16px}.ui-icon-carat-1-n{background-position:0 0}.ui-icon-carat-1-ne{background-position:-16px 0}.ui-icon-carat-1-e{background-position:-32px 0}.ui-icon-carat-1-se{background-position:-48px 0}.ui-icon-carat-1-s{background-position:-64px 0}.ui-icon-carat-1-sw{background-position:-80px 0}.ui-icon-carat-1-w{background-position:-96px 0}.ui-icon-carat-1-nw{background-position:-112px 0}.ui-icon-carat-2-n-s{background-position:-128px 0}.ui-icon-carat-2-e-w{background-position:-144px 0}.ui-icon-triangle-1-n{background-position:0 -16px}.ui-icon-triangle-1-ne{background-position:-16px -16px}.ui-icon-triangle-1-e{background-position:-32px -16px}.ui-icon-triangle-1-se{background-position:-48px -16px}.ui-icon-triangle-1-s{background-position:-64px -16px}.ui-icon-triangle-1-sw{background-position:-80px -16px}.ui-icon-triangle-1-w{background-position:-96px -16px}.ui-icon-triangle-1-nw{background-position:-112px -16px}.ui-icon-triangle-2-n-s{background-position:-128px -16px}.ui-icon-triangle-2-e-w{background-position:-144px -16px}.ui-icon-arrow-1-n{background-position:0 -32px}.ui-icon-arrow-1-ne{background-position:-16px -32px}.ui-icon-arrow-1-e{background-position:-32px -32px}.ui-icon-arrow-1-se{background-position:-48px -32px}.ui-icon-arrow-1-s{background-position:-64px -32px}.ui-icon-arrow-1-sw{background-position:-80px -32px}.ui-icon-arrow-1-w{background-position:-96px -32px}.ui-icon-arrow-1-nw{background-position:-112px -32px}.ui-icon-arrow-2-n-s{background-position:-128px -32px}.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}.ui-icon-arrow-2-e-w{background-position:-160px -32px}.ui-icon-arrow-2-se-nw{background-position:-176px -32px}.ui-icon-arrowstop-1-n{background-position:-192px -32px}.ui-icon-arrowstop-1-e{background-position:-208px -32px}.ui-icon-arrowstop-1-s{background-position:-224px -32px}.ui-icon-arrowstop-1-w{background-position:-240px -32px}.ui-icon-arrowthick-1-n{background-position:0 -48px}.ui-icon-arrowthick-1-ne{background-position:-16px -48px}.ui-icon-arrowthick-1-e{background-position:-32px -48px}.ui-icon-arrowthick-1-se{background-position:-48px -48px}.ui-icon-arrowthick-1-s{background-position:-64px -48px}.ui-icon-arrowthick-1-sw{background-position:-80px -48px}.ui-icon-arrowthick-1-w{background-position:-96px -48px}.ui-icon-arrowthick-1-nw{background-position:-112px -48px}.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}.ui-icon-arrowreturn-1-w{background-position:-64px -64px}.ui-icon-arrowreturn-1-n{background-position:-80px -64px}.ui-icon-arrowreturn-1-e{background-position:-96px -64px}.ui-icon-arrowreturn-1-s{background-position:-112px -64px}.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}.ui-icon-arrow-4{background-position:0 -80px}.ui-icon-arrow-4-diag{background-position:-16px -80px}.ui-icon-extlink{background-position:-32px -80px}.ui-icon-newwin{background-position:-48px -80px}.ui-icon-refresh{background-position:-64px -80px}.ui-icon-shuffle{background-position:-80px -80px}.ui-icon-transfer-e-w{background-position:-96px -80px}.ui-icon-transferthick-e-w{background-position:-112px -80px}.ui-icon-folder-collapsed{background-position:0 -96px}.ui-icon-folder-open{background-position:-16px -96px}.ui-icon-document{background-position:-32px -96px}.ui-icon-document-b{background-position:-48px -96px}.ui-icon-note{background-position:-64px -96px}.ui-icon-mail-closed{background-position:-80px -96px}.ui-icon-mail-open{background-position:-96px -96px}.ui-icon-suitcase{background-position:-112px -96px}.ui-icon-comment{background-position:-128px -96px}.ui-icon-person{background-position:-144px -96px}.ui-icon-print{background-position:-160px -96px}.ui-icon-trash{background-position:-176px -96px}.ui-icon-locked{background-position:-192px -96px}.ui-icon-unlocked{background-position:-208px -96px}.ui-icon-bookmark{background-position:-224px -96px}.ui-icon-tag{background-position:-240px -96px}.ui-icon-home{background-position:0 -112px}.ui-icon-flag{background-position:-16px -112px}.ui-icon-calendar{background-position:-32px -112px}.ui-icon-cart{background-position:-48px -112px}.ui-icon-pencil{background-position:-64px -112px}.ui-icon-clock{background-position:-80px -112px}.ui-icon-disk{background-position:-96px -112px}.ui-icon-calculator{background-position:-112px -112px}.ui-icon-zoomin{background-position:-128px -112px}.ui-icon-zoomout{background-position:-144px -112px}.ui-icon-search{background-position:-160px -112px}.ui-icon-wrench{background-position:-176px -112px}.ui-icon-gear{background-position:-192px -112px}.ui-icon-heart{background-position:-208px -112px}.ui-icon-star{background-position:-224px -112px}.ui-icon-link{background-position:-240px -112px}.ui-icon-cancel{background-position:0 -128px}.ui-icon-plus{background-position:-16px -128px}.ui-icon-plusthick{background-position:-32px -128px}.ui-icon-minus{background-position:-48px -128px}.ui-icon-minusthick{background-position:-64px -128px}.ui-icon-close{background-position:-80px -128px}.ui-icon-closethick{background-position:-96px -128px}.ui-icon-key{background-position:-112px -128px}.ui-icon-lightbulb{background-position:-128px -128px}.ui-icon-scissors{background-position:-144px -128px}.ui-icon-clipboard{background-position:-160px -128px}.ui-icon-copy{background-position:-176px -128px}.ui-icon-contact{background-position:-192px -128px}.ui-icon-image{background-position:-208px -128px}.ui-icon-video{background-position:-224px -128px}.ui-icon-script{background-position:-240px -128px}.ui-icon-alert{background-position:0 -144px}.ui-icon-info{background-position:-16px -144px}.ui-icon-notice{background-position:-32px -144px}.ui-icon-help{background-position:-48px -144px}.ui-icon-check{background-position:-64px -144px}.ui-icon-bullet{background-position:-80px -144px}.ui-icon-radio-on{background-position:-96px -144px}.ui-icon-radio-off{background-position:-112px -144px}.ui-icon-pin-w{background-position:-128px -144px}.ui-icon-pin-s{background-position:-144px -144px}.ui-icon-play{background-position:0 -160px}.ui-icon-pause{background-position:-16px -160px}.ui-icon-seek-next{background-position:-32px -160px}.ui-icon-seek-prev{background-position:-48px -160px}.ui-icon-seek-end{background-position:-64px -160px}.ui-icon-seek-start{background-position:-80px -160px}.ui-icon-seek-first{background-position:-80px -160px}.ui-icon-stop{background-position:-96px -160px}.ui-icon-eject{background-position:-112px -160px}.ui-icon-volume-off{background-position:-128px -160px}.ui-icon-volume-on{background-position:-144px -160px}.ui-icon-power{background-position:0 -176px}.ui-icon-signal-diag{background-position:-16px -176px}.ui-icon-signal{background-position:-32px -176px}.ui-icon-battery-0{background-position:-48px -176px}.ui-icon-battery-1{background-position:-64px -176px}.ui-icon-battery-2{background-position:-80px -176px}.ui-icon-battery-3{background-position:-96px -176px}.ui-icon-circle-plus{background-position:0 -192px}.ui-icon-circle-minus{background-position:-16px -192px}.ui-icon-circle-close{background-position:-32px -192px}.ui-icon-circle-triangle-e{background-position:-48px -192px}.ui-icon-circle-triangle-s{background-position:-64px -192px}.ui-icon-circle-triangle-w{background-position:-80px -192px}.ui-icon-circle-triangle-n{background-position:-96px -192px}.ui-icon-circle-arrow-e{background-position:-112px -192px}.ui-icon-circle-arrow-s{background-position:-128px -192px}.ui-icon-circle-arrow-w{background-position:-144px -192px}.ui-icon-circle-arrow-n{background-position:-160px -192px}.ui-icon-circle-zoomin{background-position:-176px -192px}.ui-icon-circle-zoomout{background-position:-192px -192px}.ui-icon-circle-check{background-position:-208px -192px}.ui-icon-circlesmall-plus{background-position:0 -208px}.ui-icon-circlesmall-minus{background-position:-16px -208px}.ui-icon-circlesmall-close{background-position:-32px -208px}.ui-icon-squaresmall-plus{background-position:-48px -208px}.ui-icon-squaresmall-minus{background-position:-64px -208px}.ui-icon-squaresmall-close{background-position:-80px -208px}.ui-icon-grip-dotted-vertical{background-position:0 -224px}.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}.ui-icon-grip-solid-vertical{background-position:-32px -224px}.ui-icon-grip-solid-horizontal{background-position:-48px -224px}.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}.ui-icon-grip-diagonal-se{background-position:-80px -224px}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-top-left-radius:4px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-top-right-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-bottom-left-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:4px}.ui-widget-overlay{background:#aaa url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;opacity:.3;filter:Alpha(Opacity=30)}.ui-widget-shadow{margin:-8px 0 0 -8px;padding:8px;background:#aaa url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;opacity:.3;filter:Alpha(Opacity=30);border-radius:8px}
+/* jQuery UI - v1.10.4 - 2014-03-12
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.datepicker.css, jquery.ui.theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+/* Layout helpers
+----------------------------------*/
+/* line 9, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-helper-hidden {
+  display: none;
+}
+
+/* line 12, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 22, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+
+/* line 33, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse;
+}
+
+/* line 38, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-helper-clearfix:after {
+  clear: both;
+}
+
+/* line 41, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-helper-clearfix {
+  min-height: 0;
+  /* support: IE7 */
+}
+
+/* line 44, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+}
+
+/* line 54, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-front {
+  z-index: 100;
+}
+
+/* Interaction Cues
+----------------------------------*/
+/* line 61, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-disabled {
+  cursor: default !important;
+}
+
+/* Icons
+----------------------------------*/
+/* states and images */
+/* line 70, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+/* line 82, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 89, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none;
+}
+
+/* line 94, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-header {
+  position: relative;
+  padding: .2em 0;
+}
+
+/* line 99, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+/* line 106, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+  top: 1px;
+}
+
+/* line 109, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px;
+}
+
+/* line 112, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-next {
+  right: 2px;
+}
+
+/* line 115, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 1px;
+}
+
+/* line 118, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 1px;
+}
+
+/* line 122, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+/* line 130, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+/* line 135, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0;
+}
+
+/* line 140, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 49%;
+}
+
+/* line 143, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;
+}
+
+/* line 149, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+
+/* line 155, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker td {
+  border: 0;
+  padding: 1px;
+}
+
+/* line 160, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* line 166, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: .7em 0 0 0;
+  padding: 0 .2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+/* line 174, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-buttonpane button {
+  float: right;
+  margin: .5em .2em .4em;
+  cursor: pointer;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+  overflow: visible;
+}
+
+/* line 182, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left;
+}
+
+/* with multiple calendars */
+/* line 187, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker.ui-datepicker-multi {
+  width: auto;
+}
+
+/* line 190, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-multi .ui-datepicker-group {
+  float: left;
+}
+
+/* line 193, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-multi .ui-datepicker-group table {
+  width: 95%;
+  margin: 0 auto .4em;
+}
+
+/* line 197, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-multi-2 .ui-datepicker-group {
+  width: 50%;
+}
+
+/* line 200, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-multi-3 .ui-datepicker-group {
+  width: 33.3%;
+}
+
+/* line 203, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-multi-4 .ui-datepicker-group {
+  width: 25%;
+}
+
+/* line 207, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+  border-left-width: 0;
+}
+
+/* line 210, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+  clear: left;
+}
+
+/* line 213, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-row-break {
+  clear: both;
+  width: 100%;
+  font-size: 0;
+}
+
+/* RTL support */
+/* line 220, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl {
+  direction: rtl;
+}
+
+/* line 223, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-prev {
+  right: 2px;
+  left: auto;
+}
+
+/* line 227, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-next {
+  left: 2px;
+  right: auto;
+}
+
+/* line 231, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+  right: 1px;
+  left: auto;
+}
+
+/* line 235, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+  left: 1px;
+  right: auto;
+}
+
+/* line 239, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+  clear: right;
+}
+
+/* line 242, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+  float: left;
+}
+
+/* line 246, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+  float: right;
+}
+
+/* line 250, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+
+/* Component containers
+----------------------------------*/
+/* line 257, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+/* line 261, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget .ui-widget {
+  font-size: 1em;
+}
+
+/* line 267, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+/* line 271, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-content {
+  border: 1px solid #aaaaaa;
+  background: white url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+  color: #222222;
+}
+
+/* line 276, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-content a {
+  color: #222222;
+}
+
+/* line 279, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-header {
+  border: 1px solid #aaaaaa;
+  background: #cccccc url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+  color: #222222;
+  font-weight: bold;
+}
+
+/* line 285, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-header a {
+  color: #222222;
+}
+
+/* Interaction states
+----------------------------------*/
+/* line 293, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: 1px solid #d3d3d3;
+  background: #e6e6e6 url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+  font-weight: normal;
+  color: #555555;
+}
+
+/* line 301, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+  color: #555555;
+  text-decoration: none;
+}
+
+/* line 310, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: 1px solid #999999;
+  background: #dadada url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
+  font-weight: normal;
+  color: #212121;
+}
+
+/* line 323, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+  color: #212121;
+  text-decoration: none;
+}
+
+/* line 329, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  border: 1px solid #aaaaaa;
+  background: white url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+  font-weight: normal;
+  color: #212121;
+}
+
+/* line 337, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+  color: #212121;
+  text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+/* line 346, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+  border: 1px solid #fcefa1;
+  background: #fbf9ee url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
+  color: #363636;
+}
+
+/* line 353, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+  color: #363636;
+}
+
+/* line 358, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+  border: 1px solid #cd0a0a;
+  background: #fef1ec url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
+  color: #cd0a0a;
+}
+
+/* line 365, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+  color: #cd0a0a;
+}
+
+/* line 370, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+  color: #cd0a0a;
+}
+
+/* line 375, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+  font-weight: bold;
+}
+
+/* line 380, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+  opacity: .7;
+  filter: Alpha(Opacity=70);
+  font-weight: normal;
+}
+
+/* line 387, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+  opacity: .35;
+  filter: Alpha(Opacity=35);
+  background-image: none;
+}
+
+/* line 392, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-disabled .ui-icon {
+  filter: Alpha(Opacity=35);
+  /* For IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+/* states and images */
+/* line 400, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 405, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon,
+.ui-widget-content .ui-icon {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_222222_256x240.png);
+}
+
+/* line 408, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-header .ui-icon {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_222222_256x240.png);
+}
+
+/* line 411, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-default .ui-icon {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_888888_256x240.png);
+}
+
+/* line 415, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_454545_256x240.png);
+}
+
+/* line 418, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-active .ui-icon {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_454545_256x240.png);
+}
+
+/* line 421, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-highlight .ui-icon {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_2e83ff_256x240.png);
+}
+
+/* line 425, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+  background-image: url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-icons_cd0a0a_256x240.png);
+}
+
+/* positioning */
+/* line 430, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-blank {
+  background-position: 16px 16px;
+}
+
+/* line 431, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-n {
+  background-position: 0 0;
+}
+
+/* line 432, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-ne {
+  background-position: -16px 0;
+}
+
+/* line 433, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-e {
+  background-position: -32px 0;
+}
+
+/* line 434, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-se {
+  background-position: -48px 0;
+}
+
+/* line 435, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-s {
+  background-position: -64px 0;
+}
+
+/* line 436, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-sw {
+  background-position: -80px 0;
+}
+
+/* line 437, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-w {
+  background-position: -96px 0;
+}
+
+/* line 438, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-1-nw {
+  background-position: -112px 0;
+}
+
+/* line 439, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-2-n-s {
+  background-position: -128px 0;
+}
+
+/* line 440, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-carat-2-e-w {
+  background-position: -144px 0;
+}
+
+/* line 441, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-n {
+  background-position: 0 -16px;
+}
+
+/* line 442, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-ne {
+  background-position: -16px -16px;
+}
+
+/* line 443, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-e {
+  background-position: -32px -16px;
+}
+
+/* line 444, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-se {
+  background-position: -48px -16px;
+}
+
+/* line 445, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-s {
+  background-position: -64px -16px;
+}
+
+/* line 446, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-sw {
+  background-position: -80px -16px;
+}
+
+/* line 447, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-w {
+  background-position: -96px -16px;
+}
+
+/* line 448, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-1-nw {
+  background-position: -112px -16px;
+}
+
+/* line 449, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-2-n-s {
+  background-position: -128px -16px;
+}
+
+/* line 450, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-triangle-2-e-w {
+  background-position: -144px -16px;
+}
+
+/* line 451, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-n {
+  background-position: 0 -32px;
+}
+
+/* line 452, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-ne {
+  background-position: -16px -32px;
+}
+
+/* line 453, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-e {
+  background-position: -32px -32px;
+}
+
+/* line 454, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-se {
+  background-position: -48px -32px;
+}
+
+/* line 455, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-s {
+  background-position: -64px -32px;
+}
+
+/* line 456, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-sw {
+  background-position: -80px -32px;
+}
+
+/* line 457, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-w {
+  background-position: -96px -32px;
+}
+
+/* line 458, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-1-nw {
+  background-position: -112px -32px;
+}
+
+/* line 459, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-2-n-s {
+  background-position: -128px -32px;
+}
+
+/* line 460, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-2-ne-sw {
+  background-position: -144px -32px;
+}
+
+/* line 461, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-2-e-w {
+  background-position: -160px -32px;
+}
+
+/* line 462, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-2-se-nw {
+  background-position: -176px -32px;
+}
+
+/* line 463, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowstop-1-n {
+  background-position: -192px -32px;
+}
+
+/* line 464, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowstop-1-e {
+  background-position: -208px -32px;
+}
+
+/* line 465, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowstop-1-s {
+  background-position: -224px -32px;
+}
+
+/* line 466, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowstop-1-w {
+  background-position: -240px -32px;
+}
+
+/* line 467, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-n {
+  background-position: 0 -48px;
+}
+
+/* line 468, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-ne {
+  background-position: -16px -48px;
+}
+
+/* line 469, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-e {
+  background-position: -32px -48px;
+}
+
+/* line 470, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-se {
+  background-position: -48px -48px;
+}
+
+/* line 471, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-s {
+  background-position: -64px -48px;
+}
+
+/* line 472, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-sw {
+  background-position: -80px -48px;
+}
+
+/* line 473, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-w {
+  background-position: -96px -48px;
+}
+
+/* line 474, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-1-nw {
+  background-position: -112px -48px;
+}
+
+/* line 475, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-2-n-s {
+  background-position: -128px -48px;
+}
+
+/* line 476, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-2-ne-sw {
+  background-position: -144px -48px;
+}
+
+/* line 477, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-2-e-w {
+  background-position: -160px -48px;
+}
+
+/* line 478, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthick-2-se-nw {
+  background-position: -176px -48px;
+}
+
+/* line 479, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthickstop-1-n {
+  background-position: -192px -48px;
+}
+
+/* line 480, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthickstop-1-e {
+  background-position: -208px -48px;
+}
+
+/* line 481, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthickstop-1-s {
+  background-position: -224px -48px;
+}
+
+/* line 482, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowthickstop-1-w {
+  background-position: -240px -48px;
+}
+
+/* line 483, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturnthick-1-w {
+  background-position: 0 -64px;
+}
+
+/* line 484, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturnthick-1-n {
+  background-position: -16px -64px;
+}
+
+/* line 485, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturnthick-1-e {
+  background-position: -32px -64px;
+}
+
+/* line 486, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturnthick-1-s {
+  background-position: -48px -64px;
+}
+
+/* line 487, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturn-1-w {
+  background-position: -64px -64px;
+}
+
+/* line 488, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturn-1-n {
+  background-position: -80px -64px;
+}
+
+/* line 489, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturn-1-e {
+  background-position: -96px -64px;
+}
+
+/* line 490, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowreturn-1-s {
+  background-position: -112px -64px;
+}
+
+/* line 491, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowrefresh-1-w {
+  background-position: -128px -64px;
+}
+
+/* line 492, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowrefresh-1-n {
+  background-position: -144px -64px;
+}
+
+/* line 493, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowrefresh-1-e {
+  background-position: -160px -64px;
+}
+
+/* line 494, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrowrefresh-1-s {
+  background-position: -176px -64px;
+}
+
+/* line 495, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-4 {
+  background-position: 0 -80px;
+}
+
+/* line 496, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-arrow-4-diag {
+  background-position: -16px -80px;
+}
+
+/* line 497, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-extlink {
+  background-position: -32px -80px;
+}
+
+/* line 498, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-newwin {
+  background-position: -48px -80px;
+}
+
+/* line 499, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-refresh {
+  background-position: -64px -80px;
+}
+
+/* line 500, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-shuffle {
+  background-position: -80px -80px;
+}
+
+/* line 501, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-transfer-e-w {
+  background-position: -96px -80px;
+}
+
+/* line 502, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-transferthick-e-w {
+  background-position: -112px -80px;
+}
+
+/* line 503, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-folder-collapsed {
+  background-position: 0 -96px;
+}
+
+/* line 504, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-folder-open {
+  background-position: -16px -96px;
+}
+
+/* line 505, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-document {
+  background-position: -32px -96px;
+}
+
+/* line 506, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-document-b {
+  background-position: -48px -96px;
+}
+
+/* line 507, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-note {
+  background-position: -64px -96px;
+}
+
+/* line 508, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-mail-closed {
+  background-position: -80px -96px;
+}
+
+/* line 509, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-mail-open {
+  background-position: -96px -96px;
+}
+
+/* line 510, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-suitcase {
+  background-position: -112px -96px;
+}
+
+/* line 511, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-comment {
+  background-position: -128px -96px;
+}
+
+/* line 512, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-person {
+  background-position: -144px -96px;
+}
+
+/* line 513, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-print {
+  background-position: -160px -96px;
+}
+
+/* line 514, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-trash {
+  background-position: -176px -96px;
+}
+
+/* line 515, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-locked {
+  background-position: -192px -96px;
+}
+
+/* line 516, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-unlocked {
+  background-position: -208px -96px;
+}
+
+/* line 517, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-bookmark {
+  background-position: -224px -96px;
+}
+
+/* line 518, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-tag {
+  background-position: -240px -96px;
+}
+
+/* line 519, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-home {
+  background-position: 0 -112px;
+}
+
+/* line 520, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-flag {
+  background-position: -16px -112px;
+}
+
+/* line 521, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-calendar {
+  background-position: -32px -112px;
+}
+
+/* line 522, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-cart {
+  background-position: -48px -112px;
+}
+
+/* line 523, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-pencil {
+  background-position: -64px -112px;
+}
+
+/* line 524, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-clock {
+  background-position: -80px -112px;
+}
+
+/* line 525, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-disk {
+  background-position: -96px -112px;
+}
+
+/* line 526, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-calculator {
+  background-position: -112px -112px;
+}
+
+/* line 527, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-zoomin {
+  background-position: -128px -112px;
+}
+
+/* line 528, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-zoomout {
+  background-position: -144px -112px;
+}
+
+/* line 529, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-search {
+  background-position: -160px -112px;
+}
+
+/* line 530, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-wrench {
+  background-position: -176px -112px;
+}
+
+/* line 531, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-gear {
+  background-position: -192px -112px;
+}
+
+/* line 532, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-heart {
+  background-position: -208px -112px;
+}
+
+/* line 533, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-star {
+  background-position: -224px -112px;
+}
+
+/* line 534, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-link {
+  background-position: -240px -112px;
+}
+
+/* line 535, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-cancel {
+  background-position: 0 -128px;
+}
+
+/* line 536, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-plus {
+  background-position: -16px -128px;
+}
+
+/* line 537, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-plusthick {
+  background-position: -32px -128px;
+}
+
+/* line 538, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-minus {
+  background-position: -48px -128px;
+}
+
+/* line 539, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-minusthick {
+  background-position: -64px -128px;
+}
+
+/* line 540, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-close {
+  background-position: -80px -128px;
+}
+
+/* line 541, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-closethick {
+  background-position: -96px -128px;
+}
+
+/* line 542, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-key {
+  background-position: -112px -128px;
+}
+
+/* line 543, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-lightbulb {
+  background-position: -128px -128px;
+}
+
+/* line 544, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-scissors {
+  background-position: -144px -128px;
+}
+
+/* line 545, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-clipboard {
+  background-position: -160px -128px;
+}
+
+/* line 546, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-copy {
+  background-position: -176px -128px;
+}
+
+/* line 547, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-contact {
+  background-position: -192px -128px;
+}
+
+/* line 548, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-image {
+  background-position: -208px -128px;
+}
+
+/* line 549, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-video {
+  background-position: -224px -128px;
+}
+
+/* line 550, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-script {
+  background-position: -240px -128px;
+}
+
+/* line 551, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-alert {
+  background-position: 0 -144px;
+}
+
+/* line 552, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-info {
+  background-position: -16px -144px;
+}
+
+/* line 553, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-notice {
+  background-position: -32px -144px;
+}
+
+/* line 554, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-help {
+  background-position: -48px -144px;
+}
+
+/* line 555, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-check {
+  background-position: -64px -144px;
+}
+
+/* line 556, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-bullet {
+  background-position: -80px -144px;
+}
+
+/* line 557, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-radio-on {
+  background-position: -96px -144px;
+}
+
+/* line 558, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-radio-off {
+  background-position: -112px -144px;
+}
+
+/* line 559, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-pin-w {
+  background-position: -128px -144px;
+}
+
+/* line 560, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-pin-s {
+  background-position: -144px -144px;
+}
+
+/* line 561, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-play {
+  background-position: 0 -160px;
+}
+
+/* line 562, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-pause {
+  background-position: -16px -160px;
+}
+
+/* line 563, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-seek-next {
+  background-position: -32px -160px;
+}
+
+/* line 564, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-seek-prev {
+  background-position: -48px -160px;
+}
+
+/* line 565, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-seek-end {
+  background-position: -64px -160px;
+}
+
+/* line 566, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-seek-start {
+  background-position: -80px -160px;
+}
+
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+/* line 568, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-seek-first {
+  background-position: -80px -160px;
+}
+
+/* line 569, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-stop {
+  background-position: -96px -160px;
+}
+
+/* line 570, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-eject {
+  background-position: -112px -160px;
+}
+
+/* line 571, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-volume-off {
+  background-position: -128px -160px;
+}
+
+/* line 572, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-volume-on {
+  background-position: -144px -160px;
+}
+
+/* line 573, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-power {
+  background-position: 0 -176px;
+}
+
+/* line 574, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-signal-diag {
+  background-position: -16px -176px;
+}
+
+/* line 575, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-signal {
+  background-position: -32px -176px;
+}
+
+/* line 576, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-battery-0 {
+  background-position: -48px -176px;
+}
+
+/* line 577, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-battery-1 {
+  background-position: -64px -176px;
+}
+
+/* line 578, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-battery-2 {
+  background-position: -80px -176px;
+}
+
+/* line 579, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-battery-3 {
+  background-position: -96px -176px;
+}
+
+/* line 580, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-plus {
+  background-position: 0 -192px;
+}
+
+/* line 581, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-minus {
+  background-position: -16px -192px;
+}
+
+/* line 582, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-close {
+  background-position: -32px -192px;
+}
+
+/* line 583, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-triangle-e {
+  background-position: -48px -192px;
+}
+
+/* line 584, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-triangle-s {
+  background-position: -64px -192px;
+}
+
+/* line 585, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-triangle-w {
+  background-position: -80px -192px;
+}
+
+/* line 586, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-triangle-n {
+  background-position: -96px -192px;
+}
+
+/* line 587, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-arrow-e {
+  background-position: -112px -192px;
+}
+
+/* line 588, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-arrow-s {
+  background-position: -128px -192px;
+}
+
+/* line 589, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-arrow-w {
+  background-position: -144px -192px;
+}
+
+/* line 590, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-arrow-n {
+  background-position: -160px -192px;
+}
+
+/* line 591, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-zoomin {
+  background-position: -176px -192px;
+}
+
+/* line 592, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-zoomout {
+  background-position: -192px -192px;
+}
+
+/* line 593, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circle-check {
+  background-position: -208px -192px;
+}
+
+/* line 594, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circlesmall-plus {
+  background-position: 0 -208px;
+}
+
+/* line 595, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circlesmall-minus {
+  background-position: -16px -208px;
+}
+
+/* line 596, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-circlesmall-close {
+  background-position: -32px -208px;
+}
+
+/* line 597, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-squaresmall-plus {
+  background-position: -48px -208px;
+}
+
+/* line 598, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-squaresmall-minus {
+  background-position: -64px -208px;
+}
+
+/* line 599, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-squaresmall-close {
+  background-position: -80px -208px;
+}
+
+/* line 600, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-grip-dotted-vertical {
+  background-position: 0 -224px;
+}
+
+/* line 601, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-grip-dotted-horizontal {
+  background-position: -16px -224px;
+}
+
+/* line 602, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-grip-solid-vertical {
+  background-position: -32px -224px;
+}
+
+/* line 603, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-grip-solid-horizontal {
+  background-position: -48px -224px;
+}
+
+/* line 604, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-gripsmall-diagonal-se {
+  background-position: -64px -224px;
+}
+
+/* line 605, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-icon-grip-diagonal-se {
+  background-position: -80px -224px;
+}
+
+/* Misc visuals
+----------------------------------*/
+/* Corner radius */
+/* line 615, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+  border-top-left-radius: 4px;
+}
+
+/* line 621, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+  border-top-right-radius: 4px;
+}
+
+/* line 627, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+  border-bottom-left-radius: 4px;
+}
+
+/* line 633, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+  border-bottom-right-radius: 4px;
+}
+
+/* Overlays */
+/* line 638, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-overlay {
+  background: #aaaaaa url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+}
+
+/* line 643, ../../style/scss/libraries/jquery-ui-smoothness.scss */
+.ui-widget-shadow {
+  margin: -8px 0 0 -8px;
+  padding: 8px;
+  background: #aaaaaa url(/Files/Templates/Designs/PGLCore/res/img/themes/core/datepicker/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+  border-radius: 8px;
+}

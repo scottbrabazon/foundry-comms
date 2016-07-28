@@ -28,7 +28,7 @@
 	}
 
 	h1 {
-		font-size: em(26);
+		font-size: em(24);
 		line-height: em(30,26);
 		padding: em(16,26) 0 0 0;
 
@@ -90,7 +90,7 @@
 		@include shift(3);
 
 		h1 {
-			font-size: em(32);
+			font-size: em(24);
 			line-height: em(36,32);
 			padding: em(16,32) 0 0 0;
 		}
@@ -127,7 +127,7 @@
 	.masthead-info {
 
 		h1 {
-			font-size: em(36);
+			font-size: em(28);
 			line-height: em(40,36);
 			padding: em(16,36) 0 0 0;
 		}
@@ -145,7 +145,7 @@
 @media screen and (min-width: 75em) {
 
 	.masthead-info h1 {
-		font-size: em(40);
+		font-size: em(30);
 		line-height: em(44,40);
 		padding: em(16,40) 0 0 0;
 	}

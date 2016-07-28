@@ -1,0 +1,71 @@
+/* line 1, ../../style/scss/modules/intro-copy.scss */
+h1, h2, p {
+  text-align: left;
+}
+
+/* line 5, ../../style/scss/modules/intro-copy.scss */
+.intro-copy {
+  margin: 70px auto;
+}
+
+/* line 9, ../../style/scss/modules/intro-copy.scss */
+.intro-copy .problem-solved-1, .intro-copy .problem-solved-2, .intro-copy .groupthree-content {
+  padding: 30px;
+}
+
+/* line 14, ../../style/scss/modules/intro-copy.scss */
+.intro-copy .rule {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+/* line 20, ../../style/scss/modules/intro-copy.scss */
+.intro-copy h1 {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 90%;
+  padding-bottom: 20px;
+}
+
+/* line 28, ../../style/scss/modules/intro-copy.scss */
+.intro-copy h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 90%;
+  padding-bottom: 20px;
+}
+
+/* line 36, ../../style/scss/modules/intro-copy.scss */
+.problem-solved {
+  display: flex;
+}
+
+/* line 41, ../../style/scss/modules/intro-copy.scss */
+.problem-solved-1 h1 {
+  text-align: right;
+}
+/* line 42, ../../style/scss/modules/intro-copy.scss */
+.problem-solved-1 img {
+  width: 34px;
+  float: right;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 50, ../../style/scss/modules/intro-copy.scss */
+  .problem-solved {
+    flex-direction: column;
+  }
+
+  /* line 53, ../../style/scss/modules/intro-copy.scss */
+  .problem-solved-1 h1 {
+    text-align: left;
+  }
+
+  /* line 56, ../../style/scss/modules/intro-copy.scss */
+  .problem-solved-2 {
+    margin-left: 0;
+  }
+}

@@ -21,6 +21,7 @@
 
 */
 @import "modules/about-footfall.scss";
+@import "modules/button.scss";
 @import "modules/colours.scss";
 /*@import "modules/contact.scss";*/
 /*@import "modules/cta.scss";*/
@@ -33,7 +34,7 @@
 /*@import "modules/filter.scss";*/
 /*@import "modules/formresult.scss";*/
 @import "modules/form.scss";
-@import "modules/footer-contentinfo/footer.scss";
+@import "modules/footer.scss";
 /*@import "modules/gallery.scss";*/
 @import "modules/generalcontent.scss";
 @import "modules/generalstyles.scss";
@@ -46,6 +47,7 @@
 @import "modules/header-banner/navigation.scss";
 @import "modules/header-banner/status.scss";
 /*@import "modules/help.scss";*/
+@import "modules/intro-copy.scss";
 /*@import "modules/intro-panel.scss";*/
 /*@import "modules/jtable.scss";*/
 /*@import "modules/key.scss";*/
@@ -73,8 +75,11 @@
 /*@import "modules/searchform.scss";*/
 /*@import "modules/searchresult.scss";*/
 /*@import "modules/searchwidget.scss";*/
+@import "modules/show-reel-2.scss";
 @import "modules/single.scss";
 /*@import "modules/sitemap.scss";*/
+@import "modules/slick-theme.scss";
+@import "modules/slick.scss";
 /*@import "modules/specialoffer.scss";*/
 /*@import "modules/sort-results.scss";*/
 /*@import "modules/stats.scss";*/

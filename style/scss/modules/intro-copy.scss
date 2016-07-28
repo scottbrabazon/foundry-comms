@@ -1,0 +1,59 @@
+h1, h2, p {
+	text-align: left;
+}
+
+.intro-copy {
+	margin: 70px auto;
+}
+
+.intro-copy .problem-solved-1, .intro-copy .problem-solved-2, .intro-copy .groupthree-content {
+	padding: 30px;
+}
+
+.intro-copy {
+	.rule {
+		margin-bottom: 20px;
+		padding: 0;
+	}
+}
+
+.intro-copy h1 {
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 90%;
+	padding-bottom: 20px;
+}
+
+.intro-copy h2 {
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 90%;
+	padding-bottom: 20px;
+}
+
+.problem-solved {
+	display: flex;
+}
+
+.problem-solved-1 {
+	h1 {text-align: right;}
+	img {
+		width: 34px;
+		float: right;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.problem-solved {
+		flex-direction: column;
+	}
+	.problem-solved-1 h1 {
+		text-align: left;
+	}
+	.problem-solved-2 {
+		margin-left: 0;
+	}
+}

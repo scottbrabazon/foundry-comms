@@ -78,11 +78,36 @@
 							<div class="single">
 								<div class="mastheadfull-info-content">
 									<div class="rule">
-										<img src="/img/arrows-buttons/rule.png" alt="Rule" /></video>
+										<img src="/img/arrows-buttons/rule.png" alt="Rule" />
 									</div>
 									<h1>New agency showreel</h1>
 									<div class="button-next">
-										<p>Play</p>
+										<p>View our work</p>
+										<img src="/img/arrows-buttons/arrow-right.png" alt="Show me the showreel" />
+									</div>
+								</div> <!-- mastheadfull-info-content -->
+							</div> <!-- single -->
+						</div>  <!-- l-content -->
+					</div> <!-- mastheadfull-info -->
+					<div class="mastheadfull-visual">
+						<ul class="rslides">
+							<li><video class="video" autoplay muted loop><source src="/img/video.mp4" type="video/mp4"></video></li>
+						</ul>
+					</div> <!-- mastheadfull-visual -->
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<div class="mastheadfull-info">
+						<div class="l-content mastheadfull-info-container">
+							<div class="single">
+								<div class="mastheadfull-info-content">
+									<div class="rule">
+										<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+									</div>
+									<h1>Through ideas that sell today and build your brand for tomorrow</h1>
+									<div class="button-next">
+										<p>View our work</p>
 										<img src="/img/arrows-buttons/arrow-right.png" alt="Show me the showreel" />
 									</div>
 								</div> <!-- mastheadfull-info-content -->
@@ -99,54 +124,155 @@
 		</ul>
 	</div> <!-- mastheadfull -->
 	
+	<div class="l-content intro-copy">
+		<div class="problem-solved">
+			<div class="problem-solved-1">
+				<img src="/img/icons/f.png" alt="F" />
+				<h1>Problem<br>Solved</h1>
+			</div>
+			<div class="problem-solved-2">
+				<h2>Foundry Communications</h2>
+				<div class="rule">
+					<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+				</div>
+				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+			</div>
+		</div>	
+		<div class="groupthree">
+			<div class="groupthree-content">
+				<h1>Listen</h1>
+				<div class="rule">
+					<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+				</div>
+				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<div class="button-next">
+					<p>Find out more</p>
+					<img src="/img/arrows-buttons/arrow-right.png" alt="Show me the showreel" />
+				</div>
+			</div>
+			<div class="groupthree-content">
+				<h1>Plan</h1>
+				<div class="rule">
+					<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+				</div>
+				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<div class="button-next">
+					<p>Find out more</p>
+					<img src="/img/arrows-buttons/arrow-right.png" alt="Show me the showreel" />
+				</div>
+			</div>
+			<div class="groupthree-content">
+				<h1>Deliver</h1>
+				<div class="rule">
+					<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+				</div>
+				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<div class="button-next">
+					<p>Find out more</p>
+					<img src="/img/arrows-buttons/arrow-right.png" alt="Show me the showreel" />
+				</div>
+			</div>
+		</div>
+	</div><!-- intro-copy -->
+
 	<div class="l-content case-studies">
 		<div class="groupthree">
 			<div class="groupthree-content">
 				<img src="/img/home-page/case-studies/ppcp.jpg" alt="PPCP Case Study" class="animated fadeIn" />
 			</div>
 			<div class="groupthree-content">
-				<img src="/img/home-page/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+				<img src="/img/home-page/case-studies/kuhmo.jpg" alt="PPCP Case Study" />
 			</div>
 			<div class="groupthree-content">
-				<img src="/img/home-page/case-studies/ppcp.jpg" alt="PPCP Case Study" />
-			</div>
-			<div class="groupthree-content">
-				<img src="/img/home-page/case-studies/ppcp.jpg" alt="PPCP Case Study" />
-			</div>
-			<div class="groupthree-content">
-				<img src="/img/home-page/case-studies/ppcp.jpg" alt="PPCP Case Study" />
-			</div>
-			<div class="groupthree-content">
-				<img src="/img/home-page/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+				<img src="/img/home-page/case-studies/bike-and-go.jpg" alt="PPCP Case Study" />
 			</div>
 		</div>
 	</div>
-	
-	<footer role="contentinfo">
-		<div class="l-content">
-			<div class="single">
-				<div class="toggle">
-					<div class="telephone">
-						<p><a href="tel:+443333234570">0333 323 4570</a></p>
-					</div> <!-- social -->
-					<div class="navigation" id="navigation">
-						<nav role="navigation" aria-label="Main Navigation">
-							<ul class="navigation-top">
-								<li><a href="/privacy/">Privacy Policy</a></li>
-							</ul>
-						</nav>
-					</div> <!-- navigation -->
-					<div class="social">
-					<!-- <ul class="navigation-social">
-							<li class="last"><a href="#"><img src="/img/header/social/icon-facebook.png" alt="Footfall Facebook"></a></li>
-							<li><a href="#"><img src="/img/header/social/icon-twitter.png" alt="Footfall Twitter"></a></li>
-							<li><a href="#"><img src="/img/header/social/icon-youtube.png" alt="Footfall YouTube"></a></li>
-						</ul> -->
-					</div> <!-- social -->
-				</div> <!-- toggle -->
-			</div> <!-- single -->
-		</div> <!-- l-content -->
-	</footer>
+
+	<div class="l-masthead mastheadfull animated fadeIn show-reel-2">
+		<ul class="rslides">
+			<li>
+				<a href="#">
+					<div class="mastheadfull-info">
+						<div class="l-content mastheadfull-info-container">
+							<div class="single">
+								<div class="mastheadfull-info-content">
+									<div class="rule">
+										<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+									</div>
+									<h1>New agency showreel</h1>
+									<div class="button-next">
+										<p>View our work</p>
+										<img src="/img/arrows-buttons/arrow-right.png" alt="Show me the showreel" />
+									</div>
+								</div> <!-- mastheadfull-info-content -->
+							</div> <!-- single -->
+						</div>  <!-- l-content -->
+					</div> <!-- mastheadfull-info -->
+					<div class="mastheadfull-visual">
+						<ul class="rslides">
+							<li><img src="/img/background.jpg" alt="Show me the showreel" /></li>
+						</ul>
+					</div> <!-- mastheadfull-visual -->
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<div class="mastheadfull-info">
+						<div class="l-content mastheadfull-info-container">
+							<div class="single">
+								<div class="mastheadfull-info-content">
+									<div class="rule">
+										<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+									</div>
+									<h1>Through ideas that sell today and build your brand for tomorrow</h1>
+									<div class="button-next">
+										<p>View our work</p>
+										<img src="/img/arrows-buttons/arrow-right.png" alt="Show me the showreel" />
+									</div>
+								</div> <!-- mastheadfull-info-content -->
+							</div> <!-- single -->
+						</div>  <!-- l-content -->
+					</div> <!-- mastheadfull-info -->
+					<div class="mastheadfull-visual">
+						<ul class="rslides">
+							<li><img src="/img/background.jpg" alt="Show me the showreel" /></li>
+						</ul>
+					</div> <!-- mastheadfull-visual -->
+				</a>
+			</li>
+		</ul>
+	</div> <!-- mastheadfull -->
+
+	<div class="mastheadfull">
+		<div class="l-content footer">
+			<div class="groupthree">
+				<div class="groupthree-content">
+					<h1>Opinion</h1>
+					<div class="rule">
+						<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+					</div>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				</div>
+				<div class="groupthree-content">
+					<h1>Careers</h1>
+					<div class="rule">
+						<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+					</div>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				</div>
+				<div class="groupthree-content">
+					<h1>News</h1>
+					<div class="rule">
+						<img src="/img/arrows-buttons/rule.png" alt="Rule" />
+					</div>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				</div>
+			</div>
+		</div><!-- intro-copy -->
+	</div>
+
 </main>
 
 
@@ -165,6 +291,8 @@
 <script src="js/transition.js"></script>
 <script src="js/scrollspy.js"></script>
 <script src="js/main.js"></script>
+
+
 
 </body>
 </html>

@@ -1,0 +1,14 @@
+/* line 1, ../../style/scss/bk-up-modules/magnific-popup.scss */
+.mfp-figure figcaption {
+  padding-top: 0;
+}
+
+/* line 3, ../../style/scss/bk-up-modules/magnific-popup.scss */
+.mfp-iframe-holder .mfp-content {
+  max-width: 70em;
+}
+
+/* line 5, ../../style/scss/bk-up-modules/magnific-popup.scss */
+.mfp-wrap {
+  z-index: 1300;
+}

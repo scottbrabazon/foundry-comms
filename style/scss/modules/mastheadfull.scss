@@ -20,7 +20,7 @@
 		z-index: 1000;
 	}
 
-	&:first-child .mastheadfull-info-content { width: 50%; }
+	&:first-child .mastheadfull-info-content { width: 80%; }
 
 	h1, h1 strong { font-weight: 900; }
 
@@ -83,29 +83,6 @@ p.intro-copy {
 	background-color: rgba(10, 10, 10, 0.1);
 }
 
-.button-next {
-	
-	background: #c62b32;
-	overflow: auto;
-	padding: 10px 10px 8px 10px;
-	width: auto;
-	float: left;
-	margin-top: 25px;
-	
-	p {
-		text-transform: uppercase;
-		float: left;
-		padding: 0 0 0 0;
-		margin: 0 0 0 0;
-	}
-	
-	img {
-		width: auto;
-		float: left;
-		margin-left: 10px;
-	}
-}
-
 .rule {
 	width: 100%;
 	float: left;
@@ -115,6 +92,11 @@ p.intro-copy {
 		width: auto;
 		float: left;
 	}
+}
+
+.mastheadfull-info-content .button-next {
+	background: transparent;
+	border: 1px solid #fff;
 }
 
 
@@ -158,8 +140,6 @@ p.intro-copy {
 }
 
 @include media($grid3) {
-
-	.mastheadfull { background: tint($corporate1,90%); }
 
 	.mastheadfull-info:last-child, .ie-mastheadfull-info-last {
 		bottom: 60px;
