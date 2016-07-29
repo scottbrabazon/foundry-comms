@@ -1,0 +1,10 @@
+.case-studes-examples {
+	flex-direction: column;
+	width: 100%;
+	div {width: 100%;}
+	img {width: 100%;}
+}
+
+@media screen and (min-width: 1075px) {
+	.case-studes-examples {flex-direction: row;}
+}

@@ -1,0 +1,25 @@
+.footer {
+	margin-top: 60px;
+	padding-top: 60px;
+	h1, p {color: #fff;}
+	h1, h2 {margin: 0}
+	.rule {margin: 20px 0 30px 0;}
+	flex-direction: column;
+}
+
+.social {
+	width: 50%;
+	margin: 0 25%;
+}
+
+.footer-row-2 {
+	background: #fff;
+	opacity: 0.1;
+}
+
+
+@media screen and (min-width: 1075px) {
+	.footer-row-1 {
+		flex-direction: row;
+	}
+}

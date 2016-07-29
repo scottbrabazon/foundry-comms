@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Museo Sans W01_900';
+    src: url(../fonts/MuseoSans_900.otf);
+}
+
+@font-face {
+    font-family: 'Museo Sans W01_500';
+    src: url(../fonts/museosans_500-webfont.ttf);
+}
+
+@font-face {
+    font-family: 'Museo Sans W01_300';
+    src: url(../fonts/MuseoSans-300.otf);
+}
+
+@font-face {
+    font-family: 'Museo Sans W01_100';
+    src: url(../fonts/MuseoSans-100.otf);
+}
+
+$foundry_extra_bold: 'Museo Sans W01_900',sans-serif,arial,sans-serif;
+$foundry_bold: 'Museo Sans W01_500',sans-serif,arial,sans-serif;
+$foundry_medium: 'Museo Sans W01_300',sans-serif,arial,sans-serif;
+$foundry_regular: 'Museo Sans W01_100',sans-serif,arial,sans-serif;
