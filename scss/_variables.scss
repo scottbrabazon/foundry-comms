@@ -1,11 +1,18 @@
+/* Fonts */
+
 @font-face {
-    font-family: 'Museo Sans W01_900';
-    src: url(../fonts/MuseoSans_900.otf);
+    font-family: 'Gotham Black';
+    src: url(../fonts/gotham-black.ttf);
+    src: url(../fonts/gotham-black.eot);
+    src: url(../fonts/gotham-black.woff);
 }
 
 @font-face {
-    font-family: 'Museo Sans W01_500';
-    src: url(../fonts/museosans_500-webfont.ttf);
+    font-family: 'Gotham Medium Condensed';
+    src: url(../fonts/gotham-condensed-medium.eot);
+    src: url(../fonts/gotham-condensed-medium.otf);
+    src: url(../fonts/gotham-condensed-medium.ttf);
+    src: url(../fonts/gotham-condensed-medium.woff);
 }
 
 @font-face {
@@ -18,7 +25,13 @@
     src: url(../fonts/MuseoSans-100.otf);
 }
 
-$foundry_extra_bold: 'Museo Sans W01_900',sans-serif,arial,sans-serif;
+$foundry_extra_bold: 'Gotham Black',sans-serif,arial,sans-serif;
+$foundry_condensed_bold: 'Gotham Medium Condensed',sans-serif,arial,sans-serif;
 $foundry_bold: 'Museo Sans W01_500',sans-serif,arial,sans-serif;
 $foundry_medium: 'Museo Sans W01_300',sans-serif,arial,sans-serif;
 $foundry_regular: 'Museo Sans W01_100',sans-serif,arial,sans-serif;
+
+
+/* Colours */
+
+$foundry_red: #c62b32;

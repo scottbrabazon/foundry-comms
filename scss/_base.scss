@@ -1,19 +1,33 @@
+/* Typography */
+
+
 h1 {
     font-family: $foundry_extra_bold;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3em;
     line-height: 0.9em;
+    margin: 0 0 0.5em 0;
 }
 
 h2 {
     font-family: $foundry_extra_bold;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.25em;
+    margin: 0 0 0.5em 0;
 }
 
 h3 {
-    font-family: $foundry_medium;
-    font-size: 2em;
+    font-family: $foundry_extra_bold;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    margin: 0 0 0.5em 0;
+}
+
+span {
+    font-family: $foundry_condensed_bold;
+    font-size: 1.1em;
+    color: $foundry_red;
+    text-transform: uppercase;
 }
 
 p {
@@ -27,15 +41,39 @@ a {
     text-decoration: none;
 }
 
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    span {
+        font-size: 1.2em;
+    }
+}
+
+
+/* General */
+
 ul {list-style: none;}
 
 .flexbox {
+    -js-display: flex;
     display: flex;
 }
 
 .main-container {
 	max-width: 1075px;
 	margin: 0 auto;
+    width: 90%;
+    padding: 0 5%;
 }
 
 .background {

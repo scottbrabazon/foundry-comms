@@ -32,10 +32,44 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="/js/responsiveslides.min.js"></script>
+	<script src="/js/flexibility.js"></script>
+	<script src="/js/menu.js"></script>
+	<script>flexibility(document.documentElement);</script>
 
 	</head>
 
 	<body>
+
+		<div id="navigation">
+			<div class="navigation-panel flexbox main-container">
+				<div class="logo">
+					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+				</div>
+				<div class="flexbox navigation-menu-mobile">
+					<div class="menu-toggle-button">
+						<img src="/img/menu.svg" alt="Menu"></a>
+					</div>
+				 	<ul class="menu-links-mobile">
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contact</a></li>
+				 	</ul>
+				</div>
+				<div class="flexbox navigation-menu">
+				 	<ul class="menu-links flexbox">
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contact</a></li>
+				 	</ul>
+				</div>
+			</div>	
+		</div>
 
 		<div class="video">
 			<video class="video" autoplay muted loop><source src="/img/video.mp4" type="video/mp4"></video>
@@ -43,22 +77,11 @@
 
 		<main role="main" class="main-container">
 
+			<!-- Masthead -->
+
 			<div id="homepage-masthead">
 				<header>
 					<div class="masthead">
-						<div class="navigation flexbox" id="navigation">
-							<div class="logo">
-								<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
-							</div> <!-- logo -->
-						 	<ul class="flexbox navigation-menu">
-								<li><a href="#">Work</a></li>
-								<li><a href="#">Service</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">News</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">Contact</a></li>
-						 	</ul>
-						</div>
 						<ul class="rslides">
 							<li>
 								<a href="#">
@@ -97,15 +120,19 @@
 				</header>
 			</div>
 
+			<!-- End Masthead -->
+
+			<!-- Intro Copy -->
+
 			<div id="homepage-intro-copy">
 				<div class="intro-copy flexbox"> 
 					<div class="problem-solved flexbox">
 						<div class="problem-solved-1">
 							<img src="/img/f-icon.png" alt="F" />
-							<h1>Problem<br>Solved</h1>
+							<h2>Problem<br>Solved</h2>
 						</div>
 						<div class="problem-solved-2">
-							<h2>Foundry Communications</h2>
+							<h3>Foundry<br>Communications</h3>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
@@ -115,7 +142,7 @@
 					</div>	
 					<div class="groupthree flexbox">
 						<div class="groupthree-content">
-							<h1>Listen</h1>
+							<h2>Listen</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
@@ -126,7 +153,7 @@
 							</div>
 						</div>
 						<div class="groupthree-content">
-							<h1>Plan</h1>
+							<h2>Plan</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
@@ -137,7 +164,7 @@
 							</div>
 						</div>
 						<div class="groupthree-content">
-							<h1>Deliver</h1>
+							<h2>Deliver</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
@@ -150,7 +177,12 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- End Intro Copy -->
+	
 		</main>	
+
+		<!-- Case Studes -->
 
 		<div id="_homepage-case-studies">
 			<div class="case-studes-examples flexbox">
@@ -161,10 +193,14 @@
 					<img src="/img/kuhmo.jpg" alt="Kuhmo Case Study" />
 				</div>
 				<div>	
-					<img src="/img/bike-and-go.jpg" alt="Bike & Go Case Study" />
+					<img src="/img/bike-and-go.jpg" alt="Bike &amp; Go Case Study" />
 				</div>
 			</div>
 		</div>
+
+		<!-- End Case Studes -->
+
+		<!-- Showreel -->
 
 		<div id="homepage-showreel" class="background">
 			<div class="showreel main-container">
@@ -205,45 +241,62 @@
 			</div>	
 		</div>	
 
+		<!-- End Showreel -->
+
+		<!-- Footer -->
+
 		<div id="homepage-footer" class="background">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="opinion">
-						<h1>Opinion</h1>
+						<h3>Opinion</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
 					</div>
 					<div class="careers">
-						<h1>Careers</h1>
+						<h3>Careers</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
 					</div>
 					<div class="news">
-						<h1>News</h1>
+						<h3>News</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
 					</div>
 				</div>
-				<div class="footer-row-2">
-					<div class="social">
-						<img src="/img/social/twitter.svg" alt="Twitter" />
-						<img src="/img/social/facebook.svg" alt="Facebook" />
-						<img src="/img/social/you-tube.svg" alt="YouTube" />
-						<img src="/img/social/google-plus.svg" alt="Google Plus" />
-						<img src="/img/social/linkedin.svg" alt="LinkedIn" />
-						<img src="/img/social/pinterest.svg" alt="Pinterest" />
-					</div>	
-				</div>
-				<div class="footer-row-2">
-				</div>
+			</div>	
+			<div class="footer-row-2">
+				<div class="social">
+					<img src="/img/social/twitter.svg" alt="Twitter" />
+					<img src="/img/social/facebook.svg" alt="Facebook" />
+					<img src="/img/social/you-tube.svg" alt="YouTube" />
+					<img src="/img/social/google-plus.svg" alt="Google Plus" />
+					<img src="/img/social/linkedin.svg" alt="LinkedIn" />
+					<img src="/img/social/pinterest.svg" alt="Pinterest" />
+				</div>	
 			</div>
+			<div class="footer main-container">
+				<div class="footer-row-3 flexbox">
+					<p class="contact-number"><span>Contact</span> +44 (0)161 926 8444</p>
+					<div class="enquiry-button">
+						<a href="#">
+							<div class="button-next">
+								<p>View our work</p>
+								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>	
 		</div>
+
+		<!-- End Footer -->
 
 		<script>
 			$(function() {

@@ -309,17 +309,16 @@ dd {
 /**
  * Address paddings set differently in IE 6/7.
  */
-/* line 308, ../scss/_normalize.scss */
+/* line 307, ../scss/_normalize.scss */
 menu,
-ol,
-ul {
+ol {
   padding: 0 0 0 40px;
 }
 
 /**
  * Correct list images handled incorrectly in IE 7.
  */
-/* line 317, ../scss/_normalize.scss */
+/* line 316, ../scss/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -333,7 +332,7 @@ nav ol {
  * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improve image quality when scaled in IE 7.
  */
-/* line 331, ../scss/_normalize.scss */
+/* line 330, ../scss/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -344,7 +343,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 340, ../scss/_normalize.scss */
+/* line 339, ../scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -355,7 +354,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 352, ../scss/_normalize.scss */
+/* line 351, ../scss/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -366,7 +365,7 @@ figure {
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
-/* line 364, ../scss/_normalize.scss */
+/* line 363, ../scss/_normalize.scss */
 form {
   margin: 0;
 }
@@ -374,7 +373,7 @@ form {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 372, ../scss/_normalize.scss */
+/* line 371, ../scss/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -386,7 +385,7 @@ fieldset {
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-/* line 384, ../scss/_normalize.scss */
+/* line 383, ../scss/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -403,7 +402,7 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
-/* line 401, ../scss/_normalize.scss */
+/* line 400, ../scss/_normalize.scss */
 button,
 input,
 select,
@@ -422,7 +421,7 @@ textarea {
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 414, ../scss/_normalize.scss */
+/* line 413, ../scss/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -434,7 +433,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 426, ../scss/_normalize.scss */
+/* line 425, ../scss/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -449,7 +448,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 443, ../scss/_normalize.scss */
+/* line 442, ../scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -465,7 +464,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 454, ../scss/_normalize.scss */
+/* line 453, ../scss/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -477,7 +476,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 466, ../scss/_normalize.scss */
+/* line 465, ../scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -495,7 +494,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 479, ../scss/_normalize.scss */
+/* line 478, ../scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -509,7 +508,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 492, ../scss/_normalize.scss */
+/* line 491, ../scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -518,7 +517,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-/* line 501, ../scss/_normalize.scss */
+/* line 500, ../scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -529,7 +528,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 511, ../scss/_normalize.scss */
+/* line 510, ../scss/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -543,20 +542,28 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 524, ../scss/_normalize.scss */
+/* line 523, ../scss/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* Transparent Button */
+/* Red Button */
+/* Fonts */
 @font-face {
-  font-family: 'Museo Sans W01_900';
-  src: url(../fonts/MuseoSans_900.otf);
+  font-family: 'Gotham Black';
+  src: url(../fonts/gotham-black.ttf);
+  src: url(../fonts/gotham-black.eot);
+  src: url(../fonts/gotham-black.woff);
 }
 
 @font-face {
-  font-family: 'Museo Sans W01_500';
-  src: url(../fonts/museosans_500-webfont.ttf);
+  font-family: 'Gotham Medium Condensed';
+  src: url(../fonts/gotham-condensed-medium.eot);
+  src: url(../fonts/gotham-condensed-medium.otf);
+  src: url(../fonts/gotham-condensed-medium.ttf);
+  src: url(../fonts/gotham-condensed-medium.woff);
 }
 
 @font-face {
@@ -569,57 +576,96 @@ table {
   src: url(../fonts/MuseoSans-100.otf);
 }
 
-/* line 1, ../scss/_base.scss */
+/* Colours */
+/* Typography */
+/* line 4, ../scss/_base.scss */
 h1 {
-  font-family: "Museo Sans W01_900", sans-serif, arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 4em;
-  line-height: 0.9em;
-}
-
-/* line 8, ../scss/_base.scss */
-h2 {
-  font-family: "Museo Sans W01_900", sans-serif, arial, sans-serif;
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   font-size: 3em;
+  line-height: 0.9em;
+  margin: 0 0 0.5em 0;
 }
 
-/* line 14, ../scss/_base.scss */
-h3 {
-  font-family: "Museo Sans W01_300", sans-serif, arial, sans-serif;
-  font-size: 2em;
+/* line 12, ../scss/_base.scss */
+h2 {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25em;
+  margin: 0 0 0.5em 0;
 }
 
 /* line 19, ../scss/_base.scss */
+h3 {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  margin: 0 0 0.5em 0;
+}
+
+/* line 26, ../scss/_base.scss */
+span {
+  font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
+  font-size: 1.1em;
+  color: #c62b32;
+  text-transform: uppercase;
+}
+
+/* line 33, ../scss/_base.scss */
 p {
   font-family: "Museo Sans W01_100", sans-serif, arial, sans-serif;
   font-size: 1em;
 }
 
-/* line 24, ../scss/_base.scss */
+/* line 38, ../scss/_base.scss */
 a {
   font-family: "Museo Sans W01_100", sans-serif, arial, sans-serif;
   font-size: 1em;
   text-decoration: none;
 }
 
-/* line 30, ../scss/_base.scss */
+@media screen and (min-width: 800px) {
+  /* line 45, ../scss/_base.scss */
+  h1 {
+    font-size: 4em;
+  }
+
+  /* line 49, ../scss/_base.scss */
+  h2 {
+    font-size: 3em;
+  }
+
+  /* line 53, ../scss/_base.scss */
+  h3 {
+    font-size: 2em;
+  }
+
+  /* line 57, ../scss/_base.scss */
+  span {
+    font-size: 1.2em;
+  }
+}
+/* General */
+/* line 65, ../scss/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 32, ../scss/_base.scss */
+/* line 67, ../scss/_base.scss */
 .flexbox {
+  -js-display: flex;
   display: flex;
 }
 
-/* line 36, ../scss/_base.scss */
+/* line 72, ../scss/_base.scss */
 .main-container {
   max-width: 1075px;
   margin: 0 auto;
+  width: 90%;
+  padding: 0 5%;
 }
 
-/* line 41, ../scss/_base.scss */
+/* line 79, ../scss/_base.scss */
 .background {
   max-width: 1500px;
   margin: 0 auto;
@@ -664,6 +710,89 @@ ul {
   border: 0;
 }
 
+/* line 1, ../scss/_navigation.scss */
+#navigation {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 8, ../scss/_navigation.scss */
+.navigation-panel {
+  padding: 20px 0;
+  align-items: flex-start;
+}
+/* line 11, ../scss/_navigation.scss */
+.navigation-panel a {
+  color: #fff;
+}
+
+/* line 14, ../scss/_navigation.scss */
+.logo {
+  flex-grow: 1;
+}
+
+/* Default */
+/* line 21, ../scss/_navigation.scss */
+.navigation-menu {
+  display: none;
+}
+/* line 23, ../scss/_navigation.scss */
+.navigation-menu ul {
+  padding: 0;
+  margin: 6px 0;
+}
+
+/* line 29, ../scss/_navigation.scss */
+.menu-links {
+  flex-direction: row;
+}
+/* line 30, ../scss/_navigation.scss */
+.menu-links li {
+  padding-left: 20px;
+}
+
+/* Mobile */
+/* line 37, ../scss/_navigation.scss */
+.navigation-menu-mobile {
+  margin: 0;
+  flex-direction: column;
+  text-align: right;
+}
+/* line 41, ../scss/_navigation.scss */
+.navigation-menu-mobile a {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+/* line 48, ../scss/_navigation.scss */
+.menu-links-mobile {
+  display: none;
+}
+/* line 49, ../scss/_navigation.scss */
+.menu-links-mobile li {
+  padding-left: 20px;
+}
+
+/* line 53, ../scss/_navigation.scss */
+.open {
+  display: inline;
+}
+
+/* Media Querys */
+@media screen and (min-width: 780px) {
+  /* line 58, ../scss/_navigation.scss */
+  .navigation-menu {
+    display: flex;
+  }
+
+  /* line 59, ../scss/_navigation.scss */
+  .navigation-menu-mobile {
+    display: none;
+  }
+}
 /*
 
 /* Pages */
@@ -674,102 +803,105 @@ ul {
 
 /* line 5, ../scss/_homepage-masthead.scss */
 .video {
+  pointer-events: none;
   width: 100%;
   height: 845px;
   max-width: 1500px;
   margin: 0 auto;
 }
-/* line 10, ../scss/_homepage-masthead.scss */
+/* line 11, ../scss/_homepage-masthead.scss */
 .video video {
   width: 1500px;
 }
 
-/* line 15, ../scss/_homepage-masthead.scss */
+/* line 16, ../scss/_homepage-masthead.scss */
 .masthead {
   position: relative;
   height: 845px;
 }
-/* line 16, ../scss/_homepage-masthead.scss */
+/* line 17, ../scss/_homepage-masthead.scss */
 .masthead a {
   color: #fff;
 }
-/* line 19, ../scss/_homepage-masthead.scss */
+/* line 20, ../scss/_homepage-masthead.scss */
 .masthead .rule img {
   width: 31px;
 }
-/* line 20, ../scss/_homepage-masthead.scss */
+/* line 21, ../scss/_homepage-masthead.scss */
 .masthead h1 {
   margin: 30px 0;
 }
-
-/* line 23, ../scss/_homepage-masthead.scss */
-.navigation {
-  padding: 20px;
-  align-items: flex-end;
-}
-/* line 26, ../scss/_homepage-masthead.scss */
-.navigation ul {
-  padding-left: 50px;
-}
-
-/* line 29, ../scss/_homepage-masthead.scss */
-.logo {
-  flex-grow: 1;
-}
-
-/* line 33, ../scss/_homepage-masthead.scss */
-.navigation-menu {
-  margin: 0;
-}
-/* line 35, ../scss/_homepage-masthead.scss */
-.navigation-menu li {
-  padding-left: 30px;
-}
-
-/* line 38, ../scss/_homepage-masthead.scss */
-.button-next {
+/* line 22, ../scss/_homepage-masthead.scss */
+.masthead .button-next {
+  pointer-events: auto;
   background: transparent;
   overflow: auto;
   padding: 20px 30px;
   float: left;
-  margin-top: 25px;
+  margin-top: 20px;
   border: 1px solid #fff;
 }
-/* line 45, ../scss/_homepage-masthead.scss */
+/* line 11, ../scss/_mixins.scss */
+.masthead .button-next p {
+  text-transform: uppercase;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 17, ../scss/_mixins.scss */
+.masthead .button-next img {
+  width: auto;
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 26, ../scss/_homepage-masthead.scss */
+.button-next {
+  pointer-events: auto;
+  background: transparent;
+  overflow: auto;
+  padding: 20px 30px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #fff;
+}
+/* line 11, ../scss/_mixins.scss */
 .button-next p {
   text-transform: uppercase;
   float: left;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 51, ../scss/_homepage-masthead.scss */
+/* line 17, ../scss/_mixins.scss */
 .button-next img {
   width: auto;
   float: left;
   margin-left: 10px;
 }
 
-/* line 58, ../scss/_homepage-masthead.scss */
+/* line 30, ../scss/_homepage-masthead.scss */
 .slide {
   flex-direction: column;
   justify-content: flex-end;
-  height: 728px;
+  height: 785px;
+  pointer-events: none;
 }
 
 @media screen and (min-width: 1500px) {
-  /* line 65, ../scss/_homepage-masthead.scss */
+  /* line 38, ../scss/_homepage-masthead.scss */
   .video {
     max-width: 1500px;
     margin: 0 auto;
   }
-  /* line 68, ../scss/_homepage-masthead.scss */
+  /* line 41, ../scss/_homepage-masthead.scss */
   .video video {
     width: 100%;
     margin: 0 auto;
   }
 }
 /* line 1, ../scss/_homepage-intro-copy.scss */
-.intro-copy .button-next {
+.button-next {
+  pointer-events: auto;
   background: #c62b32;
   overflow: auto;
   padding: 20px 30px;
@@ -777,73 +909,70 @@ ul {
   margin-top: 25px;
   border: 1px solid #fff;
 }
-/* line 8, ../scss/_homepage-intro-copy.scss */
-.intro-copy .button-next p {
+/* line 34, ../scss/_mixins.scss */
+.button-next p {
   text-transform: uppercase;
   float: left;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   color: #fff;
 }
-/* line 15, ../scss/_homepage-intro-copy.scss */
-.intro-copy .button-next img {
+/* line 41, ../scss/_mixins.scss */
+.button-next img {
   width: auto;
   float: left;
   margin-left: 10px;
 }
 
-/* line 22, ../scss/_homepage-intro-copy.scss */
+/* line 5, ../scss/_homepage-intro-copy.scss */
 .intro-copy {
   margin-top: 60px;
   flex-direction: column;
 }
-/* line 25, ../scss/_homepage-intro-copy.scss */
-.intro-copy h1, .intro-copy h2 {
-  margin: 0;
-}
-/* line 26, ../scss/_homepage-intro-copy.scss */
+/* line 8, ../scss/_homepage-intro-copy.scss */
 .intro-copy .rule {
-  margin: 20px 0 30px 0;
+  margin: 0 0 30px 0;
 }
 
-/* line 29, ../scss/_homepage-intro-copy.scss */
-.problem-solved-1 {
-  padding-top: 10px;
-}
-
-/* line 33, ../scss/_homepage-intro-copy.scss */
+/* line 14, ../scss/_homepage-intro-copy.scss */
 .groupthree {
   margin-top: 60px;
   flex-direction: column;
 }
 
-/* line 38, ../scss/_homepage-intro-copy.scss */
+/* line 19, ../scss/_homepage-intro-copy.scss */
 .groupthree > div {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+  margin-right: 1.5em;
 }
 
-/* line 42, ../scss/_homepage-intro-copy.scss */
+/* line 24, ../scss/_homepage-intro-copy.scss */
+.groupthree > div:last-child {
+  margin-right: 0;
+}
+
+/* line 28, ../scss/_homepage-intro-copy.scss */
 .problem-solved {
   flex-direction: column;
 }
 
-@media screen and (min-width: 1075px) {
-  /* line 48, ../scss/_homepage-intro-copy.scss */
+@media screen and (min-width: 800px) {
+  /* line 34, ../scss/_homepage-intro-copy.scss */
   .problem-solved {
     flex-direction: row;
   }
 
-  /* line 49, ../scss/_homepage-intro-copy.scss */
+  /* line 35, ../scss/_homepage-intro-copy.scss */
   .problem-solved-1 {
     text-align: right;
   }
 
-  /* line 50, ../scss/_homepage-intro-copy.scss */
+  /* line 36, ../scss/_homepage-intro-copy.scss */
   .problem-solved-2 {
     padding-left: 50px;
   }
 
-  /* line 51, ../scss/_homepage-intro-copy.scss */
+  /* line 37, ../scss/_homepage-intro-copy.scss */
   .groupthree {
     flex-direction: row;
   }
@@ -862,7 +991,7 @@ ul {
   width: 100%;
 }
 
-@media screen and (min-width: 1075px) {
+@media screen and (min-width: 650px) {
   /* line 9, ../scss/_homepage-case-studies.scss */
   .case-studes-examples {
     flex-direction: row;
@@ -918,13 +1047,16 @@ ul {
 }
 
 /* line 1, ../scss/_homepage-footer.scss */
-.footer {
+#homepage-footer {
   margin-top: 60px;
-  padding-top: 60px;
+}
+
+/* line 3, ../scss/_homepage-footer.scss */
+.footer {
   flex-direction: column;
 }
 /* line 4, ../scss/_homepage-footer.scss */
-.footer h1, .footer p {
+.footer h1, .footer h2, .footer h3, .footer p, .footer a {
   color: #fff;
 }
 /* line 5, ../scss/_homepage-footer.scss */
@@ -933,24 +1065,78 @@ ul {
 }
 /* line 6, ../scss/_homepage-footer.scss */
 .footer .rule {
-  margin: 20px 0 30px 0;
+  margin: 0 0 30px 0;
+}
+/* line 8, ../scss/_homepage-footer.scss */
+.footer .button-next {
+  pointer-events: auto;
+  background: transparent;
+  overflow: auto;
+  padding: 20px 30px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #fff;
+}
+/* line 11, ../scss/_mixins.scss */
+.footer .button-next p {
+  text-transform: uppercase;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 17, ../scss/_mixins.scss */
+.footer .button-next img {
+  width: auto;
+  float: left;
+  margin-left: 10px;
 }
 
-/* line 10, ../scss/_homepage-footer.scss */
+/* line 11, ../scss/_homepage-footer.scss */
 .social {
-  width: 50%;
-  margin: 0 25%;
+  text-align: center;
+  width: auto;
+  margin: 30px auto;
+  padding: 20px 0;
 }
 
-/* line 15, ../scss/_homepage-footer.scss */
+/* line 18, ../scss/_homepage-footer.scss */
+.footer-row-1 {
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+/* line 23, ../scss/_homepage-footer.scss */
+.footer-row-1 > div {
+  margin-bottom: 30px;
+  margin-right: 1.5em;
+}
+
+/* line 28, ../scss/_homepage-footer.scss */
+.footer-row-1 > div:last-child {
+  margin-right: 0;
+}
+
+/* line 32, ../scss/_homepage-footer.scss */
 .footer-row-2 {
-  background: #fff;
-  opacity: 0.1;
+  background: rgba(255, 255, 255, 0.2);
 }
 
-@media screen and (min-width: 1075px) {
-  /* line 22, ../scss/_homepage-footer.scss */
+/* line 36, ../scss/_homepage-footer.scss */
+.footer-row-3 {
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 43, ../scss/_homepage-footer.scss */
   .footer-row-1 {
     flex-direction: row;
+  }
+
+  /* line 46, ../scss/_homepage-footer.scss */
+  .footer-row-3 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }

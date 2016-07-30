@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
-]>
-<svg version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="83px" height="83px" viewBox="0 0 83 83" overflow="visible" enable-background="new 0 0 83 83"
-	 xml:space="preserve">
-<defs>
-</defs>
-<path fill="#E31B23" d="M83,41.5C83,64.42,64.42,83,41.5,83S0,64.42,0,41.5S18.58,0,41.5,0S83,18.58,83,41.5z M41.5,4.427
-	C21.024,4.427,4.427,21.024,4.427,41.5c0,20.477,16.598,37.073,37.073,37.073S78.573,61.977,78.573,41.5
-	C78.573,21.024,61.976,4.427,41.5,4.427z"/>
-<path fill="#FFFFFF" d="M27.944,34.444h5.567v17.919h-5.567V34.444z M30.729,25.54c1.781,0,3.228,1.445,3.228,3.227
-	c0,1.783-1.446,3.229-3.228,3.229c-1.784,0-3.229-1.445-3.229-3.229C27.499,26.985,28.944,25.54,30.729,25.54"/>
-<path fill="#FFFFFF" d="M37.004,34.444h5.342v2.448h0.074c0.742-1.41,2.559-2.894,5.268-2.894c5.64,0,6.682,3.711,6.682,8.533v9.831
-	h-5.564v-8.715c0-2.077-0.039-4.751-2.895-4.751c-2.898,0-3.343,2.265-3.343,4.6v8.866h-5.563V34.444z"/>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="43px" height="43px" viewBox="20 20 43 43" enable-background="new 20 20 43 43" xml:space="preserve">
+<path fill="#E31B23" d="M63,41.5C63,53.375,53.375,63,41.5,63S20,53.375,20,41.5S29.625,20,41.5,20S63,29.625,63,41.5z M41.5,22.293
+	c-10.608,0-19.207,8.599-19.207,19.207c0,10.609,8.6,19.205,19.207,19.205c10.608,0,19.205-8.596,19.205-19.205
+	C60.705,30.892,52.109,22.293,41.5,22.293z"/>
+<path fill="#FFFFFF" d="M34.478,37.845h2.884v9.283h-2.884V37.845z M35.919,33.231c0.923,0,1.673,0.749,1.673,1.672
+	s-0.75,1.673-1.673,1.673c-0.924,0-1.672-0.749-1.672-1.673C34.247,33.98,34.995,33.231,35.919,33.231"/>
+<path fill="#FFFFFF" d="M39.17,37.845h2.768v1.268h0.039c0.384-0.729,1.326-1.499,2.728-1.499c2.923,0,3.463,1.921,3.463,4.42v5.093
+	h-2.883v-4.516c0-1.075-0.02-2.46-1.501-2.46c-1.5,0-1.731,1.174-1.731,2.383v4.593h-2.882L39.17,37.845L39.17,37.845z"/>
 </svg>

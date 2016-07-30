@@ -1,25 +1,51 @@
+#homepage-footer {margin-top: 60px;}
+
 .footer {
-	margin-top: 60px;
-	padding-top: 60px;
-	h1, p {color: #fff;}
+	h1, h2, h3, p, a {color: #fff;}
 	h1, h2 {margin: 0}
-	.rule {margin: 20px 0 30px 0;}
+	.rule {margin: 0 0 30px 0;}
 	flex-direction: column;
+	.button-next {@include transparent-button;}
 }
 
 .social {
-	width: 50%;
-	margin: 0 25%;
+	text-align: center;
+	width: auto;
+	margin: 30px auto;
+	padding: 20px 0;
+}
+
+.footer-row-1 {
+	flex-direction: column;
+	padding-top: 60px;
+}
+
+.footer-row-1 > div {
+	margin-bottom: 30px;
+	margin-right: 1.5em;
+}
+
+.footer-row-1 > div:last-child {
+	margin-right: 0;
 }
 
 .footer-row-2 {
-	background: #fff;
-	opacity: 0.1;
+	background: rgba(255,255,255,0.2);
+}
+
+.footer-row-3 {
+	flex-direction: column;
+	padding-bottom: 60px;
 }
 
 
-@media screen and (min-width: 1075px) {
+@media screen and (min-width: 800px) {
 	.footer-row-1 {
 		flex-direction: row;
+	}
+	.footer-row-3 {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
 	}
 }

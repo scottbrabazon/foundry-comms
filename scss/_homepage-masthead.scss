@@ -3,6 +3,7 @@
 }
 
 .video {
+	pointer-events: none;
 	width: 100%;
 	height: 845px;
 	max-width: 1500px;
@@ -18,47 +19,19 @@
 	height: 845px;
 	.rule img {width: 31px;}
 	h1 {margin: 30px 0;}
-}
+	.button-next {@include transparent-button;}
 
-.navigation {
-	padding: 20px;
-	align-items: flex-end;
-	ul {padding-left: 50px;}
-}
-
-.logo {
-	flex-grow: 1;
-}
-
-.navigation-menu {
-	margin: 0;
-	li {padding-left: 30px;}
 }
 
 .button-next {
-	background: transparent;
-	overflow: auto;
-	padding: 20px 30px;
-	float: left;
-	margin-top: 25px;
-	border: 1px solid #fff;
-	p {
-		text-transform: uppercase;
-		float: left;
-		padding: 0 0 0 0;
-		margin: 0 0 0 0;
-	}
-	img {
-		width: auto;
-		float: left;
-		margin-left: 10px;
-	}
+	@include transparent-button;
 }
 
 .slide {
 	flex-direction: column;
 	justify-content: flex-end;
-	height: 728px;
+	height: 785px;
+	pointer-events: none;
 }
 
 @media screen and (min-width: 1500px) {

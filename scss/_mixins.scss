@@ -1,0 +1,46 @@
+/* Transparent Button */
+
+@mixin transparent-button {
+    pointer-events: auto;
+    background: transparent;
+    overflow: auto;
+    padding: 20px 30px;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    p {
+        text-transform: uppercase;
+        float: left;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    img {
+        width: auto;
+        float: left;
+        margin-left: 10px;
+    }
+}
+
+/* Red Button */
+
+@mixin red-button {
+    pointer-events: auto;
+    background: #c62b32;
+    overflow: auto;
+    padding: 20px 30px;
+    float: left;
+    margin-top: 25px;
+    border: 1px solid #fff;
+    p {
+        text-transform: uppercase;
+        float: left;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        color: #fff;
+    }
+    img {
+        width: auto;
+        float: left;
+        margin-left: 10px;
+    }
+}
