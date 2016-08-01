@@ -18,24 +18,26 @@
 <html class="nojs" lang="en">
 <!--<![endif]-->
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1.0,width=device-width">
-	<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-	<title>The Foundry - Design, advertising and digital agency in Manchester</title>
-	<meta name="description" content="Footfall description goes here" />
-	<link rel="canonical" href="/" />
-	<meta name="keywords" content="Keywords" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0,width=device-width">
+		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
+		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
+		<meta name="description" content="Footfall description goes here" />
+		<link rel="canonical" href="/" />
+		<meta name="keywords" content="Keywords" />
 
 
-	<link rel="stylesheet" media="all" href="/css/style.css">
-	<link rel="stylesheet" media="all" href="/css/animate.css">
+		<link rel="stylesheet" media="all" href="/css/style.css">
+		<link rel="stylesheet" media="all" href="/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick-settings.css">
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="/js/responsiveslides.min.js"></script>
-	<script src="/js/flexibility.js"></script>
-	<script src="/js/menu.js"></script>
-	<script>flexibility(document.documentElement);</script>
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="/js/responsiveslides.min.js"></script>
+		<script src="/js/flexibility.js"></script>
+		<script src="/js/menu.js"></script>
+		<script>flexibility(document.documentElement);</script>
 	</head>
 
 	<body>
@@ -200,6 +202,33 @@
 
 		<!-- End Case Studes -->
 
+		<!-- Client Slider -->
+
+		<div id="client-slider">
+			<section class="center slider">
+				<div>
+					<img src="img/client-logos/mufc.svg">
+				</div>
+				<div>
+					<img src="img/client-logos/kuhmo.svg">
+				</div>
+				<div>
+					<img src="img/client-logos/bike-and-go.svg">
+				</div>
+				<div>
+					<img src="img/client-logos/pgl.svg">
+				</div>
+				<div>
+					<img src="img/client-logos/albermarle-bond.svg">
+				</div>
+				<div>
+					<img src="img/client-logos/ppcp.svg">
+				</div>
+			</section>
+		</div>	
+
+		<!-- End Client Slider -->
+
 		<!-- Showreel -->
 
 		<div id="homepage-showreel" class="background">
@@ -301,6 +330,19 @@
 		<script>
 			$(function() {
 			$(".rslides").responsiveSlides();
+			});
+		</script>
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).on('ready', function() {
+			$(".center").slick({
+				dots: true,
+				infinite: true,
+				centerMode: true,
+				slidesToShow: 5,
+				slidesToScroll: 1
+				});
 			});
 		</script>
 

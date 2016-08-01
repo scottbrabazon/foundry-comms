@@ -1,0 +1,34 @@
+html, body {
+      margin: 0;
+      padding: 0;
+}
+
+* {
+      box-sizing: border-box;
+}
+
+.slider {
+      width: 100%;
+      max-width: 1500px;
+}
+
+.slick-slide {
+      margin: 0px 20px;
+}
+
+.slick-slide img {
+      width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+      color: #fff;
+      background: #c62b32;
+}
+
+.slider button {
+      z-index: 200;
+      width: 84px;
+      height: 65px;
+      background: #c62b32;
+}

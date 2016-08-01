@@ -1,6 +1,8 @@
 .case-studes-examples {
 	flex-direction: column;
 	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
 	div {width: 100%;}
 	img {width: 100%;}
 }
