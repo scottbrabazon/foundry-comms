@@ -1,0 +1,159 @@
+.services {
+	flex-direction: column;
+}
+
+#services-masthead {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: black url("/img/backgrounds/background-image-2.svg") no-repeat center left;
+    background-size: cover;
+    .slide {
+    	pointer-events: all;
+	    a, span {
+	    font-family: $foundry_extra_bold;
+	    text-transform: uppercase;
+	    font-size: 1em;
+	    line-height: 0.9em;
+	    margin: 0 0 0.5em 0;
+	    color: rgba(255,255,255,0.2);
+		}
+		span {color: #fff;}
+	}
+	.masthead {height: 500px;}
+	.slide {height: 480px;}
+}
+
+#deliver {
+	margin-top: 60px;
+	.rule {margin-bottom: 30px;}
+}
+
+.services-main {
+	margin-top: 60px;
+	flex-direction: column;
+}
+
+.services-main-1 {
+	padding-right: 60px;
+}
+
+.services-main-2 {
+	margin-top: 60px;
+	.services-links a {
+		font-family: $foundry_regular;
+		color: #000;
+	    font-size: 1em;
+	    line-height: 2em;
+	    text-decoration: none;
+	}
+}
+
+#nav-buttons {margin-top: 60px;}
+
+.nav-buttons {
+	h2 {
+		color: #fff;
+		margin: 0;
+	}
+	img {
+		height: 100%;
+		margin-top: 2px;
+	}
+	div {
+		width: 47.5%;
+		background: $foundry_red;
+		padding: 40px 30px 35px 30px;
+	}
+	div:first-child {margin-right: 5%;}
+	.previous-page {
+		flex-direction: row;
+	    background: black url("/img/backgrounds/background-image-3.jpg") no-repeat center center;
+	    background-size: cover;
+	}
+	.next-page {
+		flex-direction: row;
+		flex-direction: row;
+	    background: black url("/img/backgrounds/background-image-4.jpg") no-repeat center center;
+	    background-size: cover;
+		justify-content: flex-end;
+	}
+}
+
+#fixed-nav-buttons {
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	top: 50%;
+	padding: 0;
+}
+
+.fixed-nav-buttons {
+	h4 {
+		color: #fff;
+		margin: 0;
+		text-transform: uppercase;
+		margin-top: 2px;
+	}
+	img {
+		width: 30%;
+		margin-top: 2px;
+	}
+	div {
+		width: 47.5%;
+		background: $foundry_red;
+		padding: 15px 15px;
+	}
+	div:first-child {margin-right: 5%;}
+	.fixed-previous-page {
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+	    align-items: center;
+	    width: 15%;
+	}
+	.fixed-next-page {
+		flex-direction: row;
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+		justify-content: flex-end;
+		align-items: center;
+		width: 15%;
+	}
+	.fixed-spacer {
+		background: transparent;
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+    .services-intro-2 {
+		width: 75%;
+		padding-left: 10%;
+		padding-right: 15%;
+	}
+	.services-main {
+		flex-direction: row;
+	}
+	.services-main-2 {
+		margin-top: 0;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+    .fixed-nav-buttons {
+		h4 {
+			display: none;
+		}
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 1300px) {
+    .fixed-previous-page {width: 9%;}
+	.fixed-next-page {width: 9%;}
+	.fixed-spacer {width: 82%;}
+}

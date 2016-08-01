@@ -12,13 +12,12 @@
 }
 
 .groupthree {
-	margin-top: 60px;
 	flex-direction: column;
 }
 
 .groupthree > div {
-	margin-bottom: 100px;
 	margin-right: 1.5em;
+	margin-top: 60px;
 }
 
 .groupthree > div:last-child {
@@ -34,5 +33,8 @@
 	.problem-solved {flex-direction: row;}
 	.problem-solved-1 {text-align: right;}
 	.problem-solved-2 {padding-left: 50px;}
-	.groupthree {flex-direction: row;}
+	.groupthree {
+		flex-direction: row;
+		margin-top: 0;
+	}
 }

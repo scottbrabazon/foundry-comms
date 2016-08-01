@@ -1,4 +1,9 @@
-#homepage-footer {margin-top: 60px;}
+#footer {
+	max-width: 1500px;
+    margin: 60px auto 0 auto;
+    background: black url("/img/backgrounds/background-image-1.jpg") no-repeat center left;
+    background-size: cover;
+}
 
 .footer {
 	h1, h2, h3, p, a {color: #fff;}

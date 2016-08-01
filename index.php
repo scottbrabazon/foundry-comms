@@ -33,7 +33,7 @@
 		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
 		<link rel="stylesheet" type="text/css" href="./slick/slick-settings.css">
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 		<script src="/js/responsiveslides.min.js"></script>
 		<script src="/js/flexibility.js"></script>
 		<script src="/js/menu.js"></script>
@@ -186,7 +186,7 @@
 
 		<!-- Case Studes -->
 
-		<div id="_homepage-case-studies">
+		<div id="case-studies">
 			<div class="case-studes-examples flexbox">
 				<div>
 					<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
@@ -231,7 +231,7 @@
 
 		<!-- Showreel -->
 
-		<div id="homepage-showreel" class="background">
+		<div id="homepage-showreel">
 			<div class="showreel main-container">
 				<ul class="rslides">
 					<li>
@@ -274,7 +274,7 @@
 
 		<!-- Footer -->
 
-		<div id="homepage-footer" class="background">
+		<div id="footer" class="background">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="opinion">
@@ -332,7 +332,6 @@
 			$(".rslides").responsiveSlides();
 			});
 		</script>
-		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 		<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(document).on('ready', function() {
@@ -341,7 +340,7 @@
 				infinite: true,
 				centerMode: true,
 				slidesToShow: 5,
-				slidesToScroll: 1
+				slidesToScroll: 5
 				});
 			});
 		</script>
