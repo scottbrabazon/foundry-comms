@@ -85,9 +85,14 @@
 	position: fixed;
 	top: 50%;
 	padding: 0;
+	pointer-events: none;
 }
 
 .fixed-nav-buttons {
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	justify-content: space-between;
 	h4 {
 		color: #fff;
 		margin: 0;
@@ -103,13 +108,13 @@
 		background: $foundry_red;
 		padding: 15px 15px;
 	}
-	div:first-child {margin-right: 5%;}
 	.fixed-previous-page {
 		flex-direction: row;
 	    background: $foundry_red;
 	    background-size: cover;
 	    align-items: center;
-	    width: 15%;
+	    width: 100px;
+	    pointer-events: auto;
 	}
 	.fixed-next-page {
 		flex-direction: row;
@@ -118,11 +123,12 @@
 	    background-size: cover;
 		justify-content: flex-end;
 		align-items: center;
-		width: 15%;
+	    width: 100px;
+	    pointer-events: auto;
 	}
 	.fixed-spacer {
 		background: transparent;
-		width: 70%;
+		width: auto;
 	}
 }
 
@@ -143,12 +149,7 @@
 
 @media screen and (max-width: 800px) {
     .fixed-nav-buttons {
-		h4 {
-			display: none;
-		}
-		img {
-			width: 100%;
-		}
+    	display: none;
 	}
 }
 
