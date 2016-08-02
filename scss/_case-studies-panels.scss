@@ -1,0 +1,16 @@
+#case-studies {
+	margin-top: 60px;
+}
+
+.case-studes-examples {
+	flex-direction: column;
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	div {width: 100%;}
+	img {width: 100%;}
+}
+
+@media screen and (min-width: 650px) {
+	.case-studes-examples {flex-direction: row;}
+}

@@ -568,13 +568,10 @@ table {
 }
 
 @font-face {
-  font-family: 'Museo Sans W01_300';
-  src: url(../fonts/MuseoSans-300.otf);
-}
-
-@font-face {
-  font-family: 'Museo Sans W01_100';
-  src: url(../fonts/MuseoSans-100.otf);
+  font-family: 'Gotham Medium Book';
+  src: url(../fonts/gotham-book.eot);
+  src: url(../fonts/gotham-book.ttf);
+  src: url(../fonts/gotham-book.woff);
 }
 
 /* Colours */
@@ -621,57 +618,63 @@ span {
 
 /* line 39, ../scss/_base.scss */
 p {
-  font-family: "Museo Sans W01_100", sans-serif, arial, sans-serif;
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 1em;
+  line-height: 2em;
   margin: 0 0 1em 0;
 }
 
-/* line 45, ../scss/_base.scss */
+/* line 46, ../scss/_base.scss */
 a {
-  font-family: "Museo Sans W01_100", sans-serif, arial, sans-serif;
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 1em;
   text-decoration: none;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 52, ../scss/_base.scss */
+  /* line 53, ../scss/_base.scss */
   h1 {
     font-size: 4em;
   }
 
-  /* line 56, ../scss/_base.scss */
+  /* line 57, ../scss/_base.scss */
   h2 {
     font-size: 3em;
   }
 
-  /* line 60, ../scss/_base.scss */
+  /* line 61, ../scss/_base.scss */
   h3 {
     font-size: 2em;
   }
 
-  /* line 64, ../scss/_base.scss */
+  /* line 65, ../scss/_base.scss */
   span {
     font-size: 1.2em;
   }
 }
 /* General */
-/* line 72, ../scss/_base.scss */
+/* line 73, ../scss/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 74, ../scss/_base.scss */
+/* line 75, ../scss/_base.scss */
 .flexbox {
   -js-display: flex;
   display: flex;
 }
 
-/* line 79, ../scss/_base.scss */
+/* line 80, ../scss/_base.scss */
 .main-container {
   max-width: 1075px;
   margin: 0 auto;
   width: 90%;
   padding: 0 5%;
+}
+
+/* line 87, ../scss/_base.scss */
+.hideme {
+  opacity: 0;
 }
 
 /* http://responsiveslides.com v1.54 by @viljamis */
@@ -1261,29 +1264,29 @@ ul {
     margin-top: 0;
   }
 }
-/* line 1, ../scss/_case-studies.scss */
+/* line 1, ../scss/_case-studies-panels.scss */
 #case-studies {
   margin-top: 60px;
 }
 
-/* line 5, ../scss/_case-studies.scss */
+/* line 5, ../scss/_case-studies-panels.scss */
 .case-studes-examples {
   flex-direction: column;
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
 }
-/* line 10, ../scss/_case-studies.scss */
+/* line 10, ../scss/_case-studies-panels.scss */
 .case-studes-examples div {
   width: 100%;
 }
-/* line 11, ../scss/_case-studies.scss */
+/* line 11, ../scss/_case-studies-panels.scss */
 .case-studes-examples img {
   width: 100%;
 }
 
 @media screen and (min-width: 650px) {
-  /* line 15, ../scss/_case-studies.scss */
+  /* line 15, ../scss/_case-studies-panels.scss */
   .case-studes-examples {
     flex-direction: row;
   }
@@ -1519,7 +1522,7 @@ ul {
 }
 /* line 42, ../scss/_services.scss */
 .services-main-2 .services-links a {
-  font-family: "Museo Sans W01_100", sans-serif, arial, sans-serif;
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   color: #000;
   font-size: 1em;
   line-height: 2em;
@@ -1665,5 +1668,133 @@ ul {
   /* line 159, ../scss/_services.scss */
   .fixed-spacer {
     width: 82%;
+  }
+}
+/* line 1, ../scss/_case-studies.scss */
+.services {
+  flex-direction: column;
+}
+
+/* line 5, ../scss/_case-studies.scss */
+#case-studies-masthead {
+  max-width: 1500px;
+  height: 500px;
+  margin: 0 auto;
+  background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat top center;
+  background-size: cover;
+}
+
+/* line 13, ../scss/_case-studies.scss */
+#case-studies-headline {
+  max-width: 1500px;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+/* line 19, ../scss/_case-studies.scss */
+.headlines {
+  flex-direction: row;
+}
+/* line 21, ../scss/_case-studies.scss */
+.headlines h1 {
+  margin: 0.2em 0;
+}
+/* line 22, ../scss/_case-studies.scss */
+.headlines h3 {
+  margin: 0.5em 0;
+}
+/* line 23, ../scss/_case-studies.scss */
+.headlines h3 {
+  text-transform: capitalize;
+}
+
+/* line 26, ../scss/_case-studies.scss */
+.ppcp {
+  color: #fff;
+  background-color: #f39530;
+}
+
+/* line 31, ../scss/_case-studies.scss */
+.client-logo {
+  order: 2;
+}
+
+/* line 32, ../scss/_case-studies.scss */
+.headlines-copy {
+  order: 1;
+}
+
+/* line 34, ../scss/_case-studies.scss */
+.fixed-nav-buttons {
+  z-index: -100;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+/* line 40, ../scss/_case-studies.scss */
+.fixed-nav-buttons h4 {
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+/* line 46, ../scss/_case-studies.scss */
+.fixed-nav-buttons img {
+  width: 30%;
+  margin-top: 2px;
+}
+/* line 50, ../scss/_case-studies.scss */
+.fixed-nav-buttons div {
+  width: 47.5%;
+  background: #c62b32;
+  padding: 15px 15px;
+}
+/* line 55, ../scss/_case-studies.scss */
+.fixed-nav-buttons .fixed-previous-page {
+  flex-direction: row;
+  background: #c62b32;
+  background-size: cover;
+  align-items: center;
+  width: 100px;
+  pointer-events: auto;
+}
+/* line 63, ../scss/_case-studies.scss */
+.fixed-nav-buttons .fixed-next-page {
+  flex-direction: row;
+  flex-direction: row;
+  background: #c62b32;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100px;
+  pointer-events: auto;
+}
+/* line 73, ../scss/_case-studies.scss */
+.fixed-nav-buttons .fixed-spacer {
+  background: transparent;
+  width: auto;
+}
+
+/* line 80, ../scss/_case-studies.scss */
+#case-study-intro-copy hr {
+  border-color: #c62b32;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 86, ../scss/_case-studies.scss */
+  .headlines {
+    flex-direction: column;
+  }
+
+  /* line 87, ../scss/_case-studies.scss */
+  .client-logo {
+    order: 1;
+    margin-bottom: 10px;
+  }
+
+  /* line 91, ../scss/_case-studies.scss */
+  .headlines-copy {
+    order: 2;
   }
 }

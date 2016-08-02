@@ -16,22 +16,18 @@
 }
 
 @font-face {
-    font-family: 'Museo Sans W01_300';
-    src: url(../fonts/MuseoSans-300.otf);
-}
-
-@font-face {
-    font-family: 'Museo Sans W01_100';
-    src: url(../fonts/MuseoSans-100.otf);
+    font-family: 'Gotham Medium Book';
+    src: url(../fonts/gotham-book.eot);
+    src: url(../fonts/gotham-book.ttf);
+    src: url(../fonts/gotham-book.woff);
 }
 
 $foundry_extra_bold: 'Gotham Black',sans-serif,arial,sans-serif;
 $foundry_condensed_bold: 'Gotham Medium Condensed',sans-serif,arial,sans-serif;
-$foundry_bold: 'Museo Sans W01_500',sans-serif,arial,sans-serif;
-$foundry_medium: 'Museo Sans W01_300',sans-serif,arial,sans-serif;
-$foundry_regular: 'Museo Sans W01_100',sans-serif,arial,sans-serif;
+$foundry_regular: 'Gotham Medium Book',sans-serif,arial,sans-serif;
 
 
 /* Colours */
 
 $foundry_red: #c62b32;
+$ppcp_orange: #f39530;

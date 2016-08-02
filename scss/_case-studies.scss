@@ -1,16 +1,92 @@
-#case-studies {
-	margin-top: 60px;
+.services {
+	flex-direction: column;
 }
 
-.case-studes-examples {
-	flex-direction: column;
+#case-studies-masthead {
+    max-width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+    background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+#case-studies-headline {
+    max-width: 1500px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.headlines {
+	flex-direction: row;
+	h1 {margin: 0.2em 0;}
+	h3 {margin: 0.5em 0;}
+	h3 {text-transform: capitalize;}
+}
+
+.ppcp {
+	color: #fff;
+	background-color: $ppcp_orange;
+}
+
+.client-logo {order: 2;}
+.headlines-copy {order: 1;}
+
+.fixed-nav-buttons {
+	z-index: -100;
 	width: 100%;
 	max-width: 1500px;
 	margin: 0 auto;
-	div {width: 100%;}
-	img {width: 100%;}
+	justify-content: space-between;
+	h4 {
+		color: #fff;
+		margin: 0;
+		text-transform: uppercase;
+		margin-top: 2px;
+	}
+	img {
+		width: 30%;
+		margin-top: 2px;
+	}
+	div {
+		width: 47.5%;
+		background: $foundry_red;
+		padding: 15px 15px;
+	}
+	.fixed-previous-page {
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+	    align-items: center;
+	    width: 100px;
+	    pointer-events: auto;
+	}
+	.fixed-next-page {
+		flex-direction: row;
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+		justify-content: flex-end;
+		align-items: center;
+	    width: 100px;
+	    pointer-events: auto;
+	}
+	.fixed-spacer {
+		background: transparent;
+		width: auto;
+	}
 }
 
-@media screen and (min-width: 650px) {
-	.case-studes-examples {flex-direction: row;}
+#case-study-intro-copy {
+	hr {
+		border-color: $foundry_red;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.headlines {flex-direction: column;}
+	.client-logo {
+		order: 1;
+		margin-bottom: 10px;
+	}
+	.headlines-copy {order: 2;}
 }

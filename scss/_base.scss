@@ -39,6 +39,7 @@ span {
 p {
     font-family: $foundry_regular;
     font-size: 1em;
+    line-height: 2em;
     margin: 0 0 1em 0;
 }
 
@@ -82,3 +83,5 @@ ul {list-style: none;}
     width: 90%;
     padding: 0 5%;
 }
+
+.hideme {opacity:0;}

@@ -128,12 +128,12 @@
 
 			<div id="homepage-intro-copy">
 				<div class="intro-copy flexbox"> 
-					<div class="problem-solved flexbox">
+					<div class="problem-solved flexbox hideme">
 						<div class="problem-solved-1">
 							<img src="/img/f-icon.png" alt="F" />
 							<h2>Problem<br>Solved</h2>
 						</div>
-						<div class="problem-solved-2">
+						<div class="problem-solved-2 ">
 							<h3>Foundry<br>Communications</h3>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
@@ -143,7 +143,7 @@
 						</div>
 					</div>	
 					<div class="groupthree flexbox">
-						<div class="groupthree-content">
+						<div class="groupthree-content hideme">
 							<h2>Listen</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
@@ -154,7 +154,7 @@
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content">
+						<div class="groupthree-content hideme">
 							<h2>Plan</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
@@ -165,7 +165,7 @@
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content">
+						<div class="groupthree-content hideme">
 							<h2>Deliver</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
@@ -186,7 +186,7 @@
 
 		<!-- Case Studes -->
 
-		<div id="case-studies">
+		<div id="case-studies" class="hideme">
 			<div class="case-studes-examples flexbox">
 				<div>
 					<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
@@ -204,7 +204,7 @@
 
 		<!-- Client Slider -->
 
-		<div id="client-slider">
+		<div id="client-slider" class="hideme">
 			<section class="center slider">
 				<div>
 					<img src="img/client-logos/mufc.svg">
@@ -277,21 +277,21 @@
 		<div id="footer" class="background">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
-					<div class="opinion">
+					<div class="opinion hideme">
 						<h3>Opinion</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
 					</div>
-					<div class="careers">
+					<div class="careers hideme">
 						<h3>Careers</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
 					</div>
-					<div class="news">
+					<div class="news hideme">
 						<h3>News</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -344,6 +344,7 @@
 				});
 			});
 		</script>
+		<script src="/js/fadein.js"></script>
 
 	</body>
 </html>
