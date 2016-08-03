@@ -1410,40 +1410,94 @@ ul {
   flex-direction: column;
   padding-top: 60px;
 }
-
-/* line 28, ../scss/_footer.scss */
-.footer-row-1 > div {
-  margin-bottom: 30px;
-  margin-right: 1.5em;
-}
-
-/* line 33, ../scss/_footer.scss */
-.footer-row-1 > div:last-child {
+/* line 26, ../scss/_footer.scss */
+.footer-row-1 .previous-case-study {
   margin-right: 0;
 }
+/* line 27, ../scss/_footer.scss */
+.footer-row-1 .next-case-study {
+  margin-left: 0;
+}
+/* line 28, ../scss/_footer.scss */
+.footer-row-1 .view-all-work {
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+/* line 32, ../scss/_footer.scss */
+.footer-row-1 .view-all-work img {
+  width: 30%;
+  margin: 0 35%;
+}
+/* line 36, ../scss/_footer.scss */
+.footer-row-1 .view-all-work h4 {
+  margin-top: 10px;
+}
 
-/* line 37, ../scss/_footer.scss */
+/* line 42, ../scss/_footer.scss */
+.footer-row-1 > div {
+  margin-bottom: 30px;
+}
+/* line 44, ../scss/_footer.scss */
+.footer-row-1 > div img {
+  width: 100%;
+}
+/* line 45, ../scss/_footer.scss */
+.footer-row-1 > div .view-all-work img {
+  width: 75%;
+}
+/* line 46, ../scss/_footer.scss */
+.footer-row-1 > div h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+/* line 53, ../scss/_footer.scss */
 .footer-row-2 {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 41, ../scss/_footer.scss */
+/* line 57, ../scss/_footer.scss */
 .footer-row-3 {
   flex-direction: column;
   padding-bottom: 60px;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 48, ../scss/_footer.scss */
+  /* line 64, ../scss/_footer.scss */
   .footer-row-1 {
     flex-direction: row;
   }
 
-  /* line 51, ../scss/_footer.scss */
+  /* line 67, ../scss/_footer.scss */
   .footer-row-3 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  /* line 72, ../scss/_footer.scss */
+  .footer-row-1 > div {
+    margin-bottom: 30px;
+    margin-right: 1.5em;
+  }
+  /* line 75, ../scss/_footer.scss */
+  .footer-row-1 > div img {
+    width: 100%;
+  }
+
+  /* line 78, ../scss/_footer.scss */
+  .footer-row-1 .view-all-work {
+    width: auto;
+  }
+  /* line 80, ../scss/_footer.scss */
+  .footer-row-1 .view-all-work img {
+    width: 100px;
+    margin: 0;
+    padding: 0 30px;
   }
 }
 /* line 1, ../scss/_services.scss */
@@ -1814,41 +1868,115 @@ ul {
   padding-left: 60px;
 }
 
+/* line 111, ../scss/_case-studies.scss */
+#case-study-examples {
+  width: 100%;
+  max-width: 1500px;
+  margin: 60px auto 0 auto;
+}
+/* line 115, ../scss/_case-studies.scss */
+#case-study-examples h4 {
+  font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+/* line 120, ../scss/_case-studies.scss */
+#case-study-examples .ppcp-1 {
+  padding: 60px 0;
+  background: black url("/img/case-studies/ppcp/ppcp-1.jpg") no-repeat top right;
+  background-size: cover;
+}
+/* line 125, ../scss/_case-studies.scss */
+#case-study-examples .rule {
+  margin: 0 0 20px 0;
+}
+/* line 126, ../scss/_case-studies.scss */
+#case-study-examples .ppcp-1-col-1 {
+  width: 50%;
+  margin-right: 50%;
+}
+/* line 129, ../scss/_case-studies.scss */
+#case-study-examples .ppcp-1-col-1 p:first-of-type {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
+/* line 131, ../scss/_case-studies.scss */
+#case-study-examples .full-width-image {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/* line 135, ../scss/_case-studies.scss */
+#case-study-examples .full-width-image img {
+  width: 100%;
+}
+/* line 137, ../scss/_case-studies.scss */
+#case-study-examples .half-width-image {
+  flex-direction: row;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/* line 142, ../scss/_case-studies.scss */
+#case-study-examples .half-width-image img {
+  width: 100%;
+}
+/* line 146, ../scss/_case-studies.scss */
+#case-study-examples .full-width-copy {
+  width: 70%;
+  margin: 60px 15%;
+  text-align: center;
+}
+/* line 150, ../scss/_case-studies.scss */
+#case-study-examples .full-width-copy p:first-of-type {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
+
 @media screen and (max-width: 800px) {
-  /* line 112, ../scss/_case-studies.scss */
+  /* line 156, ../scss/_case-studies.scss */
   .headlines {
     flex-direction: column;
   }
 
-  /* line 113, ../scss/_case-studies.scss */
+  /* line 157, ../scss/_case-studies.scss */
   .client-logo {
     order: 1;
     margin-bottom: 10px;
   }
 
-  /* line 117, ../scss/_case-studies.scss */
+  /* line 161, ../scss/_case-studies.scss */
   .headlines-copy {
     order: 2;
   }
 
-  /* line 119, ../scss/_case-studies.scss */
+  /* line 162, ../scss/_case-studies.scss */
   #case-study-intro-copy h2 {
     text-align: left;
   }
 
-  /* line 120, ../scss/_case-studies.scss */
+  /* line 163, ../scss/_case-studies.scss */
   #case-study-intro-copy > div {
     flex-direction: column;
   }
-  /* line 122, ../scss/_case-studies.scss */
+  /* line 165, ../scss/_case-studies.scss */
   #case-study-intro-copy > div .listen-copy, #case-study-intro-copy > div .plan-copy, #case-study-intro-copy > div .deliver-copy {
     padding-left: 0;
     width: 100%;
   }
 
-  /* line 128, ../scss/_case-studies.scss */
+  /* line 171, ../scss/_case-studies.scss */
   #case-study-intro-copy .case-study-introduction {
     margin: 0%;
     width: 100%;
+  }
+
+  /* line 177, ../scss/_case-studies.scss */
+  #case-study-examples .ppcp-1-col-1 {
+    padding-top: 450px;
+    width: 100%;
+    margin-right: 0;
+  }
+  /* line 182, ../scss/_case-studies.scss */
+  #case-study-examples .half-width-image {
+    flex-direction: column;
   }
 }

@@ -139,6 +139,45 @@
 
 		<!-- End Intro Copy -->
 
+		<!-- Case Study Examples -->
+
+		<div id="case-study-examples">
+			<div class="ppcp-1">
+				<div class="main-container">
+					<div class="ppcp-1-col-1">
+						<h4>Campaign</h4>
+						<h2>Branding</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					</div>
+				</div>
+			</div>
+			<div class="full-width-image">
+				<img src="/img/case-studies/ppcp/ppcp-2.jpg" alt="PPCP" />
+			</div>
+			<div class="full-width-copy">
+				<h2>Branding</h2>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+			</div>
+			<div class="half-width-image flexbox">
+				<div>
+					<img src="/img/case-studies/ppcp/ppcp-3.jpg" alt="PPCP" />
+				</div>
+				<div>
+					<img src="/img/case-studies/ppcp/ppcp-4.jpg" alt="PPCP" />
+				</div>
+			</div>
+		</div>
+
+		<!-- End Case Study Examples -->
+
 		<!-- Fixed Nav Buttons -->
 
 		<div id="fixed-nav-buttons">
@@ -159,49 +198,20 @@
 
 		<!-- End Fixed Nav Buttons -->
 
-		<!-- Case Studes -->
-
-		<div id="case-studies">
-			<div class="case-studes-examples flexbox">
-				<div>
-					<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
-				</div>
-				<div>
-					<img src="/img/kuhmo.jpg" alt="Kuhmo Case Study" />
-				</div>
-				<div>	
-					<img src="/img/bike-and-go.jpg" alt="Bike &amp; Go Case Study" />
-				</div>
-			</div>
-		</div>
-
-		<!-- End Case Studes -->
-
 		<!-- Footer -->
 
 		<div id="footer">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
-					<div class="opinion">
-						<h3>Opinion</h3>
-						<div class="rule">
-							<img src="/img/rule.png" alt="Rule" />
-						</div>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<div class="previous-case-study">
+						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
 					</div>
-					<div class="careers">
-						<h3>Careers</h3>
-						<div class="rule">
-							<img src="/img/rule.png" alt="Rule" />
-						</div>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<div class="view-all-work flexbox">
+						<img src="/img/view-all-work.svg" alt="View all work" />
+						<h4>View all work</h4>
 					</div>
-					<div class="news">
-						<h3>News</h3>
-						<div class="rule">
-							<img src="/img/rule.png" alt="Rule" />
-						</div>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<div class="next-case-study">
+						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
 					</div>
 				</div>
 			</div>	
