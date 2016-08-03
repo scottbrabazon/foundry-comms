@@ -99,26 +99,41 @@
 		<!-- Intro Copy -->
 
 		<div id="case-study-intro-copy" class="main-container">
-			<div>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+			<div class="case-study-introduction">
+				<p><span>Lorem ipsum dolor sit amet,</span> eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
 			</div>
 			<hr />
-			<div>
+			<div class="flexbox">
 				<h2>Listen</h2>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<div class="listen-copy">
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				</div>	
 			</div>
 			<hr />
-			<div>
+			<div class="flexbox">
 				<h2>Plan</h2>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<div class="plan-copy">
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				</div>	
 			</div>
 			<hr />
-			<div>
+			<div class="flexbox">
 				<h2>Deliver</h2>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<div class="deliver-copy">
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				</div>
 			</div>
 		</div>
 
@@ -130,13 +145,13 @@
 			<div class="fixed-nav-buttons flexbox">
 				<div class="fixed-previous-page flexbox">
 					<img src="/img/arrow-left.svg" alt="Show me the showreel" />
-					<h4>&nbsp;&nbsp;Plan</h4>
+					<h4>&nbsp;&nbsp;Prev</h4>
 				</div>
 				<div class="fixed-spacer">
 					<h2>&nbsp;</h2>
 				</div>
 				<div class="fixed-next-page flexbox">
-					<h4>Listen&nbsp;&nbsp;</h4>
+					<h4>Next&nbsp;&nbsp;</h4>
 					<img src="/img/arrow-right.svg" alt="Show me the showreel" />
 				</div>
 			</div>
@@ -217,24 +232,7 @@
 
 		<!-- End Footer -->
 
-		<script>
-			$(function() {
-			$(".rslides").responsiveSlides();
-			});
-		</script>
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-		<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-			$(document).on('ready', function() {
-			$(".center").slick({
-				dots: true,
-				infinite: true,
-				centerMode: true,
-				slidesToShow: 5,
-				slidesToScroll: 1
-				});
-			});
-		</script>
 
 	</body>
 </html>

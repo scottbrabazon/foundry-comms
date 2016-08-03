@@ -19,6 +19,7 @@ h2 {
 h3 {
     font-family: $foundry_extra_bold;
     text-transform: uppercase;
+    line-height: 1.2em;
     font-size: 1.25em;
     margin: 0 0 0.5em 0;
 }
@@ -27,13 +28,6 @@ h4 {
     font-family: $foundry_extra_bold;
     font-size: 1em;
     margin: 0 0 0.5em 0;
-}
-
-span {
-    font-family: $foundry_condensed_bold;
-    font-size: 1.1em;
-    color: $foundry_red;
-    text-transform: uppercase;
 }
 
 p {
@@ -60,10 +54,6 @@ a {
 
     h3 {
         font-size: 2em;
-    }
-
-    span {
-        font-size: 1.2em;
     }
 }
 

@@ -597,26 +597,19 @@ h2 {
 h3 {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
+  line-height: 1.2em;
   font-size: 1.25em;
   margin: 0 0 0.5em 0;
 }
 
-/* line 26, ../scss/_base.scss */
+/* line 27, ../scss/_base.scss */
 h4 {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   font-size: 1em;
   margin: 0 0 0.5em 0;
 }
 
-/* line 32, ../scss/_base.scss */
-span {
-  font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
-  font-size: 1.1em;
-  color: #c62b32;
-  text-transform: uppercase;
-}
-
-/* line 39, ../scss/_base.scss */
+/* line 33, ../scss/_base.scss */
 p {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 1em;
@@ -624,7 +617,7 @@ p {
   margin: 0 0 1em 0;
 }
 
-/* line 46, ../scss/_base.scss */
+/* line 40, ../scss/_base.scss */
 a {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 1em;
@@ -632,39 +625,34 @@ a {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 53, ../scss/_base.scss */
+  /* line 47, ../scss/_base.scss */
   h1 {
     font-size: 4em;
   }
 
-  /* line 57, ../scss/_base.scss */
+  /* line 51, ../scss/_base.scss */
   h2 {
     font-size: 3em;
   }
 
-  /* line 61, ../scss/_base.scss */
+  /* line 55, ../scss/_base.scss */
   h3 {
     font-size: 2em;
   }
-
-  /* line 65, ../scss/_base.scss */
-  span {
-    font-size: 1.2em;
-  }
 }
 /* General */
-/* line 73, ../scss/_base.scss */
+/* line 63, ../scss/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 75, ../scss/_base.scss */
+/* line 65, ../scss/_base.scss */
 .flexbox {
   -js-display: flex;
   display: flex;
 }
 
-/* line 80, ../scss/_base.scss */
+/* line 70, ../scss/_base.scss */
 .main-container {
   max-width: 1075px;
   margin: 0 auto;
@@ -672,7 +660,7 @@ ul {
   padding: 0 5%;
 }
 
-/* line 87, ../scss/_base.scss */
+/* line 77, ../scss/_base.scss */
 .hideme {
   opacity: 0;
 }
@@ -1776,25 +1764,91 @@ ul {
   width: auto;
 }
 
-/* line 80, ../scss/_case-studies.scss */
+/* line 79, ../scss/_case-studies.scss */
+#case-study-intro-copy {
+  margin-top: 60px;
+}
+/* line 81, ../scss/_case-studies.scss */
+#case-study-intro-copy .rule {
+  margin: 0 0 20px 0;
+}
+/* line 82, ../scss/_case-studies.scss */
 #case-study-intro-copy hr {
-  border-color: #c62b32;
+  border: 0;
+  height: 2px;
+  margin-top: 60px;
+  background: #c62b32;
+}
+/* line 88, ../scss/_case-studies.scss */
+#case-study-intro-copy h2 {
+  text-align: right;
+  width: 30%;
+}
+/* line 92, ../scss/_case-studies.scss */
+#case-study-intro-copy .listen-copy, #case-study-intro-copy .plan-copy, #case-study-intro-copy .deliver-copy {
+  width: 70%;
+}
+/* line 94, ../scss/_case-studies.scss */
+#case-study-intro-copy .listen-copy p:first-of-type, #case-study-intro-copy .plan-copy p:first-of-type, #case-study-intro-copy .deliver-copy p:first-of-type {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
+/* line 96, ../scss/_case-studies.scss */
+#case-study-intro-copy .case-study-introduction {
+  margin: 0 10%;
+  width: 80%;
+  text-align: center;
+}
+/* line 100, ../scss/_case-studies.scss */
+#case-study-intro-copy .case-study-introduction span {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
+
+/* line 104, ../scss/_case-studies.scss */
+#case-study-intro-copy > div {
+  margin-top: 60px;
+  flex-direction: row;
+}
+
+/* line 109, ../scss/_case-studies.scss */
+.listen-copy, .plan-copy, .deliver-copy {
+  padding-left: 60px;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 86, ../scss/_case-studies.scss */
+  /* line 112, ../scss/_case-studies.scss */
   .headlines {
     flex-direction: column;
   }
 
-  /* line 87, ../scss/_case-studies.scss */
+  /* line 113, ../scss/_case-studies.scss */
   .client-logo {
     order: 1;
     margin-bottom: 10px;
   }
 
-  /* line 91, ../scss/_case-studies.scss */
+  /* line 117, ../scss/_case-studies.scss */
   .headlines-copy {
     order: 2;
+  }
+
+  /* line 119, ../scss/_case-studies.scss */
+  #case-study-intro-copy h2 {
+    text-align: left;
+  }
+
+  /* line 120, ../scss/_case-studies.scss */
+  #case-study-intro-copy > div {
+    flex-direction: column;
+  }
+  /* line 122, ../scss/_case-studies.scss */
+  #case-study-intro-copy > div .listen-copy, #case-study-intro-copy > div .plan-copy, #case-study-intro-copy > div .deliver-copy {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  /* line 128, ../scss/_case-studies.scss */
+  #case-study-intro-copy .case-study-introduction {
+    margin: 0%;
+    width: 100%;
   }
 }
