@@ -71,7 +71,7 @@
 
 		<!-- Masthead -->
 
-		<div id="case-studies-masthead">
+		<div id="case-studies-masthead" class="ppcp">
 			&nbsp;
 		</div>
 
@@ -142,9 +142,9 @@
 		<!-- Case Study Examples -->
 
 		<div id="case-study-examples">
-			<div class="ppcp-1">
+			<div class="full-background-left-col ppcp1">
 				<div class="main-container">
-					<div class="ppcp-1-col-1">
+					<div class="col-1">
 						<h4>Campaign</h4>
 						<h2>Branding</h2>
 						<div class="rule">

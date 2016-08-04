@@ -53,7 +53,7 @@
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="#">Work</a></li>
-						<li><a href="#">Service</a></li>
+						<li><a href="#">Approach</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">News</a></li>
 						<li><a href="#">Careers</a></li>
@@ -63,7 +63,7 @@
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
 						<li><a href="#">Work</a></li>
-						<li><a href="#">Service</a></li>
+						<li><a href="#">Approach</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">News</a></li>
 						<li><a href="#">Careers</a></li>
@@ -74,7 +74,7 @@
 		</div>
 
 		<div class="video">
-			<video class="video" autoplay muted loop><source src="/img/video.mp4" type="video/mp4"></video>
+			<video autoplay muted loop><source src="/img/video.mp4" type="video/mp4"></video>
 		</div>
 
 		<main role="main" class="main-container">
@@ -128,7 +128,7 @@
 
 			<div id="homepage-intro-copy">
 				<div class="intro-copy flexbox"> 
-					<div class="problem-solved flexbox hideme">
+					<div class="problem-solved flexbox">
 						<div class="problem-solved-1">
 							<img src="/img/f-icon.png" alt="F" />
 							<h2>Problem<br>Solved</h2>
@@ -143,35 +143,35 @@
 						</div>
 					</div>	
 					<div class="groupthree flexbox">
-						<div class="groupthree-content hideme">
-							<h2>Listen</h2>
-							<div class="rule">
+						<div class="groupthree-content">
+							<h2 class="hideme">Listen</h2>
+							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-							<div class="button-next">
+							<p class="hideme">Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+							<div class="button-next hideme">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content hideme">
-							<h2>Plan</h2>
-							<div class="rule">
+						<div class="groupthree-content">
+							<h2 class="hideme">Plan</h2>
+							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-							<div class="button-next">
+							<p class="hideme">Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+							<div class="button-next hideme">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content hideme">
-							<h2>Deliver</h2>
-							<div class="rule">
+						<div class="groupthree-content">
+							<h2 class="hideme">Deliver</h2>
+							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-							<div class="button-next">
+							<p class="hideme">Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+							<div class="button-next hideme">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
