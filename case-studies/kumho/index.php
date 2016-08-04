@@ -71,39 +71,31 @@
 
 		<!-- Masthead -->
 
-		<div id="kumho-masthead" class="masthead flexbox headlines">
-
-			<!-- Casestudy Headline Panel -->
-
-			<div class="flexbox">
-				<div class="flexbox main-container case-studies-headline">
-					<div class="headlines-copy">
-						<h1>Kumho Tyre</h1>
-						<div class="rule">
-							<img src="/img/rule.png" alt="Rule" />
-						</div>
-						<h3>Helping an unknown Korean tyre brand take the UK by storm.</h3>
+		<div id="kumho-masthead" class="masthead flexbox">
+			<div class="masthead-content main-container flexbox">
+				<div class="headlines">
+					<h1>Kumho Tyre</h1>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<div class="client-logo flexbox">
-						<img src="/img//client-logos/kumho-white.svg" alt="PPCP" />
-					</div>
+					<h3>Helping an unknown Korean tyre brand take the UK by storm.</h3>
+				</div>
+				<div class="client-logo">
+					<img src="/img//client-logos/kumho-white.svg" alt="PPCP" />
 				</div>
 			</div>
-
-			<!-- End Casestudy Headline Panel -->
-
 		</div>	
 
 		<!-- End Masthead -->
 
 		<!-- Intro Copy -->
 
-		<div id="case-study-intro-copy" class="main-container">
+		<div id="kumho-intro" class="main-container">
 			<div class="case-study-introduction">
 				<p>Kumho Tyre might be big in Korea, but in the UK they weren’t on the map. We developed a strategic approach and creative campaign that defined them as a Company that not only makes tyres; but also makes a difference to dealers, schools charities and communities.</p>
 			</div>
 			<hr />
-			<div class="flexbox">
+			<div class="flexbox listen">
 				<h2>Listen</h2>
 				<div class="listen-copy">
 					<div class="rule">
@@ -116,7 +108,7 @@
 				</div>	
 			</div>
 			<hr />
-			<div class="flexbox">
+			<div class="flexbox plan">
 				<h2>Plan</h2>
 				<div class="plan-copy">
 					<div class="rule">
@@ -130,7 +122,7 @@
 				</div>	
 			</div>
 			<hr />
-			<div class="flexbox">
+			<div class="flexbox deliver">
 				<h2>Deliver</h2>
 				<div class="deliver-copy">
 					<div class="rule">
@@ -256,7 +248,8 @@
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p>Every year, Kumho keep retailers incentivised with sales promotions aimed at rewarding those who work hardest for the brand. The tantalising prospect of an all-expenses-paid 5-star trip to a top European destination makes a huge difference! These beautifully crafted trade campaigns are designed to stand out from the humdrum B2B communications synonymous with the tyre sector. 
+						<p>Every year, Kumho keep retailers incentivised with sales promotions aimed at rewarding those who work hardest for the brand.</p>
+						<p>The tantalising prospect of an all-expenses-paid 5-star trip to a top European destination makes a huge difference! These beautifully crafted trade campaigns are designed to stand out from the humdrum B2B communications synonymous with the tyre sector. 
 						</p>
 					</div>
 					<div class="col-2">

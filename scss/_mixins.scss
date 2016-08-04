@@ -44,3 +44,50 @@
         margin-left: 10px;
     }
 }
+
+/* Red Button */
+
+@mixin fixed-nav-buttons {
+    z-index: -100;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    h4 {
+        color: #fff;
+        margin: 0;
+        text-transform: uppercase;
+        margin-top: 2px;
+    }
+    img {
+        width: 30%;
+        margin-top: 2px;
+    }
+    div {
+        width: 47.5%;
+        background: $foundry_red;
+        padding: 15px 15px;
+    }
+    .fixed-previous-page {
+        flex-direction: row;
+        background: $foundry_red;
+        background-size: cover;
+        align-items: center;
+        width: 100px;
+        pointer-events: auto;
+    }
+    .fixed-next-page {
+        flex-direction: row;
+        flex-direction: row;
+        background: $foundry_red;
+        background-size: cover;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100px;
+        pointer-events: auto;
+    }
+    .fixed-spacer {
+        background: transparent;
+        width: auto;
+    }
+}
