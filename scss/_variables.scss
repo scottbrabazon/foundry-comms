@@ -22,9 +22,17 @@
     src: url(../fonts/gotham-book.woff);
 }
 
+@font-face {
+    font-family: 'Gotham Light';
+    src: url(../fonts/gotham-light.eot);
+    src: url(../fonts/gotham-light.ttf);
+    src: url(../fonts/gotham-light.woff);
+}
+
 $foundry_extra_bold: 'Gotham Black',sans-serif,arial,sans-serif;
 $foundry_condensed_bold: 'Gotham Medium Condensed',sans-serif,arial,sans-serif;
 $foundry_regular: 'Gotham Medium Book',sans-serif,arial,sans-serif;
+$foundry_light: 'Gotham Light',sans-serif,arial,sans-serif;
 
 
 /* Colours */

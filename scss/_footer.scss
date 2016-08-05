@@ -5,10 +5,12 @@
     background-size: cover;
 }
 
+
+
 .footer {
-	h1, h2, h3, p, a {color: #fff;}
+	h1, h2, h3, h4, p, a {color: #fff;}
 	h1, h2 {margin: 0}
-	.rule {margin: 0 0 30px 0;}
+	h4 {font-family: $foundry_light; text-transform: initial; font-size: 1.2em;}
 	flex-direction: column;
 	.button-next {@include transparent-button;}
 }
@@ -18,6 +20,7 @@
 	width: auto;
 	margin: 30px auto;
 	padding: 20px 0;
+	img {display: inline;}
 }
 
 .footer-row-1 {
@@ -25,14 +28,14 @@
 	padding-top: 60px;
 	.previous-case-study {margin-right: 0;}
 	.next-case-study {margin-left: 0;}
-	.rule {width: 31px;}
+	.rule img {width: 35px; margin: 0 0 30px 0;}
 	.view-all-work {
 		margin-right: 0;
 		width: 100%;
 		text-align: center;
 		img {
-			width: 30%;
-			margin: 0 35%;
+			width: 100px;
+			margin: 0 auto;
 		}
 		h4 {margin-top: 10px;}
 		flex-direction: column;
@@ -44,11 +47,6 @@
 	margin-bottom: 30px;
 	img {width: 100%;}
 	.view-all-work img {width: 75%;}
-	h4 {
-		color: #fff;
-		text-transform: uppercase;
-		font-size: 0.7em;
-	}
 }
 
 .footer-row-2 {
@@ -79,9 +77,11 @@
 	}
 	.footer-row-1 > div {
 		margin-bottom: 30px;
-		margin-right: 1.5em;
+		width: 30%;
+		margin-right: 5%;
 		img {width: 100%;}
 	}
+	.footer-row-1 > div:last-child {margin-right: 0;}
 	.footer-row-1 {
 		.view-all-work {
 			width: auto;

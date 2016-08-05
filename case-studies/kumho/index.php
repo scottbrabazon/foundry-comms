@@ -38,10 +38,10 @@
 
 	<body>
 
-		<div id="navigation">
+		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="../.."><img src="/img/foundry-logo.png" alt="The Foundry"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
@@ -67,11 +67,11 @@
 				 	</ul>
 				</div>
 			</div>	
-		</div>
+		</nav>
 
 		<!-- Masthead -->
 
-		<div id="kumho-masthead" class="masthead flexbox">
+		<header id="kumho-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
 					<h1>Kumho Tyre</h1>
@@ -84,13 +84,13 @@
 					<img src="/img//client-logos/kumho-white.svg" alt="PPCP" />
 				</div>
 			</div>
-		</div>	
+		</header>	
 
 		<!-- End Masthead -->
 
 		<!-- Intro Copy -->
 
-		<div id="kumho-intro" class="main-container">
+		<section id="kumho-intro" class="main-container">
 			<div class="case-study-introduction">
 				<p>Kumho Tyre might be big in Korea, but in the UK they weren’t on the map. We developed a strategic approach and creative campaign that defined them as a Company that not only makes tyres; but also makes a difference to dealers, schools charities and communities.</p>
 			</div>
@@ -134,14 +134,13 @@
 				</div>
 			</div>
 			<hr />
-		</div>
+		</section>
 
 		<!-- End Intro Copy -->
 
 		<!-- Case Study Examples -->
 
-		<div id="case-study-examples">
-			
+		<section id="case-study-examples">	
 			<div id="kumho1">
 				<div class="full-background-left-col">
 					<div class="main-container flexbox">
@@ -285,8 +284,7 @@
 					<img src="/img/case-studies/kumho/kumho10.jpg" alt="PPCP" />
 				</div>
 			</div>
-
-		</div>
+		</section>
 
 		<!-- End Case Study Examples -->
 
@@ -312,7 +310,7 @@
 
 		<!-- Footer -->
 
-		<div id="footer">
+		<footer id="footer">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
@@ -350,7 +348,7 @@
 					</div>
 				</div>
 			</div>	
-		</div>
+		</footer>
 
 		<!-- End Footer -->
 

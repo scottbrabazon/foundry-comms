@@ -1,7 +1,9 @@
 #navigation {
+    position: fixed;
     width: 100%;
-    position: absolute;
-    z-index: 100;}
+    z-index: 100;
+    background-color: #000;
+}
 
 .navigation-panel {
     padding: 20px 0;

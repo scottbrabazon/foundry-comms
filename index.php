@@ -81,46 +81,42 @@
 
 			<!-- Masthead -->
 
-			<div id="homepage-masthead">
-				<header>
-					<div class="masthead">
-						<ul class="rslides">
-							<li>
-								<a href="#">
-									<div class="slide flexbox">
-										<div class="rule">
-											<img src="/img/rule.png" alt="Rule" />
-										</div>
-										<h1>New agency showreel</h1>
-										<a href="#">
-											<div class="button-next">
-												<p>View our work</p>
-												<img src="/img/arrow-right.png" alt="Show me the showreel" />
-											</div>
-										</a>	
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<div class="slide flexbox">
-										<div class="rule">
-											<img src="/img/rule.png" alt="Rule" />
-										</div>
-										<h1>Through ideas that sell today and build your brand for tomorrow</h1>
-										<a href="#">
-											<div class="button-next">
-												<p>View our work</p>
-												<img src="/img/arrow-right.png" alt="Show me the showreel" />
-											</div>
-										</a>	
-									</div>	
-								</a>
-							</li>
-						</ul>
-					</div>	
-				</header>
-			</div>
+			<header id="homepage-masthead">
+				<ul class="rslides">
+					<li>
+						<div class="slide flexbox">
+							<div class="rule">
+								<img src="/img/rule.png" alt="Rule" />
+							</div>
+							<a href="#">
+								<h1>Through ideas that sell today and build your brand for tomorrow</h1>
+							</a>
+							<a href="#">
+								<div class="button-next">
+									<p>View our work</p>
+									<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								</div>
+							</a>
+						</div>	
+					</li>
+					<li>
+						<div class="slide flexbox">
+							<div class="rule">
+								<img src="/img/rule.png" alt="Rule" />
+							</div>
+							<a href="#">
+								<h1>Ex eum lobortis antiopam interpretaris. Dico vidisse inciderint eos ad</h1>
+							</a>
+							<a href="#">
+								<div class="button-next">
+									<p>View our work</p>
+									<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								</div>
+							</a>
+						</div>	
+					</li>
+				</ul>
+			</header>
 
 			<!-- End Masthead -->
 
@@ -129,17 +125,13 @@
 			<div id="homepage-intro-copy">
 				<div class="intro-copy flexbox"> 
 					<div class="problem-solved flexbox">
-						<div class="problem-solved-1">
-							<img src="/img/f-icon.png" alt="F" />
-							<h2>Problem<br>Solved</h2>
-						</div>
+						<h2>Problem<br>Solved</h2>
 						<div class="problem-solved-2 ">
-							<h3>Foundry<br>Communications</h3>
-							<div class="rule">
+							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-							<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+							<p>If you have a marketing problem, we’ll solve it. Whatever challenges you face as a business, we find the answers, strategically and creatively, and determine the right channels for you to market your products or services more effectively.</p>
+							<p>We start by listening to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but build your brand for tomorrow.</p>
 						</div>
 					</div>	
 					<div class="groupthree flexbox">
@@ -148,7 +140,7 @@
 							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p class="hideme">Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+							<p class="hideme">Qualitative or quantitative. Internal or external. Offline or digital. We start with research to get close to your brand, your market and customers. By understanding their motivations, desires and what makes them tick, we can get to the heart of your marketing problem.</p>
 							<div class="button-next hideme">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
@@ -159,7 +151,7 @@
 							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p class="hideme">Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+							<p class="hideme">Research informs the development of your communications strategy. We can develop or dissect your brand positioning and determine the best routes to market and methods to communicate.</p>
 							<div class="button-next hideme">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
@@ -170,7 +162,7 @@
 							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p class="hideme">Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+							<p class="hideme">On or offline, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
 							<div class="button-next hideme">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
@@ -210,7 +202,7 @@
 					<img src="img/client-logos/mufc.svg">
 				</div>
 				<div>
-					<img src="img/client-logos/kuhmo.svg">
+					<img src="img/client-logos/kumho.svg">
 				</div>
 				<div>
 					<img src="img/client-logos/bike-and-go.svg">
@@ -235,36 +227,36 @@
 			<div class="showreel main-container">
 				<ul class="rslides">
 					<li>
-						<a href="#">
-							<div class="slide flexbox">
-								<div class="rule">
-									<img src="/img/rule.png" alt="Rule" />
+						<div class="slide flexbox">
+							<div class="rule">
+								<img src="/img/rule.png" alt="Rule" />
+							</div>
+							<a href="#">
+								<h1>Magna minimum ea mea, antiopam volutpat pertinacia ea est</h1>
+							</a>
+							<a href="#">
+								<div class="button-next">
+									<p>View our work</p>
+									<img src="/img/arrow-right.png" alt="Show me the showreel" />
 								</div>
-								<h1>New agency showreel</h1>
-								<a href="#">
-									<div class="button-next">
-										<p>View our work</p>
-										<img src="/img/arrow-right.png" alt="Show me the showreel" />
-									</div>
-								</a>	
-							</div>	
-						</a>
+							</a>
+						</div>	
 					</li>
 					<li>
-						<a href="#">
-							<div class="slide flexbox">
-								<div class="rule">
-									<img src="/img/rule.png" alt="Rule" />
+						<div class="slide flexbox">
+							<div class="rule">
+								<img src="/img/rule.png" alt="Rule" />
+							</div>
+							<a href="#">
+								<h1>Mel an simul diceret. Sed et nominavi luptatum. Sint facete antiopam vel te</h1>
+							</a>
+							<a href="#">
+								<div class="button-next">
+									<p>View our work</p>
+									<img src="/img/arrow-right.png" alt="Show me the showreel" />
 								</div>
-								<h1>Through ideas that sell today and build your brand for tomorrow</h1>
-								<a href="#">
-									<div class="button-next">
-										<p>View our work</p>
-										<img src="/img/arrow-right.png" alt="Show me the showreel" />
-									</div>
-								</a>	
-							</div>	
-						</a>
+							</a>
+						</div>	
 					</li>
 				</ul>
 			</div>	
@@ -282,21 +274,24 @@
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+						<h4>The £200 million football match</h4>
+						<p><strong>Posted by Scott on Thursday May 12,2016</strong></p>
+						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
 					</div>
 					<div class="careers hideme">
 						<h3>Careers</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
 					</div>
 					<div class="news hideme">
 						<h3>News</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+						<h4>Dr. Beckmann TV campaign launched </h4>
+						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
 					</div>
 				</div>
 			</div>	

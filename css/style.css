@@ -575,6 +575,13 @@ table {
   src: url(../fonts/gotham-book.woff);
 }
 
+@font-face {
+  font-family: 'Gotham Light';
+  src: url(../fonts/gotham-light.eot);
+  src: url(../fonts/gotham-light.ttf);
+  src: url(../fonts/gotham-light.woff);
+}
+
 /* Colours */
 /* Typography */
 /* line 4, ../scss/_base.scss */
@@ -605,20 +612,21 @@ h3 {
 
 /* line 27, ../scss/_base.scss */
 h4 {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
-  font-size: 1em;
+  font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
   margin: 0 0 0.5em 0;
 }
 
-/* line 33, ../scss/_base.scss */
+/* line 34, ../scss/_base.scss */
 p {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
-  font-size: 1em;
+  font-size: 0.85em;
   line-height: 2em;
   margin: 0 0 1em 0;
 }
 
-/* line 40, ../scss/_base.scss */
+/* line 41, ../scss/_base.scss */
 a {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 1em;
@@ -626,33 +634,38 @@ a {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 47, ../scss/_base.scss */
+  /* line 48, ../scss/_base.scss */
   h1 {
     font-size: 4em;
   }
 
-  /* line 51, ../scss/_base.scss */
+  /* line 52, ../scss/_base.scss */
   h2 {
     font-size: 3em;
   }
 
-  /* line 55, ../scss/_base.scss */
+  /* line 56, ../scss/_base.scss */
   h3 {
     font-size: 2em;
   }
 }
 /* General */
-/* line 63, ../scss/_base.scss */
+/* line 64, ../scss/_base.scss */
+img {
+  display: block;
+}
+
+/* line 65, ../scss/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 65, ../scss/_base.scss */
+/* line 66, ../scss/_base.scss */
 .flexbox {
   display: flex;
 }
 
-/* line 69, ../scss/_base.scss */
+/* line 67, ../scss/_base.scss */
 .main-container {
   max-width: 1075px;
   margin: 0 auto;
@@ -660,9 +673,15 @@ ul {
   padding: 0 5%;
 }
 
-/* line 76, ../scss/_base.scss */
+/* line 73, ../scss/_base.scss */
 .hideme {
   opacity: 0;
+}
+
+/* line 74, ../scss/_base.scss */
+.rule img {
+  width: 35px;
+  margin: 0 0 30px 0;
 }
 
 /* http://responsiveslides.com v1.54 by @viljamis */
@@ -988,82 +1007,83 @@ ul {
 
 /* line 1, ../scss/_navigation.scss */
 #navigation {
+  position: fixed;
   width: 100%;
-  position: absolute;
   z-index: 100;
+  background-color: #000;
 }
 
-/* line 6, ../scss/_navigation.scss */
+/* line 8, ../scss/_navigation.scss */
 .navigation-panel {
   padding: 20px 0;
   align-items: flex-start;
 }
-/* line 9, ../scss/_navigation.scss */
+/* line 11, ../scss/_navigation.scss */
 .navigation-panel a {
   color: #fff;
 }
 
-/* line 12, ../scss/_navigation.scss */
+/* line 14, ../scss/_navigation.scss */
 .logo {
   flex-grow: 1;
 }
 
 /* Default */
-/* line 19, ../scss/_navigation.scss */
+/* line 21, ../scss/_navigation.scss */
 .navigation-menu {
   display: none;
 }
-/* line 21, ../scss/_navigation.scss */
+/* line 23, ../scss/_navigation.scss */
 .navigation-menu ul {
   padding: 0;
   margin: 6px 0;
 }
 
-/* line 27, ../scss/_navigation.scss */
+/* line 29, ../scss/_navigation.scss */
 .menu-links {
   flex-direction: row;
 }
-/* line 28, ../scss/_navigation.scss */
+/* line 30, ../scss/_navigation.scss */
 .menu-links li {
   padding-left: 20px;
 }
 
 /* Mobile */
-/* line 35, ../scss/_navigation.scss */
+/* line 37, ../scss/_navigation.scss */
 .navigation-menu-mobile {
   margin: 0;
   flex-direction: column;
   text-align: right;
 }
-/* line 39, ../scss/_navigation.scss */
+/* line 41, ../scss/_navigation.scss */
 .navigation-menu-mobile a {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   font-size: 2em;
 }
 
-/* line 46, ../scss/_navigation.scss */
+/* line 48, ../scss/_navigation.scss */
 .menu-links-mobile {
   display: none;
 }
-/* line 47, ../scss/_navigation.scss */
+/* line 49, ../scss/_navigation.scss */
 .menu-links-mobile li {
   padding-left: 20px;
 }
 
-/* line 51, ../scss/_navigation.scss */
+/* line 53, ../scss/_navigation.scss */
 .open {
   display: inline;
 }
 
 /* Media Querys */
 @media screen and (min-width: 780px) {
-  /* line 56, ../scss/_navigation.scss */
+  /* line 58, ../scss/_navigation.scss */
   .navigation-menu {
     display: flex;
   }
 
-  /* line 57, ../scss/_navigation.scss */
+  /* line 59, ../scss/_navigation.scss */
   .navigation-menu-mobile {
     display: none;
   }
@@ -1073,25 +1093,14 @@ ul {
 /* Pages */
 /* line 1, ../scss/_homepage-masthead.scss */
 #homepage-masthead {
-  margin-top: -840px;
+  margin-top: -600px;
 }
-
-/* line 5, ../scss/_homepage-masthead.scss */
-.video {
-  pointer-events: none;
-  width: 100%;
-  height: 600px;
-  max-width: 1500px;
-  margin: 0 auto;
-  overflow: hidden;
+/* line 3, ../scss/_homepage-masthead.scss */
+#homepage-masthead a {
+  color: #fff;
 }
-/* line 12, ../scss/_homepage-masthead.scss */
-.video video {
-  width: 1500px;
-}
-
-/* line 17, ../scss/_homepage-masthead.scss */
-.button-next {
+/* line 4, ../scss/_homepage-masthead.scss */
+#homepage-masthead .button-next {
   pointer-events: auto;
   background: transparent;
   overflow: auto;
@@ -1101,24 +1110,48 @@ ul {
   border: 1px solid #fff;
 }
 /* line 11, ../scss/_mixins.scss */
-.button-next p {
+#homepage-masthead .button-next p {
   text-transform: uppercase;
+  line-height: 20px;
   float: left;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 17, ../scss/_mixins.scss */
-.button-next img {
+/* line 18, ../scss/_mixins.scss */
+#homepage-masthead .button-next img {
   width: auto;
   float: left;
   margin-left: 10px;
+}
+/* line 5, ../scss/_homepage-masthead.scss */
+#homepage-masthead .rule img {
+  width: 35px;
+  margin: 0 0 30px 0;
+}
+/* line 6, ../scss/_homepage-masthead.scss */
+#homepage-masthead .slide {
+  flex-direction: column;
+}
+
+/* line 9, ../scss/_homepage-masthead.scss */
+.video {
+  pointer-events: none;
+  width: 100%;
+  height: 600px;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 16, ../scss/_homepage-masthead.scss */
+.video video {
+  width: 1500px;
 }
 
 /* line 21, ../scss/_homepage-masthead.scss */
 .slide {
   flex-direction: column;
   justify-content: flex-end;
-  height: 785px;
+  height: 540px;
   pointer-events: none;
 }
 
@@ -1135,6 +1168,11 @@ ul {
   }
 }
 /* line 1, ../scss/_homepage-intro-copy.scss */
+#homepage-intro-copy {
+  margin-top: 120px;
+}
+
+/* line 5, ../scss/_homepage-intro-copy.scss */
 .button-next {
   pointer-events: auto;
   background: #c62b32;
@@ -1144,72 +1182,74 @@ ul {
   margin-top: 25px;
   border: 1px solid #fff;
 }
-/* line 34, ../scss/_mixins.scss */
+/* line 35, ../scss/_mixins.scss */
 .button-next p {
   text-transform: uppercase;
+  line-height: 20px;
   float: left;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   color: #fff;
 }
-/* line 41, ../scss/_mixins.scss */
+/* line 43, ../scss/_mixins.scss */
 .button-next img {
   width: auto;
   float: left;
   margin-left: 10px;
 }
 
-/* line 5, ../scss/_homepage-intro-copy.scss */
+/* line 9, ../scss/_homepage-intro-copy.scss */
 .intro-copy {
   margin-top: 60px;
   flex-direction: column;
 }
-/* line 8, ../scss/_homepage-intro-copy.scss */
-.intro-copy .rule {
-  margin: 0 0 30px 0;
-}
 
-/* line 14, ../scss/_homepage-intro-copy.scss */
+/* line 17, ../scss/_homepage-intro-copy.scss */
 .groupthree {
   flex-direction: column;
 }
 
-/* line 18, ../scss/_homepage-intro-copy.scss */
+/* line 21, ../scss/_homepage-intro-copy.scss */
 .groupthree > div {
-  margin-right: 1.5em;
   margin-top: 60px;
 }
 
-/* line 23, ../scss/_homepage-intro-copy.scss */
-.groupthree > div:last-child {
-  margin-right: 0;
-}
-
-/* line 27, ../scss/_homepage-intro-copy.scss */
+/* line 25, ../scss/_homepage-intro-copy.scss */
 .problem-solved {
   flex-direction: column;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 33, ../scss/_homepage-intro-copy.scss */
+  /* line 31, ../scss/_homepage-intro-copy.scss */
   .problem-solved {
     flex-direction: row;
   }
 
-  /* line 34, ../scss/_homepage-intro-copy.scss */
+  /* line 32, ../scss/_homepage-intro-copy.scss */
   .problem-solved-1 {
     text-align: right;
   }
 
-  /* line 35, ../scss/_homepage-intro-copy.scss */
+  /* line 33, ../scss/_homepage-intro-copy.scss */
   .problem-solved-2 {
     padding-left: 50px;
   }
 
-  /* line 36, ../scss/_homepage-intro-copy.scss */
+  /* line 34, ../scss/_homepage-intro-copy.scss */
   .groupthree {
     flex-direction: row;
     margin-top: 0;
+  }
+
+  /* line 38, ../scss/_homepage-intro-copy.scss */
+  .groupthree > div {
+    margin-right: 5%;
+    width: 30%;
+  }
+
+  /* line 42, ../scss/_homepage-intro-copy.scss */
+  .groupthree > div:last-child {
+    margin-right: 0;
   }
 }
 /* line 1, ../scss/_case-studies-panels.scss */
@@ -1298,12 +1338,8 @@ ul {
 .showreel .rule img {
   width: 31px;
 }
-/* line 33, ../scss/_homepage-showreel.scss */
-.showreel h1 {
-  margin: 30px 0;
-}
 
-/* line 36, ../scss/_homepage-showreel.scss */
+/* line 35, ../scss/_homepage-showreel.scss */
 .showreel .slide {
   flex-direction: column;
   justify-content: flex-end;
@@ -1319,23 +1355,25 @@ ul {
   background-size: cover;
 }
 
-/* line 8, ../scss/_footer.scss */
+/* line 10, ../scss/_footer.scss */
 .footer {
   flex-direction: column;
 }
-/* line 9, ../scss/_footer.scss */
-.footer h1, .footer h2, .footer h3, .footer p, .footer a {
+/* line 11, ../scss/_footer.scss */
+.footer h1, .footer h2, .footer h3, .footer h4, .footer p, .footer a {
   color: #fff;
 }
-/* line 10, ../scss/_footer.scss */
+/* line 12, ../scss/_footer.scss */
 .footer h1, .footer h2 {
   margin: 0;
 }
-/* line 11, ../scss/_footer.scss */
-.footer .rule {
-  margin: 0 0 30px 0;
-}
 /* line 13, ../scss/_footer.scss */
+.footer h4 {
+  font-family: "Gotham Light", sans-serif, arial, sans-serif;
+  text-transform: initial;
+  font-size: 1.2em;
+}
+/* line 15, ../scss/_footer.scss */
 .footer .button-next {
   pointer-events: auto;
   background: transparent;
@@ -1348,43 +1386,49 @@ ul {
 /* line 11, ../scss/_mixins.scss */
 .footer .button-next p {
   text-transform: uppercase;
+  line-height: 20px;
   float: left;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 17, ../scss/_mixins.scss */
+/* line 18, ../scss/_mixins.scss */
 .footer .button-next img {
   width: auto;
   float: left;
   margin-left: 10px;
 }
 
-/* line 16, ../scss/_footer.scss */
+/* line 18, ../scss/_footer.scss */
 .social {
   text-align: center;
   width: auto;
   margin: 30px auto;
   padding: 20px 0;
 }
-
 /* line 23, ../scss/_footer.scss */
+.social img {
+  display: inline;
+}
+
+/* line 26, ../scss/_footer.scss */
 .footer-row-1 {
   flex-direction: column;
   padding-top: 60px;
 }
-/* line 26, ../scss/_footer.scss */
+/* line 29, ../scss/_footer.scss */
 .footer-row-1 .previous-case-study {
   margin-right: 0;
 }
-/* line 27, ../scss/_footer.scss */
+/* line 30, ../scss/_footer.scss */
 .footer-row-1 .next-case-study {
   margin-left: 0;
 }
-/* line 28, ../scss/_footer.scss */
-.footer-row-1 .rule {
-  width: 31px;
+/* line 31, ../scss/_footer.scss */
+.footer-row-1 .rule img {
+  width: 35px;
+  margin: 0 0 30px 0;
 }
-/* line 29, ../scss/_footer.scss */
+/* line 32, ../scss/_footer.scss */
 .footer-row-1 .view-all-work {
   margin-right: 0;
   width: 100%;
@@ -1392,50 +1436,44 @@ ul {
   flex-direction: column;
   justify-content: center;
 }
-/* line 33, ../scss/_footer.scss */
+/* line 36, ../scss/_footer.scss */
 .footer-row-1 .view-all-work img {
-  width: 30%;
-  margin: 0 35%;
+  width: 100px;
+  margin: 0 auto;
 }
-/* line 37, ../scss/_footer.scss */
+/* line 40, ../scss/_footer.scss */
 .footer-row-1 .view-all-work h4 {
   margin-top: 10px;
 }
 
-/* line 43, ../scss/_footer.scss */
+/* line 46, ../scss/_footer.scss */
 .footer-row-1 > div {
   margin-bottom: 30px;
 }
-/* line 45, ../scss/_footer.scss */
+/* line 48, ../scss/_footer.scss */
 .footer-row-1 > div img {
   width: 100%;
 }
-/* line 46, ../scss/_footer.scss */
+/* line 49, ../scss/_footer.scss */
 .footer-row-1 > div .view-all-work img {
   width: 75%;
 }
-/* line 47, ../scss/_footer.scss */
-.footer-row-1 > div h4 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 0.7em;
-}
 
-/* line 54, ../scss/_footer.scss */
+/* line 52, ../scss/_footer.scss */
 .footer-row-2 {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 58, ../scss/_footer.scss */
+/* line 56, ../scss/_footer.scss */
 .footer-row-3 {
   flex-direction: column;
   padding-bottom: 60px;
 }
-/* line 61, ../scss/_footer.scss */
+/* line 59, ../scss/_footer.scss */
 .footer-row-3 .contact-number {
   margin: 0;
 }
-/* line 62, ../scss/_footer.scss */
+/* line 60, ../scss/_footer.scss */
 .footer-row-3 span {
   font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
   color: #c62b32;
@@ -1444,26 +1482,32 @@ ul {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 72, ../scss/_footer.scss */
+  /* line 70, ../scss/_footer.scss */
   .footer-row-1 {
     flex-direction: row;
   }
 
-  /* line 75, ../scss/_footer.scss */
+  /* line 73, ../scss/_footer.scss */
   .footer-row-3 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
 
-  /* line 80, ../scss/_footer.scss */
+  /* line 78, ../scss/_footer.scss */
   .footer-row-1 > div {
     margin-bottom: 30px;
-    margin-right: 1.5em;
+    width: 30%;
+    margin-right: 5%;
   }
-  /* line 83, ../scss/_footer.scss */
+  /* line 82, ../scss/_footer.scss */
   .footer-row-1 > div img {
     width: 100%;
+  }
+
+  /* line 84, ../scss/_footer.scss */
+  .footer-row-1 > div:last-child {
+    margin-right: 0;
   }
 
   /* line 86, ../scss/_footer.scss */
@@ -1519,27 +1563,23 @@ ul {
 #deliver {
   margin-top: 60px;
 }
-/* line 28, ../scss/_services.scss */
-#deliver .rule {
-  margin-bottom: 30px;
-}
 
-/* line 31, ../scss/_services.scss */
+/* line 30, ../scss/_services.scss */
 .services-main {
   margin-top: 60px;
   flex-direction: column;
 }
 
-/* line 36, ../scss/_services.scss */
+/* line 35, ../scss/_services.scss */
 .services-main-1 {
   padding-right: 60px;
 }
 
-/* line 40, ../scss/_services.scss */
+/* line 39, ../scss/_services.scss */
 .services-main-2 {
   margin-top: 60px;
 }
-/* line 42, ../scss/_services.scss */
+/* line 41, ../scss/_services.scss */
 .services-main-2 .services-links a {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   color: #000;
@@ -1548,38 +1588,38 @@ ul {
   text-decoration: none;
 }
 
-/* line 51, ../scss/_services.scss */
+/* line 50, ../scss/_services.scss */
 #nav-buttons {
   margin-top: 60px;
 }
 
-/* line 54, ../scss/_services.scss */
+/* line 53, ../scss/_services.scss */
 .nav-buttons h2 {
   color: #fff;
   margin: 0;
 }
-/* line 58, ../scss/_services.scss */
+/* line 57, ../scss/_services.scss */
 .nav-buttons img {
   height: 100%;
   margin-top: 2px;
 }
-/* line 62, ../scss/_services.scss */
+/* line 61, ../scss/_services.scss */
 .nav-buttons div {
   width: 47.5%;
   background: #c62b32;
   padding: 40px 30px 35px 30px;
 }
-/* line 67, ../scss/_services.scss */
+/* line 66, ../scss/_services.scss */
 .nav-buttons div:first-child {
   margin-right: 5%;
 }
-/* line 68, ../scss/_services.scss */
+/* line 67, ../scss/_services.scss */
 .nav-buttons .previous-page {
   flex-direction: row;
   background: black url("/img/backgrounds/background-image-3.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 73, ../scss/_services.scss */
+/* line 72, ../scss/_services.scss */
 .nav-buttons .next-page {
   flex-direction: row;
   flex-direction: row;
@@ -1588,7 +1628,7 @@ ul {
   justify-content: flex-end;
 }
 
-/* line 82, ../scss/_services.scss */
+/* line 81, ../scss/_services.scss */
 #fixed-nav-buttons {
   width: 100%;
   margin: 0 auto;
@@ -1598,32 +1638,32 @@ ul {
   pointer-events: none;
 }
 
-/* line 91, ../scss/_services.scss */
+/* line 90, ../scss/_services.scss */
 .fixed-nav-buttons {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
   justify-content: space-between;
 }
-/* line 96, ../scss/_services.scss */
+/* line 95, ../scss/_services.scss */
 .fixed-nav-buttons h4 {
   color: #fff;
   margin: 0;
   text-transform: uppercase;
   margin-top: 2px;
 }
-/* line 102, ../scss/_services.scss */
+/* line 101, ../scss/_services.scss */
 .fixed-nav-buttons img {
   width: 30%;
   margin-top: 2px;
 }
-/* line 106, ../scss/_services.scss */
+/* line 105, ../scss/_services.scss */
 .fixed-nav-buttons div {
   width: 47.5%;
   background: #c62b32;
   padding: 15px 15px;
 }
-/* line 111, ../scss/_services.scss */
+/* line 110, ../scss/_services.scss */
 .fixed-nav-buttons .fixed-previous-page {
   flex-direction: row;
   background: #c62b32;
@@ -1632,7 +1672,7 @@ ul {
   width: 100px;
   pointer-events: auto;
 }
-/* line 119, ../scss/_services.scss */
+/* line 118, ../scss/_services.scss */
 .fixed-nav-buttons .fixed-next-page {
   flex-direction: row;
   flex-direction: row;
@@ -1643,48 +1683,48 @@ ul {
   width: 100px;
   pointer-events: auto;
 }
-/* line 129, ../scss/_services.scss */
+/* line 128, ../scss/_services.scss */
 .fixed-nav-buttons .fixed-spacer {
   background: transparent;
   width: auto;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 136, ../scss/_services.scss */
+  /* line 135, ../scss/_services.scss */
   .services-intro-2 {
     width: 75%;
     padding-left: 10%;
     padding-right: 15%;
   }
 
-  /* line 141, ../scss/_services.scss */
+  /* line 140, ../scss/_services.scss */
   .services-main {
     flex-direction: row;
   }
 
-  /* line 144, ../scss/_services.scss */
+  /* line 143, ../scss/_services.scss */
   .services-main-2 {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 151, ../scss/_services.scss */
+  /* line 150, ../scss/_services.scss */
   .fixed-nav-buttons {
     display: none;
   }
 }
 @media screen and (max-width: 1300px) {
-  /* line 157, ../scss/_services.scss */
+  /* line 156, ../scss/_services.scss */
   .fixed-previous-page {
     width: 9%;
   }
 
-  /* line 158, ../scss/_services.scss */
+  /* line 157, ../scss/_services.scss */
   .fixed-next-page {
     width: 9%;
   }
 
-  /* line 159, ../scss/_services.scss */
+  /* line 158, ../scss/_services.scss */
   .fixed-spacer {
     width: 82%;
   }
@@ -1699,29 +1739,24 @@ hr {
 }
 
 /* line 9, ../scss/_case-studies.scss */
-.rule {
-  width: 31px;
-  margin-bottom: 20px;
-}
-
-/* line 10, ../scss/_case-studies.scss */
 .col-1, .col-2 {
   width: 47.5%;
 }
 
-/* line 11, ../scss/_case-studies.scss */
+/* line 10, ../scss/_case-studies.scss */
 .col-1 {
   margin-right: 5%;
 }
 
-/* line 12, ../scss/_case-studies.scss */
+/* line 11, ../scss/_case-studies.scss */
 .col-1 p:first-of-type {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
 }
 
-/* line 13, ../scss/_case-studies.scss */
+/* line 12, ../scss/_case-studies.scss */
 .masthead {
   max-width: 1500px;
+  padding-top: 30px;
   height: 500px;
   margin: 0 auto;
   background-size: cover;
@@ -1735,12 +1770,14 @@ hr {
   padding-bottom: 60px;
 }
 /* line 24, ../scss/_case-studies.scss */
-.masthead-content h3 {
-  margin-bottom: 0;
+.masthead-content h1 {
+  margin-bottom: 10px;
 }
 /* line 25, ../scss/_case-studies.scss */
-.masthead-content h4 {
+.masthead-content h3 {
+  margin-bottom: 0;
   text-transform: initial;
+  padding-right: 150px;
 }
 
 /* line 27, ../scss/_case-studies.scss */
@@ -1765,94 +1802,106 @@ hr {
 }
 
 /* line 33, ../scss/_case-studies.scss */
+#case-study-examples {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* line 34, ../scss/_case-studies.scss */
 .full-width-image {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
 }
-/* line 37, ../scss/_case-studies.scss */
+/* line 38, ../scss/_case-studies.scss */
 .full-width-image img {
   width: 100%;
 }
 
-/* line 39, ../scss/_case-studies.scss */
+/* line 40, ../scss/_case-studies.scss */
 .full-width-copy {
   width: 70%;
   margin: 0 15%;
   text-align: center;
 }
-/* line 43, ../scss/_case-studies.scss */
+/* line 44, ../scss/_case-studies.scss */
 .full-width-copy .rule {
   width: auto;
 }
-/* line 44, ../scss/_case-studies.scss */
+/* line 45, ../scss/_case-studies.scss */
 .full-width-copy p:first-of-type {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
 }
 
 /* Masthead Backgrounds */
-/* line 49, ../scss/_case-studies.scss */
+/* line 50, ../scss/_case-studies.scss */
 #ppcp-masthead.masthead {
   background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat top center;
 }
 
-/* line 50, ../scss/_case-studies.scss */
+/* line 51, ../scss/_case-studies.scss */
 #kumho-masthead.masthead {
-  background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat top center;
+  background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center;
 }
 
 /* PPCP */
-/* line 54, ../scss/_case-studies.scss */
+/* line 55, ../scss/_case-studies.scss */
 #case-studies-headline.ppcp {
   background-color: #f39530;
   color: #fff;
 }
 
-/* line 55, ../scss/_case-studies.scss */
+/* line 56, ../scss/_case-studies.scss */
 .full-background-left-col.ppcp1 {
   background: black url("/img/case-studies/ppcp/ppcp-1.jpg") no-repeat top right;
 }
 
 /* Kumho */
-/* line 59, ../scss/_case-studies.scss */
+/* line 60, ../scss/_case-studies.scss */
 #kumho-masthead {
   color: #fff;
 }
 
-/* line 62, ../scss/_case-studies.scss */
+/* line 63, ../scss/_case-studies.scss */
 #kumho-intro {
   margin-top: 60px;
 }
 
-/* line 65, ../scss/_case-studies.scss */
+/* line 66, ../scss/_case-studies.scss */
 #kumho1 {
   margin-top: 60px;
-}
-/* line 67, ../scss/_case-studies.scss */
-#kumho1 .rule {
-  width: 31px;
 }
 /* line 68, ../scss/_case-studies.scss */
 #kumho1 img {
   width: 100%;
 }
 /* line 69, ../scss/_case-studies.scss */
+#kumho1 .rule img {
+  width: 31px;
+  margin: 0 auto;
+}
+/* line 70, ../scss/_case-studies.scss */
 #kumho1 .main-container {
   flex-direction: row;
-  margin-top: -20px;
 }
 
-/* line 71, ../scss/_case-studies.scss */
+/* line 72, ../scss/_case-studies.scss */
 #kumho2 {
   margin-top: 60px;
 }
 
-/* line 74, ../scss/_case-studies.scss */
+/* line 75, ../scss/_case-studies.scss */
 #kumho3 {
   margin-top: 60px;
 }
+/* line 76, ../scss/_case-studies.scss */
+#kumho3 .rule img {
+  width: 31px;
+  margin: 0 auto;
+}
 
-/* line 77, ../scss/_case-studies.scss */
+/* line 79, ../scss/_case-studies.scss */
 #kumho4 {
   margin-top: 60px;
   background: black url("/img/case-studies/kumho/kumho4.jpg") no-repeat bottom right;
@@ -1860,111 +1909,109 @@ hr {
   color: #fff;
   height: 550px;
 }
-/* line 83, ../scss/_case-studies.scss */
+/* line 85, ../scss/_case-studies.scss */
 #kumho4 .col-1 {
   padding-top: 60px;
 }
 
-/* line 85, ../scss/_case-studies.scss */
+/* line 87, ../scss/_case-studies.scss */
 #kumho5 {
   margin-top: 60px;
 }
 
-/* line 88, ../scss/_case-studies.scss */
+/* line 90, ../scss/_case-studies.scss */
 #kumho6 {
   margin-top: 60px;
 }
-/* line 90, ../scss/_case-studies.scss */
-#kumho6 .rule {
+/* line 92, ../scss/_case-studies.scss */
+#kumho6 .rule img {
   width: 31px;
+  margin: 0 auto;
 }
-/* line 91, ../scss/_case-studies.scss */
+/* line 93, ../scss/_case-studies.scss */
 #kumho6 img {
   width: 100%;
 }
-/* line 92, ../scss/_case-studies.scss */
+/* line 94, ../scss/_case-studies.scss */
 #kumho6 .row-1 {
   flex-direction: row;
 }
-/* line 93, ../scss/_case-studies.scss */
+/* line 95, ../scss/_case-studies.scss */
 #kumho6 .row-2 {
   margin-top: 40px;
 }
 
-/* line 95, ../scss/_case-studies.scss */
+/* line 97, ../scss/_case-studies.scss */
 #kumho7 {
   margin-top: 60px;
 }
-/* line 97, ../scss/_case-studies.scss */
-#kumho7 .rule img {
-  width: 31px;
-}
-/* line 98, ../scss/_case-studies.scss */
+/* line 99, ../scss/_case-studies.scss */
 #kumho7 img {
   width: 100%;
 }
-/* line 99, ../scss/_case-studies.scss */
+/* line 100, ../scss/_case-studies.scss */
+#kumho7 .rule img {
+  width: 31px;
+  margin: 0 auto;
+}
+/* line 101, ../scss/_case-studies.scss */
 #kumho7 .row-2 {
   flex-direction: row;
   margin-top: 40px;
 }
 
-/* line 101, ../scss/_case-studies.scss */
+/* line 103, ../scss/_case-studies.scss */
 #kumho8 {
   margin-top: 60px;
   background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom right;
   background-size: cover;
   padding-bottom: 60px;
 }
-/* line 105, ../scss/_case-studies.scss */
-#kumho8 .rule img {
-  width: 31px;
-}
-/* line 106, ../scss/_case-studies.scss */
+/* line 107, ../scss/_case-studies.scss */
 #kumho8 img {
   width: 100%;
 }
-/* line 107, ../scss/_case-studies.scss */
+/* line 108, ../scss/_case-studies.scss */
 #kumho8 .col-1 {
   padding-top: 60px;
   order: 1;
 }
-/* line 108, ../scss/_case-studies.scss */
+/* line 109, ../scss/_case-studies.scss */
 #kumho8 .col-2 {
   order: 2;
 }
-/* line 109, ../scss/_case-studies.scss */
+/* line 110, ../scss/_case-studies.scss */
 #kumho8 .row-1 {
   flex-direction: row;
 }
-/* line 110, ../scss/_case-studies.scss */
+/* line 111, ../scss/_case-studies.scss */
 #kumho8 .row-2 {
   flex-direction: row;
 }
 
-/* line 113, ../scss/_case-studies.scss */
+/* line 114, ../scss/_case-studies.scss */
 #kumho9 {
   margin-top: 60px;
 }
-/* line 115, ../scss/_case-studies.scss */
+/* line 116, ../scss/_case-studies.scss */
 #kumho9 img {
   width: 100%;
 }
-/* line 116, ../scss/_case-studies.scss */
+/* line 117, ../scss/_case-studies.scss */
 #kumho9 .col-2 {
   margin-top: 0;
 }
-/* line 117, ../scss/_case-studies.scss */
+/* line 118, ../scss/_case-studies.scss */
 #kumho9 .row-1 {
   flex-direction: row;
 }
-/* line 118, ../scss/_case-studies.scss */
+/* line 119, ../scss/_case-studies.scss */
 #kumho9 .row-2 {
   flex-direction: row;
   margin-top: 20px;
 }
 
-/* line 120, ../scss/_case-studies.scss */
+/* line 121, ../scss/_case-studies.scss */
 #kumho10 {
   margin-top: 60px;
 }
@@ -1972,44 +2019,44 @@ hr {
 /* Media Queries */
 @media screen and (max-width: 800px) {
   /* General */
-  /* line 131, ../scss/_case-studies.scss */
+  /* line 132, ../scss/_case-studies.scss */
   .col-1, .col-2 {
     width: 100%;
   }
 
-  /* line 132, ../scss/_case-studies.scss */
+  /* line 133, ../scss/_case-studies.scss */
   .col-1 {
     margin-right: 0;
   }
 
-  /* line 133, ../scss/_case-studies.scss */
+  /* line 134, ../scss/_case-studies.scss */
   .masthead-content {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  /* line 134, ../scss/_case-studies.scss */
+  /* line 135, ../scss/_case-studies.scss */
   .headlines {
     order: 2;
     margin-top: 10px;
   }
 
-  /* line 135, ../scss/_case-studies.scss */
+  /* line 136, ../scss/_case-studies.scss */
   .client-logo {
     order: 1;
   }
 
-  /* line 136, ../scss/_case-studies.scss */
+  /* line 137, ../scss/_case-studies.scss */
   .listen, .plan, .deliver {
     flex-direction: column;
   }
 
-  /* line 137, ../scss/_case-studies.scss */
+  /* line 138, ../scss/_case-studies.scss */
   .listen-copy, .plan-copy, .deliver-copy {
     width: 100%;
   }
 
-  /* line 138, ../scss/_case-studies.scss */
+  /* line 139, ../scss/_case-studies.scss */
   .listen h2, .plan h2, .deliver h2 {
     width: 100%;
     text-align: left;
@@ -2017,85 +2064,85 @@ hr {
   }
 
   /* Kumho */
-  /* line 143, ../scss/_case-studies.scss */
+  /* line 144, ../scss/_case-studies.scss */
   #kumho1 .main-container {
     flex-direction: column;
   }
 
-  /* line 146, ../scss/_case-studies.scss */
+  /* line 147, ../scss/_case-studies.scss */
   #kumho4 .full-background-left-col {
     height: 900px;
   }
-  /* line 147, ../scss/_case-studies.scss */
+  /* line 148, ../scss/_case-studies.scss */
   #kumho4 .full-background-left-col .col-1 {
     width: 100%;
   }
 
-  /* line 152, ../scss/_case-studies.scss */
+  /* line 153, ../scss/_case-studies.scss */
   #kumho6 .row-1 {
     flex-direction: column;
   }
 
-  /* line 155, ../scss/_case-studies.scss */
+  /* line 156, ../scss/_case-studies.scss */
   #kumho7 .row-2 {
     flex-direction: column;
   }
-  /* line 156, ../scss/_case-studies.scss */
+  /* line 157, ../scss/_case-studies.scss */
   #kumho7 .col-2 {
     margin-top: 60px;
   }
 
-  /* line 159, ../scss/_case-studies.scss */
+  /* line 160, ../scss/_case-studies.scss */
   #kumho8 .col-1 {
     padding-top: 20px;
     order: 2;
   }
-  /* line 160, ../scss/_case-studies.scss */
+  /* line 161, ../scss/_case-studies.scss */
   #kumho8 .col-2 {
     order: 1;
   }
-  /* line 162, ../scss/_case-studies.scss */
+  /* line 163, ../scss/_case-studies.scss */
   #kumho8 .col-2 img {
     width: 50%;
     margin: 0 25%;
   }
-  /* line 164, ../scss/_case-studies.scss */
+  /* line 165, ../scss/_case-studies.scss */
   #kumho8 .row-1 {
     flex-direction: column;
   }
-  /* line 165, ../scss/_case-studies.scss */
+  /* line 166, ../scss/_case-studies.scss */
   #kumho8 .row-2 {
     flex-direction: column;
   }
-  /* line 166, ../scss/_case-studies.scss */
+  /* line 167, ../scss/_case-studies.scss */
   #kumho8 .row-2 img {
     width: 80%;
     margin: 0 10%;
   }
 
-  /* line 170, ../scss/_case-studies.scss */
+  /* line 171, ../scss/_case-studies.scss */
   #kumho9 {
     margin-top: 60px;
   }
-  /* line 172, ../scss/_case-studies.scss */
+  /* line 173, ../scss/_case-studies.scss */
   #kumho9 .col-2 {
     margin-top: 20px;
   }
-  /* line 173, ../scss/_case-studies.scss */
+  /* line 174, ../scss/_case-studies.scss */
   #kumho9 .row-1 {
     flex-direction: column;
   }
-  /* line 175, ../scss/_case-studies.scss */
+  /* line 176, ../scss/_case-studies.scss */
   #kumho9 .row-1 img {
     width: 50%;
     margin: 0 25%;
   }
-  /* line 177, ../scss/_case-studies.scss */
+  /* line 178, ../scss/_case-studies.scss */
   #kumho9 .row-2 {
     flex-direction: column;
     margin-top: 20px;
   }
-  /* line 179, ../scss/_case-studies.scss */
+  /* line 180, ../scss/_case-studies.scss */
   #kumho9 .row-2 img {
     width: 100%;
   }
