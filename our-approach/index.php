@@ -42,7 +42,7 @@
 
 	<body>
 
-		<div id="navigation">
+		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
 					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
@@ -53,8 +53,8 @@
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="#">About</a></li>
-						<li><a href="/work">Work</a></li>
-						<li><a href="/our-approach">Our Approach</a></li>
+						<li><a href="../work">Work</a></li>
+						<li><a href="../our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
@@ -62,101 +62,112 @@
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
 						<li><a href="#">About</a></li>
-						<li><a href="/work">Work</a></li>
-						<li><a href="/our-approach">Our Approach</a></li>
+						<li><a href="../work">Work</a></li>
+						<li><a href="../our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 			</div>	
-		</div>
+		</nav>
 
 
 		<!-- Masthead -->
 
-		<div id="services-masthead">
-			<header>
-				<div class="main-container masthead">
-					<ul class="rslides">
-						<li>
-							<a href="#">
-								<div class="slide flexbox">
-									<div class="rule">
-										<img src="/img/rule.png" alt="Rule" />
-									</div>
-									<h1><a href="#">Listen</a>
-										<a href="#">Plan</a>
-										<a href="#"><span>Deliver</span></a></h1>
-								</div>	
-							</a>
-						</li>
-					</ul>
-				</div>	
-			</header>
-		</div>
+		<header id="our-approach-masthead" class="masthead flexbox">
+			<div class="masthead-content main-container flexbox">
+				<div class="headlines">
+					<h1>Listen. Plan. Deliver,</h1>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<h3>Lorem ipsum dolor sit amet, no mei utinam eripuit mediocrem, solum aperiam ne has, nam oratio sapientem ut.</h3>
+				</div>
+			</div>
+		</header>	
 
 		<!-- End Masthead -->
 
-		<!-- Intro Copy -->
+		<!-- Our Approach Intro -->
 
-		<div id="deliver" class="main-container">
-			<div class="services flexbox"> 
-				<div class="services-intro flexbox">
-					<div class="services-intro-2">
-						<p>Our designers and writers are now involved. Experienced, award-winning creative people realise and refine your message in appropriate forms for every medium.</p>
-						<p>We have advertising and packaging experts, skilled web designers and blog/social media writers, along with art directors whose experience in print and direct mail goes back decades. Disciplines are different, but one thing unifies our approach – only with a strong idea, articulated with unexpected words and images, can you produce a smile inside and engage busy, distracted people with your messages.</p>
+		<div id="our-approach-intro">
+			<div id="deliver-intro">
+				<div class="our-approach-intro-nav flexbox">
+					<div class="button-next">
+						<p>Listen</p>
+						<img src="/img/arrow-right.png" alt="Show me the showreel" />
 					</div>
-				</div>	
-				<div class="services-main flexbox">
-					<div class="services-main-1">
-						<h2>Digital development</h2>
-						<div class="rule">
-							<img src="/img/rule.png" alt="Rule" />
-						</div>
-						<h4>Website build</h4>
-						<p>Our digital department comprises experienced UX designers, Back and Front end developers that can build a website from the ground up, but are equally happy tweaking existing sites to improve their format and functionality. From simple microsites to multi-lingual behemoths with thousands of content items to manage, we create designs that increase traffic, reduce bounce rates and boost conversion.</p>
-
-						<h4>Interface &amp; UX design</h4>
-						<p>Anything digital we create for clients, from websites to apps, has simple, effective graphics and text that is clear, bold and easy to navigate. We can brainstorm original Interface and UX design ideas or make recommendations to improve existing designs to maximise usability and improve your customers’ experience.</p>
-
-						<h4>Customer journey mapping</h4>
-						<p>Accurate mapping of the journey from initial search to the desired goal is an essential tool for efficient online marketing. We produce detailed, accurate reports that outline how your customers are searching for, finding out about and sharing information on you and your brand. This can inform everything from UX design to PPC and social media campaign planning.</p>
-
-						<h4>CMS integration</h4>
-						<p>Many of the clients we work with already have a content management system in place that they’re perfectly happy with. We will work with you to seamlessly integrate the new website design with your CMS to make it easy for your team to access, manage and edit content. Our developers are experienced in all the leading CMS platforms, such as Dynamic Web and Drupal, so we’re in good shape to continue what you’ve started.</p>
-
-						<h4>Marketing automation</h4>
-						<p>If you’re advertising across multiple platforms – email, websites and social media – we can introduce marketing automation software and clever techniques that will not only save you time and money; but also help to attract and retain customers in a more streamlined, efficient way.</p>
-
-						<h4>App development</h4>
-						<p>As well as being an enticing sales tool, bespoke apps can truly engage and embed customers with your brand. We create beautiful, addictive, relevant and informative apps that serve a huge variety of purposes for our clients – whether it’s a fun, mobile game for kids or an educational application for staff, our developers have the experience to meet your brief.</p>
-
-						<h4>Asset management</h4>
-						<p>When your brand’s assets – product catalogues, market data, news, presentations, photography - need to be accessible and editable by multiple users, an online asset management tool is the answer. We create bespoke online tools, either via an existing intranet or stand alone, that ensure information is always up-to-date, consistent and on-brand.</p>
+					<div class="button-next">
+						<p>Plan</p>
+						<img src="/img/arrow-right.png" alt="Show me the showreel" />
 					</div>
-					<div class="services-main-2">
-						<h2>Services</h2>
-						<div class="rule">
-							<img src="/img/rule.png" alt="Rule" />
-						</div>
-						<div class="services-links">
-							<a href="#">Advertising</a><br>
-							<a href="#">Design</a><br>
-							<a href="#">Corporate Identity</a><br>
-							<a href="#">Packaging</a><br>
-							<a href="#">Printed Literature</a><br>
-							<a href="#">Video and Animation</a><br>
-							<a href="#">Events and Experiential</a><br>
-							<a href="#">Digital Development</a><br>
-							<a href="#">Digital Marketing</a><br>
-							<a href="#">Sponsorship Activation</a>
-						</div>
+					<div class="button-next">
+						<p>Deliver</p>
+						<img src="/img/arrow-right.png" alt="Show me the showreel" />
 					</div>
+				</div>
+				<div class="our-approach-intro-copy">
+					<h1>Deliver</h1>
+					<p>Fuelled by insights and a solid strategic plan, our designers and writers get involved. Our experienced, award-winning creative team realise and refine your message in appropriate forms for every medium.</p>
+					<p>We have advertising and packaging experts, skilled web designers and blog/social media writers, along with art directors whose experience in print and direct mail goes back decades.</p>
+					<p>Disciplines are different, but one thing unifies our approach – only with a strong idea, articulated with unexpected words and images, can you produce a smile inside and engage busy, distracted people with your messages.</p>
+					<hr />
 				</div>
 			</div>
 		</div>
 
-		<!-- End Intro Copy -->
+		<!-- End Our Approach Intro -->
+
+		<!-- Our Approach Content -->
+
+		<div id="our-approach-content" class="main-container">
+			<div id="deliver-content" class="our-approach-content-copy">
+				<div id="digital-development">
+					<h2>Digital development</h2>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<h4>Digital development</h4>
+					<p>Lorem ipsum dolor sit amet, vel cu malorum aliquando. Id omnesque appetere conclusionemque eum, cu idque mundi nec, per id quando mnesarchum interpretaris. Cu quem populo habemus duo. Vix eu magna admodum voluptatibus, eos duis petentium ex. Movet accusata assentior ne vel.</p>
+				</div>
+				<div id="digital-marketing">
+					<h2>Digital Marketing</h2>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<h4>Digital Marketing</h4>
+					<p>Lorem ipsum dolor sit amet, vel cu malorum aliquando. Id omnesque appetere conclusionemque eum, cu idque mundi nec, per id quando mnesarchum interpretaris. Cu quem populo habemus duo. Vix eu magna admodum voluptatibus, eos duis petentium ex. Movet accusata assentior ne vel.</p>
+				</div>
+				<div id="sponsorship-activation">
+					<h2>Digital development</h2>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<h4>Website build</h4>
+					<p>Lorem ipsum dolor sit amet, vel cu malorum aliquando. Id omnesque appetere conclusionemque eum, cu idque mundi nec, per id quando mnesarchum interpretaris. Cu quem populo habemus duo. Vix eu magna admodum voluptatibus, eos duis petentium ex. Movet accusata assentior ne vel.</p>
+				</div>
+			</div>
+			<div id="deliver-services-menu">
+				<h2>Services</h2>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+				<div class="services-links">
+					<a href="#">Advertising</a><br>
+					<a href="#">Design</a><br>
+					<a href="#">Corporate Identity</a><br>
+					<a href="#">Packaging</a><br>
+					<a href="#">Printed Literature</a><br>
+					<a href="#">Video and Animation</a><br>
+					<a href="#">Events and Experiential</a><br>
+					<a href="#">Digital Development</a><br>
+					<a href="#">Digital Marketing</a><br>
+					<a href="#">Sponsorship Activation</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- End Our Approach Content -->
 
 
 		<!-- Nav Buttons -->

@@ -551,7 +551,6 @@ table {
 
 /* Transparent Button */
 /* Red Button */
-/* Red Button */
 /* Fonts */
 @font-face {
   font-family: 'Gotham Black';
@@ -1164,7 +1163,7 @@ img {
   background: #c62b32;
   background-size: cover;
   align-items: center;
-  width: 100px;
+  width: 130px;
   pointer-events: auto;
 }
 /* line 36, ../scss/_fixed-nav-buttons.scss */
@@ -1175,7 +1174,7 @@ img {
   background-size: cover;
   justify-content: flex-end;
   align-items: center;
-  width: 100px;
+  width: 130px;
   pointer-events: auto;
 }
 /* line 46, ../scss/_fixed-nav-buttons.scss */
@@ -1643,105 +1642,80 @@ img {
     padding: 0 30px;
   }
 }
-/* line 1, ../scss/_services.scss */
+/* line 1, ../scss/_our-approach.scss */
 .services {
   flex-direction: column;
 }
 
-/* line 5, ../scss/_services.scss */
-#services-masthead {
-  max-width: 1500px;
-  margin: 0 auto;
+/* line 5, ../scss/_our-approach.scss */
+#our-approach-masthead {
   background: black url("/img/backgrounds/background-image-2.svg") no-repeat center left;
   background-size: cover;
 }
-/* line 10, ../scss/_services.scss */
-#services-masthead .slide {
-  pointer-events: all;
+
+/* line 10, ../scss/_our-approach.scss */
+#our-approach-intro {
+  width: 70%;
+  margin: 0 15%;
 }
-/* line 12, ../scss/_services.scss */
-#services-masthead .slide a, #services-masthead .slide span {
+/* line 13, ../scss/_our-approach.scss */
+#our-approach-intro h1 {
+  text-align: center;
+}
+/* line 14, ../scss/_our-approach.scss */
+#our-approach-intro p:first-of-type {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 1em;
-  line-height: 0.9em;
-  margin: 0 0 0.5em 0;
-  color: rgba(255, 255, 255, 0.2);
 }
-/* line 20, ../scss/_services.scss */
-#services-masthead .slide span {
-  color: #fff;
+/* line 15, ../scss/_our-approach.scss */
+#our-approach-intro .our-approach-intro-nav {
+  justify-content: center;
 }
-/* line 22, ../scss/_services.scss */
-#services-masthead .masthead {
-  height: 500px;
+/* line 16, ../scss/_our-approach.scss */
+#our-approach-intro .our-approach-intro-copy {
+  margin-top: 60px;
 }
-/* line 23, ../scss/_services.scss */
-#services-masthead .slide {
-  height: 480px;
+/* line 17, ../scss/_our-approach.scss */
+#our-approach-intro .button-next {
+  margin: 60px 10px 0 10px;
 }
 
-/* line 26, ../scss/_services.scss */
-#deliver {
+/* line 20, ../scss/_our-approach.scss */
+#our-approach-content {
   margin-top: 60px;
 }
 
-/* line 30, ../scss/_services.scss */
-.services-main {
-  margin-top: 60px;
-  flex-direction: column;
-}
-
-/* line 35, ../scss/_services.scss */
-.services-main-1 {
-  padding-right: 60px;
-}
-
-/* line 39, ../scss/_services.scss */
-.services-main-2 {
-  margin-top: 60px;
-}
-/* line 41, ../scss/_services.scss */
-.services-main-2 .services-links a {
-  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
-  color: #000;
-  font-size: 1em;
-  line-height: 2em;
-  text-decoration: none;
-}
-
-/* line 50, ../scss/_services.scss */
+/* line 45, ../scss/_our-approach.scss */
 #nav-buttons {
   margin-top: 60px;
 }
 
-/* line 53, ../scss/_services.scss */
+/* line 48, ../scss/_our-approach.scss */
 .nav-buttons h2 {
   color: #fff;
   margin: 0;
 }
-/* line 57, ../scss/_services.scss */
+/* line 52, ../scss/_our-approach.scss */
 .nav-buttons img {
   height: 100%;
   margin-top: 2px;
 }
-/* line 61, ../scss/_services.scss */
+/* line 56, ../scss/_our-approach.scss */
 .nav-buttons div {
   width: 47.5%;
   background: #c62b32;
   padding: 40px 30px 35px 30px;
 }
-/* line 66, ../scss/_services.scss */
+/* line 61, ../scss/_our-approach.scss */
 .nav-buttons div:first-child {
   margin-right: 5%;
 }
-/* line 67, ../scss/_services.scss */
+/* line 62, ../scss/_our-approach.scss */
 .nav-buttons .previous-page {
   flex-direction: row;
   background: black url("/img/backgrounds/background-image-3.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 72, ../scss/_services.scss */
+/* line 67, ../scss/_our-approach.scss */
 .nav-buttons .next-page {
   flex-direction: row;
   flex-direction: row;
@@ -1751,41 +1725,41 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 83, ../scss/_services.scss */
+  /* line 78, ../scss/_our-approach.scss */
   .services-intro-2 {
     width: 75%;
     padding-left: 10%;
     padding-right: 15%;
   }
 
-  /* line 88, ../scss/_services.scss */
+  /* line 83, ../scss/_our-approach.scss */
   .services-main {
     flex-direction: row;
   }
 
-  /* line 91, ../scss/_services.scss */
+  /* line 86, ../scss/_our-approach.scss */
   .services-main-2 {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 98, ../scss/_services.scss */
+  /* line 93, ../scss/_our-approach.scss */
   .fixed-nav-buttons {
     display: none;
   }
 }
 @media screen and (max-width: 1300px) {
-  /* line 104, ../scss/_services.scss */
+  /* line 99, ../scss/_our-approach.scss */
   .fixed-previous-page {
     width: 9%;
   }
 
-  /* line 105, ../scss/_services.scss */
+  /* line 100, ../scss/_our-approach.scss */
   .fixed-next-page {
     width: 9%;
   }
 
-  /* line 106, ../scss/_services.scss */
+  /* line 101, ../scss/_our-approach.scss */
   .fixed-spacer {
     width: 82%;
   }

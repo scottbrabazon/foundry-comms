@@ -2,50 +2,45 @@
 	flex-direction: column;
 }
 
-#services-masthead {
-    max-width: 1500px;
-    margin: 0 auto;
-    background: black url("/img/backgrounds/background-image-2.svg") no-repeat center left;
-    background-size: cover;
-    .slide {
-    	pointer-events: all;
-	    a, span {
-	    font-family: $foundry_extra_bold;
-	    text-transform: uppercase;
-	    font-size: 1em;
-	    line-height: 0.9em;
-	    margin: 0 0 0.5em 0;
-	    color: rgba(255,255,255,0.2);
-		}
-		span {color: #fff;}
-	}
-	.masthead {height: 500px;}
-	.slide {height: 480px;}
+#our-approach-masthead {
+	background: black url("/img/backgrounds/background-image-2.svg") no-repeat center left;
+	background-size: cover;
 }
 
-#deliver {
+#our-approach-intro {
+	width: 70%;
+	margin: 0 15%;
+	h1 {text-align: center;}
+	p:first-of-type {font-family: $foundry_extra_bold;}
+	.our-approach-intro-nav {justify-content: center;}
+	.our-approach-intro-copy {margin-top: 60px;}
+	.button-next {margin: 60px 10px 0 10px;}
+}
+
+#our-approach-content {
 	margin-top: 60px;
 }
 
-.services-main {
-	margin-top: 60px;
-	flex-direction: column;
-}
 
-.services-main-1 {
-	padding-right: 60px;
-}
 
-.services-main-2 {
-	margin-top: 60px;
-	.services-links a {
-		font-family: $foundry_regular;
-		color: #000;
-	    font-size: 1em;
-	    line-height: 2em;
-	    text-decoration: none;
-	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #nav-buttons {margin-top: 60px;}
 
