@@ -107,43 +107,43 @@
 			<div id="homepage-intro-copy">
 				<div class="intro-copy flexbox"> 
 					<div class="problem-solved">
-						<h2 class="hideme">Problem<br>Solved</h2>
-						<div class="rule hideme">
+						<h2>Problem Solved</h2>
+						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p class="hideme">If you have a marketing problem, we’ll solve it. Whatever challenges you face as a business, we find the answers, strategically and creatively, and determine the right channels for you to market your products or services more effectively.</p>
-						<p class="hideme">We start by listening to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but build your brand for tomorrow.</p>
+						<p>If you have a marketing problem, we’ll solve it. Whatever challenges you face as a business, we find the answers, strategically and creatively, and determine the right channels for you to market your products or services more effectively.</p>
+						<p>We start by listening to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but build your brand for tomorrow.</p>
 					</div>	
 					<div class="groupthree flexbox">
-						<div class="groupthree-content flexbox">
-							<h2 class="hideme">Listen</h2>
-							<div class="rule hideme">
+						<div class="groupthree-content">
+							<h2>Listen</h2>
+							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p class="hideme">Qualitative or quantitative. Internal or external. Offline or digital. We start with research to get close to your brand, your market and customers. By understanding their motivations, desires and what makes them tick, we can get to the heart of your marketing problem.</p>
-							<div class="button-next hideme">
+							<p>Qualitative or quantitative. Internal or external. Offline or digital. We start with research to get close to your brand, your market and customers. By understanding their motivations, desires and what makes them tick, we can get to the heart of your marketing problem.</p>
+							<div class="button-next">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content flexbox">
-							<h2 class="hideme">Plan</h2>
-							<div class="rule hideme">
+						<div class="groupthree-content">
+							<h2>Plan</h2>
+							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p class="hideme">Research informs the development of your communications strategy. We can develop or dissect your brand positioning and determine the best routes to market and methods to communicate.</p>
-							<div class="button-next hideme">
+							<p>Research informs the development of your communications strategy. We can develop or dissect your brand positioning and determine the best routes to market and methods to communicate.</p>
+							<div class="button-next">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content flexbox">
-							<h2 class="hideme">Deliver</h2>
-							<div class="rule hideme">
+						<div class="groupthree-content">
+							<h2>Deliver</h2>
+							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p class="hideme">On or offline, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
-							<div class="button-next hideme">
+							<p>On or offline, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
+							<div class="button-next">
 								<p>Find out more</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
@@ -160,13 +160,13 @@
 
 		<div id="case-studies">
 			<div class="case-studes-examples flexbox">
-				<div class="hideme">
+				<div>
 					<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
 				</div>
-				<div class="hideme">
+				<div>
 					<img src="/img/kuhmo.jpg" alt="Kuhmo Case Study" />
 				</div>
-				<div class="hideme">	
+				<div>	
 					<img src="/img/bike-and-go.jpg" alt="Bike &amp; Go Case Study" />
 				</div>
 			</div>
@@ -176,7 +176,7 @@
 
 		<!-- Client Slider -->
 
-		<div id="client-slider" class="hideme">
+		<div id="client-slider">
 			<section class="center slider">
 				<div>
 					<img src="img/client-logos/mufc.svg">
@@ -229,7 +229,7 @@
 		<div id="footer" class="background">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
-					<div class="opinion hideme">
+					<div class="opinion">
 						<h3>Opinion</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -237,30 +237,30 @@
 						<h4>The £200 million football match</h4>
 						<p><strong>Posted by Scott on Thursday May 12,2016</strong></p>
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
-						<div class="button-next hideme">
+						<div class="button-next">
 							<p>Find out more</p>
 							<img src="/img/arrow-right.png" alt="Show me the showreel" />
 						</div>
 					</div>
-					<div class="careers hideme">
+					<div class="careers">
 						<h3>Careers</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
-						<div class="button-next hideme">
+						<div class="button-next">
 							<p>Find out more</p>
 							<img src="/img/arrow-right.png" alt="Show me the showreel" />
 						</div>
 					</div>
-					<div class="news hideme">
+					<div class="news">
 						<h3>News</h3>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<h4>Dr. Beckmann TV campaign launched </h4>
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
-						<div class="button-next hideme">
+						<div class="button-next">
 							<p>Find out more</p>
 							<img src="/img/arrow-right.png" alt="Show me the showreel" />
 						</div>

@@ -10,7 +10,6 @@ hr {
 .col-1 {margin-right: 5%;}
 .col-1 p:first-of-type {font-family: $foundry_extra_bold;}
 .masthead {
-    padding-top: 30px;
     height: 500px;
     margin: 0 auto;
     flex-direction: column;
@@ -43,9 +42,39 @@ hr {
 	img {margin: 0 auto 30px auto;}
 }
 
+/* Work Intro */
+
+#work-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-intro.jpg") no-repeat top center; 
+	background-size: cover;
+	margin-top: 63px;
+}
+#work-intro {margin-top: 60px;}
+
+
+/* Abellio */
+
+#abellio-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-abellio.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 63px;
+}
+
+#abellio-intro, #abellio1, #abellio2, #abellio3, #abellio4, #abellio5, #abellio6, #abellio7, #abellio8 {margin-top: 60px;}
+
+#abellio8 {
+	background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom center;
+	background-size: cover;
+	height: 788px;
+}
+
 /* Albemarle Bond */
 
-#albemarle-bond-masthead.masthead {background: black url("/img/backgrounds/case-study-albemarle-bond.jpg") no-repeat bottom center; background-size: cover;}
+#albemarle-bond-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-albemarle-bond.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 63px;
+}
 
 #albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {margin-top: 60px;}
 
@@ -58,7 +87,11 @@ hr {
 
 /* Kumho */
 
-#kumho-masthead.masthead {background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center; background-size: cover;}
+#kumho-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 63px;
+}
 
 #kumho-intro {
 	margin-top: 60px;
@@ -123,16 +156,36 @@ hr {
 	margin-top: 60px;
 }
 
+
 /* Matthew Clark */
 
-#matthew-clark-masthead.masthead {background: black url("/img/backgrounds/case-study-matthew-clark.jpg") no-repeat bottom center; background-size: cover;}
+#matthew-clark-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-matthew-clark.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 63px;
+}
 
 #matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {margin-top: 60px;}
 
 
+/* PGL */
+
+#pgl-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-pgl.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 63px;
+}
+
+#pgl-intro, #pgl1, #pgl2, #pgl3, #pgl4, #pgl5, #pgl6 {margin-top: 60px;}
+
+
 /* Premier Pet Care Plan */
 
-#ppcp-masthead.masthead {background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat bottom center; background-size: cover;}
+#ppcp-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 63px;
+}
 
 #ppcp-intro, #ppcp1, #ppcp2, #ppcp3, #ppcp4, #ppcp5, #ppcp6, #ppcp7 {margin-top: 60px;}
 

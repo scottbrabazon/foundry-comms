@@ -88,7 +88,7 @@
 
 		<!-- Intro Copy -->
 
-		<section id="kumho-intro" class="main-container">
+		<section id="ppcp-intro" class="main-container">
 			<div class="case-study-introduction">
 				<p>Premier Vet Group had a pet wellness plan that wasn’t as healthy as it could be. Our research revealed vets and pet owners both want the same thing: pets at their best. We brought this new direction to life with refreshed branding, photography with real personality and dynamic communications that sold the concept effortlessly to practices and their clients.</p>
 			</div>
