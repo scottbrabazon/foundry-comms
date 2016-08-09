@@ -128,47 +128,98 @@
 					<p>This brought the brand in line with Premier Vet Alliance, the affiliated Buying Group, and helped to cement the connotation of high quality products and service.</p>
 				</div>
 			</div>
-			<hr />
 		</section>
 
 		<!-- End Intro Copy -->
 
 		<!-- Case Study Examples -->
 
-		<div id="case-study-examples">
-			<div class="full-background-left-col ppcp1">
-				<div class="main-container">
-					<div class="col-1">
-						<h4>Campaign</h4>
-						<h2>Branding</h2>
-						<div class="rule">
-							<img src="/img/rule.png" alt="Rule" />
+		<section id="case-study-examples">	
+			<div id="ppcp1">
+				<div class="full-background-left-col">
+					<div class="row-1 main-container flexbox">
+						<div class="col-1">
+							<h4>Campaign</h4>
+							<h2>Branding</h2>
+							<div class="rule">
+								<img src="/img/rule.png" alt="Rule" />
+							</div>
+							<p>Premier Pet Care Plan’s old branding was very similar to competitor’s products.</p>
+							<p>The refreshed logo, typeface and colour palette, along with the new name, has given the brand more personality and a modern, professional image.</p>
+							<p>Using this template, new branding has also been devised for Premier Vet Alliance, the Buying Group, with plans to eventually have a suite of logos promoting the various factions of the Company.</p>
 						</div>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-						<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+						<div class="col-2">
+							&nbsp;
+						</div>
+					</div>
+				</div>
+				<div class="full-width-image">
+					<img src="/img/case-studies/ppcp/ppcp1b.jpg" alt="PPCP" />
+				</div>
+			</div>
+
+			<div id="ppcp2">
+				<div class="full-width-copy">
+					<h2>Practise Materials</h2>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<p>The playful new photography features on a huge array of promotional materials in clinic, including tent cards at the till, pull-up banners, pet owner leaflets, badges for staff, posters, postcards, appointment cards and quote letters – helping each practice to communicate their specific offers to clients. 
+					</p>
+				</div>
+			</div>
+
+			<div id="ppcp3">
+				<div class="row-1 flexbox">
+					<div class="col-1">
+						<img src="/img/case-studies/ppcp/ppcp3a.jpg" alt="PPCP" />
+					</div>
+					<div class="col-2">
+						<img src="/img/case-studies/ppcp/ppcp3b.jpg" alt="PPCP" />
 					</div>
 				</div>
 			</div>
-			<div class="full-width-image">
-				<img src="/img/case-studies/ppcp/ppcp-2.jpg" alt="PPCP" />
-			</div>
-			<div class="full-width-copy">
-				<h2>Branding</h2>
-				<div class="rule">
-					<img src="/img/rule.png" alt="Rule" />
-				</div>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-				<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-			</div>
-			<div class="half-width-image flexbox">
-				<div>
-					<img src="/img/case-studies/ppcp/ppcp-3.jpg" alt="PPCP" />
-				</div>
-				<div>
-					<img src="/img/case-studies/ppcp/ppcp-4.jpg" alt="PPCP" />
+
+			<div id="ppcp4">
+				<div class="row-1 flexbox">
+					<div class="col-1">
+						<img src="/img/case-studies/ppcp/ppcp4a.jpg" alt="PPCP" />
+					</div>
+					<div class="col-2">
+						<img src="/img/case-studies/ppcp/ppcp4b.jpg" alt="PPCP" />
+					</div>
 				</div>
 			</div>
-		</div>
+
+			<div id="ppcp5">
+				<div class="full-width-copy">
+					<h2>Sales and promotion</h2>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<p>In terms of selling PPCP into vets, we have developed a dynamic PowerPoint presentation to enable the sales team to talk through all of the benefits of Premier Pet Care Plan in a more engaging way.</p>
+					<p>Flyers and discount ‘doggie dollars’ incentivise new business, and a video has also been created to jointly sell both the Premier Vet Alliance Buying Group and Premier Pet Care Plan into the US market.<p>
+					<p>As a result, one of America’s oldest and largest pet insurance providers has partnered with Premier Pet Care Plan and will be introducing it into their vast network of practices.</p>
+				</div>
+			</div>
+
+			<div id="ppcp6">	
+				<div class="full-width-image">
+					<img src="/img/case-studies/ppcp/ppcp6.jpg" alt="PPCP" />
+				</div>
+			</div>
+
+			<div id="ppcp7">
+				<div class="row-1 flexbox">
+					<div class="col-1">
+						<img src="/img/case-studies/ppcp/ppcp7a.jpg" alt="PPCP" />
+					</div>
+					<div class="col-2">
+						<img src="/img/case-studies/ppcp/ppcp7b.jpg" alt="PPCP" />
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- End Case Study Examples -->
 
