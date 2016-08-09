@@ -41,7 +41,7 @@
 		<div id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
@@ -79,7 +79,7 @@
 					<h3>Identifying, reaching and educating a disengaged consumer group.</h3>
 				</div>
 				<div class="client-logo">
-					<img src="/img//client-logos/bike-and-go-white.svg" alt="PPCP" />
+					<img src="/img/client-logos/bike-and-go-white.svg" alt="Bike &amp; Go" />
 				</div>
 			</div>
 		</header>	
@@ -139,32 +139,44 @@
 		<section id="case-study-examples">	
 			<div id="abellio1">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/abellio/abellio1.jpg" alt="abellio" />
+					<img src="/img/case-studies/abellio/abellio1.jpg" alt="Bike &amp; Go creative" />
 				</div>
 			</div>
 			<div id="abellio2">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/abellio/abellio2.jpg" alt="abellio" />
+					<img src="/img/case-studies/abellio/abellio2.jpg" alt="Bike &amp; Go creative" />
 				</div>
 			</div>
 			<div id="abellio3">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/abellio/abellio3.jpg" alt="abellio" />
+					<img src="/img/case-studies/abellio/abellio3.jpg" alt="Bike &amp; Go creative" />
 				</div>
 			</div>
 			<div id="abellio4">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/abellio/abellio4.jpg" alt="abellio" />
+					<img src="/img/case-studies/abellio/abellio4.jpg" alt="Bike &amp; Go creative" />
 				</div>
 			</div>
 			<div id="abellio5">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/abellio/abellio5.jpg" alt="abellio" />
+					<img src="/img/case-studies/abellio/abellio5.jpg" alt="Bike &amp; Go creative" />
 				</div>
 			</div>
 			<div id="abellio6">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/abellio/abellio6.jpg" alt="abellio" />
+					<img src="/img/case-studies/abellio/abellio6.jpg" alt="Bike &amp; Go creative" />
+				</div>
+			</div>
+			<div id="abellio7">	
+				<div class="full-width-image">
+					<img src="/img/case-studies/abellio/abellio7.jpg" alt="Bike &amp; Go creative" />
+				</div>
+			</div>
+			<div id="abellio8">	
+				<div class="main-container">
+					<div class="container">
+						<iframe src="http://www.youtube.com/embed/UlYpLtTX7Fs?showinfo=0&modestbranding=1&autohide=1&rel=0" class="video" frameborder="0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -175,17 +187,21 @@
 
 		<div id="fixed-nav-buttons">
 			<div class="fixed-nav-buttons flexbox">
-				<div class="fixed-previous-page flexbox">
-					<img src="/img/arrow-left.svg" alt="Show me the showreel" />
-					<h4>&nbsp;&nbsp;Prev</h4>
-				</div>
+				<a href="../kumho">
+					<div class="fixed-previous-page flexbox">
+						<img src="/img/arrow-left.svg" alt="Previous" />
+						<h4>&nbsp;&nbsp;Prev</h4>
+					</div>
+				</a>
 				<div class="fixed-spacer">
 					<h2>&nbsp;</h2>
 				</div>
-				<div class="fixed-next-page flexbox">
-					<h4>Next&nbsp;&nbsp;</h4>
-					<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-				</div>
+				<a href="../albemarle-bond">
+					<div class="fixed-next-page flexbox">
+						<h4>Next&nbsp;&nbsp;</h4>
+						<img src="/img/arrow-right.svg" alt="Next" />
+					</div>
+				</a>
 			</div>
 		</div>
 
@@ -197,7 +213,9 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<img src="/img/abellio.jpg" alt="abellio Case Study" />
+						<a href="../kumho">
+							<img src="/img/case-studies/kumho.jpg" alt="Kumho Tyre case study" />
+						</a>
 					</div>
 					<div class="view-all-work flexbox">
 						<a href="/work">
@@ -206,7 +224,9 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<img src="/img/abellio.jpg" alt="abellio Case Study" />
+						<a href="../albemarle-bond">
+							<img src="/img/case-studies/albemarle-bond.jpg" alt="Albemarle Bond case study" />
+						</a>
 					</div>
 				</div>
 			</div>	
@@ -227,7 +247,7 @@
 						<a href="#">
 							<div class="button-next">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right.png" alt="Make Enquiry" />
 							</div>
 						</a>
 					</div>

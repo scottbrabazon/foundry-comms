@@ -19,9 +19,11 @@ hr {
 .masthead-content {
 	align-items: flex-end;
 	padding-bottom: 60px;
-	h1 {margin-bottom: 10px;}
+	h1 {margin-bottom: 30px;}
 	h3 {margin-bottom: 0; text-transform: initial; padding-right: 150px;}
+	.headlines {flex-grow: 2;}
 }
+.case-study-introduction {width: 70%; margin: 0 15%; text-align: center;}
 .listen-copy, .plan-copy, .deliver-copy {
 	width: 60%;
 	p:first-of-type {font-family: $foundry_extra_bold;}
@@ -65,7 +67,20 @@ hr {
 #abellio8 {
 	background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom center;
 	background-size: cover;
-	height: 788px;
+	padding: 60px 0;
+	.container {
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.25%;
+	}
+	.video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
 }
 
 /* Albemarle Bond */
@@ -165,7 +180,7 @@ hr {
 	margin-top: 63px;
 }
 
-#matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {margin-top: 60px;}
+#matthew-clark-intro, #matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {margin-top: 60px;}
 
 
 /* PGL */

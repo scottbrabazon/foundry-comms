@@ -41,7 +41,7 @@
 		<div id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
@@ -79,7 +79,7 @@
 					<h3>Turning complex and scale into simplicity and ease.</h3>
 				</div>
 				<div class="client-logo">
-					<img src="/img//client-logos/pgl-white.svg" alt="PPCP" />
+					<img src="/img//client-logos/pgl-white.svg" alt="PGL" />
 				</div>
 			</div>
 		</header>	
@@ -142,32 +142,32 @@
 		<section id="case-study-examples">	
 			<div id="pgl1">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/pgl/pgl1.jpg" alt="pgl" />
+					<img src="/img/case-studies/pgl/pgl1.jpg" alt="PGL creative" />
 				</div>
 			</div>
 			<div id="pgl2">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/pgl/pgl2.jpg" alt="pgl" />
+					<img src="/img/case-studies/pgl/pgl2.jpg" alt="PGL creative" />
 				</div>
 			</div>
 			<div id="pgl3">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/pgl/pgl3.jpg" alt="pgl" />
+					<img src="/img/case-studies/pgl/pgl3.jpg" alt="PGL creative" />
 				</div>
 			</div>
 			<div id="pgl4">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/pgl/pgl4.jpg" alt="pgl" />
+					<img src="/img/case-studies/pgl/pgl4.jpg" alt="PGL creative" />
 				</div>
 			</div>
 			<div id="pgl5">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/pgl/pgl5.jpg" alt="pgl" />
+					<img src="/img/case-studies/pgl/pgl5.jpg" alt="PGL creative" />
 				</div>
 			</div>
 			<div id="pgl6">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/pgl/pgl6.jpg" alt="pgl" />
+					<img src="/img/case-studies/pgl/pgl6.jpg" alt="PGL creative" />
 				</div>
 			</div>
 		</section>
@@ -178,17 +178,21 @@
 
 		<div id="fixed-nav-buttons">
 			<div class="fixed-nav-buttons flexbox">
-				<div class="fixed-previous-page flexbox">
-					<img src="/img/arrow-left.svg" alt="Show me the showreel" />
-					<h4>&nbsp;&nbsp;Prev</h4>
-				</div>
+				<a href="../albemarle-bond">
+					<div class="fixed-previous-page flexbox">
+						<img src="/img/arrow-left.svg" alt="Previous" />
+						<h4>&nbsp;&nbsp;Prev</h4>
+					</div>
+				</a>
 				<div class="fixed-spacer">
 					<h2>&nbsp;</h2>
 				</div>
-				<div class="fixed-next-page flexbox">
-					<h4>Next&nbsp;&nbsp;</h4>
-					<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-				</div>
+				<a href="../matthew-clark">
+					<div class="fixed-next-page flexbox">
+						<h4>Next&nbsp;&nbsp;</h4>
+						<img src="/img/arrow-right.svg" alt="Next" />
+					</div>
+				</a>
 			</div>
 		</div>
 
@@ -200,7 +204,9 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<img src="/img/pgl.jpg" alt="pgl Case Study" />
+						<a href="../albemarle-bond">
+							<img src="/img/case-studies/albemarle-bond.jpg" alt="Albemarle Bond case study" />
+						</a>
 					</div>
 					<div class="view-all-work flexbox">
 						<a href="/work">
@@ -209,7 +215,9 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<img src="/img/pgl.jpg" alt="pgl Case Study" />
+						<a href="../matthew-clark">
+							<img src="/img/case-studies/matthew-clark.jpg" alt="Matthew Clark case study" />
+						</a>
 					</div>
 				</div>
 			</div>	
@@ -230,7 +238,7 @@
 						<a href="#">
 							<div class="button-next">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right.png" alt="Make enquiry" />
 							</div>
 						</a>
 					</div>

@@ -71,7 +71,7 @@
 			</div>	
 		</div>
 
-		<div class="video">
+		<div class="video-masthead">
 			<video autoplay muted loop><source src="/img/video.mp4" type="video/mp4"></video>
 		</div>
 

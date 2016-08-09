@@ -79,7 +79,7 @@
 					<h3>Taking a high-street brand from administration to sale in three years.</h3>
 				</div>
 				<div class="client-logo">
-					<img src="/img/client-logos/albemarle-bond-white.svg" alt="PPCP" />
+					<img src="/img/client-logos/albemarle-bond-white.svg" alt="Albemarle Bond" />
 				</div>
 			</div>
 		</header>	
@@ -158,7 +158,7 @@
 			
 			<div id="albemarle-bond2">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/albemarle-bond/albemarle-bond2.jpg" alt="PPCP" />
+					<img src="/img/case-studies/albemarle-bond/albemarle-bond2.jpg" alt="Albemarle Bond Creative" />
 				</div>
 			</div>
 			
@@ -174,7 +174,7 @@
 			
 			<div id="albemarle-bond4">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/albemarle-bond/albemarle-bond4.jpg" alt="PPCP" />
+					<img src="/img/case-studies/albemarle-bond/albemarle-bond4.jpg" alt="Albemarle Bond Creative" />
 				</div>
 			</div>
 			
@@ -190,19 +190,19 @@
 			
 			<div id="albemarle-bond6">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/albemarle-bond/albemarle-bond6.jpg" alt="PPCP" />
+					<img src="/img/case-studies/albemarle-bond/albemarle-bond6.jpg" alt="Albemarle Bond Creative" />
 				</div>
 			</div>
 
 			<div id="albemarle-bond7">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/albemarle-bond/albemarle-bond7.jpg" alt="PPCP" />
+					<img src="/img/case-studies/albemarle-bond/albemarle-bond7.jpg" alt="Albemarle Bond Creative" />
 				</div>
 			</div>
 
 			<div id="albemarle-bond8">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/albemarle-bond/albemarle-bond8.jpg" alt="PPCP" />
+					<img src="/img/case-studies/albemarle-bond/albemarle-bond8.jpg" alt="Albemarle Bond Creative" />
 				</div>
 			</div>
 
@@ -218,7 +218,7 @@
 
 			<div id="albemarle-bond10">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/albemarle-bond/albemarle-bond10.jpg" alt="PPCP" />
+					<img src="/img/case-studies/albemarle-bond/albemarle-bond10.jpg" alt="Albemarle Bond Creative" />
 				</div>
 			</div>
 
@@ -230,17 +230,21 @@
 
 		<div id="fixed-nav-buttons">
 			<div class="fixed-nav-buttons flexbox">
-				<div class="fixed-previous-page flexbox">
-					<img src="/img/arrow-left.svg" alt="Show me the showreel" />
-					<h4>&nbsp;&nbsp;Prev</h4>
-				</div>
+				<a href="../abellio">
+					<div class="fixed-previous-page flexbox">
+						<img src="/img/arrow-left.svg" alt="Previous" />
+						<h4>&nbsp;&nbsp;Prev</h4>
+					</div>
+				</a>
 				<div class="fixed-spacer">
 					<h2>&nbsp;</h2>
 				</div>
-				<div class="fixed-next-page flexbox">
-					<h4>Next&nbsp;&nbsp;</h4>
-					<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-				</div>
+				<a href="../pgl">
+					<div class="fixed-next-page flexbox">
+						<h4>Next&nbsp;&nbsp;</h4>
+						<img src="/img/arrow-right.svg" alt="Next" />
+					</div>
+				</a>
 			</div>
 		</div>
 
@@ -252,7 +256,9 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
+						<a href="../abellio">
+							<img src="/img/case-studies/abellio.jpg" alt="Abellio case study" />
+						</a>
 					</div>
 					<div class="view-all-work flexbox">
 						<a href="/work">
@@ -261,7 +267,9 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
+						<a href="../pgl">
+							<img src="/img/case-studies/pgl.jpg" alt="PGL case study" />
+						</a>
 					</div>
 				</div>
 			</div>	
@@ -282,7 +290,7 @@
 						<a href="#">
 							<div class="button-next">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right.png" alt="Make enquiry" />
 							</div>
 						</a>
 					</div>

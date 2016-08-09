@@ -79,7 +79,7 @@
 					<h3>Helping an unknown Korean tyre brand take the UK by storm.</h3>
 				</div>
 				<div class="client-logo">
-					<img src="/img//client-logos/kumho-white.svg" alt="PPCP" />
+					<img src="/img//client-logos/kumho-white.svg" alt="Kumho" />
 				</div>
 			</div>
 		</header>	
@@ -150,22 +150,22 @@
 							</div>
 							<p>A promotion to not only sell more tyres, but also reinforce the local connections of Kumho’s dealerships.</p>
 							<p>‘Cash for Causes’ was an online community engagement campaign whereby retailers nominated two local charities and customers voted for their favourite to receive a share of £100,000, donated by Kumho.</p>
-							<img src="/img/case-studies/kumho/kumho1a.jpg" alt="PPCP" />
+							<img src="/img/case-studies/kumho/kumho1a.jpg" alt="Kumho creative" />
 						</div>
 						<div class="col-2">
-							<img src="/img/case-studies/kumho/kumho1b.jpg" alt="PPCP" />
+							<img src="/img/case-studies/kumho/kumho1b.jpg" alt="Kumho creative" />
 							<p>We communicated the campaign through print, broadcast and social media. It was so successful; it became a permanent annual fixture in the comms plan.</p>
 						</div>
 					</div>
 					<div class="main-container kumho1">
-						<img src="/img/case-studies/kumho/kumho1c.svg" alt="PPCP" />
+						<img src="/img/case-studies/kumho/kumho1c.svg" alt="Kumho creative" />
 					</div>
 				</div>
 			</div>
 			
 			<div id="kumho2">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/kumho/kumho2.jpg" alt="PPCP" />
+					<img src="/img/case-studies/kumho/kumho2.jpg" alt="Kumho creative" />
 				</div>
 			</div>
 			
@@ -192,7 +192,7 @@
 			
 			<div id="kumho5">
 				<div class="full-width-image">
-					<img src="/img/case-studies/kumho/kumho5.jpg" alt="PPCP" />
+					<img src="/img/case-studies/kumho/kumho5.jpg" alt="Kumho creative" />
 				</div>
 			</div>
 			
@@ -208,11 +208,11 @@
 						<p>The high-impact WIN:WIN promotion gave dealers, customers and charities a chance to win daily cash prizes and money-off vouchers. Dealerships saw an increase in footfall and three charities benefited from the campaign – the RLNI, Air Ambulance Service and the DogsTrust.</p>
 					</div>
 					<div class="col-2">
-						<img src="/img/case-studies/kumho/kumho6a.jpg" alt="PPCP" />
+						<img src="/img/case-studies/kumho/kumho6a.jpg" alt="Kumho creative" />
 					</div>
 				</div>
 				<div class="full-width-image row-2">
-					<img src="/img/case-studies/kumho/kumho6b.jpg" alt="PPCP" />
+					<img src="/img/case-studies/kumho/kumho6b.jpg" alt="Kumho creative" />
 				</div>
 				<hr />
 			</div>
@@ -229,10 +229,10 @@
 				</div>
 				<div class="row-2 main-container flexbox">
 					<div class="col-1">
-						<img src="/img/case-studies/kumho/kumho7a.jpg" alt="PPCP" />
+						<img src="/img/case-studies/kumho/kumho7a.jpg" alt="Kumho creative" />
 					</div>
 					<div class="col-2">
-						<img src="/img/case-studies/kumho/kumho7b.jpg" alt="PPCP" />
+						<img src="/img/case-studies/kumho/kumho7b.jpg" alt="Kumho creative" />
 					</div>
 				</div>
 			</div>
@@ -250,15 +250,15 @@
 						</p>
 					</div>
 					<div class="col-2">
-						<img src="/img/case-studies/kumho/kumho8a.png" alt="XXX" />
+						<img src="/img/case-studies/kumho/kumho8a.png" alt="Kumho creative" />
 					</div>
 				</div>
 				<div class="row-2 main-container flexbox">
 					<div class="col-1">
-						<img src="/img/case-studies/kumho/kumho8b.png" alt="XXX" />
+						<img src="/img/case-studies/kumho/kumho8b.png" alt="Kumho creative" />
 					</div>
 					<div class="col-2">
-						<img src="/img/case-studies/kumho/kumho8c.png" alt="XXX" />
+						<img src="/img/case-studies/kumho/kumho8c.png" alt="Kumho creative" />
 					</div>
 				</div>
 			</div>
@@ -266,20 +266,20 @@
 			<div id="kumho9">
 				<div class="row-1 main-container flexbox">
 					<div class="col-1">
-						<img src="/img/case-studies/kumho/kumho9a.png" alt="XXX" />
+						<img src="/img/case-studies/kumho/kumho9a.png" alt="Kumho creative" />
 					</div>
 					<div class="col-2">
-						<img src="/img/case-studies/kumho/kumho9b.png" alt="XXX" />
+						<img src="/img/case-studies/kumho/kumho9b.png" alt="Kumho creative" />
 					</div>
 				</div>
 				<div class="row-2 main-container">
-					<img src="/img/case-studies/kumho/kumho9c.png" alt="XXX" />
+					<img src="/img/case-studies/kumho/kumho9c.png" alt="Kumho creative" />
 				</div>
 			</div>
 			
 			<div id="kumho10">
 				<div class="full-width-image">
-					<img src="/img/case-studies/kumho/kumho10.jpg" alt="PPCP" />
+					<img src="/img/case-studies/kumho/kumho10.jpg" alt="Kumho creative" />
 				</div>
 			</div>
 		</section>
@@ -290,17 +290,21 @@
 
 		<div id="fixed-nav-buttons">
 			<div class="fixed-nav-buttons flexbox">
-				<div class="fixed-previous-page flexbox">
-					<img src="/img/arrow-left.svg" alt="Show me the showreel" />
-					<h4>&nbsp;&nbsp;Prev</h4>
-				</div>
+				<a href="../ppcp">
+					<div class="fixed-previous-page flexbox">
+						<img src="/img/arrow-left.svg" alt="Previous" />
+						<h4>&nbsp;&nbsp;Prev</h4>
+					</div>
+				</a>
 				<div class="fixed-spacer">
 					<h2>&nbsp;</h2>
 				</div>
-				<div class="fixed-next-page flexbox">
-					<h4>Next&nbsp;&nbsp;</h4>
-					<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-				</div>
+				<a href="../abellio">
+					<div class="fixed-next-page flexbox">
+						<h4>Next&nbsp;&nbsp;</h4>
+						<img src="/img/arrow-right.svg" alt="Next" />
+					</div>
+				</a>
 			</div>
 		</div>
 
@@ -312,7 +316,9 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
+						<a href="../ppcp">
+							<img src="/img/case-studies/ppcp.jpg" alt="PPCP case study" />
+						</a>
 					</div>
 					<div class="view-all-work flexbox">
 						<a href="/work">
@@ -321,7 +327,9 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
+						<a href="../abellio">
+							<img src="/img/case-studies/abellio.jpg" alt="Abellio case study" />
+						</a>
 					</div>
 				</div>
 			</div>	
@@ -342,7 +350,7 @@
 						<a href="#">
 							<div class="button-next">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right.png" alt="Make enquiry" />
 							</div>
 						</a>
 					</div>

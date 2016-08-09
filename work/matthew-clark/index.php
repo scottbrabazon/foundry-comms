@@ -79,7 +79,7 @@
 					<h3>Helping 1400 sales people tell ‘one version of the truth’.</h3>
 				</div>
 				<div class="client-logo">
-					<img src="/img//client-logos/matthew-clark-white.svg" alt="PPCP" />
+					<img src="/img//client-logos/matthew-clark-white.svg" alt="Matthew Clark" />
 				</div>
 			</div>
 		</header>	
@@ -151,37 +151,37 @@
 		<section id="case-study-examples">	
 			<div id="matthew-clark1">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/matthew-clark/matthew-clark1.jpg" alt="PPCP" />
+					<img src="/img/case-studies/matthew-clark/matthew-clark1.jpg" alt="Matthew Clark creative" />
 				</div>
 			</div>
 			
 			<div id="matthew-clark2">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/matthew-clark/matthew-clark2.jpg" alt="PPCP" />
+					<img src="/img/case-studies/matthew-clark/matthew-clark2.jpg" alt="Matthew Clark creative" />
 				</div>
 			</div>
 			
 			<div id="matthew-clark3">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/matthew-clark/matthew-clark3.jpg" alt="PPCP" />
+					<img src="/img/case-studies/matthew-clark/matthew-clark3.jpg" alt="Matthew Clark creative" />
 				</div>
 			</div>
 			
 			<div id="matthew-clark4">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/matthew-clark/matthew-clark4.jpg" alt="PPCP" />
+					<img src="/img/case-studies/matthew-clark/matthew-clark4.jpg" alt="Matthew Clark creative" />
 				</div>
 			</div>
 			
 			<div id="matthew-clark5">
 				<div class="full-width-image">
-					<img src="/img/case-studies/matthew-clark/matthew-clark5.jpg" alt="PPCP" />
+					<img src="/img/case-studies/matthew-clark/matthew-clark5.jpg" alt="Matthew Clark creative" />
 				</div>
 			</div>
 			
 			<div id="matthew-clark6">	
 				<div class="full-width-image">
-					<img src="/img/case-studies/matthew-clark/matthew-clark6.jpg" alt="PPCP" />
+					<img src="/img/case-studies/matthew-clark/matthew-clark6.jpg" alt="Matthew Clark creative" />
 				</div>
 			</div>
 		</section>
@@ -192,17 +192,21 @@
 
 		<div id="fixed-nav-buttons">
 			<div class="fixed-nav-buttons flexbox">
-				<div class="fixed-previous-page flexbox">
-					<img src="/img/arrow-left.svg" alt="Show me the showreel" />
-					<h4>&nbsp;&nbsp;Prev</h4>
-				</div>
+				<a href="../pgl">
+					<div class="fixed-previous-page flexbox">
+						<img src="/img/arrow-left.svg" alt="Previous" />
+						<h4>&nbsp;&nbsp;Prev</h4>
+					</div>
+				</a>
 				<div class="fixed-spacer">
 					<h2>&nbsp;</h2>
 				</div>
-				<div class="fixed-next-page flexbox">
-					<h4>Next&nbsp;&nbsp;</h4>
-					<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-				</div>
+				<a href="../ppcp">
+					<div class="fixed-next-page flexbox">
+						<h4>Next&nbsp;&nbsp;</h4>
+						<img src="/img/arrow-right.svg" alt="Next" />
+					</div>
+				</a>
 			</div>
 		</div>
 
@@ -214,7 +218,9 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
+						<a href="../pgl">
+							<img src="/img/case-studies/pgl.jpg" alt="PGL case study" />
+						</a>
 					</div>
 					<div class="view-all-work flexbox">
 						<a href="/work">
@@ -223,7 +229,9 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
+						<a href="../ppcp">
+							<img src="/img/case-studies/ppcp.jpg" alt="Premier Pet Care Plan case study" />
+						</a>
 					</div>
 				</div>
 			</div>	
@@ -244,7 +252,7 @@
 						<a href="#">
 							<div class="button-next">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right.png" alt="Make enquiry" />
 							</div>
 						</a>
 					</div>

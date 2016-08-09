@@ -6,7 +6,7 @@
 	.slide {flex-direction: column;}
 }
 
-.video {
+.video-masthead {
 	pointer-events: none;
 	width: 100%;
 	height: 600px;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (min-width: 1090px) {
-	.video video {
+	.video-masthead video {
 			width: 100%;
 			margin: 0 auto;
 		}
