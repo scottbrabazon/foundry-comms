@@ -48,22 +48,20 @@
 						<img src="/img/menu.svg" alt="Menu"></a>
 					</div>
 				 	<ul class="menu-links-mobile">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Service</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Service</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 			</div>	
@@ -71,71 +69,67 @@
 
 		<!-- Masthead -->
 
-		<div id="case-studies-masthead" class="ppcp">
-			&nbsp;
-		</div>
-
-		<!-- End Masthead -->
-
-		<!-- Casestudy Headline Panel -->
-
-		<div id="case-studies-headline" class="ppcp">
-			<div class="flexbox main-container headlines">
-				<div class="headlines-copy">
+		<header id="ppcp-masthead" class="masthead flexbox">
+			<div class="masthead-content main-container flexbox">
+				<div class="headlines">
 					<h1>Premier Pet Care Plan</h1>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue.</h3>
+					<h3>Shaking things up in a stagnant market.</h3>
 				</div>
 				<div class="client-logo">
 					<img src="/img//client-logos/ppcp-white.svg" alt="PPCP" />
 				</div>
 			</div>
-		</div>	
+		</header>	
 
-		<!-- End Casestudy Headline Panel -->
+		<!-- End Masthead -->
 
 		<!-- Intro Copy -->
 
-		<div id="case-study-intro-copy" class="main-container">
+		<section id="kumho-intro" class="main-container">
 			<div class="case-study-introduction">
-				<p><span>Lorem ipsum dolor sit amet,</span> eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+				<p>Premier Vet Group had a pet wellness plan that wasn’t as healthy as it could be. Our research revealed vets and pet owners both want the same thing: pets at their best. We brought this new direction to life with refreshed branding, photography with real personality and dynamic communications that sold the concept effortlessly to practices and their clients.</p>
 			</div>
 			<hr />
-			<div class="flexbox">
+			<div class="flexbox listen">
 				<h2>Listen</h2>
 				<div class="listen-copy">
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<p>Sales of Premier Vet Group’s underperforming preventative health care plan, Pet Care Plan, had started to slow. The same promotional materials had been put under vets’ noses for several years. New business was sluggish and customer retention under threat. How could they reinvigorate the brand and capture a larger share of the market?</p>
+					<p>First, we needed to get a clear picture of the current market, Pet Care Plan’s position and its relevant strengths and weaknesses. We also collated insights into the needs of both vets and pet owners, their attitudes to pets’ wellbeing and preventative health plans.</p>
+					<p>Generally, awareness of preventative health plans was low amongst consumers, who also tend to confuse them with pet insurance. Whereas vets see the plans as a tool to increase customer loyalty, help generate revenues and improve the health of pets in their care.</p>
+					<p>One of the key insights of the research was that, first and foremost, vets want to be vets. They are driven by the needs of the pets in their care and are reluctant business people.  Yet the need to make money is something they can’t afford to ignore.</p>
 				</div>	
 			</div>
 			<hr />
-			<div class="flexbox">
+			<div class="flexbox plan">
 				<h2>Plan</h2>
 				<div class="plan-copy">
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<p>Our proposition had to be simple and resonate. Research taught us vets and owners essentially want the same thing: to keep pets at their best. Which would form the basis of our campaign strategy.</p>
+					<p>We had to demonstrate that, by focussing on the simplicity of implementation and ongoing support, we could help vets to get on with their jobs while still helping them provide the best possible care.</p>
+					<p>Competitor literature featured overused stock imagery of cats, dogs and rabbits. To differentiate, our campaign photography had to show pets in natural situations – kittens chasing balls, dogs digging down the back of sofas. Messages had to strike a chord with pet owners; to move away from price and focus on the end goal – keeping pets at their best.</p>
 				</div>	
 			</div>
 			<hr />
-			<div class="flexbox">
+			<div class="flexbox deliver">
 				<h2>Deliver</h2>
 				<div class="deliver-copy">
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
-					<p>Lorem ipsum dolor sit amet, eos ei solet possit rationibus. Nihil docendi at vel, eum virtute voluptua mnesarchum in, te congue impetus expetenda vim. Congue sententiae duo at, vel ei quot denique vulputate. Aeque harum sit ex, mel id populo discere ancillae. Eu labitur aliquid tibique nam, dico voluptatibus sed ea. Nam cu hinc prima erroribus, doming scriptorem pro id.</p>
+					<p>As well as new branding, photography and campaign materials, we also introduced the prefix ‘Premier’ to Pet Care Plan.</p>
+					<p>This brought the brand in line with Premier Vet Alliance, the affiliated Buying Group, and helped to cement the connotation of high quality products and service.</p>
 				</div>
 			</div>
-		</div>
+			<hr />
+		</section>
 
 		<!-- End Intro Copy -->
 
@@ -200,15 +194,17 @@
 
 		<!-- Footer -->
 
-		<div id="footer">
+		<footer id="footer">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
 						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
 					</div>
 					<div class="view-all-work flexbox">
-						<img src="/img/view-all-work.svg" alt="View all work" />
-						<h4>View all work</h4>
+						<a href="/work">
+							<img src="/img/view-all-work.svg" alt="View all work" />
+							<h3>View all work</h3>
+						</a>
 					</div>
 					<div class="next-case-study">
 						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
@@ -227,18 +223,18 @@
 			</div>
 			<div class="footer main-container">
 				<div class="footer-row-3 flexbox">
-					<p class="contact-number"><span>Contact</span> +44 (0)161 926 8444</p>
+					<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
 					<div class="enquiry-button">
 						<a href="#">
 							<div class="button-next">
-								<p>View our work</p>
+								<p>Make Enquiry</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</a>
 					</div>
 				</div>
 			</div>	
-		</div>
+		</footer>
 
 		<!-- End Footer -->
 

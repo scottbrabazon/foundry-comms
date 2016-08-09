@@ -614,7 +614,7 @@ h3 {
 h4 {
   font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 0 0 0.5em 0;
 }
 
@@ -633,39 +633,47 @@ a {
   text-decoration: none;
 }
 
+/* line 47, ../scss/_base.scss */
+li {
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+  font-size: 0.85em;
+  line-height: 2em;
+  list-style: initial;
+}
+
 @media screen and (min-width: 800px) {
-  /* line 48, ../scss/_base.scss */
+  /* line 55, ../scss/_base.scss */
   h1 {
     font-size: 4em;
   }
 
-  /* line 52, ../scss/_base.scss */
+  /* line 59, ../scss/_base.scss */
   h2 {
     font-size: 3em;
   }
 
-  /* line 56, ../scss/_base.scss */
+  /* line 63, ../scss/_base.scss */
   h3 {
     font-size: 2em;
   }
 }
 /* General */
-/* line 64, ../scss/_base.scss */
-img {
-  display: block;
-}
-
-/* line 65, ../scss/_base.scss */
+/* line 71, ../scss/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 66, ../scss/_base.scss */
+/* line 72, ../scss/_base.scss */
+img {
+  display: block;
+}
+
+/* line 73, ../scss/_base.scss */
 .flexbox {
   display: flex;
 }
 
-/* line 67, ../scss/_base.scss */
+/* line 74, ../scss/_base.scss */
 .main-container {
   max-width: 1075px;
   margin: 0 auto;
@@ -673,15 +681,15 @@ ul {
   padding: 0 5%;
 }
 
-/* line 73, ../scss/_base.scss */
+/* line 80, ../scss/_base.scss */
 .hideme {
   opacity: 0;
 }
 
-/* line 74, ../scss/_base.scss */
+/* line 81, ../scss/_base.scss */
 .rule img {
   width: 35px;
-  margin: 0 0 30px 0;
+  margin-bottom: 30px;
 }
 
 /* http://responsiveslides.com v1.54 by @viljamis */
@@ -703,16 +711,17 @@ ul {
   width: 100%;
   left: 0;
   top: 0;
+  height: 600px;
 }
 
-/* line 21, ../scss/_rslides.scss */
+/* line 22, ../scss/_rslides.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 27, ../scss/_rslides.scss */
+/* line 28, ../scss/_rslides.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -1022,72 +1031,153 @@ ul {
 .navigation-panel a {
   color: #fff;
 }
+/* line 12, ../scss/_navigation.scss */
+.navigation-panel ul {
+  list-style: none;
+}
 
-/* line 14, ../scss/_navigation.scss */
+/* line 15, ../scss/_navigation.scss */
 .logo {
   flex-grow: 1;
 }
 
 /* Default */
-/* line 21, ../scss/_navigation.scss */
+/* line 22, ../scss/_navigation.scss */
 .navigation-menu {
   display: none;
 }
-/* line 23, ../scss/_navigation.scss */
+/* line 24, ../scss/_navigation.scss */
 .navigation-menu ul {
   padding: 0;
-  margin: 6px 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 29, ../scss/_navigation.scss */
+.navigation-menu li {
+  list-style: none;
+  line-height: 1em;
 }
 
-/* line 29, ../scss/_navigation.scss */
+/* line 32, ../scss/_navigation.scss */
 .menu-links {
   flex-direction: row;
+  align-items: flex-end;
+  flex-direction: row;
 }
-/* line 30, ../scss/_navigation.scss */
+/* line 33, ../scss/_navigation.scss */
 .menu-links li {
   padding-left: 20px;
 }
 
 /* Mobile */
-/* line 37, ../scss/_navigation.scss */
+/* line 42, ../scss/_navigation.scss */
+.menu-toggle-button {
+  align-self: flex-end;
+}
+
+/* line 44, ../scss/_navigation.scss */
 .navigation-menu-mobile {
   margin: 0;
   flex-direction: column;
   text-align: right;
 }
-/* line 41, ../scss/_navigation.scss */
+/* line 48, ../scss/_navigation.scss */
 .navigation-menu-mobile a {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   font-size: 2em;
 }
 
-/* line 48, ../scss/_navigation.scss */
+/* line 55, ../scss/_navigation.scss */
 .menu-links-mobile {
   display: none;
 }
-/* line 49, ../scss/_navigation.scss */
+/* line 56, ../scss/_navigation.scss */
 .menu-links-mobile li {
   padding-left: 20px;
 }
+/* line 58, ../scss/_navigation.scss */
+.menu-links-mobile ul {
+  flex-direction: column;
+}
 
-/* line 53, ../scss/_navigation.scss */
+/* line 61, ../scss/_navigation.scss */
 .open {
   display: inline;
 }
 
 /* Media Querys */
 @media screen and (min-width: 780px) {
-  /* line 58, ../scss/_navigation.scss */
+  /* line 66, ../scss/_navigation.scss */
   .navigation-menu {
     display: flex;
   }
 
-  /* line 59, ../scss/_navigation.scss */
+  /* line 67, ../scss/_navigation.scss */
   .navigation-menu-mobile {
     display: none;
   }
 }
+/* line 1, ../scss/_fixed-nav-buttons.scss */
+#fixed-nav-buttons {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  padding: 0;
+  pointer-events: none;
+}
+
+/* line 10, ../scss/_fixed-nav-buttons.scss */
+.fixed-nav-buttons {
+  width: 100%;
+  justify-content: space-between;
+}
+/* line 13, ../scss/_fixed-nav-buttons.scss */
+.fixed-nav-buttons h4 {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+/* line 20, ../scss/_fixed-nav-buttons.scss */
+.fixed-nav-buttons img {
+  width: 30%;
+  margin-top: 2px;
+}
+/* line 24, ../scss/_fixed-nav-buttons.scss */
+.fixed-nav-buttons div {
+  width: 47.5%;
+  background: #c62b32;
+  padding: 15px 15px;
+}
+/* line 29, ../scss/_fixed-nav-buttons.scss */
+.fixed-nav-buttons .fixed-previous-page {
+  flex-direction: row;
+  background: #c62b32;
+  background-size: cover;
+  align-items: center;
+  width: 100px;
+  pointer-events: auto;
+}
+/* line 37, ../scss/_fixed-nav-buttons.scss */
+.fixed-nav-buttons .fixed-next-page {
+  flex-direction: row;
+  flex-direction: row;
+  background: #c62b32;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100px;
+  pointer-events: auto;
+}
+/* line 47, ../scss/_fixed-nav-buttons.scss */
+.fixed-nav-buttons .fixed-spacer {
+  background: transparent;
+  width: auto;
+}
+
 /*
 
 /* Pages */
@@ -1138,16 +1228,14 @@ ul {
   pointer-events: none;
   width: 100%;
   height: 600px;
-  max-width: 1500px;
-  margin: 0 auto;
   overflow: hidden;
 }
-/* line 16, ../scss/_homepage-masthead.scss */
+/* line 14, ../scss/_homepage-masthead.scss */
 .video video {
   width: 1500px;
 }
 
-/* line 21, ../scss/_homepage-masthead.scss */
+/* line 19, ../scss/_homepage-masthead.scss */
 .slide {
   flex-direction: column;
   justify-content: flex-end;
@@ -1155,13 +1243,8 @@ ul {
   pointer-events: none;
 }
 
-@media screen and (min-width: 1500px) {
-  /* line 29, ../scss/_homepage-masthead.scss */
-  .video {
-    max-width: 1500px;
-    margin: 0 auto;
-  }
-  /* line 32, ../scss/_homepage-masthead.scss */
+@media screen and (min-width: 1090px) {
+  /* line 27, ../scss/_homepage-masthead.scss */
   .video video {
     width: 100%;
     margin: 0 auto;
@@ -1169,10 +1252,14 @@ ul {
 }
 /* line 1, ../scss/_homepage-intro-copy.scss */
 #homepage-intro-copy {
-  margin-top: 120px;
+  margin-top: 60px;
+}
+/* line 3, ../scss/_homepage-intro-copy.scss */
+#homepage-intro-copy .rule img {
+  margin-bottom: 30px;
 }
 
-/* line 5, ../scss/_homepage-intro-copy.scss */
+/* line 6, ../scss/_homepage-intro-copy.scss */
 .button-next {
   pointer-events: auto;
   background: #c62b32;
@@ -1198,58 +1285,83 @@ ul {
   margin-left: 10px;
 }
 
-/* line 9, ../scss/_homepage-intro-copy.scss */
+/* line 10, ../scss/_homepage-intro-copy.scss */
 .intro-copy {
   margin-top: 60px;
   flex-direction: column;
 }
 
-/* line 17, ../scss/_homepage-intro-copy.scss */
+/* line 15, ../scss/_homepage-intro-copy.scss */
+.problem-solved {
+  width: 70%;
+  padding: 0 15%;
+  text-align: center;
+}
+/* line 19, ../scss/_homepage-intro-copy.scss */
+.problem-solved .rule img {
+  margin: 0 auto;
+}
+/* line 20, ../scss/_homepage-intro-copy.scss */
+.problem-solved p:first-of-type {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
+
+/* line 23, ../scss/_homepage-intro-copy.scss */
 .groupthree {
   flex-direction: column;
 }
 
-/* line 21, ../scss/_homepage-intro-copy.scss */
+/* line 27, ../scss/_homepage-intro-copy.scss */
 .groupthree > div {
   margin-top: 60px;
 }
 
-/* line 25, ../scss/_homepage-intro-copy.scss */
+/* line 31, ../scss/_homepage-intro-copy.scss */
 .problem-solved {
   flex-direction: column;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 31, ../scss/_homepage-intro-copy.scss */
+  /* line 37, ../scss/_homepage-intro-copy.scss */
   .problem-solved {
     flex-direction: row;
   }
 
-  /* line 32, ../scss/_homepage-intro-copy.scss */
+  /* line 38, ../scss/_homepage-intro-copy.scss */
   .problem-solved-1 {
     text-align: right;
   }
 
-  /* line 33, ../scss/_homepage-intro-copy.scss */
+  /* line 39, ../scss/_homepage-intro-copy.scss */
   .problem-solved-2 {
     padding-left: 50px;
   }
 
-  /* line 34, ../scss/_homepage-intro-copy.scss */
+  /* line 40, ../scss/_homepage-intro-copy.scss */
   .groupthree {
     flex-direction: row;
     margin-top: 0;
   }
 
-  /* line 38, ../scss/_homepage-intro-copy.scss */
+  /* line 44, ../scss/_homepage-intro-copy.scss */
   .groupthree > div {
     margin-right: 5%;
     width: 30%;
   }
 
-  /* line 42, ../scss/_homepage-intro-copy.scss */
+  /* line 48, ../scss/_homepage-intro-copy.scss */
   .groupthree > div:last-child {
     margin-right: 0;
+  }
+
+  /* line 51, ../scss/_homepage-intro-copy.scss */
+  .groupthree-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* line 54, ../scss/_homepage-intro-copy.scss */
+  .groupthree-content p {
+    flex-grow: 2;
   }
 }
 /* line 1, ../scss/_case-studies-panels.scss */
@@ -1328,23 +1440,23 @@ ul {
 /* line 28, ../scss/_homepage-showreel.scss */
 .showreel {
   margin-top: 60px;
-  position: relative;
 }
 /* line 30, ../scss/_homepage-showreel.scss */
 .showreel a {
   color: #fff;
 }
-/* line 32, ../scss/_homepage-showreel.scss */
+/* line 31, ../scss/_homepage-showreel.scss */
 .showreel .rule img {
   width: 31px;
+  margin: 0 0 30px 0;
 }
 
-/* line 35, ../scss/_homepage-showreel.scss */
+/* line 34, ../scss/_homepage-showreel.scss */
 .showreel .slide {
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 60px;
-  height: 690px;
+  height: 600px;
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -1372,6 +1484,7 @@ ul {
   font-family: "Gotham Light", sans-serif, arial, sans-serif;
   text-transform: initial;
   font-size: 1.2em;
+  line-height: 1.5em;
 }
 /* line 15, ../scss/_footer.scss */
 .footer .button-next {
@@ -1442,7 +1555,8 @@ ul {
   margin: 0 auto;
 }
 /* line 40, ../scss/_footer.scss */
-.footer-row-1 .view-all-work h4 {
+.footer-row-1 .view-all-work h3 {
+  font-size: 0.8em;
   margin-top: 10px;
 }
 
@@ -1495,13 +1609,13 @@ ul {
   }
 
   /* line 78, ../scss/_footer.scss */
-  .footer-row-1 > div {
+  .opinion, .news, .careers {
     margin-bottom: 30px;
     width: 30%;
     margin-right: 5%;
   }
   /* line 82, ../scss/_footer.scss */
-  .footer-row-1 > div img {
+  .opinion img, .news img, .careers img {
     width: 100%;
   }
 
@@ -1628,103 +1742,42 @@ ul {
   justify-content: flex-end;
 }
 
-/* line 81, ../scss/_services.scss */
-#fixed-nav-buttons {
-  width: 100%;
-  margin: 0 auto;
-  position: fixed;
-  top: 50%;
-  padding: 0;
-  pointer-events: none;
-}
-
-/* line 90, ../scss/_services.scss */
-.fixed-nav-buttons {
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-/* line 95, ../scss/_services.scss */
-.fixed-nav-buttons h4 {
-  color: #fff;
-  margin: 0;
-  text-transform: uppercase;
-  margin-top: 2px;
-}
-/* line 101, ../scss/_services.scss */
-.fixed-nav-buttons img {
-  width: 30%;
-  margin-top: 2px;
-}
-/* line 105, ../scss/_services.scss */
-.fixed-nav-buttons div {
-  width: 47.5%;
-  background: #c62b32;
-  padding: 15px 15px;
-}
-/* line 110, ../scss/_services.scss */
-.fixed-nav-buttons .fixed-previous-page {
-  flex-direction: row;
-  background: #c62b32;
-  background-size: cover;
-  align-items: center;
-  width: 100px;
-  pointer-events: auto;
-}
-/* line 118, ../scss/_services.scss */
-.fixed-nav-buttons .fixed-next-page {
-  flex-direction: row;
-  flex-direction: row;
-  background: #c62b32;
-  background-size: cover;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100px;
-  pointer-events: auto;
-}
-/* line 128, ../scss/_services.scss */
-.fixed-nav-buttons .fixed-spacer {
-  background: transparent;
-  width: auto;
-}
-
 @media screen and (min-width: 800px) {
-  /* line 135, ../scss/_services.scss */
+  /* line 83, ../scss/_services.scss */
   .services-intro-2 {
     width: 75%;
     padding-left: 10%;
     padding-right: 15%;
   }
 
-  /* line 140, ../scss/_services.scss */
+  /* line 88, ../scss/_services.scss */
   .services-main {
     flex-direction: row;
   }
 
-  /* line 143, ../scss/_services.scss */
+  /* line 91, ../scss/_services.scss */
   .services-main-2 {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 150, ../scss/_services.scss */
+  /* line 98, ../scss/_services.scss */
   .fixed-nav-buttons {
     display: none;
   }
 }
 @media screen and (max-width: 1300px) {
-  /* line 156, ../scss/_services.scss */
+  /* line 104, ../scss/_services.scss */
   .fixed-previous-page {
     width: 9%;
   }
 
-  /* line 157, ../scss/_services.scss */
+  /* line 105, ../scss/_services.scss */
   .fixed-next-page {
     width: 9%;
   }
 
-  /* line 158, ../scss/_services.scss */
+  /* line 106, ../scss/_services.scss */
   .fixed-spacer {
     width: 82%;
   }
@@ -1755,112 +1808,110 @@ hr {
 
 /* line 12, ../scss/_case-studies.scss */
 .masthead {
-  max-width: 1500px;
   padding-top: 30px;
   height: 500px;
   margin: 0 auto;
-  background-size: cover;
   flex-direction: column;
   justify-content: flex-end;
+  color: #fff;
 }
 
-/* line 21, ../scss/_case-studies.scss */
+/* line 20, ../scss/_case-studies.scss */
 .masthead-content {
   align-items: flex-end;
   padding-bottom: 60px;
 }
-/* line 24, ../scss/_case-studies.scss */
+/* line 23, ../scss/_case-studies.scss */
 .masthead-content h1 {
   margin-bottom: 10px;
 }
-/* line 25, ../scss/_case-studies.scss */
+/* line 24, ../scss/_case-studies.scss */
 .masthead-content h3 {
   margin-bottom: 0;
   text-transform: initial;
   padding-right: 150px;
 }
 
-/* line 27, ../scss/_case-studies.scss */
+/* line 26, ../scss/_case-studies.scss */
 .listen-copy, .plan-copy, .deliver-copy {
   width: 60%;
 }
-/* line 29, ../scss/_case-studies.scss */
+/* line 28, ../scss/_case-studies.scss */
 .listen-copy p:first-of-type, .plan-copy p:first-of-type, .deliver-copy p:first-of-type {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
 }
 
-/* line 31, ../scss/_case-studies.scss */
+/* line 30, ../scss/_case-studies.scss */
 .listen h2, .plan h2, .deliver h2 {
   width: 30%;
   text-align: right;
   padding-right: 30px;
 }
 
-/* line 32, ../scss/_case-studies.scss */
+/* line 31, ../scss/_case-studies.scss */
 .listen, .plan, .deliver {
   margin-top: 60px;
 }
 
-/* line 33, ../scss/_case-studies.scss */
+/* line 32, ../scss/_case-studies.scss */
 #case-study-examples {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
 }
 
-/* line 34, ../scss/_case-studies.scss */
+/* line 33, ../scss/_case-studies.scss */
 .full-width-image {
   width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
 }
-/* line 38, ../scss/_case-studies.scss */
+/* line 35, ../scss/_case-studies.scss */
 .full-width-image img {
   width: 100%;
 }
 
-/* line 40, ../scss/_case-studies.scss */
+/* line 37, ../scss/_case-studies.scss */
 .full-width-copy {
   width: 70%;
   margin: 0 15%;
   text-align: center;
 }
-/* line 44, ../scss/_case-studies.scss */
+/* line 41, ../scss/_case-studies.scss */
 .full-width-copy .rule {
   width: auto;
 }
-/* line 45, ../scss/_case-studies.scss */
+/* line 42, ../scss/_case-studies.scss */
 .full-width-copy p:first-of-type {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
 }
+/* line 43, ../scss/_case-studies.scss */
+.full-width-copy img {
+  margin: 0 auto 30px auto;
+}
 
-/* Masthead Backgrounds */
+/* Albemarle Bond */
+/* line 48, ../scss/_case-studies.scss */
+#albemarle-bond-masthead.masthead {
+  background: black url("/img/backgrounds/case-study-albemarle-bond.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
 /* line 50, ../scss/_case-studies.scss */
-#ppcp-masthead.masthead {
-  background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat top center;
+#albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {
+  margin-top: 60px;
 }
 
-/* line 51, ../scss/_case-studies.scss */
-#kumho-masthead.masthead {
-  background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center;
-}
-
-/* PPCP */
-/* line 55, ../scss/_case-studies.scss */
-#case-studies-headline.ppcp {
-  background-color: #f39530;
-  color: #fff;
-}
-
-/* line 56, ../scss/_case-studies.scss */
-.full-background-left-col.ppcp1 {
-  background: black url("/img/case-studies/ppcp/ppcp-1.jpg") no-repeat top right;
+/* line 52, ../scss/_case-studies.scss */
+#albemarle-bond1 {
+  background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom center;
+  background-size: cover;
+  height: 788px;
 }
 
 /* Kumho */
-/* line 60, ../scss/_case-studies.scss */
-#kumho-masthead {
-  color: #fff;
+/* line 61, ../scss/_case-studies.scss */
+#kumho-masthead.masthead {
+  background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center;
+  background-size: cover;
 }
 
 /* line 63, ../scss/_case-studies.scss */
@@ -1879,7 +1930,6 @@ hr {
 /* line 69, ../scss/_case-studies.scss */
 #kumho1 .rule img {
   width: 31px;
-  margin: 0 auto;
 }
 /* line 70, ../scss/_case-studies.scss */
 #kumho1 .main-container {
@@ -1895,13 +1945,8 @@ hr {
 #kumho3 {
   margin-top: 60px;
 }
-/* line 76, ../scss/_case-studies.scss */
-#kumho3 .rule img {
-  width: 31px;
-  margin: 0 auto;
-}
 
-/* line 79, ../scss/_case-studies.scss */
+/* line 78, ../scss/_case-studies.scss */
 #kumho4 {
   margin-top: 60px;
   background: black url("/img/case-studies/kumho/kumho4.jpg") no-repeat bottom right;
@@ -1909,67 +1954,69 @@ hr {
   color: #fff;
   height: 550px;
 }
-/* line 85, ../scss/_case-studies.scss */
+/* line 84, ../scss/_case-studies.scss */
 #kumho4 .col-1 {
   padding-top: 60px;
 }
 
-/* line 87, ../scss/_case-studies.scss */
+/* line 86, ../scss/_case-studies.scss */
 #kumho5 {
   margin-top: 60px;
 }
 
-/* line 90, ../scss/_case-studies.scss */
+/* line 89, ../scss/_case-studies.scss */
 #kumho6 {
   margin-top: 60px;
+}
+/* line 91, ../scss/_case-studies.scss */
+#kumho6 img {
+  width: 100%;
 }
 /* line 92, ../scss/_case-studies.scss */
 #kumho6 .rule img {
   width: 31px;
-  margin: 0 auto;
 }
 /* line 93, ../scss/_case-studies.scss */
-#kumho6 img {
-  width: 100%;
-}
-/* line 94, ../scss/_case-studies.scss */
 #kumho6 .row-1 {
   flex-direction: row;
 }
-/* line 95, ../scss/_case-studies.scss */
+/* line 94, ../scss/_case-studies.scss */
 #kumho6 .row-2 {
   margin-top: 40px;
 }
 
-/* line 97, ../scss/_case-studies.scss */
+/* line 96, ../scss/_case-studies.scss */
 #kumho7 {
   margin-top: 60px;
 }
-/* line 99, ../scss/_case-studies.scss */
+/* line 98, ../scss/_case-studies.scss */
 #kumho7 img {
   width: 100%;
 }
-/* line 100, ../scss/_case-studies.scss */
+/* line 99, ../scss/_case-studies.scss */
 #kumho7 .rule img {
   width: 31px;
-  margin: 0 auto;
 }
-/* line 101, ../scss/_case-studies.scss */
+/* line 100, ../scss/_case-studies.scss */
 #kumho7 .row-2 {
   flex-direction: row;
   margin-top: 40px;
 }
 
-/* line 103, ../scss/_case-studies.scss */
+/* line 102, ../scss/_case-studies.scss */
 #kumho8 {
   margin-top: 60px;
   background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom right;
   background-size: cover;
   padding-bottom: 60px;
 }
-/* line 107, ../scss/_case-studies.scss */
+/* line 106, ../scss/_case-studies.scss */
 #kumho8 img {
   width: 100%;
+}
+/* line 107, ../scss/_case-studies.scss */
+#kumho8 .rule img {
+  width: 31px;
 }
 /* line 108, ../scss/_case-studies.scss */
 #kumho8 .col-1 {
@@ -1998,151 +2045,198 @@ hr {
   width: 100%;
 }
 /* line 117, ../scss/_case-studies.scss */
+#kumho9 .rule img {
+  width: 31px;
+}
+/* line 118, ../scss/_case-studies.scss */
 #kumho9 .col-2 {
   margin-top: 0;
 }
-/* line 118, ../scss/_case-studies.scss */
+/* line 119, ../scss/_case-studies.scss */
 #kumho9 .row-1 {
   flex-direction: row;
 }
-/* line 119, ../scss/_case-studies.scss */
+/* line 120, ../scss/_case-studies.scss */
 #kumho9 .row-2 {
   flex-direction: row;
   margin-top: 20px;
 }
 
-/* line 121, ../scss/_case-studies.scss */
+/* line 122, ../scss/_case-studies.scss */
 #kumho10 {
   margin-top: 60px;
+}
+
+/* Matthew Clark */
+/* line 128, ../scss/_case-studies.scss */
+#matthew-clark-masthead.masthead {
+  background: black url("/img/backgrounds/case-study-matthew-clark.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+/* line 130, ../scss/_case-studies.scss */
+#matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {
+  margin-top: 60px;
+}
+
+/* Premier Pet Care Plan */
+/* line 135, ../scss/_case-studies.scss */
+#ppcp-masthead.masthead {
+  background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+/* line 137, ../scss/_case-studies.scss */
+#albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {
+  margin-top: 60px;
+}
+
+/* line 139, ../scss/_case-studies.scss */
+#albemarle-bond1 {
+  background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom center;
+  background-size: cover;
+  height: 788px;
 }
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
   /* General */
-  /* line 132, ../scss/_case-studies.scss */
+  /* line 152, ../scss/_case-studies.scss */
   .col-1, .col-2 {
     width: 100%;
   }
 
-  /* line 133, ../scss/_case-studies.scss */
+  /* line 153, ../scss/_case-studies.scss */
   .col-1 {
     margin-right: 0;
   }
 
-  /* line 134, ../scss/_case-studies.scss */
+  /* line 154, ../scss/_case-studies.scss */
   .masthead-content {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  /* line 135, ../scss/_case-studies.scss */
+  /* line 155, ../scss/_case-studies.scss */
   .headlines {
     order: 2;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
-  /* line 136, ../scss/_case-studies.scss */
+  /* line 156, ../scss/_case-studies.scss */
   .client-logo {
     order: 1;
   }
 
-  /* line 137, ../scss/_case-studies.scss */
+  /* line 157, ../scss/_case-studies.scss */
   .listen, .plan, .deliver {
     flex-direction: column;
   }
 
-  /* line 138, ../scss/_case-studies.scss */
+  /* line 158, ../scss/_case-studies.scss */
   .listen-copy, .plan-copy, .deliver-copy {
     width: 100%;
   }
 
-  /* line 139, ../scss/_case-studies.scss */
+  /* line 159, ../scss/_case-studies.scss */
   .listen h2, .plan h2, .deliver h2 {
     width: 100%;
     text-align: left;
     padding-right: 0;
   }
 
+  /* Albemarle Bond */
+  /* line 164, ../scss/_case-studies.scss */
+  #albemarle-bond1 {
+    background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom right;
+    background-size: cover;
+    height: 788px;
+  }
+  /* line 165, ../scss/_case-studies.scss */
+  #albemarle-bond1 .row-1 {
+    flex-direction: column;
+  }
+
   /* Kumho */
-  /* line 144, ../scss/_case-studies.scss */
+  /* line 174, ../scss/_case-studies.scss */
   #kumho1 .main-container {
     flex-direction: column;
   }
 
-  /* line 147, ../scss/_case-studies.scss */
+  /* line 177, ../scss/_case-studies.scss */
   #kumho4 .full-background-left-col {
     height: 900px;
   }
-  /* line 148, ../scss/_case-studies.scss */
+  /* line 178, ../scss/_case-studies.scss */
   #kumho4 .full-background-left-col .col-1 {
     width: 100%;
   }
 
-  /* line 153, ../scss/_case-studies.scss */
+  /* line 183, ../scss/_case-studies.scss */
   #kumho6 .row-1 {
     flex-direction: column;
   }
 
-  /* line 156, ../scss/_case-studies.scss */
+  /* line 186, ../scss/_case-studies.scss */
   #kumho7 .row-2 {
     flex-direction: column;
   }
-  /* line 157, ../scss/_case-studies.scss */
+  /* line 187, ../scss/_case-studies.scss */
   #kumho7 .col-2 {
     margin-top: 60px;
   }
 
-  /* line 160, ../scss/_case-studies.scss */
+  /* line 190, ../scss/_case-studies.scss */
   #kumho8 .col-1 {
     padding-top: 20px;
     order: 2;
   }
-  /* line 161, ../scss/_case-studies.scss */
+  /* line 191, ../scss/_case-studies.scss */
   #kumho8 .col-2 {
     order: 1;
   }
-  /* line 163, ../scss/_case-studies.scss */
+  /* line 193, ../scss/_case-studies.scss */
   #kumho8 .col-2 img {
     width: 50%;
     margin: 0 25%;
   }
-  /* line 165, ../scss/_case-studies.scss */
+  /* line 195, ../scss/_case-studies.scss */
   #kumho8 .row-1 {
     flex-direction: column;
   }
-  /* line 166, ../scss/_case-studies.scss */
+  /* line 196, ../scss/_case-studies.scss */
   #kumho8 .row-2 {
     flex-direction: column;
   }
-  /* line 167, ../scss/_case-studies.scss */
+  /* line 197, ../scss/_case-studies.scss */
   #kumho8 .row-2 img {
     width: 80%;
     margin: 0 10%;
   }
 
-  /* line 171, ../scss/_case-studies.scss */
+  /* line 201, ../scss/_case-studies.scss */
   #kumho9 {
     margin-top: 60px;
   }
-  /* line 173, ../scss/_case-studies.scss */
+  /* line 203, ../scss/_case-studies.scss */
   #kumho9 .col-2 {
     margin-top: 20px;
   }
-  /* line 174, ../scss/_case-studies.scss */
+  /* line 204, ../scss/_case-studies.scss */
   #kumho9 .row-1 {
     flex-direction: column;
   }
-  /* line 176, ../scss/_case-studies.scss */
+  /* line 206, ../scss/_case-studies.scss */
   #kumho9 .row-1 img {
     width: 50%;
     margin: 0 25%;
   }
-  /* line 178, ../scss/_case-studies.scss */
+  /* line 208, ../scss/_case-studies.scss */
   #kumho9 .row-2 {
     flex-direction: column;
     margin-top: 20px;
   }
-  /* line 180, ../scss/_case-studies.scss */
+  /* line 210, ../scss/_case-studies.scss */
   #kumho9 .row-2 img {
     width: 100%;
   }

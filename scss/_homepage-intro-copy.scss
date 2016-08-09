@@ -1,5 +1,6 @@
 #homepage-intro-copy {
-	margin-top: 120px;
+	margin-top: 60px;
+	.rule img {margin-bottom: 30px;}
 }
 
 .button-next {
@@ -11,7 +12,12 @@
 	flex-direction: column;
 }
 
-.problem-solved-1 {
+.problem-solved {
+	width: 70%;
+	padding: 0 15%;
+	text-align: center;
+	.rule img {margin: 0 auto;}
+	p:first-of-type {font-family: $foundry_extra_bold;}
 }
 
 .groupthree {
@@ -41,5 +47,10 @@
 	}
 	.groupthree > div:last-child {
 		margin-right: 0;
+	}
+	.groupthree-content {
+		flex-direction: column;
+		justify-content: space-between;
+		p {flex-grow: 2;}
 	}
 }

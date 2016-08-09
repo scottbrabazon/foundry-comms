@@ -52,22 +52,20 @@
 						<img src="/img/menu.svg" alt="Menu"></a>
 					</div>
 				 	<ul class="menu-links-mobile">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Approach</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="work">Work</a></li>
+						<li><a href="our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Approach</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="work">Work</a></li>
+						<li><a href="our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 			</div>	
@@ -99,22 +97,6 @@
 							</a>
 						</div>	
 					</li>
-					<li>
-						<div class="slide flexbox">
-							<div class="rule">
-								<img src="/img/rule.png" alt="Rule" />
-							</div>
-							<a href="#">
-								<h1>Ex eum lobortis antiopam interpretaris. Dico vidisse inciderint eos ad</h1>
-							</a>
-							<a href="#">
-								<div class="button-next">
-									<p>View our work</p>
-									<img src="/img/arrow-right.png" alt="Show me the showreel" />
-								</div>
-							</a>
-						</div>	
-					</li>
 				</ul>
 			</header>
 
@@ -124,18 +106,16 @@
 
 			<div id="homepage-intro-copy">
 				<div class="intro-copy flexbox"> 
-					<div class="problem-solved flexbox">
-						<h2>Problem<br>Solved</h2>
-						<div class="problem-solved-2 ">
-							<div class="rule hideme">
-								<img src="/img/rule.png" alt="Rule" />
-							</div>
-							<p>If you have a marketing problem, we’ll solve it. Whatever challenges you face as a business, we find the answers, strategically and creatively, and determine the right channels for you to market your products or services more effectively.</p>
-							<p>We start by listening to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but build your brand for tomorrow.</p>
+					<div class="problem-solved">
+						<h2 class="hideme">Problem<br>Solved</h2>
+						<div class="rule hideme">
+							<img src="/img/rule.png" alt="Rule" />
 						</div>
+						<p class="hideme">If you have a marketing problem, we’ll solve it. Whatever challenges you face as a business, we find the answers, strategically and creatively, and determine the right channels for you to market your products or services more effectively.</p>
+						<p class="hideme">We start by listening to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but build your brand for tomorrow.</p>
 					</div>	
 					<div class="groupthree flexbox">
-						<div class="groupthree-content">
+						<div class="groupthree-content flexbox">
 							<h2 class="hideme">Listen</h2>
 							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
@@ -146,7 +126,7 @@
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content">
+						<div class="groupthree-content flexbox">
 							<h2 class="hideme">Plan</h2>
 							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
@@ -157,7 +137,7 @@
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</div>
-						<div class="groupthree-content">
+						<div class="groupthree-content flexbox">
 							<h2 class="hideme">Deliver</h2>
 							<div class="rule hideme">
 								<img src="/img/rule.png" alt="Rule" />
@@ -178,15 +158,15 @@
 
 		<!-- Case Studes -->
 
-		<div id="case-studies" class="hideme">
+		<div id="case-studies">
 			<div class="case-studes-examples flexbox">
-				<div>
+				<div class="hideme">
 					<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
 				</div>
-				<div>
+				<div class="hideme">
 					<img src="/img/kuhmo.jpg" alt="Kuhmo Case Study" />
 				</div>
-				<div>	
+				<div class="hideme">	
 					<img src="/img/bike-and-go.jpg" alt="Bike &amp; Go Case Study" />
 				</div>
 			</div>
@@ -225,40 +205,20 @@
 
 		<div id="homepage-showreel">
 			<div class="showreel main-container">
-				<ul class="rslides">
-					<li>
-						<div class="slide flexbox">
-							<div class="rule">
-								<img src="/img/rule.png" alt="Rule" />
-							</div>
-							<a href="#">
-								<h1>Magna minimum ea mea, antiopam volutpat pertinacia ea est</h1>
-							</a>
-							<a href="#">
-								<div class="button-next">
-									<p>View our work</p>
-									<img src="/img/arrow-right.png" alt="Show me the showreel" />
-								</div>
-							</a>
-						</div>	
-					</li>
-					<li>
-						<div class="slide flexbox">
-							<div class="rule">
-								<img src="/img/rule.png" alt="Rule" />
-							</div>
-							<a href="#">
-								<h1>Mel an simul diceret. Sed et nominavi luptatum. Sint facete antiopam vel te</h1>
-							</a>
-							<a href="#">
-								<div class="button-next">
-									<p>View our work</p>
-									<img src="/img/arrow-right.png" alt="Show me the showreel" />
-								</div>
-							</a>
-						</div>	
-					</li>
-				</ul>
+				<div class="slide flexbox">
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<a href="#">
+						<h1>Agency showreel</h1>
+					</a>
+					<a href="#">
+						<div class="button-next">
+							<p>View our work</p>
+							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+						</div>
+					</a>
+				</div>	
 			</div>	
 		</div>	
 
@@ -277,6 +237,10 @@
 						<h4>The £200 million football match</h4>
 						<p><strong>Posted by Scott on Thursday May 12,2016</strong></p>
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
+						<div class="button-next hideme">
+							<p>Find out more</p>
+							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+						</div>
 					</div>
 					<div class="careers hideme">
 						<h3>Careers</h3>
@@ -284,6 +248,10 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
+						<div class="button-next hideme">
+							<p>Find out more</p>
+							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+						</div>
 					</div>
 					<div class="news hideme">
 						<h3>News</h3>
@@ -292,6 +260,10 @@
 						</div>
 						<h4>Dr. Beckmann TV campaign launched </h4>
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
+						<div class="button-next hideme">
+							<p>Find out more</p>
+							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+						</div>
 					</div>
 				</div>
 			</div>	

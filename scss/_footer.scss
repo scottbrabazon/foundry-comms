@@ -10,7 +10,7 @@
 .footer {
 	h1, h2, h3, h4, p, a {color: #fff;}
 	h1, h2 {margin: 0}
-	h4 {font-family: $foundry_light; text-transform: initial; font-size: 1.2em;}
+	h4 {font-family: $foundry_light; text-transform: initial; font-size: 1.2em; line-height: 1.5em;}
 	flex-direction: column;
 	.button-next {@include transparent-button;}
 }
@@ -37,7 +37,7 @@
 			width: 100px;
 			margin: 0 auto;
 		}
-		h4 {margin-top: 10px;}
+		h3 {font-size: 0.8em; margin-top: 10px;}
 		flex-direction: column;
 		justify-content: center;
 	}
@@ -75,7 +75,7 @@
 		align-items: center;
 		justify-content: space-between;
 	}
-	.footer-row-1 > div {
+	.opinion, .news, .careers {
 		margin-bottom: 30px;
 		width: 30%;
 		margin-right: 5%;

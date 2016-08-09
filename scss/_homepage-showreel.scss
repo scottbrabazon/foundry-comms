@@ -28,15 +28,14 @@
 .showreel {
 	margin-top: 60px;
 	a {color: #fff}
-	position: relative;
-	.rule img {width: 31px;}
+	.rule img {width: 31px; margin: 0 0 30px 0;}
 }
 
 .showreel .slide {
 	flex-direction: column;
 	justify-content: flex-end;
 	padding-bottom: 60px;
-	height: 690px;
+	height: 600px;
 }
 
 @media screen and (min-width: 1075px) {

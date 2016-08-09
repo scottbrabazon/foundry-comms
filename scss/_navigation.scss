@@ -9,6 +9,7 @@
     padding: 20px 0;
     align-items: flex-start;
     a {color: #fff}
+    ul {list-style: none;}
 }
 
 .logo {
@@ -22,17 +23,23 @@
     display: none;
     ul {
         padding: 0;
-        margin: 6px 0;
+        margin: 0;
+        list-style: none;
     }
+    li {list-style: none; line-height: 1em;}
 }
 
 .menu-links {
     li {padding-left: 20px;}
     flex-direction: row;
+    align-items: flex-end;
+    flex-direction: row;
 }
 
 
 /* Mobile */
+
+.menu-toggle-button {align-self: flex-end;}
 
 .navigation-menu-mobile {
     margin: 0;
@@ -48,6 +55,7 @@
 .menu-links-mobile {
     li {padding-left: 20px;}
     display: none;
+    ul {flex-direction: column;}
 }
 
 .open {display: inline;}

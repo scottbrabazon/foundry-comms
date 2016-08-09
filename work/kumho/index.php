@@ -48,22 +48,20 @@
 						<img src="/img/menu.svg" alt="Menu"></a>
 					</div>
 				 	<ul class="menu-links-mobile">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Approch</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Approch</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 			</div>	
@@ -317,8 +315,10 @@
 						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
 					</div>
 					<div class="view-all-work flexbox">
-						<img src="/img/view-all-work.svg" alt="View all work" />
-						<h4>View all work</h4>
+						<a href="/work">
+							<img src="/img/view-all-work.svg" alt="View all work" />
+							<h3>View all work</h3>
+						</a>
 					</div>
 					<div class="next-case-study">
 						<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
@@ -337,11 +337,11 @@
 			</div>
 			<div class="footer main-container">
 				<div class="footer-row-3 flexbox">
-					<p class="contact-number"><span>Contact</span> +44 (0)161 926 8444</p>
+					<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
 					<div class="enquiry-button">
 						<a href="#">
 							<div class="button-next">
-								<p>View our work</p>
+								<p>Make Enquiry</p>
 								<img src="/img/arrow-right.png" alt="Show me the showreel" />
 							</div>
 						</a>

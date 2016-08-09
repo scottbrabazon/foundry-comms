@@ -52,22 +52,20 @@
 						<img src="/img/menu.svg" alt="Menu"></a>
 					</div>
 				 	<ul class="menu-links-mobile">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Service</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Service</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 			</div>	

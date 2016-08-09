@@ -10,13 +10,12 @@ hr {
 .col-1 {margin-right: 5%;}
 .col-1 p:first-of-type {font-family: $foundry_extra_bold;}
 .masthead {
-    max-width: 1500px;
     padding-top: 30px;
     height: 500px;
     margin: 0 auto;
-    background-size: cover;
     flex-direction: column;
     justify-content: flex-end;
+    color: #fff;
 }
 .masthead-content {
 	align-items: flex-end;
@@ -33,8 +32,6 @@ hr {
 #case-study-examples {width: 100%; max-width: 1500px; margin: 0 auto;}
 .full-width-image {
 	width: 100%;
-	max-width: 1500px;
-	margin: 0 auto;
 	img {width: 100%;}
 }
 .full-width-copy {
@@ -43,37 +40,39 @@ hr {
 	text-align: center;
 	.rule {width: auto;}
 	p:first-of-type {font-family: $foundry_extra_bold;}
+	img {margin: 0 auto 30px auto;}
 }
 
-/* Masthead Backgrounds */
+/* Albemarle Bond */
 
-#ppcp-masthead.masthead {background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat top center;}
-#kumho-masthead.masthead {background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center;}
+#albemarle-bond-masthead.masthead {background: black url("/img/backgrounds/case-study-albemarle-bond.jpg") no-repeat bottom center; background-size: cover;}
 
-/* PPCP */
+#albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {margin-top: 60px;}
 
-#case-studies-headline.ppcp {background-color: $ppcp_orange; color: #fff;}
-.full-background-left-col.ppcp1 {background: black url("/img/case-studies/ppcp/ppcp-1.jpg") no-repeat top right;}
+#albemarle-bond1 {
+	background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom center;
+	background-size: cover;
+	height: 788px;
+}
+
 
 /* Kumho */
 
-#kumho-masthead {
-	color: #fff;
-}
+#kumho-masthead.masthead {background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center; background-size: cover;}
+
 #kumho-intro {
 	margin-top: 60px;
 }
 #kumho1 {
 	margin-top: 60px;
 	img {width: 100%;}
-	.rule img {width: 31px; margin: 0 auto;}
+	.rule img {width: 31px;}
 	.main-container {flex-direction: row;}
 }
 #kumho2 {
 	margin-top: 60px;
 }
 #kumho3 {
-	.rule img {width: 31px; margin: 0 auto;}
 	margin-top: 60px;
 }
 #kumho4 {
@@ -89,15 +88,15 @@ hr {
 }
 #kumho6 {
 	margin-top: 60px;
-	.rule img {width: 31px; margin: 0 auto;}
 	img {width: 100%;}
+	.rule img {width: 31px;}
 	.row-1 {flex-direction: row;}
 	.row-2 {margin-top: 40px;}
 }
 #kumho7 {
 	margin-top: 60px;
 	img {width: 100%;}
-	.rule img {width: 31px; margin: 0 auto;}
+	.rule img {width: 31px;}
 	.row-2 {flex-direction: row; margin-top: 40px;}
 }
 #kumho8 {
@@ -105,6 +104,7 @@ hr {
 	background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom right;
 	background-size: cover;
 	img {width: 100%;}
+	.rule img {width: 31px;}
 	.col-1 {padding-top: 60px; order: 1;}
 	.col-2 {order: 2;}
 	.row-1 {flex-direction: row;}
@@ -114,12 +114,32 @@ hr {
 #kumho9 {
 	margin-top: 60px;
 	img {width: 100%;}
+	.rule img {width: 31px;}
 	.col-2 {margin-top: 0;}
 	.row-1 {flex-direction: row;}
 	.row-2 {flex-direction: row; margin-top: 20px;}
 }
 #kumho10 {
 	margin-top: 60px;
+}
+
+/* Matthew Clark */
+
+#matthew-clark-masthead.masthead {background: black url("/img/backgrounds/case-study-matthew-clark.jpg") no-repeat bottom center; background-size: cover;}
+
+#matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {margin-top: 60px;}
+
+
+/* Premier Pet Care Plan */
+
+#ppcp-masthead.masthead {background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat bottom center; background-size: cover;}
+
+#albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {margin-top: 60px;}
+
+#albemarle-bond1 {
+	background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom center;
+	background-size: cover;
+	height: 788px;
 }
 
 
@@ -132,11 +152,21 @@ hr {
 	.col-1, .col-2 {width: 100%;}
 	.col-1 {margin-right: 0;}
 	.masthead-content {flex-direction: column; align-items: flex-start;}
-	.headlines {order: 2; margin-top: 10px;}
+	.headlines {order: 2; margin-top: 20px;}
 	.client-logo {order: 1;}
 	.listen, .plan, .deliver {flex-direction: column;}
 	.listen-copy, .plan-copy, .deliver-copy {width: 100%;}
 	.listen h2, .plan h2, .deliver h2 {width: 100%; text-align: left; padding-right: 0;}
+
+	
+	/* Albemarle Bond */
+
+	#albemarle-bond1 {
+		.row-1 {flex-direction: column;}
+		background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom right;
+		background-size: cover;
+		height: 788px;
+		}
 
 	/* Kumho */
 
