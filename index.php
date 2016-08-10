@@ -54,7 +54,7 @@
 				 	<ul class="menu-links-mobile">
 						<li><a href="#">About</a></li>
 						<li><a href="work">Work</a></li>
-						<li><a href="our-approach">Our Approach</a></li>
+						<li><a href="our-approach/listen">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
@@ -63,7 +63,7 @@
 				 	<ul class="menu-links flexbox">
 						<li><a href="#">About</a></li>
 						<li><a href="work">Work</a></li>
-						<li><a href="our-approach">Our Approach</a></li>
+						<li><a href="our-approach/listen">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>

@@ -42,7 +42,7 @@
 
 	<body>
 
-		<div id="navigation">
+		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
 					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
@@ -53,8 +53,8 @@
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="#">About</a></li>
-						<li><a href="../work">Work</a></li>
-						<li><a href="../our-approach">Our Approach</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach/listen">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
@@ -62,14 +62,14 @@
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
 						<li><a href="#">About</a></li>
-						<li><a href="../work">Work</a></li>
-						<li><a href="../our-approach">Our Approach</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach/listen">Our Approach</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 			</div>	
-		</div>
+		</nav>
 
 
 		<!-- Masthead -->

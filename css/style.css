@@ -1203,8 +1203,9 @@ img {
   float: left;
   margin-top: 20px;
   border: 1px solid #fff;
+  align-items: center;
 }
-/* line 11, ../scss/_mixins.scss */
+/* line 12, ../scss/_mixins.scss */
 #homepage-masthead .button-next p {
   text-transform: uppercase;
   line-height: 20px;
@@ -1212,7 +1213,7 @@ img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 18, ../scss/_mixins.scss */
+/* line 19, ../scss/_mixins.scss */
 #homepage-masthead .button-next img {
   width: auto;
   float: left;
@@ -1274,7 +1275,7 @@ img {
   margin-top: 25px;
   border: 1px solid #fff;
 }
-/* line 35, ../scss/_mixins.scss */
+/* line 36, ../scss/_mixins.scss */
 .button-next p {
   text-transform: uppercase;
   line-height: 20px;
@@ -1283,7 +1284,7 @@ img {
   margin: 0 0 0 0;
   color: #fff;
 }
-/* line 43, ../scss/_mixins.scss */
+/* line 44, ../scss/_mixins.scss */
 .button-next img {
   width: auto;
   float: left;
@@ -1502,8 +1503,9 @@ img {
   float: left;
   margin-top: 20px;
   border: 1px solid #fff;
+  align-items: center;
 }
-/* line 11, ../scss/_mixins.scss */
+/* line 12, ../scss/_mixins.scss */
 .footer .button-next p {
   text-transform: uppercase;
   line-height: 20px;
@@ -1511,7 +1513,7 @@ img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 18, ../scss/_mixins.scss */
+/* line 19, ../scss/_mixins.scss */
 .footer .button-next img {
   width: auto;
   float: left;
@@ -1653,69 +1655,105 @@ img {
   background-size: cover;
 }
 
-/* line 10, ../scss/_our-approach.scss */
-#our-approach-intro {
-  width: 70%;
-  margin: 0 15%;
-}
-/* line 13, ../scss/_our-approach.scss */
+/* line 11, ../scss/_our-approach.scss */
 #our-approach-intro h1 {
   text-align: center;
 }
-/* line 14, ../scss/_our-approach.scss */
+/* line 12, ../scss/_our-approach.scss */
 #our-approach-intro p:first-of-type {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
 }
-/* line 15, ../scss/_our-approach.scss */
+/* line 13, ../scss/_our-approach.scss */
 #our-approach-intro .our-approach-intro-nav {
   justify-content: center;
 }
-/* line 16, ../scss/_our-approach.scss */
+/* line 14, ../scss/_our-approach.scss */
 #our-approach-intro .our-approach-intro-copy {
   margin-top: 60px;
 }
-/* line 17, ../scss/_our-approach.scss */
+/* line 15, ../scss/_our-approach.scss */
 #our-approach-intro .button-next {
   margin: 60px 10px 0 10px;
+  background-color: transparent;
+  border-color: #c62b32;
+  align-items: center;
+}
+/* line 19, ../scss/_our-approach.scss */
+#our-approach-intro .button-next p {
+  color: #000;
+}
+/* line 22, ../scss/_our-approach.scss */
+#our-approach-intro .button-next.current {
+  margin: 60px 10px 0 10px;
+  background-color: #c62b32;
+}
+/* line 25, ../scss/_our-approach.scss */
+#our-approach-intro .button-next.current p {
+  color: #fff;
 }
 
-/* line 20, ../scss/_our-approach.scss */
+/* line 29, ../scss/_our-approach.scss */
 #our-approach-content {
   margin-top: 60px;
 }
+/* line 31, ../scss/_our-approach.scss */
+#our-approach-content .tabs {
+  padding-left: 0;
+}
+/* line 32, ../scss/_our-approach.scss */
+#our-approach-content .tabs li {
+  list-style: none;
+}
+/* line 33, ../scss/_our-approach.scss */
+#our-approach-content .tabs a {
+  color: #000;
+}
+/* line 34, ../scss/_our-approach.scss */
+#our-approach-content .active a {
+  color: #c62b32;
+}
+/* line 35, ../scss/_our-approach.scss */
+#our-approach-content .services-menu {
+  width: 250px;
+}
+/* line 36, ../scss/_our-approach.scss */
+#our-approach-content h3, #our-approach-content h4 {
+  text-transform: initial;
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
 
-/* line 45, ../scss/_our-approach.scss */
+/* line 60, ../scss/_our-approach.scss */
 #nav-buttons {
   margin-top: 60px;
 }
 
-/* line 48, ../scss/_our-approach.scss */
+/* line 63, ../scss/_our-approach.scss */
 .nav-buttons h2 {
   color: #fff;
   margin: 0;
 }
-/* line 52, ../scss/_our-approach.scss */
+/* line 67, ../scss/_our-approach.scss */
 .nav-buttons img {
   height: 100%;
   margin-top: 2px;
 }
-/* line 56, ../scss/_our-approach.scss */
-.nav-buttons div {
+/* line 71, ../scss/_our-approach.scss */
+.nav-buttons a {
   width: 47.5%;
   background: #c62b32;
   padding: 40px 30px 35px 30px;
 }
-/* line 61, ../scss/_our-approach.scss */
-.nav-buttons div:first-child {
+/* line 76, ../scss/_our-approach.scss */
+.nav-buttons a:first-child {
   margin-right: 5%;
 }
-/* line 62, ../scss/_our-approach.scss */
+/* line 77, ../scss/_our-approach.scss */
 .nav-buttons .previous-page {
   flex-direction: row;
   background: black url("/img/backgrounds/background-image-3.jpg") no-repeat center center;
   background-size: cover;
 }
-/* line 67, ../scss/_our-approach.scss */
+/* line 82, ../scss/_our-approach.scss */
 .nav-buttons .next-page {
   flex-direction: row;
   flex-direction: row;
@@ -1725,41 +1763,41 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 78, ../scss/_our-approach.scss */
+  /* line 93, ../scss/_our-approach.scss */
   .services-intro-2 {
     width: 75%;
     padding-left: 10%;
     padding-right: 15%;
   }
 
-  /* line 83, ../scss/_our-approach.scss */
+  /* line 98, ../scss/_our-approach.scss */
   .services-main {
     flex-direction: row;
   }
 
-  /* line 86, ../scss/_our-approach.scss */
+  /* line 101, ../scss/_our-approach.scss */
   .services-main-2 {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 93, ../scss/_our-approach.scss */
+  /* line 108, ../scss/_our-approach.scss */
   .fixed-nav-buttons {
     display: none;
   }
 }
 @media screen and (max-width: 1300px) {
-  /* line 99, ../scss/_our-approach.scss */
+  /* line 114, ../scss/_our-approach.scss */
   .fixed-previous-page {
     width: 9%;
   }
 
-  /* line 100, ../scss/_our-approach.scss */
+  /* line 115, ../scss/_our-approach.scss */
   .fixed-next-page {
     width: 9%;
   }
 
-  /* line 101, ../scss/_our-approach.scss */
+  /* line 116, ../scss/_our-approach.scss */
   .fixed-spacer {
     width: 82%;
   }
