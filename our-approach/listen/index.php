@@ -78,7 +78,9 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>Lorem ipsum dolor sit amet, no mei utinam eripuit mediocrem, solum aperiam ne has, nam oratio sapientem ut.</h3>
+					<h3>We understand every brief is unique but, over time, we have developed a tried and trusted approach that helps us to discover your purpose, define your audience and determine the best way to engage them.</h3>
+					<p>First, we build an accurate picture of your market, customers, and the landscape you operate within. This might mean conducting face-to-face interviews or commissioning a large-scale research project. Whatever it takes to uncover the problem.<p>
+					<p>Next, we’ll devise the strategy to ensure you’re delivering the right message, at the right time, to the right people. Finally, we put plans into action, developing original, award-winning, creative solutions that change the way people think about, and behave towards, your brand.</p>
 				</div>
 			</div>
 		</header>	
@@ -99,13 +101,13 @@
 					<a href="/our-approach/plan">
 						<div class="button-next flexbox">
 							<p>Plan</p>
-							<img src="/img/arrow-right-black.svg" alt="Show me the showreel" />
+							<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</a>
 					<a href="/our-approach/deliver">
 						<div class="button-next flexbox">
 							<p>Deliver</p>
-							<img src="/img/arrow-right-black.svg" alt="Show me the showreel" />
+							<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</a>
 				</div>
@@ -113,8 +115,8 @@
 					<h1>Listen</h1>
 					<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
 					<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
-					<hr />
 				</div>
+				<hr />
 			</div>
 		</div>
 
@@ -122,8 +124,8 @@
 
 		<!-- Our Approach Content -->
 
-		<div id="our-approach-content" class="main-container flexbox">
-			<div id="deliver-content" class="our-approach-content-copy">
+		<div id="our-approach-content" class="main-container flexbox our-approach-content-copy">
+			<div id="deliver-content" class="flexbox content">
 				<div id="listen-qualitative-research" class="tab_content">
 					<h2>Qualitative research</h2>
 					<div class="rule">
@@ -174,17 +176,16 @@
 				</div>
 			</div>
 			<div id="deliver-services-menu" class="services-menu">
-				<h3>Services</h3>
+				<h3>Listen services</h3>
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
 				<div class="services-links">
-					<ul class="tabs">
+					<ul class="tabs flexbox">
 				        <li><a href="#listen-qualitative-research">Qualitative research</a></li>
 				        <li><a href="#listen-quantitative-research">Quantitative research</a></li>
 				        <li><a href="#listen-internal-audit-and-workshops">Internal audit and workshops</a></li>
-				        <li><a href="#listen-digital-audit-and-research">Digital audit and research
-</a></li>
+				        <li><a href="#listen-digital-audit-and-research">Digital audit and research</a></li>
 				    </ul>
 				</div>
 			</div>
@@ -238,16 +239,15 @@
 		<div id="case-studies">
 			<div class="case-studes-examples flexbox">
 				<div>
-					<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+					<a href="/work/ppcp"><img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" /></a>
 				</div>
 				<div>
-					<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
+					<a href="/work/kumho"><img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" /></a>
 				</div>
 				<div>	
-					<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
+					<a href="/work/abellio"><img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" /></a>
 				</div>
 			</div>
-		</div>
 
 		<!-- End Case Studes -->
 
@@ -266,7 +266,7 @@
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
 						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="careers">
@@ -277,7 +277,7 @@
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
 						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="news">
@@ -289,7 +289,7 @@
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
 						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 				</div>
@@ -311,7 +311,7 @@
 						<a href="#">
 							<div class="button-next flexbox">
 								<p>View our work</p>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 							</div>
 						</a>
 					</div>

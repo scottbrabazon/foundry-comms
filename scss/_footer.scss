@@ -2,7 +2,9 @@
 	width: 100%;
     background: black url("/img/backgrounds/background-image-1.jpg") no-repeat center left;
     background-size: cover;
-    margin-top: 60px;
+    border-width: 60px 0 0 0;
+	border-color: #fff;
+	border-style: solid;
     position: absolute;
     z-index: 100;
 }
@@ -41,6 +43,10 @@
 		flex-direction: column;
 		justify-content: center;
 	}
+	.button-next {
+		border-color: $foundry_red;
+		background-color: $foundry_red;
+	}
 }
 
 .footer-row-1 > div {
@@ -62,6 +68,9 @@
 		color: $foundry_red;
 		text-transform: uppercase;
 		font-size: 1.2em;
+	}
+	.button-next {
+		border-color: $foundry_red;
 	}
 }
 
