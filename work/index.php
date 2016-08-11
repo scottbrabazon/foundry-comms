@@ -52,19 +52,19 @@
 						<img src="/img/menu.svg" alt="Menu"></a>
 					</div>
 				 	<ul class="menu-links-mobile">
-						<li><a href="#">About</a></li>
+						<li><a href="/about">About</a></li>
 						<li><a href="/work">Work</a></li>
 						<li><a href="/our-approach/listen">Our Approach</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
-						<li><a href="#">About</a></li>
+						<li><a href="/about">About</a></li>
 						<li><a href="/work">Work</a></li>
 						<li><a href="/our-approach/listen">Our Approach</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
@@ -141,9 +141,9 @@
 						<h4>The £200 million football match</h4>
 						<p><strong>Posted by Scott on Thursday May 12,2016</strong></p>
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
-						<div class="button-next">
+						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="careers">
@@ -152,9 +152,9 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
-						<div class="button-next">
+						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="news">
@@ -164,9 +164,9 @@
 						</div>
 						<h4>Dr. Beckmann TV campaign launched </h4>
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
-						<div class="button-next">
+						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 				</div>
@@ -183,12 +183,12 @@
 			</div>
 			<div class="footer main-container">
 				<div class="footer-row-3 flexbox">
-					<p class="contact-number"><span>Contact</span> +44 (0)161 926 8444</p>
+					<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
 					<div class="enquiry-button">
 						<a href="#">
-							<div class="button-next">
+							<div class="button-next flexbox">
 								<p>View our work</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 							</div>
 						</a>
 					</div>

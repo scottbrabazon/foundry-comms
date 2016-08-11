@@ -48,19 +48,19 @@
 						<img src="/img/menu.svg" alt="Menu"></a>
 					</div>
 				 	<ul class="menu-links-mobile">
-						<li><a href="#">About</a></li>
+						<li><a href="/about">About</a></li>
 						<li><a href="/work">Work</a></li>
 						<li><a href="/our-approach/listen">Our Approach</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="/contact">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
-						<li><a href="#">About</a></li>
+						<li><a href="/about">About</a></li>
 						<li><a href="/work">Work</a></li>
 						<li><a href="/our-approach/listen">Our Approach</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="/contact">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
@@ -236,9 +236,9 @@
 					<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
 					<div class="enquiry-button">
 						<a href="#">
-							<div class="button-next">
+							<div class="button-next flexbox">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right.png" alt="Make enquiry" />
+								<img src="/img/arrow-right-no-border.svg" alt="Make Enquiry" />
 							</div>
 						</a>
 					</div>

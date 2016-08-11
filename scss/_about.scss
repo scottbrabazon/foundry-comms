@@ -1,0 +1,32 @@
+#who-we-are {margin-top: 60px;}
+.people {flex-wrap: wrap;} 
+.people img {width: 100%;}
+.person {width: 25%;}
+.logo-active img {display: none}
+.logo-inactive:hover img {display: none}
+.logo-active:hover img {display: inline-block}
+.person-name-panel {
+    padding: 10px;
+	background: $foundry_red;
+    p {
+    	margin: 0;
+		font-family: $foundry_regular;
+		color: #fff;
+	    font-size: 0.85em;
+	    line-height: 1.2em;
+	    }
+    .person-name {font-family: $foundry_extra_bold; text-transform: uppercase;}
+}
+#our-people {
+	margin-top: 60px; 
+	text-align: center;
+	.rule img {margin: 0 auto 3px auto;}
+}
+.people {margin-top: 40px;}
+
+
+
+@media screen and (min-width: 780px) {
+    .navigation-menu {display: flex;}
+    .navigation-menu-mobile {display: none;}
+}

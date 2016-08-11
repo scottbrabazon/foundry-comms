@@ -26,6 +26,7 @@
 /* Red Button */
 
 @mixin red-button {
+    align-items: center;
     pointer-events: auto;
     background: #c62b32;
     overflow: auto;

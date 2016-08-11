@@ -52,19 +52,19 @@
 						<img src="/img/menu.svg" alt="Menu"></a>
 					</div>
 				 	<ul class="menu-links-mobile">
-						<li><a href="#">About</a></li>
-						<li><a href="work">Work</a></li>
-						<li><a href="our-approach/listen">Our Approach</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach/listen">Our Approach</a></li>
+						<li><a href="/contact">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
-						<li><a href="#">About</a></li>
-						<li><a href="work">Work</a></li>
-						<li><a href="our-approach/listen">Our Approach</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/our-approach/listen">Our Approach</a></li>
+						<li><a href="/contact">Contact</a></li>
 						<li><a href="#">Blog</a></li>
 				 	</ul>
 				</div>
@@ -92,7 +92,7 @@
 							<a href="#">
 								<div class="button-next">
 									<p>View our work</p>
-									<img src="/img/arrow-right.png" alt="Show me the showreel" />
+									<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 								</div>
 							</a>
 						</div>	
@@ -121,9 +121,9 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>Qualitative or quantitative. Internal or external. Offline or digital. We start with research to get close to your brand, your market and customers. By understanding their motivations, desires and what makes them tick, we can get to the heart of your marketing problem.</p>
-							<div class="button-next">
+							<div class="button-next flexbox">
 								<p>Find out more</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 							</div>
 						</div>
 						<div class="groupthree-content">
@@ -132,9 +132,9 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>Research informs the development of your communications strategy. We can develop or dissect your brand positioning and determine the best routes to market and methods to communicate.</p>
-							<div class="button-next">
+							<div class="button-next flexbox">
 								<p>Find out more</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 							</div>
 						</div>
 						<div class="groupthree-content">
@@ -143,9 +143,9 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>On or offline, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
-							<div class="button-next">
+							<div class="button-next flexbox">
 								<p>Find out more</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 							</div>
 						</div>
 					</div>
@@ -161,13 +161,13 @@
 		<div id="case-studies">
 			<div class="case-studes-examples flexbox">
 				<div>
-					<img src="/img/ppcp.jpg" alt="PPCP Case Study" />
+					<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
 				</div>
 				<div>
-					<img src="/img/kuhmo.jpg" alt="Kuhmo Case Study" />
+					<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
 				</div>
 				<div>	
-					<img src="/img/bike-and-go.jpg" alt="Bike &amp; Go Case Study" />
+					<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
 				</div>
 			</div>
 		</div>
@@ -191,7 +191,7 @@
 					<img src="img/client-logos/pgl.svg">
 				</div>
 				<div>
-					<img src="img/client-logos/albermarle-bond.svg">
+					<img src="img/client-logos/albemarle-bond.svg">
 				</div>
 				<div>
 					<img src="img/client-logos/ppcp.svg">
@@ -213,9 +213,9 @@
 						<h1>Agency showreel</h1>
 					</a>
 					<a href="#">
-						<div class="button-next">
+						<div class="button-next flexbox">
 							<p>View our work</p>
-							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							<img src="/img/arrow-right.svg" alt="Show me the showreel" />
 						</div>
 					</a>
 				</div>	
@@ -237,9 +237,9 @@
 						<h4>The £200 million football match</h4>
 						<p><strong>Posted by Scott on Thursday May 12,2016</strong></p>
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
-						<div class="button-next">
+						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="careers">
@@ -248,9 +248,9 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
-						<div class="button-next">
+						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="news">
@@ -260,9 +260,9 @@
 						</div>
 						<h4>Dr. Beckmann TV campaign launched </h4>
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
-						<div class="button-next">
+						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right.png" alt="Show me the showreel" />
+							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 				</div>
@@ -279,12 +279,12 @@
 			</div>
 			<div class="footer main-container">
 				<div class="footer-row-3 flexbox">
-					<p class="contact-number"><span>Contact</span> +44 (0)161 926 8444</p>
+					<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
 					<div class="enquiry-button">
 						<a href="#">
-							<div class="button-next">
+							<div class="button-next flexbox">
 								<p>View our work</p>
-								<img src="/img/arrow-right.png" alt="Show me the showreel" />
+								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 							</div>
 						</a>
 					</div>
