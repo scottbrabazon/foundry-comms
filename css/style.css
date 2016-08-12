@@ -1329,12 +1329,12 @@ button img {
 }
 
 @media screen and (min-width: 780px) {
-  /* line 30, ../scss/_about.scss */
+  /* line 31, ../scss/_about.scss */
   .navigation-menu {
     display: flex;
   }
 
-  /* line 31, ../scss/_about.scss */
+  /* line 32, ../scss/_about.scss */
   .navigation-menu-mobile {
     display: none;
   }

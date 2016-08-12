@@ -87,111 +87,286 @@
 
 		<!-- End Masthead -->
 
-		<!-- Our Approach Intro -->
+		<!-- Our Approach Nav -->
 
 		<div id="our-approach-intro" class="main-container">
 			<div id="deliver-intro">
-				<div class="our-approach-intro-nav flexbox">
-					<a href="/our-approach/listen">
-						<div class="button-next flexbox current">
-							<p>Listen</p>
-							<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-						</div>
-					</a>
-					<a href="/our-approach/plan">
-						<div class="button-next flexbox">
-							<p>Plan</p>
-							<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
-						</div>
-					</a>
-					<a href="/our-approach/deliver">
-						<div class="button-next flexbox">
-							<p>Deliver</p>
-							<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
-						</div>
-					</a>
+				<ul class="flexbox section_tabs">
+					<li>
+						<a href="#listen-content">
+							<div class="button-next flexbox current">
+								<p>Listen</p>
+								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#plan-content">
+							<div class="button-next flexbox">
+								<p>Plan</p>
+								<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#deliver-content">
+							<div class="button-next flexbox">
+								<p>Deliver</p>
+								<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
+							</div>
+						</a>
+					</li>
 				</div>
-				<div class="our-approach-intro-copy">
-					<h1>Listen</h1>
-					<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
-					<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
-				</div>
-				<hr />
 			</div>
 		</div>
 
-		<!-- End Our Approach Intro -->
+		<!-- End Our Approach Nav -->
 
-		<!-- Our Approach Content -->
+		<!-- Listen -->
 
 		<div id="our-approach-content" class="main-container flexbox our-approach-content-copy">
-			<div id="deliver-content" class="flexbox content">
-				<div id="listen-qualitative-research" class="tab_content">
-					<h2>Qualitative research</h2>
-					<div class="rule">
-						<img src="/img/rule.png" alt="Rule" />
+
+			<div id="listen-content" class="section_tab_content">
+				<div class="main-container">
+					<div class="our-approach-intro-copy">
+						<h1>Listen</h1>
+						<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
+						<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
+						<hr />
 					</div>
-					<p>In terms of gaining real depth of understanding, there’s no substitute for sitting and talking face to face (as long as you know the right questions to ask). We embrace innovative methodologies, such as co-creation or ethnography, to really get to the bottom of an audience’s motivations.</p>
-					<p>Whether it’s traditional focus groups, in-home depth interviews or on-going customer panels, we can design tailored research projects that provide ‘actionable insights’ aligned with your business objectives.</p>
 				</div>
-				<div id="listen-quantitative-research" class="tab_content">
-					<h2>Quantitative research</h2>
-					<div class="rule">
-						<img src="/img/rule.png" alt="Rule" />
+				<div class="flexbox content">
+					<div id="listen-qualitative-research" class="tab_content">
+						<h2>Listen 1</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>In terms of gaining real depth of understanding, there’s no substitute for sitting and talking face to face (as long as you know the right questions to ask). We embrace innovative methodologies, such as co-creation or ethnography, to really get to the bottom of an audience’s motivations.</p>
+						<p>Whether it’s traditional focus groups, in-home depth interviews or on-going customer panels, we can design tailored research projects that provide ‘actionable insights’ aligned with your business objectives.</p>
 					</div>
-					<p>When qualitative research needs to be supplemented by breadth of understanding, we deliver quantitative studies with customers or prospects. This allows us to evaluate behaviour and attitudes across segments, or to quantitatively test hypotheses.</p>
-					<p>Our research projects are designed and delivered with intelligence and rigour, to produce reports that deliver more than just a relentless series of charts.</p>
-				</div>
-				<div id="listen-internal-audit-and-workshops" class="tab_content">
-					<h2>Internal audit and workshops</h2>
-					<div class="rule">
-						<img src="/img/rule.png" alt="Rule" />
+					<div id="listen-quantitative-research" class="tab_content">
+						<h2>Listen 2</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>When qualitative research needs to be supplemented by breadth of understanding, we deliver quantitative studies with customers or prospects. This allows us to evaluate behaviour and attitudes across segments, or to quantitatively test hypotheses.</p>
+						<p>Our research projects are designed and delivered with intelligence and rigour, to produce reports that deliver more than just a relentless series of charts.</p>
 					</div>
-					<p>Your staff or sales force often has the biggest impact on your customers’ experience of your brand. Canvassing their views and experiences at the outset of a project can be invaluable in helping to set the strategic direction.</p>
-					<p>Equally, comparing and contrasting their perceptions with those from the customer research can help determine the needs for an internal training or engagement programme. Which can have a real impact on your customers’ relationship with your brand.</p>
-					<p>We can run independent, anonymised qualitative or quantitative studies with your staff, to help you evaluate their impact and influence.</p>
-					<p>We can also run internal workshops with key team members to help capture their individual perspectives and help engender a sense of project ownership.</p>
-				</div>
-				<div id="listen-digital-audit-and-research" class="tab_content">
-					<h2>Digital audit and research</h2>
-					<div class="rule">
-						<img src="/img/rule.png" alt="Rule" />
+					<div id="listen-internal-audit-and-workshops" class="tab_content">
+						<h2>Listen 3</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>Your staff or sales force often has the biggest impact on your customers’ experience of your brand. Canvassing their views and experiences at the outset of a project can be invaluable in helping to set the strategic direction.</p>
+						<p>Equally, comparing and contrasting their perceptions with those from the customer research can help determine the needs for an internal training or engagement programme. Which can have a real impact on your customers’ relationship with your brand.</p>
+						<p>We can run independent, anonymised qualitative or quantitative studies with your staff, to help you evaluate their impact and influence.</p>
+						<p>We can also run internal workshops with key team members to help capture their individual perspectives and help engender a sense of project ownership.</p>
 					</div>
-					<p>A digital strategy starts with a clear understanding of your customers, your market, your brand’s online profile and evaluation of your existing digital assets.</p>
-					<p>We can help you pinpoint who’s visiting your site and when; how they navigate it; your competitive profile; and conversion rates.</p>
-					<p>A digital audit can also reveal if your site is fully optimised and operating within the parameters to avoid Google penalties. Whether that’s understanding your link profile, strengthening connections, checking load speeds or tightening up your back office systems.</p>
-					<p>We can also listen in to social channels to get a better picture of who’s talking about you, your products and services. Our digital audit and research services include:</p>
-					<h4>Competitor research</h4>
-					<p>Which brands are you competing with and how can you win share of voice?</p>
-					<h4>Key phrase research</h4>
-					<p>Pinpoint the key phrases and search terms your customers use to find you and use this information to optimise your website and Google AdWords campaigns.</p>
-					<h4>Customer journey mapping</h4>
-					<p>Understand user experience to improve site navigation and increase conversion.</p>
-					<h4>Link profile</h4>
-					<p>The good, the bad and the toxic – we’ll keep the best links and remove any negative and broken ones. Ultimately, it’s about improving page ranking.</p>
-					<h4>Social media performance and listening</h4>
-					<p>Monitor conversations, identify trends and tap into consumers’ digital habits. This produces actionable data to build effective social campaigns.</p>
-					<h4>Site technical review</h4>
-					<p>Our SEO specialists make sure your site is firing on all cylinders and not losing customers.</p>
-				</div>
-			</div>
-			<div id="deliver-services-menu" class="services-menu">
-				<h3>Listen services</h3>
-				<div class="rule">
-					<img src="/img/rule.png" alt="Rule" />
-				</div>
-				<div class="services-links">
-					<ul class="tabs flexbox">
-				        <li><a href="#listen-qualitative-research">Qualitative research</a></li>
-				        <li><a href="#listen-quantitative-research">Quantitative research</a></li>
-				        <li><a href="#listen-internal-audit-and-workshops">Internal audit and workshops</a></li>
-				        <li><a href="#listen-digital-audit-and-research">Digital audit and research</a></li>
-				    </ul>
+					<div id="listen-digital-audit-and-research" class="tab_content">
+						<h2>Listen 4</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>A digital strategy starts with a clear understanding of your customers, your market, your brand’s online profile and evaluation of your existing digital assets.</p>
+						<p>We can help you pinpoint who’s visiting your site and when; how they navigate it; your competitive profile; and conversion rates.</p>
+						<p>A digital audit can also reveal if your site is fully optimised and operating within the parameters to avoid Google penalties. Whether that’s understanding your link profile, strengthening connections, checking load speeds or tightening up your back office systems.</p>
+						<p>We can also listen in to social channels to get a better picture of who’s talking about you, your products and services. Our digital audit and research services include:</p>
+						<h4>Competitor research</h4>
+						<p>Which brands are you competing with and how can you win share of voice?</p>
+						<h4>Key phrase research</h4>
+						<p>Pinpoint the key phrases and search terms your customers use to find you and use this information to optimise your website and Google AdWords campaigns.</p>
+						<h4>Customer journey mapping</h4>
+						<p>Understand user experience to improve site navigation and increase conversion.</p>
+						<h4>Link profile</h4>
+						<p>The good, the bad and the toxic – we’ll keep the best links and remove any negative and broken ones. Ultimately, it’s about improving page ranking.</p>
+						<h4>Social media performance and listening</h4>
+						<p>Monitor conversations, identify trends and tap into consumers’ digital habits. This produces actionable data to build effective social campaigns.</p>
+						<h4>Site technical review</h4>
+						<p>Our SEO specialists make sure your site is firing on all cylinders and not losing customers.</p>
+					</div>
+					<div id="listen-services-menu" class="services-menu">
+						<h3>Listen services</h3>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<div class="services-links">
+							<ul class="tabs flexbox">
+						        <li><a href="#listen-qualitative-research">Listen 1</a></li>
+						        <li><a href="#listen-quantitative-research">Listen 2</a></li>
+						        <li><a href="#listen-internal-audit-and-workshops">Listen 3</a></li>
+						        <li><a href="#listen-digital-audit-and-research">Listen 4</a></li>
+						    </ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- End Our Approach Content -->
+		<!-- End Listen -->
+
+		<!-- Plan -->
+
+		<div id="our-approach-content" class="main-container flexbox our-approach-content-copy">
+
+			<div id="plan-content" class="section_tab_content">
+				<div class="main-container">
+					<div class="our-approach-intro-copy">
+						<h1>Plan</h1>
+						<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
+						<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
+						<hr />
+					</div>
+				</div>
+				<div class="flexbox content">
+					<div id="plan-qualitative-research" class="tab_content">
+						<h2>Plan 1</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>In terms of gaining real depth of understanding, there’s no substitute for sitting and talking face to face (as long as you know the right questions to ask). We embrace innovative methodologies, such as co-creation or ethnography, to really get to the bottom of an audience’s motivations.</p>
+						<p>Whether it’s traditional focus groups, in-home depth interviews or on-going customer panels, we can design tailored research projects that provide ‘actionable insights’ aligned with your business objectives.</p>
+					</div>
+					<div id="plan-quantitative-research" class="tab_content">
+						<h2>Plan 2</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>When qualitative research needs to be supplemented by breadth of understanding, we deliver quantitative studies with customers or prospects. This allows us to evaluate behaviour and attitudes across segments, or to quantitatively test hypotheses.</p>
+						<p>Our research projects are designed and delivered with intelligence and rigour, to produce reports that deliver more than just a relentless series of charts.</p>
+					</div>
+					<div id="plan-internal-audit-and-workshops" class="tab_content">
+						<h2>Plan 3</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>Your staff or sales force often has the biggest impact on your customers’ experience of your brand. Canvassing their views and experiences at the outset of a project can be invaluable in helping to set the strategic direction.</p>
+						<p>Equally, comparing and contrasting their perceptions with those from the customer research can help determine the needs for an internal training or engagement programme. Which can have a real impact on your customers’ relationship with your brand.</p>
+						<p>We can run independent, anonymised qualitative or quantitative studies with your staff, to help you evaluate their impact and influence.</p>
+						<p>We can also run internal workshops with key team members to help capture their individual perspectives and help engender a sense of project ownership.</p>
+					</div>
+					<div id="plan-digital-audit-and-research" class="tab_content">
+						<h2>Plan 4</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>A digital strategy starts with a clear understanding of your customers, your market, your brand’s online profile and evaluation of your existing digital assets.</p>
+						<p>We can help you pinpoint who’s visiting your site and when; how they navigate it; your competitive profile; and conversion rates.</p>
+						<p>A digital audit can also reveal if your site is fully optimised and operating within the parameters to avoid Google penalties. Whether that’s understanding your link profile, strengthening connections, checking load speeds or tightening up your back office systems.</p>
+						<p>We can also listen in to social channels to get a better picture of who’s talking about you, your products and services. Our digital audit and research services include:</p>
+						<h4>Competitor research</h4>
+						<p>Which brands are you competing with and how can you win share of voice?</p>
+						<h4>Key phrase research</h4>
+						<p>Pinpoint the key phrases and search terms your customers use to find you and use this information to optimise your website and Google AdWords campaigns.</p>
+						<h4>Customer journey mapping</h4>
+						<p>Understand user experience to improve site navigation and increase conversion.</p>
+						<h4>Link profile</h4>
+						<p>The good, the bad and the toxic – we’ll keep the best links and remove any negative and broken ones. Ultimately, it’s about improving page ranking.</p>
+						<h4>Social media performance and listening</h4>
+						<p>Monitor conversations, identify trends and tap into consumers’ digital habits. This produces actionable data to build effective social campaigns.</p>
+						<h4>Site technical review</h4>
+						<p>Our SEO specialists make sure your site is firing on all cylinders and not losing customers.</p>
+					</div>
+					<div id="plan-services-menu" class="services-menu">
+						<h3>Plan services</h3>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<div class="services-links">
+							<ul class="tabs flexbox">
+						        <li><a href="#plan-qualitative-research">Plan 1</a></li>
+						        <li><a href="#plan-quantitative-research">Plan 2</a></li>
+						        <li><a href="#plan-internal-audit-and-workshops">Plan 3</a></li>
+						        <li><a href="#plan-digital-audit-and-research">Plan 4</a></li>
+						    </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End Plan -->
+
+		<!-- Deliver -->
+
+		<div id="our-approach-content" class="main-container flexbox our-approach-content-copy">
+
+			<div id="deliver-content" class="section_tab_content">
+				<div class="main-container">
+					<div class="our-approach-intro-copy">
+						<h1>Deliver</h1>
+						<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
+						<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
+						<hr />
+					</div>
+				</div>
+				<div class="flexbox content">
+					<div id="deliver-qualitative-research" class="tab_content">
+						<h2>Deliver 1</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>In terms of gaining real depth of understanding, there’s no substitute for sitting and talking face to face (as long as you know the right questions to ask). We embrace innovative methodologies, such as co-creation or ethnography, to really get to the bottom of an audience’s motivations.</p>
+						<p>Whether it’s traditional focus groups, in-home depth interviews or on-going customer panels, we can design tailored research projects that provide ‘actionable insights’ aligned with your business objectives.</p>
+					</div>
+					<div id="deliver-quantitative-research" class="tab_content">
+						<h2>Deliver 2</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>When qualitative research needs to be supplemented by breadth of understanding, we deliver quantitative studies with customers or prospects. This allows us to evaluate behaviour and attitudes across segments, or to quantitatively test hypotheses.</p>
+						<p>Our research projects are designed and delivered with intelligence and rigour, to produce reports that deliver more than just a relentless series of charts.</p>
+					</div>
+					<div id="deliver-internal-audit-and-workshops" class="tab_content">
+						<h2>Deliver 3</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>Your staff or sales force often has the biggest impact on your customers’ experience of your brand. Canvassing their views and experiences at the outset of a project can be invaluable in helping to set the strategic direction.</p>
+						<p>Equally, comparing and contrasting their perceptions with those from the customer research can help determine the needs for an internal training or engagement programme. Which can have a real impact on your customers’ relationship with your brand.</p>
+						<p>We can run independent, anonymised qualitative or quantitative studies with your staff, to help you evaluate their impact and influence.</p>
+						<p>We can also run internal workshops with key team members to help capture their individual perspectives and help engender a sense of project ownership.</p>
+					</div>
+					<div id="deliver-digital-audit-and-research" class="tab_content">
+						<h2>Deliver 4</h2>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<p>A digital strategy starts with a clear understanding of your customers, your market, your brand’s online profile and evaluation of your existing digital assets.</p>
+						<p>We can help you pinpoint who’s visiting your site and when; how they navigate it; your competitive profile; and conversion rates.</p>
+						<p>A digital audit can also reveal if your site is fully optimised and operating within the parameters to avoid Google penalties. Whether that’s understanding your link profile, strengthening connections, checking load speeds or tightening up your back office systems.</p>
+						<p>We can also listen in to social channels to get a better picture of who’s talking about you, your products and services. Our digital audit and research services include:</p>
+						<h4>Competitor research</h4>
+						<p>Which brands are you competing with and how can you win share of voice?</p>
+						<h4>Key phrase research</h4>
+						<p>Pinpoint the key phrases and search terms your customers use to find you and use this information to optimise your website and Google AdWords campaigns.</p>
+						<h4>Customer journey mapping</h4>
+						<p>Understand user experience to improve site navigation and increase conversion.</p>
+						<h4>Link profile</h4>
+						<p>The good, the bad and the toxic – we’ll keep the best links and remove any negative and broken ones. Ultimately, it’s about improving page ranking.</p>
+						<h4>Social media performance and listening</h4>
+						<p>Monitor conversations, identify trends and tap into consumers’ digital habits. This produces actionable data to build effective social campaigns.</p>
+						<h4>Site technical review</h4>
+						<p>Our SEO specialists make sure your site is firing on all cylinders and not losing customers.</p>
+					</div>
+					<div id="deliver-services-menu" class="services-menu">
+						<h3>Deliver services</h3>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
+						<div class="services-links">
+							<ul class="tabs flexbox">
+						        <li><a href="#deliver-qualitative-research">Deliver 1</a></li>
+						        <li><a href="#deliver-quantitative-research">Deliver 2</a></li>
+						        <li><a href="#deliver-internal-audit-and-workshops">Deliver 3</a></li>
+						        <li><a href="#deliver-digital-audit-and-research">Deliver 4</a></li>
+						    </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End Deliver -->
 
 		<!-- Nav Buttons -->
 
