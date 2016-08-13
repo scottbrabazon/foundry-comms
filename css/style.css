@@ -1808,11 +1808,6 @@ button img {
   }
 }
 /* line 1, ../scss/_our-approach.scss */
-.services {
-  flex-direction: column;
-}
-
-/* line 5, ../scss/_our-approach.scss */
 #our-approach-masthead {
   background: black url("/img/backgrounds/background-image-2.svg") no-repeat center left;
   background-size: cover;
@@ -1821,185 +1816,16 @@ button img {
   z-index: 100;
   width: 100%;
 }
-/* line 9, ../scss/_our-approach.scss */
+/* line 5, ../scss/_our-approach.scss */
 #our-approach-masthead h3 {
   margin-bottom: 1em;
 }
 
-/* line 15, ../scss/_our-approach.scss */
+/* line 11, ../scss/_our-approach.scss */
 #our-approach-intro {
   padding-top: 700px;
 }
-/* line 16, ../scss/_our-approach.scss */
-#our-approach-intro h1 {
-  text-align: center;
-}
-/* line 17, ../scss/_our-approach.scss */
-#our-approach-intro p:first-of-type {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
-}
-/* line 18, ../scss/_our-approach.scss */
-#our-approach-intro .our-approach-intro-nav {
-  justify-content: center;
-  flex-wrap: wrap;
-}
-/* line 19, ../scss/_our-approach.scss */
-#our-approach-intro .our-approach-intro-copy {
-  margin: 60px 15%;
-  width: 70%;
-}
-/* line 20, ../scss/_our-approach.scss */
-#our-approach-intro .button-next {
-  margin: 60px 10px 0 10px;
-  background-color: transparent;
-  border-color: #c62b32;
-  align-items: center;
-}
-/* line 24, ../scss/_our-approach.scss */
-#our-approach-intro .button-next p {
-  color: #000;
-}
-/* line 27, ../scss/_our-approach.scss */
-#our-approach-intro .button-next.current {
-  margin: 60px 10px 0 10px;
-  background-color: #c62b32;
-}
-/* line 30, ../scss/_our-approach.scss */
-#our-approach-intro .button-next.current p {
-  color: #fff;
-}
 
-/* line 35, ../scss/_our-approach.scss */
-#our-approach-content {
-  margin-top: 60px;
-}
-/* line 37, ../scss/_our-approach.scss */
-#our-approach-content .tabs {
-  padding-left: 0;
-}
-/* line 38, ../scss/_our-approach.scss */
-#our-approach-content .tabs li {
-  list-style: none;
-  line-height: 1.5em;
-}
-/* line 39, ../scss/_our-approach.scss */
-#our-approach-content .tabs a {
-  color: #000;
-}
-/* line 40, ../scss/_our-approach.scss */
-#our-approach-content .active a {
-  color: #c62b32;
-}
-/* line 41, ../scss/_our-approach.scss */
-#our-approach-content h3, #our-approach-content h4 {
-  text-transform: initial;
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
-}
-/* line 42, ../scss/_our-approach.scss */
-#our-approach-content .services-menu .rule img {
-  margin-bottom: 10px;
-}
-/* line 43, ../scss/_our-approach.scss */
-#our-approach-content .services-menu {
-  order: -1;
-  margin-bottom: 30px;
-}
-/* line 44, ../scss/_our-approach.scss */
-#our-approach-content .tabs {
-  flex-wrap: wrap;
-}
-/* line 45, ../scss/_our-approach.scss */
-#our-approach-content .tabs li {
-  padding-right: 20px;
-}
-
-/* line 47, ../scss/_our-approach.scss */
-.our-approach-content-copy {
-  flex-direction: column;
-}
-/* line 49, ../scss/_our-approach.scss */
-.our-approach-content-copy p:first-of-type {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
-}
-
-/* line 52, ../scss/_our-approach.scss */
-#nav-buttons {
-  margin-top: 60px;
-}
-/* line 54, ../scss/_our-approach.scss */
-#nav-buttons .nav-buttons {
-  display: flex;
-  flex-direction: column;
-}
-/* line 57, ../scss/_our-approach.scss */
-#nav-buttons .nav-buttons h2 {
-  color: #fff;
-  margin: 0;
-}
-/* line 61, ../scss/_our-approach.scss */
-#nav-buttons .nav-buttons img {
-  height: 100%;
-  margin-top: 2px;
-}
-/* line 65, ../scss/_our-approach.scss */
-#nav-buttons .nav-buttons a {
-  width: 100%%;
-  background: #c62b32;
-  padding: 40px 30px 35px 30px;
-}
-/* line 70, ../scss/_our-approach.scss */
-#nav-buttons .nav-buttons .previous-page {
-  flex-direction: row;
-  background: black url("/img/backgrounds/background-image-3.jpg") no-repeat center center;
-  background-size: cover;
-}
-/* line 75, ../scss/_our-approach.scss */
-#nav-buttons .nav-buttons .next-page {
-  flex-direction: row;
-  background: black url("/img/backgrounds/background-image-4.jpg") no-repeat center center;
-  background-size: cover;
-  justify-content: flex-end;
-}
-
-@media screen and (min-width: 580px) {
-  /* line 86, ../scss/_our-approach.scss */
-  #nav-buttons .nav-buttons {
-    flex-direction: row;
-  }
-  /* line 88, ../scss/_our-approach.scss */
-  #nav-buttons .nav-buttons a {
-    width: 47.5%;
-  }
-  /* line 91, ../scss/_our-approach.scss */
-  #nav-buttons .nav-buttons a:first-child {
-    margin-right: 5%;
-  }
-}
-@media screen and (min-width: 900px) {
-  /* line 97, ../scss/_our-approach.scss */
-  .our-approach-content-copy {
-    flex-direction: row;
-  }
-
-  /* line 99, ../scss/_our-approach.scss */
-  #our-approach-content .services-menu {
-    order: 1;
-    margin-bottom: 30px;
-  }
-  /* line 100, ../scss/_our-approach.scss */
-  #our-approach-content .tabs {
-    flex-direction: column;
-  }
-  /* line 101, ../scss/_our-approach.scss */
-  #our-approach-content .services-menu {
-    width: 25%;
-  }
-  /* line 102, ../scss/_our-approach.scss */
-  #our-approach-content .content {
-    width: 70%;
-    margin-right: 5%;
-  }
-}
 /* General */
 /* line 3, ../scss/_case-studies.scss */
 hr {

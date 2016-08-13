@@ -90,33 +90,25 @@
 		<!-- Our Approach Nav -->
 
 		<div id="our-approach-intro" class="main-container">
-			<div id="deliver-intro">
-				<ul class="flexbox section_tabs">
-					<li>
-						<a href="#listen-content">
-							<div class="button-next flexbox current">
-								<p>Listen</p>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="#plan-content">
-							<div class="button-next flexbox">
-								<p>Plan</p>
-								<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="#deliver-content">
-							<div class="button-next flexbox">
-								<p>Deliver</p>
-								<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
-							</div>
-						</a>
-					</li>
-				</div>
+			<ul class="flexbox section_tabs">
+				<li>
+					<a href="#listen-content" class="button-next flexbox">
+						<p>Listen</p>
+						<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+					</a>
+				</li>
+				<li>
+					<a href="#plan-content" class="button-next flexbox">
+						<p>Plan</p>
+						<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
+					</a>
+				</li>
+				<li>
+					<a href="#deliver-content" class="button-next flexbox">
+						<p>Deliver</p>
+						<img src="/img/arrow-right-black-no-border.svg" alt="Show me the showreel" />
+					</a>
+				</li>
 			</div>
 		</div>
 
@@ -124,19 +116,22 @@
 
 		<!-- Listen -->
 
-		<div id="our-approach-content" class="main-container flexbox our-approach-content-copy">
+		<div id="our-approach-content" class="main-container our-approach-content-copy">
 
 			<div id="listen-content" class="section_tab_content">
 				<div class="main-container">
 					<div class="our-approach-intro-copy">
 						<h1>Listen</h1>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
 						<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
 						<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
-						<hr />
 					</div>
+					<hr />
 				</div>
 				<div class="flexbox content">
-					<div id="listen-qualitative-research" class="tab_content">
+					<div id="listen-qualitative-research" class="listen_tab_content">
 						<h2>Listen 1</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -144,7 +139,7 @@
 						<p>In terms of gaining real depth of understanding, there’s no substitute for sitting and talking face to face (as long as you know the right questions to ask). We embrace innovative methodologies, such as co-creation or ethnography, to really get to the bottom of an audience’s motivations.</p>
 						<p>Whether it’s traditional focus groups, in-home depth interviews or on-going customer panels, we can design tailored research projects that provide ‘actionable insights’ aligned with your business objectives.</p>
 					</div>
-					<div id="listen-quantitative-research" class="tab_content">
+					<div id="listen-quantitative-research" class="listen_tab_content">
 						<h2>Listen 2</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -152,7 +147,7 @@
 						<p>When qualitative research needs to be supplemented by breadth of understanding, we deliver quantitative studies with customers or prospects. This allows us to evaluate behaviour and attitudes across segments, or to quantitatively test hypotheses.</p>
 						<p>Our research projects are designed and delivered with intelligence and rigour, to produce reports that deliver more than just a relentless series of charts.</p>
 					</div>
-					<div id="listen-internal-audit-and-workshops" class="tab_content">
+					<div id="listen-internal-audit-and-workshops" class="listen_tab_content">
 						<h2>Listen 3</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -162,7 +157,7 @@
 						<p>We can run independent, anonymised qualitative or quantitative studies with your staff, to help you evaluate their impact and influence.</p>
 						<p>We can also run internal workshops with key team members to help capture their individual perspectives and help engender a sense of project ownership.</p>
 					</div>
-					<div id="listen-digital-audit-and-research" class="tab_content">
+					<div id="listen-digital-audit-and-research" class="listen_tab_content">
 						<h2>Listen 4</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -190,7 +185,7 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<div class="services-links">
-							<ul class="tabs flexbox">
+							<ul class="listen_tabs">
 						        <li><a href="#listen-qualitative-research">Listen 1</a></li>
 						        <li><a href="#listen-quantitative-research">Listen 2</a></li>
 						        <li><a href="#listen-internal-audit-and-workshops">Listen 3</a></li>
@@ -199,6 +194,42 @@
 						</div>
 					</div>
 				</div>
+				<!-- Listen Nav Buttons -->
+				<div id="approach-nav-buttons">
+					<ul class="section_tabs flexbox">
+						<li class="nav-buttons flexbox previous-page">
+							<a href="#deliver-content" class="flexbox">
+								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<h2>&nbsp;&nbsp;Deliver</h2>
+							</a>
+						</li>
+						<li class="nav-buttons flexbox next-page">
+							<a href="#plan-content" class="flexbox">
+								<h2>Plan&nbsp;&nbsp;</h2>
+								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Listen Nav Buttons -->
+				<!-- Listen Fixed Nav Buttons -->
+				<div id="fixed-nav-buttons">
+					<ul class="section_tabs flexbox">
+						<li class="nav-buttons flexbox">
+							<a href="#deliver-content" class="flexbox">
+								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<h2>&nbsp;&nbsp;Deliver</h2>
+							</a>
+						</li>
+						<li class="nav-buttons flexbox">
+							<a href="#plan-content" class="flexbox">
+								<h2>Plan&nbsp;&nbsp;</h2>
+								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Listen Fixed Nav Buttons -->
 			</div>
 		</div>
 
@@ -206,19 +237,22 @@
 
 		<!-- Plan -->
 
-		<div id="our-approach-content" class="main-container flexbox our-approach-content-copy">
+		<div id="our-approach-content" class="main-container our-approach-content-copy">
 
 			<div id="plan-content" class="section_tab_content">
 				<div class="main-container">
 					<div class="our-approach-intro-copy">
 						<h1>Plan</h1>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
 						<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
 						<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
-						<hr />
 					</div>
+					<hr />
 				</div>
 				<div class="flexbox content">
-					<div id="plan-qualitative-research" class="tab_content">
+					<div id="plan-qualitative-research" class="plan_tab_content">
 						<h2>Plan 1</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -226,7 +260,7 @@
 						<p>In terms of gaining real depth of understanding, there’s no substitute for sitting and talking face to face (as long as you know the right questions to ask). We embrace innovative methodologies, such as co-creation or ethnography, to really get to the bottom of an audience’s motivations.</p>
 						<p>Whether it’s traditional focus groups, in-home depth interviews or on-going customer panels, we can design tailored research projects that provide ‘actionable insights’ aligned with your business objectives.</p>
 					</div>
-					<div id="plan-quantitative-research" class="tab_content">
+					<div id="plan-quantitative-research" class="plan_tab_content">
 						<h2>Plan 2</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -234,7 +268,7 @@
 						<p>When qualitative research needs to be supplemented by breadth of understanding, we deliver quantitative studies with customers or prospects. This allows us to evaluate behaviour and attitudes across segments, or to quantitatively test hypotheses.</p>
 						<p>Our research projects are designed and delivered with intelligence and rigour, to produce reports that deliver more than just a relentless series of charts.</p>
 					</div>
-					<div id="plan-internal-audit-and-workshops" class="tab_content">
+					<div id="plan-internal-audit-and-workshops" class="plan_tab_content">
 						<h2>Plan 3</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -244,7 +278,7 @@
 						<p>We can run independent, anonymised qualitative or quantitative studies with your staff, to help you evaluate their impact and influence.</p>
 						<p>We can also run internal workshops with key team members to help capture their individual perspectives and help engender a sense of project ownership.</p>
 					</div>
-					<div id="plan-digital-audit-and-research" class="tab_content">
+					<div id="plan-digital-audit-and-research" class="plan_tab_content">
 						<h2>Plan 4</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -272,7 +306,7 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<div class="services-links">
-							<ul class="tabs flexbox">
+							<ul class="plan_tabs">
 						        <li><a href="#plan-qualitative-research">Plan 1</a></li>
 						        <li><a href="#plan-quantitative-research">Plan 2</a></li>
 						        <li><a href="#plan-internal-audit-and-workshops">Plan 3</a></li>
@@ -281,6 +315,42 @@
 						</div>
 					</div>
 				</div>
+				<!-- Plan Nav Buttons -->
+				<div id="approach-nav-buttons">
+					<ul class="section_tabs flexbox">
+						<li class="nav-buttons flexbox previous-page">
+							<a href="#listen-content" class="flexbox">
+								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<h2>&nbsp;&nbsp;Listen</h2>
+							</a>
+						</li>
+						<li class="nav-buttons flexbox next-page">
+							<a href="#deliver-content" class="flexbox">
+								<h2>Deliver&nbsp;&nbsp;</h2>
+								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Plan Nav Buttons -->
+				<!-- Plan Fixed Nav Buttons -->
+				<div id="fixed-nav-buttons">
+					<ul class="section_tabs flexbox">
+						<li class="nav-buttons flexbox">
+							<a href="#listen-content" class="flexbox">
+								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<h2>&nbsp;&nbsp;Listen</h2>
+							</a>
+						</li>
+						<li class="nav-buttons flexbox">
+							<a href="#deliver-content" class="flexbox">
+								<h2>Deliver&nbsp;&nbsp;</h2>
+								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Plan Fixed Nav Buttons -->
 			</div>
 		</div>
 
@@ -294,13 +364,16 @@
 				<div class="main-container">
 					<div class="our-approach-intro-copy">
 						<h1>Deliver</h1>
+						<div class="rule">
+							<img src="/img/rule.png" alt="Rule" />
+						</div>
 						<p>Before you can speak, you must first listen. We have an on- and off-line approach to insight generation, which provides both breadth and depth of customer and market information, ensuring your research budget delivers return on investment.</p>
 						<p>We are experienced in qualitative and quantitative research; applying a mix of traditional and pioneering techniques to best serve the needs of individual projects. Our digital strategy team can also help you navigate through the clutter of ‘virtual conversations’ to find, analyse and interpret the ones that matter.</p>
-						<hr />
 					</div>
+					<hr />
 				</div>
 				<div class="flexbox content">
-					<div id="deliver-qualitative-research" class="tab_content">
+					<div id="deliver-qualitative-research" class="deliver_tab_content">
 						<h2>Deliver 1</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -308,7 +381,7 @@
 						<p>In terms of gaining real depth of understanding, there’s no substitute for sitting and talking face to face (as long as you know the right questions to ask). We embrace innovative methodologies, such as co-creation or ethnography, to really get to the bottom of an audience’s motivations.</p>
 						<p>Whether it’s traditional focus groups, in-home depth interviews or on-going customer panels, we can design tailored research projects that provide ‘actionable insights’ aligned with your business objectives.</p>
 					</div>
-					<div id="deliver-quantitative-research" class="tab_content">
+					<div id="deliver-quantitative-research" class="deliver_tab_content">
 						<h2>Deliver 2</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -316,7 +389,7 @@
 						<p>When qualitative research needs to be supplemented by breadth of understanding, we deliver quantitative studies with customers or prospects. This allows us to evaluate behaviour and attitudes across segments, or to quantitatively test hypotheses.</p>
 						<p>Our research projects are designed and delivered with intelligence and rigour, to produce reports that deliver more than just a relentless series of charts.</p>
 					</div>
-					<div id="deliver-internal-audit-and-workshops" class="tab_content">
+					<div id="deliver-internal-audit-and-workshops" class="deliver_tab_content">
 						<h2>Deliver 3</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -326,7 +399,7 @@
 						<p>We can run independent, anonymised qualitative or quantitative studies with your staff, to help you evaluate their impact and influence.</p>
 						<p>We can also run internal workshops with key team members to help capture their individual perspectives and help engender a sense of project ownership.</p>
 					</div>
-					<div id="deliver-digital-audit-and-research" class="tab_content">
+					<div id="deliver-digital-audit-and-research" class="deliver_tab_content">
 						<h2>Deliver 4</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -354,7 +427,7 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<div class="services-links">
-							<ul class="tabs flexbox">
+							<ul class="deliver_tabs">
 						        <li><a href="#deliver-qualitative-research">Deliver 1</a></li>
 						        <li><a href="#deliver-quantitative-research">Deliver 2</a></li>
 						        <li><a href="#deliver-internal-audit-and-workshops">Deliver 3</a></li>
@@ -363,51 +436,46 @@
 						</div>
 					</div>
 				</div>
+				<!-- Listen Nav Buttons -->
+				<div id="approach-nav-buttons">
+					<ul class="section_tabs flexbox">
+						<li class="nav-buttons flexbox previous-page">
+							<a href="#plan-content" class="flexbox">
+								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<h2>&nbsp;&nbsp;Plan</h2>
+							</a>
+						</li>
+						<li class="nav-buttons flexbox next-page">
+							<a href="#listen-content" class="flexbox">
+								<h2>Listen&nbsp;&nbsp;</h2>
+								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Listen Nav Buttons -->
+				<!-- Listen Fixed Nav Buttons -->
+				<div id="fixed-nav-buttons">
+					<ul class="section_tabs flexbox">
+						<li class="nav-buttons flexbox">
+							<a href="#plan-content" class="flexbox">
+								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<h2>&nbsp;&nbsp;Plan</h2>
+							</a>
+						</li>
+						<li class="nav-buttons flexbox">
+							<a href="#listen-content" class="flexbox">
+								<h2>Listen&nbsp;&nbsp;</h2>
+								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Listen Fixed Nav Buttons -->
 			</div>
 		</div>
 
 		<!-- End Deliver -->
-
-		<!-- Nav Buttons -->
-
-		<div id="nav-buttons" class="main-container">
-			<div class="nav-buttons flexbox">
-				<a href="/our-approach/deliver" class="previous-page flexbox">
-					<img src="/img/arrow-left.svg" alt="Show me the showreel" />
-					<h2>&nbsp;&nbsp;Deliver</h2>
-				</a>
-				<a href="/our-approach/plan" class="next-page flexbox">
-					<h2>Plan&nbsp;&nbsp;</h2>
-					<img src="/img/arrow-right.svg" alt="Show me the showreel" />
-				</a>
-			</div>
-		</div>
-
-		<!-- End Nav Buttons -->
-
-		<!-- Fixed Nav Buttons -->
-
-		<div id="fixed-nav-buttons">
-			<div class="fixed-nav-buttons flexbox">
-				<a href="/our-approach/deliver">
-					<div class="fixed-previous-page flexbox">
-						<img src="/img/arrow-left.svg" alt="Previous" />
-						<h4>&nbsp;&nbsp;Deliver</h4>
-					</div>
-				</a>
-				<div class="fixed-spacer">
-					<h2>&nbsp;</h2>
-				</div>
-				<a href="/our-approach/plan">
-					<div class="fixed-next-page flexbox">
-						<h4>Plan&nbsp;&nbsp;</h4>
-						<img src="/img/arrow-right.svg" alt="Next" />
-					</div>
-				</a>
-			</div>
-		</div>
-
-		<!-- End Fixed Nav Buttons -->
 
 		<!-- Case Studes -->
 
