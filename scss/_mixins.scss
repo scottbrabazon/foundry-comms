@@ -1,50 +1,88 @@
-/* Transparent Button */
+/* Black Button */
 
-@mixin transparent-button {
+@mixin black-button {
+    background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
     pointer-events: auto;
-    background: transparent;
     overflow: auto;
-    padding: 20px 30px;
+    padding: 20px 80px 20px 20px;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid #000;
+    align-items: center;
+    height: 35px;
+    p {
+        color: #000;
+        text-transform: uppercase;
+        line-height: 20px;
+        float: left;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+}
+
+/* White Button */
+
+@mixin white-button {
+    background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
+    pointer-events: auto;
+    overflow: auto;
+    padding: 20px 80px 20px 20px;
     float: left;
     margin-top: 20px;
     border: 1px solid #fff;
     align-items: center;
+    height: 35px;
     p {
+        color: #fff;
         text-transform: uppercase;
         line-height: 20px;
         float: left;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
-    }
-    img {
-        width: auto;
-        float: left;
-        margin-left: 10px;
     }
 }
 
-/* Red Button */
+/* White Button */
 
 @mixin red-button {
-    align-items: center;
+    background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
     pointer-events: auto;
-    background: #c62b32;
     overflow: auto;
-    padding: 20px 30px;
+    padding: 20px 80px 20px 20px;
     float: left;
-    margin-top: 25px;
-    border: 1px solid #fff;
+    margin-top: 20px;
+    border: 1px solid $foundry-red;
+    align-items: center;
+    height: 35px;
     p {
+        color: #fff;
         text-transform: uppercase;
         line-height: 20px;
         float: left;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
-        color: #fff;
     }
-    img {
-        width: auto;
+}
+
+
+/* Rollover Button */
+
+@mixin rollover-button {
+    background: $foundry-red url("/img/arrow-right.svg") no-repeat right center;
+    pointer-events: auto;
+    overflow: auto;
+    padding: 20px 80px 20px 20px;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid $foundry-red;
+    align-items: center;
+    height: 35px;
+    p {
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 20px;
         float: left;
-        margin-left: 10px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
     }
 }

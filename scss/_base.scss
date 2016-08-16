@@ -68,15 +68,14 @@ li {
 
 /* General */
 
-*:focus {outline: none;}
+* {outline: none;}
+p:first-of-type {font-family: $foundry_extra_bold;}
 ul {list-style: none;}
 img {display: block;}
 .flexbox {display: flex;}
 .main-container {
 	max-width: 1075px;
 	margin: 0 auto;
-    width: 90%;
-    padding: 0 5%;
 }
 .container {position: relative; width: 100%;}
 .hideme {opacity: 0;}

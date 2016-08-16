@@ -72,7 +72,7 @@ $(document).ready(function() {
     
     //On Click Event
     $("ul.deliver_tabs li").click(function() {
-        $("ul.deliver_tabs li").removeClass("plan_active"); //Remove any "active" class
+        $("ul.deliver_tabs li").removeClass("deliver_active"); //Remove any "active" class
         $(this).addClass("deliver_active"); //Add "active" class to selected tab
         $(".deliver_tab_content").hide(); //Hide all tab content
         var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content

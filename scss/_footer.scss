@@ -11,8 +11,8 @@
 	h1, h2, h3, h4, p, a {color: #fff;}
 	h1, h2 {margin: 0}
 	h4 {font-family: $foundry_light; text-transform: initial; font-size: 1.2em; line-height: 1.5em;}
+	p:first-of-type {font-family: $foundry_regular;}
 	flex-direction: column;
-	.button-next {@include transparent-button;}
 }
 
 .social {
@@ -41,10 +41,8 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-	.button-next {
-		border-color: $foundry_red;
-		background-color: $foundry_red;
-	}
+	.button-next {@include white-button;}
+	.button-next:hover {@include rollover-button;}
 }
 
 .footer-row-1 > div {
@@ -67,9 +65,8 @@
 		text-transform: uppercase;
 		font-size: 1.2em;
 	}
-	.button-next {
-		border-color: $foundry_red;
-	}
+	.button-next {@include red-button;}
+	.button-next:hover {@include rollover-button;}
 }
 
 
