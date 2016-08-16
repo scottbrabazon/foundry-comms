@@ -701,12 +701,6 @@ img {
   opacity: 0;
 }
 
-/* line 82, ../scss/_base.scss */
-.rule img {
-  width: 35px;
-  margin-bottom: 30px;
-}
-
 /* http://responsiveslides.com v1.54 by @viljamis */
 /* line 3, ../scss/_rslides.scss */
 .rslides {
@@ -721,6 +715,7 @@ img {
 /* line 12, ../scss/_rslides.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
+  list-style: none;
   position: absolute;
   display: none;
   width: 100%;
@@ -729,14 +724,14 @@ img {
   height: 600px;
 }
 
-/* line 22, ../scss/_rslides.scss */
+/* line 23, ../scss/_rslides.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-/* line 28, ../scss/_rslides.scss */
+/* line 29, ../scss/_rslides.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -1196,360 +1191,6 @@ button img {
   margin-left: 10px;
 }
 
-/*
-
-/* Pages */
-/* line 1, ../scss/_about.scss */
-#who-we-are {
-  margin-top: 60px;
-}
-
-/* line 2, ../scss/_about.scss */
-.people {
-  flex-wrap: wrap;
-}
-
-/* line 3, ../scss/_about.scss */
-.people img {
-  width: 100%;
-}
-
-/* line 4, ../scss/_about.scss */
-.person {
-  width: 25%;
-}
-
-/* line 5, ../scss/_about.scss */
-.logo-active img {
-  display: none;
-}
-
-/* line 6, ../scss/_about.scss */
-.logo-inactive:hover img {
-  display: none;
-}
-
-/* line 7, ../scss/_about.scss */
-.logo-active:hover img {
-  display: inline-block;
-}
-
-/* line 8, ../scss/_about.scss */
-.person-name-panel {
-  padding: 10px;
-  background: #c62b32;
-}
-/* line 11, ../scss/_about.scss */
-.person-name-panel p {
-  margin: 0;
-  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
-  color: #fff;
-  font-size: 0.85em;
-  line-height: 1.2em;
-}
-/* line 18, ../scss/_about.scss */
-.person-name-panel .person-name {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
-  text-transform: uppercase;
-}
-
-/* line 20, ../scss/_about.scss */
-#our-people {
-  margin-top: 60px;
-  text-align: center;
-}
-/* line 23, ../scss/_about.scss */
-#our-people .rule img {
-  margin: 0 auto 3px auto;
-}
-
-/* line 25, ../scss/_about.scss */
-.people {
-  margin-top: 40px;
-}
-
-@media screen and (min-width: 780px) {
-  /* line 31, ../scss/_about.scss */
-  .navigation-menu {
-    display: flex;
-  }
-
-  /* line 32, ../scss/_about.scss */
-  .navigation-menu-mobile {
-    display: none;
-  }
-}
-/* line 1, ../scss/_homepage-masthead.scss */
-#homepage-masthead {
-  margin-top: -600px;
-}
-/* line 3, ../scss/_homepage-masthead.scss */
-#homepage-masthead a {
-  color: #fff;
-}
-/* line 4, ../scss/_homepage-masthead.scss */
-#homepage-masthead .button-next {
-  background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
-  pointer-events: auto;
-  overflow: auto;
-  padding: 20px 80px 20px 20px;
-  float: left;
-  margin-top: 20px;
-  border: 1px solid #000;
-  align-items: center;
-  height: 35px;
-}
-/* line 13, ../scss/_mixins.scss */
-#homepage-masthead .button-next p {
-  color: #000;
-  text-transform: uppercase;
-  line-height: 20px;
-  float: left;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-/* line 5, ../scss/_homepage-masthead.scss */
-#homepage-masthead .rule img {
-  width: 35px;
-  margin: 0 0 30px 0;
-}
-/* line 6, ../scss/_homepage-masthead.scss */
-#homepage-masthead .slide {
-  flex-direction: column;
-}
-
-/* line 9, ../scss/_homepage-masthead.scss */
-.video-masthead {
-  pointer-events: none;
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-}
-/* line 14, ../scss/_homepage-masthead.scss */
-.video-masthead video {
-  width: 1500px;
-}
-
-/* line 19, ../scss/_homepage-masthead.scss */
-.slide {
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 540px;
-  pointer-events: none;
-}
-
-@media screen and (min-width: 1090px) {
-  /* line 27, ../scss/_homepage-masthead.scss */
-  .video-masthead video {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-/* line 1, ../scss/_homepage-intro-copy.scss */
-#homepage-intro-copy {
-  margin-top: 60px;
-}
-/* line 3, ../scss/_homepage-intro-copy.scss */
-#homepage-intro-copy .rule img {
-  margin-bottom: 30px;
-}
-
-/* line 6, ../scss/_homepage-intro-copy.scss */
-.button-next {
-  background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
-  pointer-events: auto;
-  overflow: auto;
-  padding: 20px 80px 20px 20px;
-  float: left;
-  margin-top: 20px;
-  border: 1px solid #000;
-  align-items: center;
-  height: 35px;
-}
-/* line 13, ../scss/_mixins.scss */
-.button-next p {
-  color: #000;
-  text-transform: uppercase;
-  line-height: 20px;
-  float: left;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-
-/* line 10, ../scss/_homepage-intro-copy.scss */
-.intro-copy {
-  margin-top: 60px;
-  flex-direction: column;
-}
-
-/* line 15, ../scss/_homepage-intro-copy.scss */
-.problem-solved {
-  width: 80%;
-  padding: 0 10%;
-  text-align: center;
-}
-/* line 19, ../scss/_homepage-intro-copy.scss */
-.problem-solved .rule img {
-  margin: 0 auto;
-}
-/* line 20, ../scss/_homepage-intro-copy.scss */
-.problem-solved p:first-of-type {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
-}
-
-/* line 23, ../scss/_homepage-intro-copy.scss */
-.groupthree {
-  flex-direction: column;
-}
-
-/* line 27, ../scss/_homepage-intro-copy.scss */
-.groupthree > div {
-  margin-top: 60px;
-}
-
-/* line 31, ../scss/_homepage-intro-copy.scss */
-.problem-solved {
-  flex-direction: column;
-}
-
-@media screen and (min-width: 800px) {
-  /* line 37, ../scss/_homepage-intro-copy.scss */
-  .problem-solved {
-    flex-direction: row;
-  }
-
-  /* line 38, ../scss/_homepage-intro-copy.scss */
-  .problem-solved-1 {
-    text-align: right;
-  }
-
-  /* line 39, ../scss/_homepage-intro-copy.scss */
-  .problem-solved-2 {
-    padding-left: 50px;
-  }
-
-  /* line 40, ../scss/_homepage-intro-copy.scss */
-  .groupthree {
-    flex-direction: row;
-    margin-top: 0;
-  }
-
-  /* line 44, ../scss/_homepage-intro-copy.scss */
-  .groupthree > div {
-    margin-right: 5%;
-    width: 30%;
-  }
-
-  /* line 48, ../scss/_homepage-intro-copy.scss */
-  .groupthree > div:last-child {
-    margin-right: 0;
-  }
-
-  /* line 51, ../scss/_homepage-intro-copy.scss */
-  .groupthree-content {
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  /* line 54, ../scss/_homepage-intro-copy.scss */
-  .groupthree-content p {
-    flex-grow: 2;
-  }
-}
-/* line 1, ../scss/_case-studies-panels.scss */
-#case-studies {
-  margin-top: 60px;
-}
-
-/* line 5, ../scss/_case-studies-panels.scss */
-.case-studes-examples {
-  flex-direction: column;
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
-}
-/* line 10, ../scss/_case-studies-panels.scss */
-.case-studes-examples div {
-  width: 100%;
-}
-/* line 11, ../scss/_case-studies-panels.scss */
-.case-studes-examples img {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-@media screen and (min-width: 650px) {
-  /* line 19, ../scss/_case-studies-panels.scss */
-  .case-studes-examples {
-    flex-direction: row;
-  }
-}
-/* line 1, ../scss/_homepage-client-slider.scss */
-#client-slider {
-  margin: 60px auto;
-  max-width: 1500px;
-  background: #e0e0e0;
-}
-
-@media screen and (max-width: 800px) {
-  /* line 8, ../scss/_homepage-client-slider.scss */
-  #client-slider {
-    display: none;
-  }
-}
-/* line 1, ../scss/_homepage-showreel.scss */
-#homepage-showreel {
-  max-width: 1500px;
-  margin: 60px auto 0 auto;
-  background: black url("/img/backgrounds/background-image-1.jpg") no-repeat center left;
-  background-size: cover;
-}
-
-/* line 8, ../scss/_homepage-showreel.scss */
-.showreel .button-next {
-  background: transparent;
-  overflow: auto;
-  padding: 20px 30px;
-  float: left;
-  margin-top: 25px;
-  border: 1px solid #fff;
-}
-/* line 15, ../scss/_homepage-showreel.scss */
-.showreel .button-next p {
-  text-transform: uppercase;
-  float: left;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-/* line 21, ../scss/_homepage-showreel.scss */
-.showreel .button-next img {
-  width: auto;
-  float: left;
-  margin-left: 10px;
-}
-
-/* line 28, ../scss/_homepage-showreel.scss */
-.showreel {
-  margin-top: 60px;
-}
-/* line 30, ../scss/_homepage-showreel.scss */
-.showreel a {
-  color: #fff;
-}
-/* line 31, ../scss/_homepage-showreel.scss */
-.showreel .rule img {
-  width: 31px;
-  margin: 0 0 30px 0;
-}
-
-/* line 34, ../scss/_homepage-showreel.scss */
-.showreel .slide {
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 60px;
-  height: 600px;
-}
-
 /* line 1, ../scss/_footer.scss */
 #footer {
   margin-top: 60px;
@@ -1790,6 +1431,478 @@ button img {
     width: 100px;
     margin: 0;
     padding: 0 30px;
+  }
+}
+/*
+
+/* Pages */
+/* line 1, ../scss/_about.scss */
+#who-we-are {
+  margin-top: 60px;
+}
+
+/* line 2, ../scss/_about.scss */
+.people {
+  flex-wrap: wrap;
+}
+
+/* line 3, ../scss/_about.scss */
+.people img {
+  width: 100%;
+}
+
+/* line 4, ../scss/_about.scss */
+.person {
+  width: 25%;
+}
+
+/* line 5, ../scss/_about.scss */
+.logo-active img {
+  display: none;
+}
+
+/* line 6, ../scss/_about.scss */
+.logo-inactive:hover img {
+  display: none;
+}
+
+/* line 7, ../scss/_about.scss */
+.logo-active:hover img {
+  display: inline-block;
+}
+
+/* line 8, ../scss/_about.scss */
+.person-name-panel {
+  padding: 10px;
+  background: #c62b32;
+}
+/* line 11, ../scss/_about.scss */
+.person-name-panel p {
+  margin: 0;
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+  color: #fff;
+  font-size: 0.85em;
+  line-height: 1.2em;
+}
+/* line 18, ../scss/_about.scss */
+.person-name-panel .person-name {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 20, ../scss/_about.scss */
+#our-people {
+  margin-top: 60px;
+  text-align: center;
+}
+/* line 23, ../scss/_about.scss */
+#our-people .rule img {
+  margin: 0 auto 3px auto;
+}
+
+/* line 25, ../scss/_about.scss */
+.people {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 780px) {
+  /* line 31, ../scss/_about.scss */
+  .navigation-menu {
+    display: flex;
+  }
+
+  /* line 32, ../scss/_about.scss */
+  .navigation-menu-mobile {
+    display: none;
+  }
+}
+/* Masthead */
+/* line 3, ../scss/_homepage.scss */
+#homepage-masthead {
+  margin-top: -600px;
+}
+/* line 5, ../scss/_homepage.scss */
+#homepage-masthead a {
+  color: #fff;
+}
+/* line 6, ../scss/_homepage.scss */
+#homepage-masthead .rule img {
+  width: 35px;
+  margin: 0 0 30px 0;
+}
+
+/* line 9, ../scss/_homepage.scss */
+.video-masthead {
+  pointer-events: none;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+/* line 14, ../scss/_homepage.scss */
+.video-masthead video {
+  width: 1500px;
+}
+
+/* line 19, ../scss/_homepage.scss */
+.slide {
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 540px;
+  pointer-events: none;
+}
+/* line 24, ../scss/_homepage.scss */
+.slide h1 {
+  color: #fff;
+}
+/* line 25, ../scss/_homepage.scss */
+.slide p {
+  font-size: 1em;
+}
+/* line 26, ../scss/_homepage.scss */
+.slide .button-next {
+  background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  align-items: center;
+  height: 35px;
+}
+/* line 35, ../scss/_mixins.scss */
+.slide .button-next p {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 27, ../scss/_homepage.scss */
+.slide .button-next:hover {
+  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #c62b32;
+  align-items: center;
+  height: 35px;
+}
+/* line 80, ../scss/_mixins.scss */
+.slide .button-next:hover p {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+@media screen and (min-width: 1090px) {
+  /* line 31, ../scss/_homepage.scss */
+  .video-masthead video {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* Intro */
+/* line 39, ../scss/_homepage.scss */
+#homepage-intro-copy {
+  margin-top: 60px;
+}
+/* line 41, ../scss/_homepage.scss */
+#homepage-intro-copy .rule img {
+  margin-bottom: 30px;
+}
+/* line 42, ../scss/_homepage.scss */
+#homepage-intro-copy .button-next {
+  background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #000;
+  align-items: center;
+  height: 35px;
+}
+/* line 13, ../scss/_mixins.scss */
+#homepage-intro-copy .button-next p {
+  color: #000;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 43, ../scss/_homepage.scss */
+#homepage-intro-copy .button-next:hover {
+  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #c62b32;
+  align-items: center;
+  height: 35px;
+}
+/* line 80, ../scss/_mixins.scss */
+#homepage-intro-copy .button-next:hover p {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* line 46, ../scss/_homepage.scss */
+.button-next {
+  background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #000;
+  align-items: center;
+  height: 35px;
+}
+/* line 13, ../scss/_mixins.scss */
+.button-next p {
+  color: #000;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* line 48, ../scss/_homepage.scss */
+.intro-copy {
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+/* line 53, ../scss/_homepage.scss */
+.problem-solved {
+  width: 80%;
+  padding: 0 10%;
+  text-align: center;
+}
+/* line 57, ../scss/_homepage.scss */
+.problem-solved .rule img {
+  margin: 0 auto;
+}
+/* line 58, ../scss/_homepage.scss */
+.problem-solved p:first-of-type {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
+
+/* line 61, ../scss/_homepage.scss */
+.groupthree {
+  flex-direction: column;
+}
+
+/* line 65, ../scss/_homepage.scss */
+.groupthree > div {
+  margin-top: 60px;
+}
+
+/* line 69, ../scss/_homepage.scss */
+.problem-solved {
+  flex-direction: column;
+}
+
+/* line 73, ../scss/_homepage.scss */
+.groupthree-content {
+  flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 77, ../scss/_homepage.scss */
+  .problem-solved {
+    flex-direction: row;
+  }
+
+  /* line 78, ../scss/_homepage.scss */
+  .problem-solved-1 {
+    text-align: right;
+  }
+
+  /* line 79, ../scss/_homepage.scss */
+  .problem-solved-2 {
+    padding-left: 50px;
+  }
+
+  /* line 80, ../scss/_homepage.scss */
+  .groupthree {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  /* line 84, ../scss/_homepage.scss */
+  .groupthree > div {
+    margin-right: 5%;
+    width: 30%;
+  }
+
+  /* line 88, ../scss/_homepage.scss */
+  .groupthree > div:last-child {
+    margin-right: 0;
+  }
+
+  /* line 91, ../scss/_homepage.scss */
+  .groupthree-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* line 94, ../scss/_homepage.scss */
+  .groupthree-content p {
+    flex-grow: 2;
+  }
+}
+/* Common */
+/* line 101, ../scss/_homepage.scss */
+#client-slider {
+  margin: 60px auto;
+  max-width: 1500px;
+  background: #e0e0e0;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 108, ../scss/_homepage.scss */
+  #client-slider {
+    display: none;
+  }
+}
+/* Showreel */
+/* line 114, ../scss/_homepage.scss */
+#homepage-showreel {
+  max-width: 1500px;
+  margin: 60px auto 0 auto;
+  background: black url("/img/backgrounds/background-image-1.jpg") no-repeat center left;
+  background-size: cover;
+}
+/* line 119, ../scss/_homepage.scss */
+#homepage-showreel .button-next {
+  background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  align-items: center;
+  height: 35px;
+}
+/* line 35, ../scss/_mixins.scss */
+#homepage-showreel .button-next p {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 120, ../scss/_homepage.scss */
+#homepage-showreel .button-next:hover {
+  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #c62b32;
+  align-items: center;
+  height: 35px;
+}
+/* line 80, ../scss/_mixins.scss */
+#homepage-showreel .button-next:hover p {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* line 123, ../scss/_homepage.scss */
+.showreel .button-next {
+  background: transparent;
+  overflow: auto;
+  padding: 20px 30px;
+  float: left;
+  margin-top: 25px;
+  border: 1px solid #fff;
+}
+/* line 130, ../scss/_homepage.scss */
+.showreel .button-next p {
+  text-transform: uppercase;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 136, ../scss/_homepage.scss */
+.showreel .button-next img {
+  width: auto;
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 143, ../scss/_homepage.scss */
+.showreel {
+  margin-top: 60px;
+}
+/* line 145, ../scss/_homepage.scss */
+.showreel a {
+  color: #fff;
+}
+/* line 146, ../scss/_homepage.scss */
+.showreel .rule img {
+  width: 31px;
+  margin: 0 0 30px 0;
+}
+
+/* line 149, ../scss/_homepage.scss */
+.showreel .slide {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 60px;
+  height: 600px;
+}
+
+/* line 1, ../scss/_case-studies-panels.scss */
+#case-studies {
+  margin-top: 60px;
+}
+
+/* line 5, ../scss/_case-studies-panels.scss */
+.case-studes-examples {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/* line 10, ../scss/_case-studies-panels.scss */
+.case-studes-examples div {
+  width: 100%;
+}
+/* line 11, ../scss/_case-studies-panels.scss */
+.case-studes-examples img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 650px) {
+  /* line 19, ../scss/_case-studies-panels.scss */
+  .case-studes-examples {
+    flex-direction: row;
   }
 }
 /* Black Button */

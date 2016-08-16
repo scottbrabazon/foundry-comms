@@ -86,13 +86,23 @@
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
+							<h1>Through ideas that sell today and build your brand for tomorrow</h1>
 							<a href="#">
-								<h1>Through ideas that sell today and build your brand for tomorrow</h1>
-							</a>
-							<a href="#">
-								<div class="button-next">
+								<div class="button-next flexbox">
 									<p>View our work</p>
-									<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
+								</div>
+							</a>
+						</div>	
+					</li>
+					<li>
+						<div class="slide flexbox">
+							<div class="rule">
+								<img src="/img/rule.png" alt="Rule" />
+							</div>
+							<h1>Lorem ipsum dolor sit amet, ius in solum primis sapientem, nam ei tantas detracto.</h1>
+							<a href="#">
+								<div class="button-next flexbox">
+									<p>View our work</p>
 								</div>
 							</a>
 						</div>	
@@ -115,38 +125,41 @@
 						<p>We start by listening to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but build your brand for tomorrow.</p>
 					</div>	
 					<div class="groupthree flexbox">
-						<div class="groupthree-content">
+						<div class="groupthree-content flexbox">
 							<h2>Listen</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>Qualitative or quantitative. Internal or external. Offline or digital. We start with research to get close to your brand, your market and customers. By understanding their motivations, desires and what makes them tick, we can get to the heart of your marketing problem.</p>
-							<div class="button-next flexbox">
-								<p>Find out more</p>
-								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
-							</div>
+							<a href="#">
+								<div class="button-next flexbox">
+									<p>Find out more</p>
+								</div>
+							</a>
 						</div>
-						<div class="groupthree-content">
+						<div class="groupthree-content flexbox">
 							<h2>Plan</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>Research informs the development of your communications strategy. We can develop or dissect your brand positioning and determine the best routes to market and methods to communicate.</p>
-							<div class="button-next flexbox">
-								<p>Find out more</p>
-								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
-							</div>
+							<a href="#">
+								<div class="button-next flexbox">
+									<p>Find out more</p>
+								</div>
+							</a>
 						</div>
-						<div class="groupthree-content">
+						<div class="groupthree-content flexbox">
 							<h2>Deliver</h2>
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>On or offline, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
-							<div class="button-next flexbox">
-								<p>Find out more</p>
-								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
-							</div>
+							<a href="#">
+								<div class="button-next flexbox">
+									<p>Find out more</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -215,7 +228,6 @@
 					<a href="#">
 						<div class="button-next flexbox">
 							<p>View our work</p>
-							<img src="/img/arrow-right.svg" alt="Show me the showreel" />
 						</div>
 					</a>
 				</div>	
@@ -239,7 +251,6 @@
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
 						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="careers">
@@ -250,7 +261,6 @@
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
 						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 					<div class="news">
@@ -262,7 +272,6 @@
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
 						<div class="button-next flexbox">
 							<p>Find out more</p>
-							<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 						</div>
 					</div>
 				</div>
@@ -284,7 +293,6 @@
 						<a href="#">
 							<div class="button-next flexbox">
 								<p>View our work</p>
-								<img src="/img/arrow-right-no-border.svg" alt="Show me the showreel" />
 							</div>
 						</a>
 					</div>
