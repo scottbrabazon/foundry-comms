@@ -33,8 +33,8 @@ h4 {
 
 p {
     font-family: $foundry_regular;
-    font-size: 0.85em;
-    line-height: 2em;
+    font-size: 0.9em;
+    line-height: 2.2em;
     margin: 0 0 1em 0;
 }
 
@@ -79,3 +79,11 @@ img {display: block;}
 }
 .container {position: relative; width: 100%;}
 .hideme {opacity: 0;}
+.rule img {margin-bottom: 30px;}
+.centered {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    .rule img {margin-left: auto; margin-right: auto;}
+    p:first-of-type {font-family: $foundry_extra_bold;}
+}

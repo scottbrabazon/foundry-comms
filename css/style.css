@@ -549,9 +549,15 @@ table {
   border-spacing: 0;
 }
 
+/********* Small Buttons /*********/
 /* Black Button */
 /* White Button */
+/* Red Button */
+/* Rollover Button */
+/********* Big Buttons /*********/
+/* Black Button */
 /* White Button */
+/* Red Button */
 /* Rollover Button */
 /* Fonts */
 @font-face {
@@ -622,8 +628,8 @@ h4 {
 /* line 34, ../scss/_base.scss */
 p {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
-  font-size: 0.85em;
-  line-height: 2em;
+  font-size: 0.9em;
+  line-height: 2.2em;
   margin: 0 0 1em 0;
 }
 
@@ -699,6 +705,27 @@ img {
 /* line 81, ../scss/_base.scss */
 .hideme {
   opacity: 0;
+}
+
+/* line 82, ../scss/_base.scss */
+.rule img {
+  margin-bottom: 30px;
+}
+
+/* line 83, ../scss/_base.scss */
+.centered {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 87, ../scss/_base.scss */
+.centered .rule img {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 88, ../scss/_base.scss */
+.centered p:first-of-type {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
 }
 
 /* http://responsiveslides.com v1.54 by @viljamis */
@@ -1275,18 +1302,19 @@ button img {
 }
 /* line 44, ../scss/_footer.scss */
 .footer-row-1 .button-next {
-  background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
+  background: transparent url("/img/buttons/small/arrow-right-no-border.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 10px 70px 10px 20px;
   float: left;
   margin-top: 20px;
   border: 1px solid #fff;
   align-items: center;
   height: 35px;
 }
-/* line 35, ../scss/_mixins.scss */
+/* line 38, ../scss/_mixins.scss */
 .footer-row-1 .button-next p {
+  font-size: 0.8em;
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -1296,18 +1324,19 @@ button img {
 }
 /* line 45, ../scss/_footer.scss */
 .footer-row-1 .button-next:hover {
-  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  background: #c62b32 url("/img/buttons/small/arrow-right.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 10px 70px 10px 20px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
   height: 35px;
 }
-/* line 80, ../scss/_mixins.scss */
+/* line 85, ../scss/_mixins.scss */
 .footer-row-1 .button-next:hover p {
+  font-size: 0.8em;
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -1352,17 +1381,17 @@ button img {
 }
 /* line 68, ../scss/_footer.scss */
 .footer-row-3 .button-next {
-  background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
+  background: transparent url("/img/buttons/big/arrow-right-no-border.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
   height: 35px;
 }
-/* line 57, ../scss/_mixins.scss */
+/* line 156, ../scss/_mixins.scss */
 .footer-row-3 .button-next p {
   color: #fff;
   text-transform: uppercase;
@@ -1373,17 +1402,17 @@ button img {
 }
 /* line 69, ../scss/_footer.scss */
 .footer-row-3 .button-next:hover {
-  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  background: #c62b32 url("/img/buttons/big/arrow-right.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
   height: 35px;
 }
-/* line 80, ../scss/_mixins.scss */
+/* line 179, ../scss/_mixins.scss */
 .footer-row-3 .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1530,47 +1559,51 @@ button img {
   width: 35px;
   margin: 0 0 30px 0;
 }
+/* line 7, ../scss/_homepage.scss */
+#homepage-masthead p:first-of-type {
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+}
 
-/* line 9, ../scss/_homepage.scss */
+/* line 10, ../scss/_homepage.scss */
 .video-masthead {
   pointer-events: none;
   width: 100%;
   height: 600px;
   overflow: hidden;
 }
-/* line 14, ../scss/_homepage.scss */
+/* line 15, ../scss/_homepage.scss */
 .video-masthead video {
   width: 1500px;
 }
 
-/* line 19, ../scss/_homepage.scss */
+/* line 20, ../scss/_homepage.scss */
 .slide {
   flex-direction: column;
   justify-content: flex-end;
   height: 540px;
   pointer-events: none;
 }
-/* line 24, ../scss/_homepage.scss */
+/* line 25, ../scss/_homepage.scss */
 .slide h1 {
   color: #fff;
 }
-/* line 25, ../scss/_homepage.scss */
+/* line 26, ../scss/_homepage.scss */
 .slide p {
   font-size: 1em;
 }
-/* line 26, ../scss/_homepage.scss */
+/* line 27, ../scss/_homepage.scss */
 .slide .button-next {
-  background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
+  background: transparent url("/img/buttons/big/arrow-right-no-border.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #fff;
   align-items: center;
   height: 35px;
 }
-/* line 35, ../scss/_mixins.scss */
+/* line 134, ../scss/_mixins.scss */
 .slide .button-next p {
   color: #fff;
   text-transform: uppercase;
@@ -1579,19 +1612,19 @@ button img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 27, ../scss/_homepage.scss */
+/* line 28, ../scss/_homepage.scss */
 .slide .button-next:hover {
-  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  background: #c62b32 url("/img/buttons/big/arrow-right.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
   height: 35px;
 }
-/* line 80, ../scss/_mixins.scss */
+/* line 179, ../scss/_mixins.scss */
 .slide .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1602,35 +1635,32 @@ button img {
 }
 
 @media screen and (min-width: 1090px) {
-  /* line 31, ../scss/_homepage.scss */
+  /* line 32, ../scss/_homepage.scss */
   .video-masthead video {
     width: 100%;
     margin: 0 auto;
   }
 }
 /* Intro */
-/* line 39, ../scss/_homepage.scss */
+/* line 40, ../scss/_homepage.scss */
 #homepage-intro-copy {
   margin-top: 60px;
 }
-/* line 41, ../scss/_homepage.scss */
-#homepage-intro-copy .rule img {
-  margin-bottom: 30px;
-}
 /* line 42, ../scss/_homepage.scss */
 #homepage-intro-copy .button-next {
-  background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
+  background: transparent url("/img/buttons/small/arrow-right-black-no-border.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 10px 70px 10px 20px;
   float: left;
   margin-top: 20px;
   border: 1px solid #000;
   align-items: center;
   height: 35px;
 }
-/* line 13, ../scss/_mixins.scss */
+/* line 15, ../scss/_mixins.scss */
 #homepage-intro-copy .button-next p {
+  font-size: 0.8em;
   color: #000;
   text-transform: uppercase;
   line-height: 20px;
@@ -1640,18 +1670,19 @@ button img {
 }
 /* line 43, ../scss/_homepage.scss */
 #homepage-intro-copy .button-next:hover {
-  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  background: #c62b32 url("/img/buttons/small/arrow-right.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 10px 70px 10px 20px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
   height: 35px;
 }
-/* line 80, ../scss/_mixins.scss */
+/* line 85, ../scss/_mixins.scss */
 #homepage-intro-copy .button-next:hover p {
+  font-size: 0.8em;
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -1661,113 +1692,82 @@ button img {
 }
 
 /* line 46, ../scss/_homepage.scss */
-.button-next {
-  background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
-  pointer-events: auto;
-  overflow: auto;
-  padding: 20px 80px 20px 20px;
-  float: left;
-  margin-top: 20px;
-  border: 1px solid #000;
-  align-items: center;
-  height: 35px;
-}
-/* line 13, ../scss/_mixins.scss */
-.button-next p {
-  color: #000;
-  text-transform: uppercase;
-  line-height: 20px;
-  float: left;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-
-/* line 48, ../scss/_homepage.scss */
-.intro-copy {
-  margin-top: 60px;
-  flex-direction: column;
-}
-
-/* line 53, ../scss/_homepage.scss */
-.problem-solved {
-  width: 80%;
-  padding: 0 10%;
-  text-align: center;
-}
-/* line 57, ../scss/_homepage.scss */
-.problem-solved .rule img {
-  margin: 0 auto;
-}
-/* line 58, ../scss/_homepage.scss */
-.problem-solved p:first-of-type {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
-}
-
-/* line 61, ../scss/_homepage.scss */
 .groupthree {
   flex-direction: column;
 }
 
-/* line 65, ../scss/_homepage.scss */
+/* line 47, ../scss/_homepage.scss */
 .groupthree > div {
   margin-top: 60px;
 }
 
-/* line 69, ../scss/_homepage.scss */
+/* line 48, ../scss/_homepage.scss */
 .problem-solved {
   flex-direction: column;
 }
 
-/* line 73, ../scss/_homepage.scss */
+/* line 49, ../scss/_homepage.scss */
 .groupthree-content {
   flex-direction: column;
 }
+/* line 51, ../scss/_homepage.scss */
+.groupthree-content p:first-of-type {
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+}
+/* line 52, ../scss/_homepage.scss */
+.groupthree-content .button-next {
+  padding: 10px;
+}
+/* line 53, ../scss/_homepage.scss */
+.groupthree-content .button-next:hover {
+  padding: 10px;
+}
 
 @media screen and (min-width: 800px) {
-  /* line 77, ../scss/_homepage.scss */
+  /* line 58, ../scss/_homepage.scss */
   .problem-solved {
     flex-direction: row;
   }
 
-  /* line 78, ../scss/_homepage.scss */
+  /* line 59, ../scss/_homepage.scss */
   .problem-solved-1 {
     text-align: right;
   }
 
-  /* line 79, ../scss/_homepage.scss */
+  /* line 60, ../scss/_homepage.scss */
   .problem-solved-2 {
     padding-left: 50px;
   }
 
-  /* line 80, ../scss/_homepage.scss */
+  /* line 61, ../scss/_homepage.scss */
   .groupthree {
     flex-direction: row;
     margin-top: 0;
   }
 
-  /* line 84, ../scss/_homepage.scss */
+  /* line 65, ../scss/_homepage.scss */
   .groupthree > div {
     margin-right: 5%;
     width: 30%;
   }
 
-  /* line 88, ../scss/_homepage.scss */
+  /* line 69, ../scss/_homepage.scss */
   .groupthree > div:last-child {
     margin-right: 0;
   }
 
-  /* line 91, ../scss/_homepage.scss */
+  /* line 72, ../scss/_homepage.scss */
   .groupthree-content {
     flex-direction: column;
     justify-content: space-between;
   }
-  /* line 94, ../scss/_homepage.scss */
+  /* line 75, ../scss/_homepage.scss */
   .groupthree-content p {
     flex-grow: 2;
   }
 }
 /* Common */
-/* line 101, ../scss/_homepage.scss */
+/* line 82, ../scss/_homepage.scss */
 #client-slider {
   margin: 60px auto;
   max-width: 1500px;
@@ -1775,32 +1775,36 @@ button img {
 }
 
 @media screen and (max-width: 800px) {
-  /* line 108, ../scss/_homepage.scss */
+  /* line 89, ../scss/_homepage.scss */
   #client-slider {
     display: none;
   }
 }
 /* Showreel */
-/* line 114, ../scss/_homepage.scss */
+/* line 95, ../scss/_homepage.scss */
 #homepage-showreel {
   max-width: 1500px;
   margin: 60px auto 0 auto;
-  background: black url("/img/backgrounds/background-image-1.jpg") no-repeat center left;
+  background: black url("/img/backgrounds/background-image-5.jpg") no-repeat center left;
   background-size: cover;
 }
-/* line 119, ../scss/_homepage.scss */
+/* line 100, ../scss/_homepage.scss */
+#homepage-showreel p:first-of-type {
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+}
+/* line 101, ../scss/_homepage.scss */
 #homepage-showreel .button-next {
-  background: transparent url("/img/arrow-right-no-border.svg") no-repeat right center;
+  background: transparent url("/img/buttons/big/arrow-right-no-border.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #fff;
   align-items: center;
   height: 35px;
 }
-/* line 35, ../scss/_mixins.scss */
+/* line 134, ../scss/_mixins.scss */
 #homepage-showreel .button-next p {
   color: #fff;
   text-transform: uppercase;
@@ -1809,19 +1813,19 @@ button img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 120, ../scss/_homepage.scss */
+/* line 102, ../scss/_homepage.scss */
 #homepage-showreel .button-next:hover {
-  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  background: #c62b32 url("/img/buttons/big/arrow-right.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
   height: 35px;
 }
-/* line 80, ../scss/_mixins.scss */
+/* line 179, ../scss/_mixins.scss */
 #homepage-showreel .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1831,44 +1835,21 @@ button img {
   margin: 0 0 0 0;
 }
 
-/* line 123, ../scss/_homepage.scss */
-.showreel .button-next {
-  background: transparent;
-  overflow: auto;
-  padding: 20px 30px;
-  float: left;
-  margin-top: 25px;
-  border: 1px solid #fff;
-}
-/* line 130, ../scss/_homepage.scss */
-.showreel .button-next p {
-  text-transform: uppercase;
-  float: left;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-/* line 136, ../scss/_homepage.scss */
-.showreel .button-next img {
-  width: auto;
-  float: left;
-  margin-left: 10px;
-}
-
-/* line 143, ../scss/_homepage.scss */
+/* line 105, ../scss/_homepage.scss */
 .showreel {
   margin-top: 60px;
 }
-/* line 145, ../scss/_homepage.scss */
+/* line 107, ../scss/_homepage.scss */
 .showreel a {
   color: #fff;
 }
-/* line 146, ../scss/_homepage.scss */
+/* line 108, ../scss/_homepage.scss */
 .showreel .rule img {
   width: 31px;
   margin: 0 0 30px 0;
 }
 
-/* line 149, ../scss/_homepage.scss */
+/* line 111, ../scss/_homepage.scss */
 .showreel .slide {
   flex-direction: column;
   justify-content: flex-end;
@@ -1905,9 +1886,15 @@ button img {
     flex-direction: row;
   }
 }
+/********* Small Buttons /*********/
 /* Black Button */
 /* White Button */
+/* Red Button */
+/* Rollover Button */
+/********* Big Buttons /*********/
+/* Black Button */
 /* White Button */
+/* Red Button */
 /* Rollover Button */
 /* line 3, ../scss/_our-approach.scss */
 #our-approach-masthead {
@@ -1939,10 +1926,10 @@ button img {
 }
 /* line 17, ../scss/_our-approach.scss */
 #approach-top-nav .button-next {
-  background: transparent url("/img/arrow-right-black-no-border.svg") no-repeat right center;
+  background: transparent url("/img/buttons/big/arrow-right-black-no-border.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #000;
@@ -1950,7 +1937,7 @@ button img {
   height: 35px;
   margin: 0;
 }
-/* line 13, ../scss/_mixins.scss */
+/* line 112, ../scss/_mixins.scss */
 #approach-top-nav .button-next p {
   color: #000;
   text-transform: uppercase;
@@ -1961,10 +1948,10 @@ button img {
 }
 /* line 18, ../scss/_our-approach.scss */
 #approach-top-nav .button-next:hover {
-  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  background: #c62b32 url("/img/buttons/big/arrow-right.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
@@ -1972,7 +1959,7 @@ button img {
   height: 35px;
   margin: 0;
 }
-/* line 80, ../scss/_mixins.scss */
+/* line 179, ../scss/_mixins.scss */
 #approach-top-nav .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1983,10 +1970,10 @@ button img {
 }
 /* line 19, ../scss/_our-approach.scss */
 #approach-top-nav .section_active a {
-  background: #c62b32 url("/img/arrow-right.svg") no-repeat right center;
+  background: #c62b32 url("/img/buttons/big/arrow-right.svg") no-repeat right center;
   pointer-events: auto;
   overflow: auto;
-  padding: 20px 80px 20px 20px;
+  padding: 20px 80px 20px 30px;
   float: left;
   margin-top: 20px;
   border: 1px solid #c62b32;
@@ -1995,7 +1982,7 @@ button img {
   margin: 0;
   outline: none;
 }
-/* line 80, ../scss/_mixins.scss */
+/* line 179, ../scss/_mixins.scss */
 #approach-top-nav .section_active a p {
   color: #fff;
   text-transform: uppercase;

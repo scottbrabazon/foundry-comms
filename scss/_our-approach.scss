@@ -14,9 +14,9 @@
 	padding-top: 760px;
 	ul {padding: 0; margin: 0;}
 	li {list-style: none; margin: 0 10px;}
-	.button-next {@include black-button; margin: 0;}
-	.button-next:hover {@include rollover-button; margin: 0;}
-	.section_active a {@include rollover-button; margin: 0; outline: none;}
+	.button-next {@include black-button-big; margin: 0;}
+	.button-next:hover {@include rollover-button-big; margin: 0;}
+	.section_active a {@include rollover-button-big; margin: 0; outline: none;}
 	.section_tabs {justify-content: center;}
 }
 

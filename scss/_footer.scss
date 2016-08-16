@@ -41,8 +41,8 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-	.button-next {@include white-button;}
-	.button-next:hover {@include rollover-button;}
+	.button-next {@include white-button-small;}
+	.button-next:hover {@include rollover-button-small;}
 }
 
 .footer-row-1 > div {
@@ -65,8 +65,8 @@
 		text-transform: uppercase;
 		font-size: 1.2em;
 	}
-	.button-next {@include red-button;}
-	.button-next:hover {@include rollover-button;}
+	.button-next {@include red-button-big;}
+	.button-next:hover {@include rollover-button-big;}
 }
 
 

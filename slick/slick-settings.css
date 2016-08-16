@@ -18,8 +18,9 @@
 }
 
 .slider button {
+      margin: 0;
       z-index: 200;
-      width: 84px;
+      width: 88px;
       height: 65px;
       background: #c62b32;
 }

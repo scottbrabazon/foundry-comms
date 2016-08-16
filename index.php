@@ -87,7 +87,7 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<h1>Through ideas that sell today and build your brand for tomorrow</h1>
-							<a href="#">
+							<a href="/work">
 								<div class="button-next flexbox">
 									<p>View our work</p>
 								</div>
@@ -100,7 +100,7 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<h1>Lorem ipsum dolor sit amet, ius in solum primis sapientem, nam ei tantas detracto.</h1>
-							<a href="#">
+							<a href="/work">
 								<div class="button-next flexbox">
 									<p>View our work</p>
 								</div>
@@ -115,8 +115,8 @@
 			<!-- Intro Copy -->
 
 			<div id="homepage-intro-copy">
-				<div class="intro-copy flexbox"> 
-					<div class="problem-solved">
+				<div> 
+					<div class="problem-solved centered">
 						<h2>Problem Solved</h2>
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
@@ -131,7 +131,7 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>Qualitative or quantitative. Internal or external. Offline or digital. We start with research to get close to your brand, your market and customers. By understanding their motivations, desires and what makes them tick, we can get to the heart of your marketing problem.</p>
-							<a href="#">
+							<a href="/approach">
 								<div class="button-next flexbox">
 									<p>Find out more</p>
 								</div>
@@ -143,7 +143,7 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>Research informs the development of your communications strategy. We can develop or dissect your brand positioning and determine the best routes to market and methods to communicate.</p>
-							<a href="#">
+							<a href="/approach/#plan-content">
 								<div class="button-next flexbox">
 									<p>Find out more</p>
 								</div>
@@ -155,7 +155,7 @@
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
 							<p>On or offline, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
-							<a href="#">
+							<a href="/approach/#deliver-content">
 								<div class="button-next flexbox">
 									<p>Find out more</p>
 								</div>
@@ -223,11 +223,11 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<a href="#">
-						<h1>Agency showreel</h1>
+						<h1>New agency<br>show reel</h1>
 					</a>
 					<a href="#">
 						<div class="button-next flexbox">
-							<p>View our work</p>
+							<p>Play</p>
 						</div>
 					</a>
 				</div>	
@@ -249,9 +249,11 @@
 						<h4>The £200 million football match</h4>
 						<p><strong>Posted by Scott on Thursday May 12,2016</strong></p>
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
-						<div class="button-next flexbox">
-							<p>Find out more</p>
-						</div>
+						<a href="#">
+							<div class="button-next flexbox">
+								<p>Find out more</p>
+							</div>
+						</a>
 					</div>
 					<div class="careers">
 						<h3>Careers</h3>
@@ -259,9 +261,11 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
-						<div class="button-next flexbox">
-							<p>Find out more</p>
-						</div>
+						<a href="#">
+							<div class="button-next flexbox">
+								<p>Find out more</p>
+							</div>
+						</a>
 					</div>
 					<div class="news">
 						<h3>News</h3>
@@ -270,20 +274,32 @@
 						</div>
 						<h4>Dr. Beckmann TV campaign launched </h4>
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
-						<div class="button-next flexbox">
-							<p>Find out more</p>
-						</div>
+						</a>
+						<a href="#">
+							<div class="button-next flexbox">
+								<p>Find out more</p>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>	
 			<div class="footer-row-2">
 				<div class="social">
-					<img src="/img/social/twitter.svg" alt="Twitter" />
-					<img src="/img/social/facebook.svg" alt="Facebook" />
-					<img src="/img/social/you-tube.svg" alt="YouTube" />
-					<img src="/img/social/google-plus.svg" alt="Google Plus" />
-					<img src="/img/social/linkedin.svg" alt="LinkedIn" />
-					<img src="/img/social/pinterest.svg" alt="Pinterest" />
+					<a href="#">
+						<img src="/img/social/twitter.svg" alt="Twitter" />
+					</a>
+					<a href="#">
+						<img src="/img/social/facebook.svg" alt="Facebook" />
+					</a>
+					<a href="#">
+						<img src="/img/social/you-tube.svg" alt="YouTube" />
+					</a>
+					<a href="#">
+						<img src="/img/social/linkedin.svg" alt="LinkedIn" />
+					</a>
+					<a href="#">
+						<img src="/img/social/pinterest.svg" alt="Pinterest" />
+					</a>
 				</div>	
 			</div>
 			<div class="footer main-container">
