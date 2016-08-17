@@ -89,7 +89,7 @@
 		<!-- Intro Copy -->
 
 		<section id="albemarle-bond-intro" class="main-container">
-			<div class="case-study-introduction">
+			<div class="centered">
 				<p>When one of the UK’s biggest pawnbrokers went into administration, they needed a plan to rebuild trust with both staff and customers. Research revealed their unique position in the community and helped us devise a communications strategy that saw Albemarle Bond return to profit and achieve a sale within three years.</p>
 			</div>
 			<hr />
@@ -163,7 +163,7 @@
 			</div>
 			
 			<div id="albemarle-bond3">
-				<div class="full-width-copy">
+				<div class="centered">
 					<h2>Window displays</h2>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
@@ -179,7 +179,7 @@
 			</div>
 			
 			<div id="albemarle-bond5">
-				<div class="full-width-copy">
+				<div class="centered">
 					<h2>Seasonal promotions</h2>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
@@ -207,7 +207,7 @@
 			</div>
 
 			<div id="albemarle-bond9">
-				<div class="full-width-copy">
+				<div class="centered">
 					<h2>Website</h2>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />

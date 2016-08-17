@@ -89,7 +89,7 @@
 		<!-- Intro Copy -->
 
 		<section id="abellio-intro" class="main-container">
-			<div class="case-study-introduction">
+			<div class="centered">
 				<p>International transport provider Abellio had a big job on its hands: launching a new national bike hire scheme to disengaged, ‘sometime’ cyclists in the UK. Research helped us gauge public opinion and find a niche that would differentiate Bike &amp; Go from similar schemes and encourage maximum sign-up.</p>
 			</div>
 			<hr />

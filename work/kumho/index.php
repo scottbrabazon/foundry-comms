@@ -89,7 +89,7 @@
 		<!-- Intro Copy -->
 
 		<section id="kumho-intro" class="main-container">
-			<div class="case-study-introduction">
+			<div class="centered">
 				<p>Kumho Tyre might be big in Korea, but in the UK they weren’t on the map. We developed a strategic approach and creative campaign that defined them as a Company that not only makes tyres; but also makes a difference to dealers, schools charities and communities.</p>
 			</div>
 			<hr />
@@ -170,7 +170,7 @@
 			</div>
 			
 			<div id="kumho3">
-				<div class="full-width-copy">
+				<div class="centered">
 					<h4>Campaign</h4>
 					<h2>Play Safer</h2>
 					<div class="rule">
@@ -218,7 +218,7 @@
 			</div>
 			
 			<div id="kumho7">
-				<div class="full-width-copy">
+				<div class="centered">
 					<h4>Campaign</h4>
 					<h2>A tyre for all seasons</h2>
 					<div class="rule">

@@ -196,14 +196,14 @@
 					<ul class="section_tabs flexbox">
 						<li class="flexbox previous-page">
 							<a href="#deliver-content" class="flexbox">
-								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
 								<h2>&nbsp;&nbsp;Deliver</h2>
 							</a>
 						</li>
 						<li class="flexbox next-page">
 							<a href="#plan-content" class="flexbox">
 								<h2>Plan&nbsp;&nbsp;</h2>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
 							</a>
 						</li>
 					</ul>
@@ -214,7 +214,7 @@
 					<ul class="section_tabs flexbox approach-fixed-nav-buttons">
 						<li>
 							<a href="#deliver-content" class="nav-buttons flexbox fixed-previous-page">
-								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
 								<h2>&nbsp;&nbsp;Deliver</h2>
 							</a>
 						</li>
@@ -224,7 +224,7 @@
 						<li>
 							<a href="#plan-content" class="nav-buttons flexbox fixed-next-page">
 								<h2>Plan&nbsp;&nbsp;</h2>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
 							</a>
 						</li>
 					</ul>
@@ -299,14 +299,14 @@
 					<ul class="section_tabs flexbox">
 						<li class="flexbox previous-page">
 							<a href="#listen-content" class="flexbox">
-								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
 								<h2>&nbsp;&nbsp;Listen</h2>
 							</a>
 						</li>
 						<li class="flexbox next-page">
 							<a href="#deliver-content" class="flexbox">
 								<h2>Deliver&nbsp;&nbsp;</h2>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
 							</a>
 						</li>
 					</ul>
@@ -317,7 +317,7 @@
 					<ul class="section_tabs flexbox approach-fixed-nav-buttons">
 						<li>
 							<a href="#listen-content" class="nav-buttons flexbox fixed-next-page">
-								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
 								<h2>&nbsp;&nbsp;Listen</h2>
 							</a>
 						</li>
@@ -327,7 +327,7 @@
 						<li>
 							<a href="#deliver-content" class="nav-buttons flexbox fixed-next-page">
 								<h2>Deliver&nbsp;&nbsp;</h2>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
 							</a>
 						</li>
 					</ul>
@@ -499,14 +499,14 @@
 					<ul class="section_tabs flexbox">
 						<li class="flexbox previous-page">
 							<a href="#plan-content" class="flexbox">
-								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
 								<h2>&nbsp;&nbsp;Plan</h2>
 							</a>
 						</li>
 						<li class="flexbox next-page">
 							<a href="#listen-content" class="flexbox">
 								<h2>Listen&nbsp;&nbsp;</h2>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
 							</a>
 						</li>
 					</ul>
@@ -517,7 +517,7 @@
 					<ul class="section_tabs flexbox approach-fixed-nav-buttons">
 						<li>
 							<a href="#plan-content" class="nav-buttons flexbox fixed-previous-page">
-								<img src="/img/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
 								<h2>&nbsp;&nbsp;Plan</h2>
 							</a>
 						</li>
@@ -527,7 +527,7 @@
 						<li>
 							<a href="#listen-content" class="nav-buttons flexbox fixed-next-page">
 								<h2>Listen&nbsp;&nbsp;</h2>
-								<img src="/img/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
 							</a>
 						</li>
 					</ul>
