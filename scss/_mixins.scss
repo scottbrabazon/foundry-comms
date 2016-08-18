@@ -73,7 +73,6 @@
 /* Rollover Button */
 
 @mixin rollover-button-small {
-    background: $foundry-red url("/img/buttons/small/arrow-right.svg") no-repeat right center;
     pointer-events: auto;
     overflow: auto;
     padding: 10px 70px 10px 20px;
@@ -164,7 +163,6 @@
 /* Rollover Button */
 
 @mixin rollover-button-big {
-    background: $foundry-red url("/img/buttons/big/arrow-right.svg") no-repeat right center;
     pointer-events: auto;
     overflow: auto;
     padding: 20px 80px 20px 30px;
@@ -180,4 +178,56 @@
         padding: 0 0 0 0;
         margin: 0 0 0 0;
     }
+}
+
+// prefix declarations
+@mixin prefixed($property, $value) {
+  @if $webkit == true {
+    -webkit-#{$property}: #{$value};
+  }
+
+  @if $moz == true {
+    -moz-#{$property}: #{$value};
+  }
+
+  @if $ms == true {
+    -ms-#{$property}: #{$value};
+  }
+
+  @if $o == true {
+    -o-#{$property}: #{$value};
+  }
+
+  #{$property}: #{$value};
+}
+
+// prefix keyframes
+@mixin keyframes($name) {
+  @if $webkit == true {
+    @-webkit-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $moz == true {
+    @-moz-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $ms == true {
+    @-ms-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $o == true {
+    @-o-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
 }
