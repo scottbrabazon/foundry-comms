@@ -115,7 +115,7 @@
 				<div class="people flexbox">
 					<div class="person">
 						<img src="/img/staff/anna-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/anna-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/anna-thumbnail-bw.jpg'"/ alt="Anna Scott">
-						<div class="person-name-panel">
+						<div class="hvr-bounce-to-right-person person-name-panel">
 							<p><span class="person-name">Anna Scott</span><br><span class="job-title">Account Director</span></p>
 						</div>
 					</div>
