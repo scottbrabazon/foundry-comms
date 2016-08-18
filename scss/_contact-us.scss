@@ -2,12 +2,13 @@
 	background: black url("/img/backgrounds/background-image-2.svg") no-repeat top center; 
 	background-size: cover;
 	margin-top: 63px;
+	.masthead-content {width: 100%;}
 }
 
 .contact-details {
 	margin-top: 40px;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	a {color: #fff;}
 }
 
@@ -18,25 +19,23 @@
 .address, .telephone, .email {padding-left: 50px;}
 .address, .telephone {height: 105px;}
 
-#map {
-	img {width: 100%;}
-	margin-top: -40px;
-}
+#map img {width: 100%;}
+#map {margin-top: 60px;}
 
 #enquiry-form {
 	margin: 60px auto 0 auto;
 	width: 60%;
 	h1 {text-align: center;}
 	p {text-align: center;}
-	.rule img {margin: 0 auto 30px auto;}
+	.button-next {@include black-button-big;}
+	.button-next:hover {@include rollover-button-big;}
 }
 
 #careers {
-	margin-top: 60px;
-	h3 {margin-top: 30px;}
+	clear: left;
+	margin-top: 150px;
+	h3 {margin-top: 60px;}
 }
-
-
 
 
 @media screen and (max-width: 800px) {

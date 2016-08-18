@@ -1163,7 +1163,7 @@ fieldset {
   padding: 0;
 }
 
-/* line 2, ../scss/_form.scss */
+/* line 3, ../scss/_form.scss */
 label {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   color: #fff;
@@ -1172,16 +1172,42 @@ label {
   margin: 0 0 1em 0;
 }
 
-/* line 9, ../scss/_form.scss */
+/* line 11, ../scss/_form.scss */
 .form-field {
-  width: 90%;
   background: #c1c2c4;
   margin-bottom: 20px;
-  padding: 10px 5%;
+  padding: 15px;
   text-align: left;
 }
 
-/* line 17, ../scss/_form.scss */
+/* line 18, ../scss/_form.scss */
+perch:input:placeholder-shown {
+  color: #fff;
+}
+
+/* line 19, ../scss/_form.scss */
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/* line 20, ../scss/_form.scss */
+:-moz-placeholder {
+  /* older Firefox*/
+  color: #fff;
+}
+
+/* line 21, ../scss/_form.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+/* line 22, ../scss/_form.scss */
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+/* line 24, ../scss/_form.scss */
 input {
   background: transparent;
   border: 0;
@@ -1190,7 +1216,7 @@ input {
   color: #fff;
 }
 
-/* line 25, ../scss/_form.scss */
+/* line 32, ../scss/_form.scss */
 button {
   align-items: center;
   pointer-events: auto;
@@ -1200,11 +1226,7 @@ button {
   margin-top: 25px;
   border: 1px solid #fff;
 }
-/* line 26, ../scss/_form.scss */
-button .full-width-copy img {
-  margin-bottom: 0;
-}
-/* line 34, ../scss/_form.scss */
+/* line 40, ../scss/_form.scss */
 button p {
   text-transform: uppercase;
   line-height: 20px;
@@ -1212,10 +1234,15 @@ button p {
   margin: 0 0 0 0;
   color: #fff;
 }
-/* line 41, ../scss/_form.scss */
+/* line 47, ../scss/_form.scss */
 button img {
   width: auto;
   margin-left: 10px;
+}
+
+/* line 53, ../scss/_form.scss */
+perch:input[id="message"] {
+  height: 200px;
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -1389,9 +1416,8 @@ button img {
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
-  height: 35px;
 }
-/* line 156, ../scss/_mixins.scss */
+/* line 153, ../scss/_mixins.scss */
 .footer-row-3 .button-next p {
   color: #fff;
   text-transform: uppercase;
@@ -1410,9 +1436,8 @@ button img {
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
-  height: 35px;
 }
-/* line 179, ../scss/_mixins.scss */
+/* line 175, ../scss/_mixins.scss */
 .footer-row-3 .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1601,9 +1626,8 @@ button img {
   margin-top: 20px;
   border: 1px solid #fff;
   align-items: center;
-  height: 35px;
 }
-/* line 134, ../scss/_mixins.scss */
+/* line 132, ../scss/_mixins.scss */
 .slide .button-next p {
   color: #fff;
   text-transform: uppercase;
@@ -1622,9 +1646,8 @@ button img {
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
-  height: 35px;
 }
-/* line 179, ../scss/_mixins.scss */
+/* line 175, ../scss/_mixins.scss */
 .slide .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1802,9 +1825,8 @@ button img {
   margin-top: 20px;
   border: 1px solid #fff;
   align-items: center;
-  height: 35px;
 }
-/* line 134, ../scss/_mixins.scss */
+/* line 132, ../scss/_mixins.scss */
 #homepage-showreel .button-next p {
   color: #fff;
   text-transform: uppercase;
@@ -1823,9 +1845,8 @@ button img {
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
-  height: 35px;
 }
-/* line 179, ../scss/_mixins.scss */
+/* line 175, ../scss/_mixins.scss */
 #homepage-showreel .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1934,10 +1955,9 @@ button img {
   margin-top: 20px;
   border: 1px solid #000;
   align-items: center;
-  height: 35px;
   margin: 0;
 }
-/* line 112, ../scss/_mixins.scss */
+/* line 111, ../scss/_mixins.scss */
 #approach-top-nav .button-next p {
   color: #000;
   text-transform: uppercase;
@@ -1956,10 +1976,9 @@ button img {
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
-  height: 35px;
   margin: 0;
 }
-/* line 179, ../scss/_mixins.scss */
+/* line 175, ../scss/_mixins.scss */
 #approach-top-nav .button-next:hover p {
   color: #fff;
   text-transform: uppercase;
@@ -1978,11 +1997,10 @@ button img {
   margin-top: 20px;
   border: 1px solid #c62b32;
   align-items: center;
-  height: 35px;
   margin: 0;
   outline: none;
 }
-/* line 179, ../scss/_mixins.scss */
+/* line 175, ../scss/_mixins.scss */
 #approach-top-nav .section_active a p {
   color: #fff;
   text-transform: uppercase;
@@ -2832,99 +2850,141 @@ hr {
   background-size: cover;
   margin-top: 63px;
 }
+/* line 5, ../scss/_contact-us.scss */
+#contact-masthead.masthead .masthead-content {
+  width: 100%;
+}
 
-/* line 7, ../scss/_contact-us.scss */
+/* line 8, ../scss/_contact-us.scss */
 .contact-details {
   margin-top: 40px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-/* line 11, ../scss/_contact-us.scss */
+/* line 12, ../scss/_contact-us.scss */
 .contact-details a {
   color: #fff;
 }
 
-/* line 14, ../scss/_contact-us.scss */
+/* line 15, ../scss/_contact-us.scss */
 .address {
   background: transparent url("/img/address.svg") no-repeat top left;
 }
 
-/* line 15, ../scss/_contact-us.scss */
+/* line 16, ../scss/_contact-us.scss */
 .telephone {
   background: transparent url("/img/telephone.svg") no-repeat top left;
 }
 
-/* line 16, ../scss/_contact-us.scss */
+/* line 17, ../scss/_contact-us.scss */
 .email {
   background: transparent url("/img/email.svg") no-repeat top left;
 }
 
-/* line 18, ../scss/_contact-us.scss */
+/* line 19, ../scss/_contact-us.scss */
 .address, .telephone, .email {
   padding-left: 50px;
 }
 
-/* line 19, ../scss/_contact-us.scss */
+/* line 20, ../scss/_contact-us.scss */
 .address, .telephone {
   height: 105px;
 }
 
-/* line 21, ../scss/_contact-us.scss */
-#map {
-  margin-top: -40px;
-}
 /* line 22, ../scss/_contact-us.scss */
 #map img {
   width: 100%;
 }
 
-/* line 26, ../scss/_contact-us.scss */
+/* line 23, ../scss/_contact-us.scss */
+#map {
+  margin-top: 60px;
+}
+
+/* line 25, ../scss/_contact-us.scss */
 #enquiry-form {
   margin: 60px auto 0 auto;
   width: 60%;
 }
-/* line 29, ../scss/_contact-us.scss */
+/* line 28, ../scss/_contact-us.scss */
 #enquiry-form h1 {
   text-align: center;
 }
-/* line 30, ../scss/_contact-us.scss */
+/* line 29, ../scss/_contact-us.scss */
 #enquiry-form p {
   text-align: center;
 }
+/* line 30, ../scss/_contact-us.scss */
+#enquiry-form .button-next {
+  background: transparent url("/img/buttons/big/arrow-right-black-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 30px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #000;
+  align-items: center;
+}
+/* line 111, ../scss/_mixins.scss */
+#enquiry-form .button-next p {
+  color: #000;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
 /* line 31, ../scss/_contact-us.scss */
-#enquiry-form .rule img {
-  margin: 0 auto 30px auto;
+#enquiry-form .button-next:hover {
+  background: #c62b32 url("/img/buttons/big/arrow-right.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 20px 80px 20px 30px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #c62b32;
+  align-items: center;
+}
+/* line 175, ../scss/_mixins.scss */
+#enquiry-form .button-next:hover p {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 /* line 34, ../scss/_contact-us.scss */
 #careers {
-  margin-top: 60px;
+  clear: left;
+  margin-top: 150px;
 }
-/* line 36, ../scss/_contact-us.scss */
+/* line 37, ../scss/_contact-us.scss */
 #careers h3 {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 43, ../scss/_contact-us.scss */
+  /* line 42, ../scss/_contact-us.scss */
   .contact-details {
     flex-direction: column;
     justify-content: space-around;
   }
 
-  /* line 47, ../scss/_contact-us.scss */
+  /* line 46, ../scss/_contact-us.scss */
   #enquiry-form {
     width: 90%;
   }
-  /* line 49, ../scss/_contact-us.scss */
+  /* line 48, ../scss/_contact-us.scss */
   #enquiry-form h1 {
     text-align: left;
   }
-  /* line 50, ../scss/_contact-us.scss */
+  /* line 49, ../scss/_contact-us.scss */
   #enquiry-form p {
     text-align: left;
   }
-  /* line 51, ../scss/_contact-us.scss */
+  /* line 50, ../scss/_contact-us.scss */
   #enquiry-form .rule img {
     margin: 0 0 30px 0;
   }

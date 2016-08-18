@@ -1,5 +1,4 @@
-<?phpFoundry
-?>
+<?php include('../perch/runtime.php'); ?>
 
 <!DOCTYPE html>
 <!--[if IE 6]>
@@ -68,13 +67,12 @@
 			</div>	
 		</nav>
 
-
 		<!-- Masthead -->
 
 		<header id="contact-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
-					<h1>Get in touch</h1>
+					<h1>Contact Us</h1>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
@@ -95,15 +93,15 @@
 					</div>
 				</div>
 			</div>
-		</header>	
+		</header>
 
 		<!-- End Masthead -->
 
 		<!-- Map -->
 
 		<section id="map">
-			<div class="main-container">
-				<img src="/img/altrincham.jpg" alt="Map of Alrincham" />
+			<div class="map centered">
+				<?php perch_content('Map'); ?>
 			</div>
 		</section>
 
@@ -111,41 +109,14 @@
 
 		<!-- Enquiry Form -->
 
-		<section id="enquiry-form" class="main-container">
-			<form action="index.html" method="post">
-		        <h1>Make an enquiry</h1>
-				<div class="rule">
-					<img src="/img/rule.png" alt="Rule" />
-				</div>
-				<p>Send us a message. Fill in your details and we'll be in touch as soon as possible.</p>
-				<fieldset>
-					<div class="form-field">
-						<label for="name">Company*</label>
-						<input type="text" id="company" name="user_company">
-					</div>
-					<div class="form-field">
-						<label for="email">Email address*</label>
-						<input type="email" id="email" name="user_email">
-					</div>
-					<div class="form-field">
-						<label for="telephone">Telephone number</label>
-						<input type="telephone" id="telephone" name="user_telephone">
-					</div>
-					<div class="form-field">
-						<label for="message">Message</label>
-						<input type="message" id="message" name="user_message">
-					</div>
-				</fieldset>
-		        <button type="submit" class="flexbox"><p>Send</p><img src="/img/arrow-right.svg" alt="Send" /></button>
-			</form>
-		</section>
+		<?php perch_content('Enquiry Form'); ?>
 
 		<!-- End Enquiry Form -->
 
 		<!-- Careers -->
 
-		<section id="careers">
-			<div class="full-width-copy">
+		<section id="careers" class="main-container">
+			<div class="centered">
 				<h1>Careers</h1>
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
@@ -247,6 +218,5 @@
 		<!-- End Footer -->
 
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-
 	</body>
 </html>
