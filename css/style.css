@@ -3408,12 +3408,13 @@ button img {
 }
 
 /* Bounce To Right */
+/* line 261, ../scss/hover.scss */
 .hvr-bounce-to-right-person {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3421,36 +3422,43 @@ button img {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s; }
-  .hvr-bounce-to-right-person:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #c62b32;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out; }
-  .hvr-bounce-to-right-person:hover, .hvr-bounce-to-right-person:focus, .hvr-bounce-to-right-person:active {
-    color: white; }
-    .hvr-bounce-to-right-person:hover:before, .hvr-bounce-to-right-person:focus:before, .hvr-bounce-to-right-person:active:before {
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1);
-      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+  transition-duration: 0.5s;
+}
+/* line 44, ../scss/effects/background-transitions/_bounce-to-right.scss */
+.hvr-bounce-to-right-person:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #c62b32;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+/* line 62, ../scss/effects/background-transitions/_bounce-to-right.scss */
+.hvr-bounce-to-right-person:hover, .hvr-bounce-to-right-person:focus, .hvr-bounce-to-right-person:active {
+  color: white;
+}
+/* line 65, ../scss/effects/background-transitions/_bounce-to-right.scss */
+.hvr-bounce-to-right-person:hover:before, .hvr-bounce-to-right-person:focus:before, .hvr-bounce-to-right-person:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
 
 /* Bounce To Left */
-/* line 261, ../scss/hover.scss */
+/* line 268, ../scss/hover.scss */
 .hvr-bounce-to-left {
   display: inline-block;
   vertical-align: middle;
@@ -3500,7 +3508,7 @@ button img {
 }
 
 /* Bounce To Bottom */
-/* line 268, ../scss/hover.scss */
+/* line 275, ../scss/hover.scss */
 .hvr-bounce-to-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -3550,7 +3558,7 @@ button img {
 }
 
 /* Bounce To Top */
-/* line 275, ../scss/hover.scss */
+/* line 282, ../scss/hover.scss */
 .hvr-bounce-to-top {
   display: inline-block;
   vertical-align: middle;
@@ -3600,7 +3608,7 @@ button img {
 }
 
 /* Radial Out */
-/* line 282, ../scss/hover.scss */
+/* line 289, ../scss/hover.scss */
 .hvr-radial-out {
   display: inline-block;
   vertical-align: middle;
@@ -3649,7 +3657,7 @@ button img {
 }
 
 /* Radial In */
-/* line 289, ../scss/hover.scss */
+/* line 296, ../scss/hover.scss */
 .hvr-radial-in {
   display: inline-block;
   vertical-align: middle;
@@ -3698,7 +3706,7 @@ button img {
 }
 
 /* Rectangle In */
-/* line 296, ../scss/hover.scss */
+/* line 303, ../scss/hover.scss */
 .hvr-rectangle-in {
   display: inline-block;
   vertical-align: middle;
@@ -3745,7 +3753,7 @@ button img {
 }
 
 /* Rectangle Out */
-/* line 303, ../scss/hover.scss */
+/* line 310, ../scss/hover.scss */
 .hvr-rectangle-out {
   display: inline-block;
   vertical-align: middle;
@@ -3792,7 +3800,7 @@ button img {
 }
 
 /* Shutter In Horizontal */
-/* line 310, ../scss/hover.scss */
+/* line 317, ../scss/hover.scss */
 .hvr-shutter-in-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -3841,7 +3849,7 @@ button img {
 }
 
 /* Shutter Out Horizontal */
-/* line 317, ../scss/hover.scss */
+/* line 324, ../scss/hover.scss */
 .hvr-shutter-out-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -3890,7 +3898,7 @@ button img {
 }
 
 /* Shutter In Vertical */
-/* line 324, ../scss/hover.scss */
+/* line 331, ../scss/hover.scss */
 .hvr-shutter-in-vertical {
   display: inline-block;
   vertical-align: middle;
@@ -3939,7 +3947,7 @@ button img {
 }
 
 /* Shutter Out Vertical */
-/* line 331, ../scss/hover.scss */
+/* line 338, ../scss/hover.scss */
 .hvr-shutter-out-vertical {
   display: inline-block;
   vertical-align: middle;
@@ -3989,7 +3997,7 @@ button img {
 
 /* BORDER TRANSITIONS */
 /* Border Fade */
-/* line 340, ../scss/hover.scss */
+/* line 347, ../scss/hover.scss */
 .hvr-border-fade {
   display: inline-block;
   vertical-align: middle;
@@ -4013,7 +4021,7 @@ button img {
 }
 
 /* Hollow */
-/* line 347, ../scss/hover.scss */
+/* line 354, ../scss/hover.scss */
 .hvr-hollow {
   display: inline-block;
   vertical-align: middle;
@@ -4036,7 +4044,7 @@ button img {
 }
 
 /* Trim */
-/* line 354, ../scss/hover.scss */
+/* line 361, ../scss/hover.scss */
 .hvr-trim {
   display: inline-block;
   vertical-align: middle;
@@ -4091,7 +4099,7 @@ button img {
   }
 }
 
-/* line 361, ../scss/hover.scss */
+/* line 368, ../scss/hover.scss */
 .hvr-ripple-out {
   display: inline-block;
   vertical-align: middle;
@@ -4144,7 +4152,7 @@ button img {
   }
 }
 
-/* line 368, ../scss/hover.scss */
+/* line 375, ../scss/hover.scss */
 .hvr-ripple-in {
   display: inline-block;
   vertical-align: middle;
@@ -4176,7 +4184,7 @@ button img {
 }
 
 /* Outline Out */
-/* line 375, ../scss/hover.scss */
+/* line 382, ../scss/hover.scss */
 .hvr-outline-out {
   display: inline-block;
   vertical-align: middle;
@@ -4211,7 +4219,7 @@ button img {
 }
 
 /* Outline In */
-/* line 382, ../scss/hover.scss */
+/* line 389, ../scss/hover.scss */
 .hvr-outline-in {
   display: inline-block;
   vertical-align: middle;
@@ -4249,7 +4257,7 @@ button img {
 }
 
 /* Round Corners */
-/* line 389, ../scss/hover.scss */
+/* line 396, ../scss/hover.scss */
 .hvr-round-corners {
   display: inline-block;
   vertical-align: middle;
@@ -4270,7 +4278,7 @@ button img {
 }
 
 /* Underline From Left */
-/* line 396, ../scss/hover.scss */
+/* line 403, ../scss/hover.scss */
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -4306,7 +4314,7 @@ button img {
 }
 
 /* Underline From Center */
-/* line 403, ../scss/hover.scss */
+/* line 410, ../scss/hover.scss */
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -4343,7 +4351,7 @@ button img {
 }
 
 /* Underline From Right */
-/* line 410, ../scss/hover.scss */
+/* line 417, ../scss/hover.scss */
 .hvr-underline-from-right {
   display: inline-block;
   vertical-align: middle;
@@ -4379,7 +4387,7 @@ button img {
 }
 
 /* Overline From Left */
-/* line 417, ../scss/hover.scss */
+/* line 424, ../scss/hover.scss */
 .hvr-overline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -4415,7 +4423,7 @@ button img {
 }
 
 /* Overline From Center */
-/* line 424, ../scss/hover.scss */
+/* line 431, ../scss/hover.scss */
 .hvr-overline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -4452,7 +4460,7 @@ button img {
 }
 
 /* Overline From Right */
-/* line 431, ../scss/hover.scss */
+/* line 438, ../scss/hover.scss */
 .hvr-overline-from-right {
   display: inline-block;
   vertical-align: middle;
@@ -4488,7 +4496,7 @@ button img {
 }
 
 /* Reveal */
-/* line 438, ../scss/hover.scss */
+/* line 445, ../scss/hover.scss */
 .hvr-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -4528,7 +4536,7 @@ button img {
 }
 
 /* Underline Reveal */
-/* line 445, ../scss/hover.scss */
+/* line 452, ../scss/hover.scss */
 .hvr-underline-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -4567,7 +4575,7 @@ button img {
 }
 
 /* Overline Reveal */
-/* line 452, ../scss/hover.scss */
+/* line 459, ../scss/hover.scss */
 .hvr-overline-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -4607,7 +4615,7 @@ button img {
 
 /* SHADOW/GLOW TRANSITIONS */
 /* Glow */
-/* line 461, ../scss/hover.scss */
+/* line 468, ../scss/hover.scss */
 .hvr-glow {
   display: inline-block;
   vertical-align: middle;
@@ -4628,7 +4636,7 @@ button img {
 }
 
 /* Shadow */
-/* line 468, ../scss/hover.scss */
+/* line 475, ../scss/hover.scss */
 .hvr-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -4649,7 +4657,7 @@ button img {
 }
 
 /* Grow Shadow */
-/* line 475, ../scss/hover.scss */
+/* line 482, ../scss/hover.scss */
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -4672,7 +4680,7 @@ button img {
 }
 
 /* Box Shadow Outset */
-/* line 482, ../scss/hover.scss */
+/* line 489, ../scss/hover.scss */
 .hvr-box-shadow-outset {
   display: inline-block;
   vertical-align: middle;
@@ -4693,7 +4701,7 @@ button img {
 }
 
 /* Box Shadow Inset */
-/* line 489, ../scss/hover.scss */
+/* line 496, ../scss/hover.scss */
 .hvr-box-shadow-inset {
   display: inline-block;
   vertical-align: middle;
@@ -4717,7 +4725,7 @@ button img {
 }
 
 /* Float Shadow */
-/* line 496, ../scss/hover.scss */
+/* line 503, ../scss/hover.scss */
 .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -4767,7 +4775,7 @@ button img {
 }
 
 /* Shadow Radial */
-/* line 503, ../scss/hover.scss */
+/* line 510, ../scss/hover.scss */
 .hvr-shadow-radial {
   display: inline-block;
   vertical-align: middle;
@@ -4814,7 +4822,7 @@ button img {
 
 /* SPEECH BUBBLES */
 /* Bubble Top */
-/* line 511, ../scss/hover.scss */
+/* line 518, ../scss/hover.scss */
 .hvr-bubble-top {
   display: inline-block;
   vertical-align: middle;
@@ -4849,7 +4857,7 @@ button img {
 }
 
 /* Bubble Right */
-/* line 518, ../scss/hover.scss */
+/* line 525, ../scss/hover.scss */
 .hvr-bubble-right {
   display: inline-block;
   vertical-align: middle;
@@ -4884,7 +4892,7 @@ button img {
 }
 
 /* Bubble Bottom */
-/* line 525, ../scss/hover.scss */
+/* line 532, ../scss/hover.scss */
 .hvr-bubble-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -4919,7 +4927,7 @@ button img {
 }
 
 /* Bubble Left */
-/* line 532, ../scss/hover.scss */
+/* line 539, ../scss/hover.scss */
 .hvr-bubble-left {
   display: inline-block;
   vertical-align: middle;
@@ -4954,7 +4962,7 @@ button img {
 }
 
 /* Bubble Float Top */
-/* line 539, ../scss/hover.scss */
+/* line 546, ../scss/hover.scss */
 .hvr-bubble-float-top {
   display: inline-block;
   vertical-align: middle;
@@ -4997,7 +5005,7 @@ button img {
 }
 
 /* Bubble Float Right */
-/* line 546, ../scss/hover.scss */
+/* line 553, ../scss/hover.scss */
 .hvr-bubble-float-right {
   display: inline-block;
   vertical-align: middle;
@@ -5040,7 +5048,7 @@ button img {
 }
 
 /* Bubble Float Bottom */
-/* line 553, ../scss/hover.scss */
+/* line 560, ../scss/hover.scss */
 .hvr-bubble-float-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -5083,7 +5091,7 @@ button img {
 }
 
 /* Bubble Float Left */
-/* line 560, ../scss/hover.scss */
+/* line 567, ../scss/hover.scss */
 .hvr-bubble-float-left {
   display: inline-block;
   vertical-align: middle;
@@ -5127,7 +5135,7 @@ button img {
 
 /* ICONS */
 /* Icon Back */
-/* line 568, ../scss/hover.scss */
+/* line 575, ../scss/hover.scss */
 .hvr-icon-back {
   display: inline-block;
   vertical-align: middle;
@@ -5165,7 +5173,7 @@ button img {
 }
 
 /* Icon Forward */
-/* line 575, ../scss/hover.scss */
+/* line 582, ../scss/hover.scss */
 .hvr-icon-forward {
   display: inline-block;
   vertical-align: middle;
@@ -5238,7 +5246,7 @@ button img {
 }
 
 /* Icon Down */
-/* line 582, ../scss/hover.scss */
+/* line 589, ../scss/hover.scss */
 .hvr-icon-down {
   display: inline-block;
   vertical-align: middle;
@@ -5307,7 +5315,7 @@ button img {
 }
 
 /* Icon Up */
-/* line 589, ../scss/hover.scss */
+/* line 596, ../scss/hover.scss */
 .hvr-icon-up {
   display: inline-block;
   vertical-align: middle;
@@ -5341,7 +5349,7 @@ button img {
 }
 
 /* Icon Spin */
-/* line 596, ../scss/hover.scss */
+/* line 603, ../scss/hover.scss */
 .hvr-icon-spin {
   display: inline-block;
   vertical-align: middle;
@@ -5416,7 +5424,7 @@ button img {
 }
 
 /* Icon Drop */
-/* line 603, ../scss/hover.scss */
+/* line 610, ../scss/hover.scss */
 .hvr-icon-drop {
   display: inline-block;
   vertical-align: middle;
@@ -5460,7 +5468,7 @@ button img {
 }
 
 /* Icon Fade */
-/* line 610, ../scss/hover.scss */
+/* line 617, ../scss/hover.scss */
 .hvr-icon-fade {
   display: inline-block;
   vertical-align: middle;
@@ -5522,7 +5530,7 @@ button img {
 }
 
 /* Icon Float Away */
-/* line 617, ../scss/hover.scss */
+/* line 624, ../scss/hover.scss */
 .hvr-icon-float-away {
   display: inline-block;
   vertical-align: middle;
@@ -5589,7 +5597,7 @@ button img {
 }
 
 /* Icon Sink Away */
-/* line 624, ../scss/hover.scss */
+/* line 631, ../scss/hover.scss */
 .hvr-icon-sink-away {
   display: inline-block;
   vertical-align: middle;
@@ -5629,7 +5637,7 @@ button img {
 }
 
 /* Icon Grow */
-/* line 631, ../scss/hover.scss */
+/* line 638, ../scss/hover.scss */
 .hvr-icon-grow {
   display: inline-block;
   vertical-align: middle;
@@ -5667,7 +5675,7 @@ button img {
 }
 
 /* Icon Shrink */
-/* line 638, ../scss/hover.scss */
+/* line 645, ../scss/hover.scss */
 .hvr-icon-shrink {
   display: inline-block;
   vertical-align: middle;
@@ -5733,7 +5741,7 @@ button img {
   }
 }
 
-/* line 645, ../scss/hover.scss */
+/* line 652, ../scss/hover.scss */
 .hvr-icon-pulse {
   display: inline-block;
   vertical-align: middle;
@@ -5787,7 +5795,7 @@ button img {
   }
 }
 
-/* line 652, ../scss/hover.scss */
+/* line 659, ../scss/hover.scss */
 .hvr-icon-pulse-grow {
   display: inline-block;
   vertical-align: middle;
@@ -5843,7 +5851,7 @@ button img {
   }
 }
 
-/* line 659, ../scss/hover.scss */
+/* line 666, ../scss/hover.scss */
 .hvr-icon-pulse-shrink {
   display: inline-block;
   vertical-align: middle;
@@ -5899,7 +5907,7 @@ button img {
   }
 }
 
-/* line 666, ../scss/hover.scss */
+/* line 673, ../scss/hover.scss */
 .hvr-icon-push {
   display: inline-block;
   vertical-align: middle;
@@ -5959,7 +5967,7 @@ button img {
   }
 }
 
-/* line 673, ../scss/hover.scss */
+/* line 680, ../scss/hover.scss */
 .hvr-icon-pop {
   display: inline-block;
   vertical-align: middle;
@@ -6003,7 +6011,7 @@ button img {
 }
 
 /* Icon Bounce */
-/* line 680, ../scss/hover.scss */
+/* line 687, ../scss/hover.scss */
 .hvr-icon-bounce {
   display: inline-block;
   vertical-align: middle;
@@ -6043,7 +6051,7 @@ button img {
 }
 
 /* Icon Rotate */
-/* line 687, ../scss/hover.scss */
+/* line 694, ../scss/hover.scss */
 .hvr-icon-rotate {
   display: inline-block;
   vertical-align: middle;
@@ -6081,7 +6089,7 @@ button img {
 }
 
 /* Icon Grow Rotate */
-/* line 694, ../scss/hover.scss */
+/* line 701, ../scss/hover.scss */
 .hvr-icon-grow-rotate {
   display: inline-block;
   vertical-align: middle;
@@ -6119,7 +6127,7 @@ button img {
 }
 
 /* Icon Float */
-/* line 701, ../scss/hover.scss */
+/* line 708, ../scss/hover.scss */
 .hvr-icon-float {
   display: inline-block;
   vertical-align: middle;
@@ -6157,7 +6165,7 @@ button img {
 }
 
 /* Icon Sink */
-/* line 708, ../scss/hover.scss */
+/* line 715, ../scss/hover.scss */
 .hvr-icon-sink {
   display: inline-block;
   vertical-align: middle;
@@ -6251,7 +6259,7 @@ button img {
   }
 }
 
-/* line 715, ../scss/hover.scss */
+/* line 722, ../scss/hover.scss */
 .hvr-icon-bob {
   display: inline-block;
   vertical-align: middle;
@@ -6351,7 +6359,7 @@ button img {
   }
 }
 
-/* line 722, ../scss/hover.scss */
+/* line 729, ../scss/hover.scss */
 .hvr-icon-hang {
   display: inline-block;
   vertical-align: middle;
@@ -6471,7 +6479,7 @@ button img {
   }
 }
 
-/* line 729, ../scss/hover.scss */
+/* line 736, ../scss/hover.scss */
 .hvr-icon-wobble-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -6585,7 +6593,7 @@ button img {
   }
 }
 
-/* line 736, ../scss/hover.scss */
+/* line 743, ../scss/hover.scss */
 .hvr-icon-wobble-vertical {
   display: inline-block;
   vertical-align: middle;
@@ -6651,7 +6659,7 @@ button img {
   }
 }
 
-/* line 743, ../scss/hover.scss */
+/* line 750, ../scss/hover.scss */
 .hvr-icon-buzz {
   display: inline-block;
   vertical-align: middle;
@@ -6813,7 +6821,7 @@ button img {
   }
 }
 
-/* line 750, ../scss/hover.scss */
+/* line 757, ../scss/hover.scss */
 .hvr-icon-buzz-out {
   display: inline-block;
   vertical-align: middle;
@@ -6852,7 +6860,7 @@ button img {
 
 /* CURLS */
 /* Curl Top Left */
-/* line 758, ../scss/hover.scss */
+/* line 765, ../scss/hover.scss */
 .hvr-curl-top-left {
   display: inline-block;
   vertical-align: middle;
@@ -6892,7 +6900,7 @@ button img {
 }
 
 /* Curl Top Right */
-/* line 765, ../scss/hover.scss */
+/* line 772, ../scss/hover.scss */
 .hvr-curl-top-right {
   display: inline-block;
   vertical-align: middle;
@@ -6929,7 +6937,7 @@ button img {
 }
 
 /* Curl Bottom Right */
-/* line 772, ../scss/hover.scss */
+/* line 779, ../scss/hover.scss */
 .hvr-curl-bottom-right {
   display: inline-block;
   vertical-align: middle;
@@ -6966,7 +6974,7 @@ button img {
 }
 
 /* Curl Bottom Left */
-/* line 779, ../scss/hover.scss */
+/* line 786, ../scss/hover.scss */
 .hvr-curl-bottom-left {
   display: inline-block;
   vertical-align: middle;
