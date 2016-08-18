@@ -1235,7 +1235,7 @@ button {
 /* line 44, ../scss/_form.scss */
 button p {
   text-transform: uppercase;
-  line-height: 20px;
+  line-height: 34px;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   color: #fff;
@@ -7033,13 +7033,26 @@ button img {
   margin-top: 40px;
 }
 
+/* line 27, ../scss/_about.scss */
+.client-logos-panel {
+  width: 100%;
+}
+/* line 29, ../scss/_about.scss */
+.client-logos-panel img {
+  width: 100%;
+}
+/* line 30, ../scss/_about.scss */
+.client-logos-panel .client-logos {
+  width: 25%;
+}
+
 @media screen and (min-width: 780px) {
-  /* line 32, ../scss/_about.scss */
+  /* line 38, ../scss/_about.scss */
   .navigation-menu {
     display: flex;
   }
 
-  /* line 33, ../scss/_about.scss */
+  /* line 39, ../scss/_about.scss */
   .navigation-menu-mobile {
     display: none;
   }
