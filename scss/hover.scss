@@ -256,6 +256,13 @@
 	}
 }
 
+@import "effects/background-transitions/bounce-to-right";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-to-right-person {
+		@include bounce-to-right-person();
+	}
+}
+
 @import "effects/background-transitions/bounce-to-left";
 @if $includeClasses {
 	.#{$nameSpace}-bounce-to-left {
