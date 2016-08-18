@@ -7033,26 +7033,34 @@ button img {
   margin-top: 40px;
 }
 
-/* line 27, ../scss/_about.scss */
+/* line 28, ../scss/_about.scss */
+#our-clients {
+  background-color: #e0e0e0;
+  padding: 60px 0;
+}
+
+/* line 29, ../scss/_about.scss */
 .client-logos-panel {
   width: 100%;
+  flex-wrap: wrap;
 }
-/* line 29, ../scss/_about.scss */
-.client-logos-panel img {
-  width: 100%;
-}
+
 /* line 30, ../scss/_about.scss */
-.client-logos-panel .client-logos {
+.client-logos {
   width: 25%;
+}
+/* line 32, ../scss/_about.scss */
+.client-logos img {
+  width: 100%;
 }
 
 @media screen and (min-width: 780px) {
-  /* line 38, ../scss/_about.scss */
+  /* line 41, ../scss/_about.scss */
   .navigation-menu {
     display: flex;
   }
 
-  /* line 39, ../scss/_about.scss */
+  /* line 42, ../scss/_about.scss */
   .navigation-menu-mobile {
     display: none;
   }

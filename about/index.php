@@ -249,50 +249,52 @@
 
 		<!-- Our Clients -->
 
-		<section id="who-we-are">
+		<section id="our-clients">
 			<div class="main-container">
-				<h1>Our Clients</h1>
-				<div class="rule">
-					<img src="/img/rule.png" alt="Rule" />
+				<div class="centered">
+					<h1>Our Clients</h1>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
 				</div>
 				<div class="client-logos-panel flexbox">
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
-						<div class="client-logos">
-							<img src="/img/client-logos/mufc.svg">
-						</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
 					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+					<div class="client-logos">
+						<img src="/img/client-logos/mufc.svg">
+					</div>
+				</div>
 			</div>
 		</section>
 
