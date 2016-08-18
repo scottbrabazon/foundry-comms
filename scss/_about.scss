@@ -1,13 +1,31 @@
 #who-we-are {margin-top: 60px;}
 .people {flex-wrap: wrap;} 
 .people img {width: 100%;}
-.person {width: 25%;}
+.person {width: 25%; margin-bottom: 30px;}
 .logo-active img {display: none}
 .logo-inactive:hover img {display: none}
 .logo-active:hover img {display: inline-block}
+.person-image {
+	position: relative;
+	
+}
+.person-biography {
+	position: absolute;
+	top:0;
+	left: 0;
+	display: none;
+	visibility:hidden;
+	p {
+		color:white;
+		text-align: left;
+		font-family: $foundry_regular;
+		line-height: 1.3em;
+		padding: 15px;
+	}
+}
 .person-name-panel {
-    padding: 10px 10px 40px 10px;
-	background: #fff;
+    padding: 10px 10px 10px 10px;
+	background: none;
     p {
     	text-align: left;
     	margin: 0;

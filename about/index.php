@@ -113,127 +113,132 @@
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
 				<div class="people flexbox">
-					<div class="person">
-						<img src="/img/staff/anna-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/anna-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/anna-thumbnail-bw.jpg'"/ alt="Anna Scott">
-						<div class="hvr-bounce-to-right-person person-name-panel">
+					<div class="hvr-bounce-to-right-person person">
+						<div class="person-image">
+							<img src="/img/staff/anna-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/anna-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/anna-thumbnail-bw.jpg'"/ alt="Anna Scott">
+						</div>
+						<div class="person-biography flexbox">
+							<p>Anna&rsquo;s biog will go here when the animation is completed</p>
+						</div>
+						<div class="person-name-panel">
 							<p><span class="person-name">Anna Scott</span><br><span class="job-title">Account Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/barrie-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/barrie-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/barrie-thumbnail-bw.jpg'"/ alt="Barrie Moran">
 						<div class="person-name-panel">
 							<p><span class="person-name">Barrie Moran</span><br><span class="job-title">Digital Strategy Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/brain-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/brain-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/brain-thumbnail-bw.jpg'"/ alt="Brian Childs">
 						<div class="person-name-panel">
 							<p><span class="person-name">Brian Childs</span><br><span class="job-title">Non Executive Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/cath-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/cath-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/cath-thumbnail-bw.jpg'"/ alt="Cath Murphy">
 						<div class="person-name-panel">
 							<p><span class="person-name">Cath Murphy</span><br><span class="job-title">Finance Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/dave-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/dave-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/dave-thumbnail-bw.jpg'"/ alt="Dave Hoare">
 						<div class="person-name-panel">
 							<p><span class="person-name">Dave Hoare</span><br><span class="job-title">Print Buyer</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/elaine-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/elaine-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/elaine-thumbnail-bw.jpg'"/ alt="Elaine Lowe">
 						<div class="person-name-panel">
 							<p><span class="person-name">Elaine Lowe</span><br><span class="job-title">Accounts Assistant</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/ian-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/ian-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/ian-thumbnail-bw.jpg'"/ alt="Ian McKay">
 						<div class="person-name-panel">
 							<p><span class="person-name">Ian McKay</span><br><span class="job-title">Digital Director and Founder</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/kate-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/kate-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/kate-thumbnail-bw.jpg'"/ alt="Kate Booth">
 						<div class="person-name-panel">
 							<p><span class="person-name">Kate Booth</span><br><span class="job-title">Art Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/kev-l-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/kev-l-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/kev-l-thumbnail-bw.jpg'"/ alt="Kevin Lees">
 						<div class="person-name-panel">
 							<p><span class="person-name">Kevin Lees</span><br><span class="job-title">Digital Developer</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/kev-m-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/kev-m-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/kev-m-thumbnail-bw.jpg'"/ alt="Kevin Murphy">
 						<div class="person-name-panel">
 							<p><span class="person-name">Kevin Murphy</span><br><span class="job-title">Founder</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/kev-o-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/kev-o-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/kev-o-thumbnail-bw.jpg'"/ alt="Kevin O'Driscoll">
 						<div class="person-name-panel">
 							<p><span class="person-name">Kevin O'Driscoll</span><br><span class="job-title">Digital Developer</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/kirsty-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/kirsty-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/kirsty-thumbnail-bw.jpg'"/ alt="Kirsty Sherlock">
 						<div class="person-name-panel">
 							<p><span class="person-name">Kirsty Sherlock</span><br><span class="job-title">Digital Marketing Manager</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/mark-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/mark-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/mark-thumbnail-bw.jpg'"/ alt="Mark Bottomley">
 						<div class="person-name-panel">
 							<p><span class="person-name">Mark Bottomley</span><br><span class="job-title">Managing Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/mital-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/mital-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/mital-thumbnail-bw.jpg'"/ alt="Mital Daya">
 						<div class="person-name-panel">
 							<p><span class="person-name">Mital Daya</span><br><span class="job-title">Art Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/natalie-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/natalie-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/natalie-thumbnail-bw.jpg'"/ alt="Natalie Whitten">
 						<div class="person-name-panel">
 							<p><span class="person-name">Natalie Whitten</span><br><span class="job-title">Account Executive</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/scott-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/scott-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/scott-thumbnail-bw.jpg'"/ alt="Scott Brabazon">
 						<div class="person-name-panel">
 							<p><span class="person-name">Scott Brabazon</span><br><span class="job-title">Artworker</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/stuart-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/stuart-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/stuart-thumbnail-bw.jpg'"/ alt="Stuart Simpson">
 						<div class="person-name-panel">
 							<p><span class="person-name">Stuart Simpson</span><br><span class="job-title">Assistant Creative Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/tracey-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/tracey-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/tracey-thumbnail-bw.jpg'"/ alt="Tracey Elliot">
 						<div class="person-name-panel">
 							<p><span class="person-name">Tracey Elliot</span><br><span class="job-title">Production Manager</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/vicky-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/vicky-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/vicky-thumbnail-bw.jpg'"/ alt="Vicky Green">
 						<div class="person-name-panel">
 							<p><span class="person-name">Vicky Green</span><br><span class="job-title">Copywriter</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/will-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/will-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/will-thumbnail-bw.jpg'"/ alt="Will English">
 						<div class="person-name-panel">
 							<p><span class="person-name">Will English</span><br><span class="job-title">Associate Director</span></p>
 						</div>
 					</div>
-					<div class="person">
+					<div class="hvr-bounce-to-right-person person">
 						<img src="/img/staff/zoe-thumbnail-bw.jpg" onmouseover="this.src='/img/staff/zoe-thumbnail-col.jpg'" onmouseout="this.src='/img/staff/zoe-thumbnail-bw.jpg'"/ alt="Zoë Buckley">
 						<div class="person-name-panel">
 							<p><span class="person-name">Zoë Buckley</span><br><span class="job-title">Client Services Director</span></p>
