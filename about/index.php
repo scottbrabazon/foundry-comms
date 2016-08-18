@@ -262,7 +262,7 @@
 						<p><strong>Posted by Scott on Thursday May 12,2016</strong></p>
 						<p>On Saturday 28th May, a winner-takes-all match will take place – between either Brighton, Hull, Derby or Sheffield Wednesday – that will be worth an estimated £200 million to the victors. It is – by a distance of around £45 million – the biggest financial prize for a single match in the history of world football.</p>
 						<a href="#">
-							<div class="button-next flexbox">
+							<div class="hvr-bounce-to-right button-next flexbox">
 								<p>Find out more</p>
 							</div>
 						</a>
@@ -274,7 +274,7 @@
 						</div>
 						<p>The Foundry is nothing without its people – and they are some of the best in the business. We only recruit those that are better than us, or have the potential to be, and we’re always happy to hear about new talent.</p>
 						<a href="#">
-							<div class="button-next flexbox">
+							<div class="hvr-bounce-to-right button-next flexbox">
 								<p>Find out more</p>
 							</div>
 						</a>
@@ -288,7 +288,7 @@
 						<p>Relax! There’s a doctor in the house. Take a look at our new 30’ TV commercial for Dr. Beckmann Carpet Stain remover, on-air in prime spots throughout July 2016.</p>
 						</a>
 						<a href="#">
-							<div class="button-next flexbox">
+							<div class="hvr-bounce-to-right button-next flexbox">
 								<p>Find out more</p>
 							</div>
 						</a>
@@ -319,7 +319,7 @@
 					<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
 					<div class="enquiry-button">
 						<a href="#">
-							<div class="button-next flexbox">
+							<div class="hvr-bounce-to-right button-next flexbox">
 								<p>View our work</p>
 							</div>
 						</a>
