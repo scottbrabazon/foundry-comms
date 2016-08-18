@@ -130,8 +130,6 @@
 
 		<!-- Footer -->
 
-		<!-- Footer -->
-
 		<div id="footer" class="background">
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">

@@ -1,86 +1,75 @@
-<?php include('../perch/runtime.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<?php perch_blog_post_meta(perch_get('s')); ?>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.php" />
-	<?php perch_get_css(); ?>
-	<link rel="stylesheet" href="blog.css" type="text/css" />
-</head>
-<body>
-	<header class="layout-header">
-		<div class="wrapper">
-			<div class="company-name">Perch Blog App - Company Name</div>
-			<img src="<?php perch_path('feathers/quill/img/logo.gif'); ?>" alt="Your Logo Here" class="logo"/>
-		</div>
-		<nav class="main-nav">
-			<?php perch_pages_navigation(array(
-					'levels'=>1
-				));
-			?>
-		</nav>
-	</header>
+<?php
+include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php');
 
-	<!--  change cols2-nav-right to cols2-nav-left if you want the sidebar on the left -->
-	<div class="wrapper cols2-nav-right">
+// If no post content is present, redirect to the 404 page
+$this_post = perch_blog_post(perch_get('s'), true);
+if ($this_post == "") { header('Location: /404.php'); exit; }
 
-		<div class="primary-content">
+$this_page_title = perch_blog_post_field(perch_get('s'), 'postTitle', TRUE);
 
+$post_cats = perch_blog_post_field(perch_get('s'), 'cat_ids', TRUE);
+$cats = '';
+foreach ($post_cats as $post_cat) {
+    $cats .= ' cat_'.$post_cat;
+}
 
-		    <div class="post">
-		    	<?php perch_blog_post(perch_get('s')); ?>
+$metadescription = perch_blog_post_field(perch_get('s'), 'metadescription', TRUE);
+$image = perch_blog_post_field(perch_get('s'), 'image', TRUE);
+$author = perch_blog_author_for_post(perch_get('s'), array(
+    'skip-template' => TRUE
+), TRUE);
 
-		    	<?php perch_blog_author_for_post(perch_get('s')); ?>
+perch_layout('global.header', array(
+	'title'=> $this_page_title,
+	'description'=>$metadescription,
+	'page_header'=>'Blog',
+	'body_class'=>'blog '.$cats,
+    'social_image' => $image
+));
+?>
 
-		    	<div class="meta">
-		            <div class="cats">
-		                <?php perch_blog_post_categories(perch_get('s')); ?>
-		            </div>
-		            <div class="tags">
-		                <?php perch_blog_post_tags(perch_get('s')); ?>
-		            </div>
+<section class="content content-lead-primary">
+    <section class="column primary">
+        <?php perch_blog_post_categories(perch_get('s'), 'post_categories.html'); ?>
+		<?php perch_blog_post(perch_get('s')); ?>
+		
+		
+		<div class="addthis">
+			<!-- AddThis Button BEGIN -->
+		        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+		        <a class="addthis_button_preferred_3"></a>
+		        <a class="addthis_button_preferred_4"></a>
+		        <a class="addthis_button_preferred_1"></a>
+		        <a class="addthis_button_preferred_2"></a>
+		        <a class="addthis_button_compact"></a>
+		        <a class="addthis_counter addthis_bubble_style"></a>
 		        </div>
+			<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5379ef5d21908be3"></script>
+			<!-- AddThis Button END -->
+		</div> <!-- addthis -->
+        
+        <?php if (isset($author['author_image']['_default'])): ?>
+            <div class="blog-post-author">
+                <a href="/blog-author/<?php echo $author['authorSlug']; ?>/">
+                    <img alt="<?php echo $author['authorGivenName'].' '.$author['authorFamilyName']; ?>" class="author_image" src="<?php echo $author['author_image']['_default']; ?>" />
+                </a>
+                <?php echo $author['author_biog']['raw']; ?>
+            </div>
+        <?php endif; ?>
+    </section> <!-- primary -->
+    <section class="column secondary noprint">
+        <?php
+			PerchBlog_Cache::disable();
+		   perch_categories();
+        ?>
+		
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<div class="addthis_sharing_toolbox"></div>
+        
+        <?php perch_content('form_subscribe'); ?>
 
-		    	<?php perch_blog_post_comments(perch_get('s')); ?>
+    </section> <!-- secondary -->
+</section> <!-- content -->
 
-		    	<?php perch_blog_post_comment_form(perch_get('s')); ?>
-
-		    </div>
-		</div>
-
-		<nav class="sidebar">
-		    <h2>Archive</h2>
-		    <!-- The following functions are different ways to display archives. You can use any or all of these.
-
-		    All of these functions can take a parameter of a template to overwrite the default template, for example:
-
-		    perch_blog_categories('my_template.html');
-
-		    -->
-		    <!--  By category listing -->
-		    <?php perch_blog_categories(); ?>
-		    <!--  By tag -->
-		    <?php perch_blog_tags(); ?>
-		    <!--  By year -->
-		    <?php perch_blog_date_archive_years(); ?>
-		    <!--  By year and then month - can take parameters for two templates. The first displays the years and the second the months see the default templates for examples -->
-		    <?php perch_blog_date_archive_months(); ?>
-    	</nav>
-	</div>
-	<footer class="layout-footer">
-		<div class="wrapper">
-			<ul class="social-links">
-				<li class="twitter"><a href="#" rel="me">Twitter</a></li>
-				<li class="facebook"><a href="#" rel="me">Facebook</a></li>
-				<li class="flickr"><a href="#" rel="me">Flickr</a></li>
-				<li class="linkedin"><a href="#" rel="me">LinkedIn</a></li>
-				<li class="rss"><a href="#">RSS</a></li>
-			</ul>
-			<small>Copyright &copy; <?php echo date('Y'); ?></small>
-		</div>
-	</footer>
-	<?php perch_get_javascript(); ?>
-</body>
-</html>
+<?php perch_layout('global.footer'); ?>

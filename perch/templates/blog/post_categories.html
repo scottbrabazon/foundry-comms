@@ -1,0 +1,11 @@
+<perch:before>
+    <ol class="blog-post-cats">
+</perch:before>
+<li>
+    <a href="/blog-category/<perch:category id="catSlug" type="slug" for="catTitle" order="2" />/" title="<perch:category id="catTitle" type="smarttext" label="Title" required="true" order="1" />">
+        <img alt="<perch:category id="catTitle" type="smarttext" label="Title" required="true" order="1" />" class="cat" data-nosvg="/images/blog-categories/<perch:category id="catSlug" type="slug" for="catTitle" order="2" />.png" src="/images/blog-categories/<perch:category id="catSlug" type="slug" for="catTitle" order="2" />.svg" />
+    </a>
+</li>
+<perch:after>
+    </ol>
+</perch:after>

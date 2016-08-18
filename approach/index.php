@@ -92,17 +92,17 @@
 		<div id="approach-top-nav" class="main-container">
 			<ul class="flexbox section_tabs">
 				<li>
-					<a href="#listen-content" class="button-next flexbox">
+					<a href="#listen-content" class="button-next flexbox hvr-bounce-to-right">
 						<p>Listen</p>
 					</a>
 				</li>
 				<li>
-					<a href="#plan-content" class="button-next flexbox">
+					<a href="#plan-content" class="button-next flexbox hvr-bounce-to-right">
 						<p>Plan</p>
 					</a>
 				</li>
 				<li>
-					<a href="#deliver-content" class="button-next flexbox">
+					<a href="#deliver-content" class="button-next flexbox hvr-bounce-to-right">
 						<p>Deliver</p>
 					</a>
 				</li>

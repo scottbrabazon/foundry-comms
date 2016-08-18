@@ -1,0 +1,19 @@
+<perch:before>
+<div class="blog-categories">
+<h2>Categories</h2>
+<ul>
+</perch:before>
+<perch:if id="categorySlug" value="{current_cat}">
+    <li class="current cat_<perch:category id="catSlug" type="slug" for="catTitle" order="2" />">
+<perch:else />
+    <li class="cat_<perch:category id="catSlug" type="slug" for="catTitle" order="2" />">
+</perch:if>
+    <a href="/blog-category/<perch:category id="catSlug" type="slug" for="catTitle" order="2" />/">
+       <perch:category id="catTitle" type="smarttext" label="Title" required="true" order="1" />
+       <img class="icon" data-nosvg="/images/blog-categories/<perch:category id="catSlug" type="slug" for="catTitle" order="2" />.png" src="/images/blog-categories/<perch:category id="catSlug" type="slug" for="catTitle" order="2" />.svg" />
+    </a>
+</li>
+<perch:after>
+</ul>
+</div>
+</perch:after>

@@ -9,20 +9,6 @@ hr {
 .col-1, .col-2 {width: 47.5%;}
 .col-1 {margin-right: 5%;}
 .col-1 p:first-of-type {font-family: $foundry_extra_bold;}
-.masthead {
-    height: 500px;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: #fff;
-}
-.masthead-content {
-	align-items: flex-end;
-	padding-bottom: 60px;
-	h1 {margin-bottom: 30px;}
-	h3 {margin-bottom: 0; text-transform: initial; padding-right: 150px;}
-	.headlines {flex-grow: 2;}
-}
 .case-study-introduction {width: 70%; margin: 0 15%; text-align: center;}
 .listen-copy, .plan-copy, .deliver-copy {
 	width: 60%;

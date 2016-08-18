@@ -53,7 +53,7 @@
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="#">News</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
@@ -62,7 +62,7 @@
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="#">News</a></li>
 				 	</ul>
 				</div>
 			</div>	
@@ -74,7 +74,7 @@
 		<header id="contact-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
-					<h1>Get in touch</h1>
+					<h1>Who we are</h1>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
@@ -90,13 +90,13 @@
 
 		<!-- Who We Are -->
 
-		<section id="who-we-are">
-			<div class="full-width-copy">
-				<h1>Who we are</h1>
+		<section id="who-we-are" class="main-container">
+			<div class="centered">
+				<h1>Since 1998...</h1>
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
-				<p>Since 1998, we have helped to build brands, big and small, across all sectors, business and consumer, from automotive and retail to healthcare and travel.</p>
+				<p>...we have helped to build brands, big and small, across all sectors, business and consumer, from automotive and retail to healthcare and travel.</p>
 				<p>If you have a marketing problem that could use a fresh pair of eyes, our planners, designers, art directors, writers and web developers are ready to solve it.</p>
 				<hr />
 			</div>
@@ -245,7 +245,58 @@
 			</div>
 		</section>
 
-		<!-- End Careers -->
+		<!-- End Our People -->
+
+		<!-- Our Clients -->
+
+		<section id="who-we-are">
+			<div class="main-container">
+				<h1>Our Clients</h1>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+				<div class="client-logos-panel flexbox">
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+						<div class="client-logos">
+							<img src="/img/client-logos/mufc.svg">
+						</div>
+					</div>
+			</div>
+		</section>
+
+		<!-- End Who We Are -->
 
 
 		<!-- Footer -->

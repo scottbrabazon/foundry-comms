@@ -99,7 +99,7 @@
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<h1>Lorem ipsum dolor sit amet, ius in solum primis sapientem, nam ei tantas detracto.</h1>
+							<h1>We deliver marketing services to solve business problems</h1>
 							<a href="/work">
 								<div class="hvr-bounce-to-right button-next flexbox">
 									<p>View our work</p>

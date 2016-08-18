@@ -1,0 +1,42 @@
+<perch:before><section class="blog"></perch:before>
+
+<article class="blog-post blog-post-list">
+<header>
+<h1 class="blog-post-title blog-post-title-list"><a href="<perch:blog id="postURL" />" rel="bookmark"><perch:blog id="postTitle" /></a></h1>
+<p class="blog-post-meta">
+    <perch:if id="authorSlug" match="neq" value="imported-content">
+        Posted by <a href="/blog-author/<perch:blog id="authorSlug" />/"><perch:blog id="authorGivenName" /></a> on <perch:blog id="postDateTime" format="l F j, Y" />.
+    </perch:if>
+
+</p>
+</header>
+
+<div class="blog-post-body">
+<perch:if exists="image"><a href="<perch:blog id="postURL" />" class="blog-post-image blog-post-image-list"><img src="<perch:blog id="image" type="image" bucket="blog" width="150" height="150" crop="true" />" alt="<perch:blog id="postTitle" />" /></a></perch:if> 
+<perch:blog id="excerpt" type="textarea" textile="false" html="true" editor="markitup" />
+<p class="blog-post-more"><a href="<perch:blog id="postURL" />"><img alt="Read more" data-nosvg="/images/text-arrows/read-more-beige.png" src="/images/text-arrows/read-more-beige.svg" /></a></p>
+</div>
+
+</article>
+
+<perch:after>
+
+    <perch:if exists="paging">
+        <div class="blog-paging">
+            <perch:if exists="not_last_page">
+                <a href="<perch:blog id="next_url" encode="false" />" class="blog_paging_older"><img alt="Older Posts" class="blog_paging_arrow" data-nosvg="/images/text-arrows/older-posts-beige.png" src="/images/text-arrows/older-posts-beige.svg" /></a>
+            </perch:if>
+            <perch:if exists="not_first_page">
+                <a href="<perch:blog id="prev_url" encode="false" />" class="blog_paging_newer"><img alt="Newer Posts" class="blog_paging_arrow" data-nosvg="/images/text-arrows/newer-posts-beige.png" src="/images/text-arrows/newer-posts-beige.svg" /></a>
+            </perch:if>
+			</p>
+        </div>
+    </perch:if>
+
+</section>
+
+</perch:after>
+
+<perch:noresults>
+    <p>Sorry, there are no items currently available.</p>
+</perch:noresults>

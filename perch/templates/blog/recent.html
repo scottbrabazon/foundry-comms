@@ -1,0 +1,15 @@
+<perch:before>
+    <ul>
+</perch:before>
+<li>
+    <h3><a href="<perch:blog id="postURL" />" title="Read this blog post"><perch:blog id="postTitle" />&hellip;</a></h3>
+    <perch:if id="authorSlug" value="imported-content">
+        <p class="stamp">&nbsp;</p>
+    <perch:else />
+        <p class="stamp">by <a href="/blog-author/<perch:blog id="authorSlug" />/" title="See <perch:blog id="authorGivenName" />'s blog posts"><perch:blog id="authorGivenName" /></a> on <perch:blog id="postDateTime" format="D jS F" /></p>
+    </perch:if>
+    <a class="readmore textarrow" href="<perch:blog id="postURL" />" title="Read this blog post"><img data-nosvg="/images/text-arrows/read-more-beige.png" src="/images/text-arrows/read-more-beige.svg" title="Read this blog post" alt="Read this blog post"/></a>
+</li>
+<perch:after>
+    </ul>
+</perch:after>

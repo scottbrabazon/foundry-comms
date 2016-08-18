@@ -6,12 +6,13 @@
 .logo-inactive:hover img {display: none}
 .logo-active:hover img {display: inline-block}
 .person-name-panel {
-    padding: 10px;
-	background: $foundry_red;
+    padding: 10px 10px 40px 10px;
+	background: #fff;
     p {
+    	text-align: left;
     	margin: 0;
 		font-family: $foundry_regular;
-		color: #fff;
+		color: #000;
 	    font-size: 0.85em;
 	    line-height: 1.2em;
 	    }

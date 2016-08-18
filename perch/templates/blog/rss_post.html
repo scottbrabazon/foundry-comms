@@ -1,0 +1,10 @@
+<item>
+    <title><perch:blog id="postTitle" /></title>
+	<link>http://www.foundrycomms.co.uk<perch:blog id="postURL" /></link>
+	<guid>http://www.foundrycomms.co.uk<perch:blog id="postURL" /></guid>
+	<description><![CDATA[<perch:blog id="postDescHTML" encode="false" />]]></description>
+    <perch:if id="authorSlug" match="neq" value="imported-content">
+        <pubDate><perch:blog id="postDateTime" format="D, d M Y H:i:s O" /></pubDate>
+    </perch:if>
+    <perch:showall />
+</item>
