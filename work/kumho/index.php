@@ -52,7 +52,7 @@
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="/blog/">News</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
@@ -61,7 +61,7 @@
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="/blog/">News</a></li>
 				 	</ul>
 				</div>
 			</div>	
@@ -348,7 +348,7 @@
 					<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
 					<div class="enquiry-button">
 						<a href="#">
-							<div class="button-next flexbox">
+							<div class="hvr-bounce-to-right button-next flexbox">
 								<p>Make Enquiry</p>
 								<img src="/img/arrow-right-no-border.svg" alt="Make Enquiry" />
 							</div>
