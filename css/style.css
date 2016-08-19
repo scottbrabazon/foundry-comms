@@ -5582,22 +5582,10 @@ button {
       padding: 0 0 0 0;
       margin: 0 0 0 0; }
   #approach-top-nav .section_active a {
-    pointer-events: auto;
-    overflow: auto;
-    padding: 20px 80px 20px 30px;
-    float: left;
-    margin-top: 20px;
-    border: 1px solid #c62b32;
-    align-items: center;
     margin: 0;
-    outline: none; }
-    #approach-top-nav .section_active a p {
-      color: #fff;
-      text-transform: uppercase;
-      line-height: 20px;
-      float: left;
-      padding: 0 0 0 0;
-      margin: 0 0 0 0; }
+    outline: none;
+    background: #c62b32 url("/img/buttons/small/arrow-right.svg") no-repeat scroll right center;
+    border-color: #c62b32; }
   #approach-top-nav .section_tabs {
     justify-content: center; }
 
@@ -5702,12 +5690,12 @@ button {
   .approach-fixed-nav-buttons a {
     padding: 20px; }
   .approach-fixed-nav-buttons h2 {
-    font-size: 0.6em;
-    font-family: "Gotham Black", sans-serif, arial, sans-serif;
+    font-size: 1em;
+    font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
     color: #fff;
     margin: 0;
     text-transform: uppercase;
-    margin-top: 2px; }
+    margin-top: 6px; }
   .approach-fixed-nav-buttons img {
     margin-top: 2px; }
   .approach-fixed-nav-buttons div {

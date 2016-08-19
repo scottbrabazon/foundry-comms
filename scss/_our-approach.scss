@@ -16,7 +16,7 @@
 	li {list-style: none; margin: 0 10px;}
 	.button-next {@include black-button-big; margin: 0;}
 	.button-next:hover {@include rollover-button-big; margin: 0;}
-	.section_active a {@include rollover-button-big; margin: 0; outline: none;}
+	.section_active a {margin: 0; outline: none; background: #c62b32 url("/img/buttons/small/arrow-right.svg") no-repeat scroll right center; border-color: $foundry-red;}
 	.section_tabs {justify-content: center;}
 }
 
@@ -102,12 +102,12 @@
 	justify-content: space-between;
 	a {padding: 20px;}
 	h2 {
-		font-size: 0.6em;
-		font-family: $foundry_extra_bold;
+		font-size: 1em;
+		font-family: $foundry_regular;
 		color: #fff;
 		margin: 0;
 		text-transform: uppercase;
-		margin-top: 2px;
+		margin-top: 6px;
 	}
 	img {
 		margin-top: 2px;
