@@ -7,13 +7,14 @@
 .logo-active:hover img {display: inline-block}
 .person-image {
 	position: relative;
-	
+	overflow:hidden;
 }
 .person-biography {
 	position: absolute;
 	top:0;
 	left: 0;
-	display: none;
+	height:300px;
+	display:none;
 	visibility:hidden;
 	p {
 		color:white;

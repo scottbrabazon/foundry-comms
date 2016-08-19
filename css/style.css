@@ -2440,7 +2440,7 @@ button {
       visibility: visible;
       background-color: rgba(255, 0, 0, 0.4);
       width: 100%;
-      height: auto; }
+      height: 300px; }
     .hvr-bounce-to-right-person:hover:before, .hvr-bounce-to-right-person:focus:before, .hvr-bounce-to-right-person:active:before {
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
@@ -5212,12 +5212,14 @@ button {
   display: inline-block; }
 
 .person-image {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 .person-biography {
   position: absolute;
   top: 0;
   left: 0;
+  height: 300px;
   display: none;
   visibility: hidden; }
   .person-biography p {
