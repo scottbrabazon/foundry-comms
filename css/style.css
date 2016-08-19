@@ -818,6 +818,8 @@ img {
   align-items: flex-start; }
   .navigation-panel a {
     color: #fff; }
+    .navigation-panel a.active {
+      color: #c62b32; }
   .navigation-panel ul {
     list-style: none; }
 
@@ -879,13 +881,13 @@ fieldset {
 
 label {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 0.85em;
   line-height: 2em;
   margin: 0 0 1em 0; }
 
 .form-field {
-  background: #c1c2c4;
+  background: #eee;
   margin-bottom: 20px;
   padding: 15px;
   text-align: left; }
@@ -894,28 +896,28 @@ label {
   height: 500px; }
 
 perch:input:placeholder-shown {
-  color: #fff; }
+  color: #000; }
 
 ::-webkit-input-placeholder {
-  color: #fff; }
+  color: #000; }
 
 :-moz-placeholder {
   /* older Firefox*/
-  color: #fff; }
+  color: #000; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #fff; }
+  color: #000; }
 
 :-ms-input-placeholder {
-  color: #fff; }
+  color: #000; }
 
 input {
   background: transparent;
   border: 0;
   padding: 0;
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
-  color: #fff;
+  color: #000;
   width: 100%; }
 
 button {
@@ -5296,7 +5298,8 @@ button {
   height: 540px;
   pointer-events: none; }
   .slide h1 {
-    color: #fff; }
+    color: #fff;
+    height: 150px; }
   .slide p {
     font-size: 1em; }
   .slide .button-next {
@@ -5490,11 +5493,29 @@ button {
   max-width: 1500px;
   margin: 0 auto; }
   .case-studes-examples div {
-    width: 100%; }
+    width: 100%;
+    position: relative; }
   .case-studes-examples img {
     width: 100%;
     margin: 0;
     padding: 0; }
+
+.project-name-panel {
+  padding: 10px 0 10px 0;
+  background: none;
+  width: 100%;
+  position: absolute; }
+  .project-name-panel p {
+    text-align: left;
+    padding-left: 10px;
+    margin: 0;
+    font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+    color: #000;
+    font-size: 0.85em;
+    line-height: 1.2em; }
+  .project-name-panel .project-client {
+    font-family: "Gotham Black", sans-serif, arial, sans-serif;
+    text-transform: uppercase; }
 
 @media screen and (min-width: 650px) {
   .case-studes-examples {
@@ -6111,7 +6132,7 @@ hr {
 
 #enquiry-form {
   margin: 60px auto 0 auto;
-  width: 60%; }
+  width: 50%; }
   #enquiry-form h1 {
     text-align: center; }
   #enquiry-form p {

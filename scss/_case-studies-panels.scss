@@ -7,12 +7,29 @@
 	width: 100%;
 	max-width: 1500px;
 	margin: 0 auto;
-	div {width: 100%;}
+	div {width: 100%; position:relative;}
 	img {
 		width: 100%;
 		margin: 0;
 		padding: 0;
 	}
+}
+
+.project-name-panel {
+    padding: 10px 0 10px 0;
+	background: none;
+	width: 100%;
+	position: absolute;
+    p {
+    	text-align: left;
+		padding-left: 10px;
+    	margin: 0;
+		font-family: $foundry_regular;
+		color: #000;
+	    font-size: 0.85em;
+	    line-height: 1.2em;
+	    }
+    .project-client {font-family: $foundry_extra_bold; text-transform: uppercase;}
 }
 
 @media screen and (min-width: 650px) {

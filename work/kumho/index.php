@@ -49,7 +49,7 @@
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
-						<li><a href="/work">Work</a></li>
+						<li><a href="/work" class="active">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/blog/">News</a></li>
@@ -58,7 +58,7 @@
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
 						<li><a href="/about">About</a></li>
-						<li><a href="/work">Work</a></li>
+						<li><a href="/work" class="active">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/blog/">News</a></li>

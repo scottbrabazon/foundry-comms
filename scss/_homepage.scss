@@ -22,7 +22,7 @@
 	justify-content: flex-end;
 	height: 540px;
 	pointer-events: none;
-	h1 {color: #fff;}
+	h1 {color: #fff; height:150px;}
 	p {font-size: 1em;}
 	.button-next {@include white-button-big;}
 	.button-next:hover {@include rollover-button-big;}
