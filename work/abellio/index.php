@@ -1,5 +1,4 @@
-<?phpFoundry
-?>
+<?php include('../../perch/runtime.php'); ?>
 
 <!DOCTYPE html>
 <!--[if IE 6]>
