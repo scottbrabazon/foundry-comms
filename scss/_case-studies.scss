@@ -40,6 +40,49 @@ hr {
 #work-intro {margin-top: 60px;}
 
 
+/* Fixed Nav Buttons */
+
+#work-fixed-nav-buttons {
+	width: 100%;
+	position: fixed;
+	top: 50%;
+	left: 0;
+	padding: 0;
+	pointer-events: none;
+	ul {padding: 0; margin: 0;}
+	li {list-style: none;}
+}
+
+.work-fixed-nav-buttons {
+	width: 100%;
+	justify-content: space-between;
+	h2 {
+		font-size: 1em;
+		font-family: $foundry_regular;
+		color: #fff;
+		margin: 0;
+		text-transform: uppercase;
+		margin-top: 6px;
+	}
+	.fixed-previous-page {
+		width: 10%;
+		background: $foundry_red;
+		padding: 30px;
+		
+	}
+	.fixed-next-page {
+		width: 10%;
+		background: $foundry_red;
+		padding: 30px;
+		
+	}
+	.fixed-spacer {
+		background: transparent;
+		width: auto;
+	}
+}
+
+
 /* Abellio */
 
 #abellio-masthead.masthead {

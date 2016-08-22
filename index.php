@@ -207,22 +207,52 @@
 		<div id="client-slider">
 			<section class="center slider">
 				<div>
-					<img src="img/client-logos/mufc.svg">
+					<img src="/img/client-logos/pgl.svg">
 				</div>
 				<div>
-					<img src="img/client-logos/kumho.svg">
+					<img src="/img/client-logos/ppcp.svg">
 				</div>
 				<div>
-					<img src="img/client-logos/bike-and-go.svg">
+					<img src="/img/client-logos/hags.svg">
 				</div>
 				<div>
-					<img src="img/client-logos/pgl.svg">
+					<img src="/img/client-logos/concha-y-toro.svg">
 				</div>
 				<div>
-					<img src="img/client-logos/albemarle-bond.svg">
+					<img src="/img/client-logos/space-zero.svg">
 				</div>
 				<div>
-					<img src="img/client-logos/ppcp.svg">
+					<img src="/img/client-logos/lowell.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/spaldings.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/kumho.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/matthew-clark.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/mersey-rail.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/mufc.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/dr-beckmann.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/albemarle-bond.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/warren-partners.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/wd40.svg">
+				</div>
+				<div>
+					<img src="/img/client-logos/bike-and-go.svg">
 				</div>
 			</section>
 		</div>	

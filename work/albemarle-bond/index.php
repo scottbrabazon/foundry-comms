@@ -227,8 +227,8 @@
 
 		<!-- Fixed Nav Buttons -->
 
-		<div id="fixed-nav-buttons">
-			<div class="fixed-nav-buttons flexbox">
+		<div id="work-fixed-nav-buttons">
+			<div class="work-fixed-nav-buttons flexbox">
 				<a href="../abellio">
 					<div class="fixed-previous-page flexbox">
 						<img src="/img/arrow-left.svg" alt="Previous" />

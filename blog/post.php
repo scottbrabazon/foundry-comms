@@ -97,7 +97,7 @@ perch_layout('global.header', array(
 
 		<!-- Masthead -->
 
-		<header id="work-masthead" class="masthead flexbox">
+		<header id="blog-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
 					<h1>Our News and Views</h1>
