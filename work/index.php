@@ -88,17 +88,6 @@
 
 		<!-- End Masthead -->
 
-		<!-- Intro Copy -->
-
-		<div id="work-intro" class="main-container">
-			<div class="centered">
-				<p>Lorem ipsum dolor sit amet, ea aperiri facilisi efficiendi pro, salutatus consetetur sit id, nam ea scaevola gloriatur dissentias. Pro no cibo suavitate, ne fugit exerci invenire mel, te ius feugiat temporibus. Eu mel iisque delicatissimi.</p>
-				<p>Populo comprehensam pri id. Dolor recusabo efficiantur in vel, et brute similique conceptam pri, vitae latine definitionem mei cu. Cu omnium option admodum qui. Sea eloquentiam consectetuer ex, nam erat erroribus id. Vero disputando vix no.</p>
-			</div>
-		</div>
-
-		<!-- End Intro Copy -->
-
 		<!-- Case Studes -->
 
 		<div id="case-studies">
