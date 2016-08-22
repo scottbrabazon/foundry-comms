@@ -47,16 +47,23 @@
 #our-clients {background-color: #e0e0e0; padding: 60px 0;}
 .client-logos-panel {width: 100%; flex-wrap: wrap;}
 .client-logos {
-	width: 25%; 	
-	img {width: 100%;
-	}
+	padding: 20px 0;
+	width: 50%; 	
+	img {width: 80%; margin: 0 auto;}
 }
 
-
-
+#our-awards {margin-top: 60px;}
+.awards-panel {flex-wrap: wrap}
+.awards {
+	width: 50%;
+	img {width: 100%;}
+	p {text-transform: uppercase;}
+}
 
 
 @media screen and (min-width: 780px) {
     .navigation-menu {display: flex;}
     .navigation-menu-mobile {display: none;}
+    .awards {width: 25%;}
+    .client-logos {width: 25%;}
 }
