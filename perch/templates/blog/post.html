@@ -8,7 +8,7 @@
             <perch:blog id="postTitle" type="text" size="xl" help="Post title, in normal case. Ellipsis will be added automatically on homepage." />
         </h1>
         <perch:if id="authorSlug" match="neq" value="imported-content">
-            <p class="blog-post-meta">Posted by <a href="/blog-author/<perch:blog id="authorSlug" type="hidden" />/"><perch:blog id="authorGivenName" type="hidden" /></a> on <perch:blog id="postDateTime" label="Date" type="date" time="true" format="l F j, Y" />.</p>
+            <p class="blog-post-meta">Posted on <perch:blog id="postDateTime" label="Date" type="date" time="true" format="l F j, Y" />.</p>
         </perch:if>
     </header>
 
@@ -22,7 +22,7 @@
         <perch:else />
             <perch:if exists="image">
                 <div class="blog-post-image">
-                    <img src="<perch:blog label="Featured Image" id="image" type="image" bucket="blog" help="Full width image displayed at top of page and on blog listing screens." />" alt="<perch:blog id="postTitle" />" />
+                    <img src="<perch:blog label="Featured Image" id="image" type="image" bucket="blog" help="Full width image displayed at top of page and on blog listing screens. Please use a crop of 800px x 400px to preserve layout consistancy." />" alt="<perch:blog id="postTitle" />" />
                 </div>
             </perch:if>
         </perch:if>

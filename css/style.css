@@ -1345,8 +1345,8 @@ button img {
   height: 35px;
 }
 /* line 38, ../scss/_mixins.scss */
-.footer-row-1 .button-next p {
-  font-size: 0.8em;
+.footer-row-1 .button-next p, .footer-row-1 .button-next a {
+  font-size: 13px;
   color: #fff;
   text-transform: uppercase;
   line-height: 34px;
@@ -1366,8 +1366,8 @@ button img {
   height: 35px;
 }
 /* line 84, ../scss/_mixins.scss */
-.footer-row-1 .button-next:hover p {
-  font-size: 0.8em;
+.footer-row-1 .button-next:hover p, .footer-row-1 .button-next:hover a {
+  font-size: 13px;
   color: #fff;
   text-transform: uppercase;
   line-height: 34px;
@@ -1422,7 +1422,7 @@ button img {
   align-items: center;
 }
 /* line 152, ../scss/_mixins.scss */
-.footer-row-3 .button-next p {
+.footer-row-3 .button-next p, .footer-row-3 .button-next a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -1441,7 +1441,7 @@ button img {
   align-items: center;
 }
 /* line 173, ../scss/_mixins.scss */
-.footer-row-3 .button-next:hover p {
+.footer-row-3 .button-next:hover p, .footer-row-3 .button-next:hover a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -3586,8 +3586,9 @@ button img {
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  .project-title-visibility: visible;
 }
-/* line 8, ../scss/effects/background-transitions/_bounce-to-top.scss */
+/* line 9, ../scss/effects/background-transitions/_bounce-to-top.scss */
 .hvr-bounce-to-top:before {
   content: "";
   position: absolute;
@@ -3607,17 +3608,19 @@ button img {
   transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+  .project-title-visibility: visible;
 }
-/* line 26, ../scss/effects/background-transitions/_bounce-to-top.scss */
+/* line 28, ../scss/effects/background-transitions/_bounce-to-top.scss */
 .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
   color: white;
 }
-/* line 29, ../scss/effects/background-transitions/_bounce-to-top.scss */
+/* line 31, ../scss/effects/background-transitions/_bounce-to-top.scss */
 .hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  .project-title-visibility: visible;
 }
 
 /* Radial Out */
@@ -7188,6 +7191,205 @@ button img {
     width: 25%;
   }
 }
+/* line 1, ../scss/_blog.scss */
+#recent-posts-index {
+  margin-top: 60px;
+}
+/* line 3, ../scss/_blog.scss */
+#recent-posts-index .blog {
+  flex-wrap: wrap;
+}
+/* line 4, ../scss/_blog.scss */
+#recent-posts-index .blog h1 {
+  text-transform: initial;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+/* line 8, ../scss/_blog.scss */
+#recent-posts-index .blog h1 a {
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+  color: #000;
+}
+/* line 13, ../scss/_blog.scss */
+#recent-posts-index .blog article {
+  width: 100%;
+  margin-bottom: 60px;
+}
+/* line 15, ../scss/_blog.scss */
+#recent-posts-index .blog .button-next {
+  background: transparent url("/img/buttons/small/arrow-right-black-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 10px 70px 10px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #000;
+  align-items: center;
+  height: 35px;
+}
+/* line 15, ../scss/_mixins.scss */
+#recent-posts-index .blog .button-next p, #recent-posts-index .blog .button-next a {
+  font-size: 13px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 34px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 16, ../scss/_blog.scss */
+#recent-posts-index .blog .button-next:hover {
+  pointer-events: auto;
+  overflow: auto;
+  padding: 10px 70px 10px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #c62b32;
+  align-items: center;
+  height: 35px;
+}
+/* line 84, ../scss/_mixins.scss */
+#recent-posts-index .blog .button-next:hover p, #recent-posts-index .blog .button-next:hover a {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 34px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 17, ../scss/_blog.scss */
+#recent-posts-index .blog p, #recent-posts-index .blog a {
+  color: #000;
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+  margin-top: 20px;
+}
+/* line 24, ../scss/_blog.scss */
+#recent-posts-index .blog-index-image {
+  max-height: 400px;
+  overflow: hidden;
+}
+/* line 25, ../scss/_blog.scss */
+#recent-posts-index .blog-index-image img {
+  width: 100%;
+  margin: auto 0;
+}
+
+/* line 31, ../scss/_blog.scss */
+#posts {
+  margin: 60px auto 0 auto;
+  max-width: 800px;
+}
+/* line 34, ../scss/_blog.scss */
+#posts .blog {
+  flex-wrap: wrap;
+}
+/* line 35, ../scss/_blog.scss */
+#posts .blog h1 {
+  text-transform: initial;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+/* line 39, ../scss/_blog.scss */
+#posts .blog h1 a {
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+  color: #000;
+}
+/* line 44, ../scss/_blog.scss */
+#posts .blog img {
+  width: 100%;
+}
+/* line 45, ../scss/_blog.scss */
+#posts .blog article {
+  width: 100%;
+  margin-bottom: 60px;
+}
+/* line 47, ../scss/_blog.scss */
+#posts .blog .button-next {
+  background: transparent url("/img/buttons/small/arrow-right-black-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 10px 70px 10px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #000;
+  align-items: center;
+  height: 35px;
+}
+/* line 15, ../scss/_mixins.scss */
+#posts .blog .button-next p, #posts .blog .button-next a {
+  font-size: 13px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 34px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 48, ../scss/_blog.scss */
+#posts .blog .button-next:hover {
+  pointer-events: auto;
+  overflow: auto;
+  padding: 10px 70px 10px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #c62b32;
+  align-items: center;
+  height: 35px;
+}
+/* line 84, ../scss/_mixins.scss */
+#posts .blog .button-next:hover p, #posts .blog .button-next:hover a {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 34px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 49, ../scss/_blog.scss */
+#posts .blog p:first-of-type {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+}
+/* line 50, ../scss/_blog.scss */
+#posts .blog p {
+  color: #000;
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+  margin-top: 20px;
+}
+/* line 55, ../scss/_blog.scss */
+#posts .blog a {
+  color: #c62b32;
+  font-family: inherit;
+}
+
+/* line 62, ../scss/_blog.scss */
+.blog-post-cats {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+/* line 63, ../scss/_blog.scss */
+.blog-post-cats li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 68, ../scss/_blog.scss */
+  #recent-posts-index .blog {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  /* line 69, ../scss/_blog.scss */
+  #recent-posts-index .blog article {
+    width: 47.5%;
+  }
+  /* line 70, ../scss/_blog.scss */
+  #recent-posts-index .blog article:nth-child(odd) {
+    margin-right: 5%;
+  }
+}
 /* Masthead */
 /* line 3, ../scss/_homepage.scss */
 #homepage-masthead {
@@ -7247,7 +7449,7 @@ button img {
   align-items: center;
 }
 /* line 131, ../scss/_mixins.scss */
-.slide .button-next p {
+.slide .button-next p, .slide .button-next a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -7266,7 +7468,7 @@ button img {
   align-items: center;
 }
 /* line 173, ../scss/_mixins.scss */
-.slide .button-next:hover p {
+.slide .button-next:hover p, .slide .button-next:hover a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -7300,8 +7502,8 @@ button img {
   height: 35px;
 }
 /* line 15, ../scss/_mixins.scss */
-#homepage-intro-copy .button-next p {
-  font-size: 0.8em;
+#homepage-intro-copy .button-next p, #homepage-intro-copy .button-next a {
+  font-size: 13px;
   color: #000;
   text-transform: uppercase;
   line-height: 34px;
@@ -7321,8 +7523,8 @@ button img {
   height: 35px;
 }
 /* line 84, ../scss/_mixins.scss */
-#homepage-intro-copy .button-next:hover p {
-  font-size: 0.8em;
+#homepage-intro-copy .button-next:hover p, #homepage-intro-copy .button-next:hover a {
+  font-size: 13px;
   color: #fff;
   text-transform: uppercase;
   line-height: 34px;
@@ -7444,7 +7646,7 @@ button img {
   align-items: center;
 }
 /* line 131, ../scss/_mixins.scss */
-#homepage-showreel .button-next p {
+#homepage-showreel .button-next p, #homepage-showreel .button-next a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -7463,7 +7665,7 @@ button img {
   align-items: center;
 }
 /* line 173, ../scss/_mixins.scss */
-#homepage-showreel .button-next:hover p {
+#homepage-showreel .button-next:hover p, #homepage-showreel .button-next:hover a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -7508,8 +7710,10 @@ button img {
 }
 /* line 10, ../scss/_case-studies-panels.scss */
 .case-studes-examples div {
+  display: block;
   width: 100%;
   position: relative;
+  z-index: 500;
 }
 /* line 11, ../scss/_case-studies-panels.scss */
 .case-studes-examples img {
@@ -7520,12 +7724,15 @@ button img {
 
 /* line 18, ../scss/_case-studies-panels.scss */
 .project-name-panel {
+  display: none;
   padding: 10px 0 10px 0;
   background: none;
   width: 100%;
-  position: absolute;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
 }
-/* line 23, ../scss/_case-studies-panels.scss */
+/* line 26, ../scss/_case-studies-panels.scss */
 .project-name-panel p {
   text-align: left;
   padding-left: 10px;
@@ -7535,14 +7742,21 @@ button img {
   font-size: 0.85em;
   line-height: 1.2em;
 }
-/* line 32, ../scss/_case-studies-panels.scss */
+/* line 35, ../scss/_case-studies-panels.scss */
 .project-name-panel .project-client {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
+  visibility: hidden;
+}
+/* line 36, ../scss/_case-studies-panels.scss */
+.project-name-panel .project-title {
+  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  text-transform: uppercase;
+  visibility: hidden;
 }
 
 @media screen and (min-width: 650px) {
-  /* line 36, ../scss/_case-studies-panels.scss */
+  /* line 40, ../scss/_case-studies-panels.scss */
   .case-studes-examples {
     flex-direction: row;
   }
@@ -7598,7 +7812,7 @@ button img {
   margin: 0;
 }
 /* line 110, ../scss/_mixins.scss */
-#approach-top-nav .button-next p {
+#approach-top-nav .button-next p, #approach-top-nav .button-next a {
   color: #000;
   text-transform: uppercase;
   line-height: 20px;
@@ -7618,7 +7832,7 @@ button img {
   margin: 0;
 }
 /* line 173, ../scss/_mixins.scss */
-#approach-top-nav .button-next:hover p {
+#approach-top-nav .button-next:hover p, #approach-top-nav .button-next:hover a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;
@@ -8521,7 +8735,7 @@ hr {
   align-items: center;
 }
 /* line 110, ../scss/_mixins.scss */
-#enquiry-form .button-next p {
+#enquiry-form .button-next p, #enquiry-form .button-next a {
   color: #000;
   text-transform: uppercase;
   line-height: 20px;
@@ -8540,7 +8754,7 @@ hr {
   align-items: center;
 }
 /* line 173, ../scss/_mixins.scss */
-#enquiry-form .button-next:hover p {
+#enquiry-form .button-next:hover p, #enquiry-form .button-next:hover a {
   color: #fff;
   text-transform: uppercase;
   line-height: 20px;

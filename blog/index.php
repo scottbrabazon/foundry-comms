@@ -35,10 +35,6 @@ perch_layout('global.header', array(
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick-settings.css">
-
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="/js/responsiveslides.min.js"></script>
 		<script src="/js/flexibility.js"></script>
@@ -95,16 +91,11 @@ perch_layout('global.header', array(
 		<!-- End Masthead -->
 
 
-		<section class="content content-lead-primary">
-			<section class="column primary">
+		<section id="recent-posts-index">
 
-				<?php perch_blog_recent_posts(5); ?>
+				<?php perch_blog_recent_posts(6); ?>
 
-			</section> <!-- primary -->
-		<section class="column secondary noprint">
-
-
-		<?php perch_categories(); ?>
+		</section>
 
 
 		<!-- Footer -->
