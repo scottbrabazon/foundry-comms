@@ -4,7 +4,8 @@
 	position: relative;
 	@include prefixed(transition-property, color);
 	@include prefixed(transition-duration, $slowDuration);
-
+	.project-title: {visibility: visible;};
+	
 	&:before {
 		content: "";
 		position: absolute;
@@ -19,6 +20,7 @@
 		@include prefixed(transition-property, transform);
 		@include prefixed(transition-duration, $slowDuration);
 		@include prefixed(transition-timing-function, ease-out);
+		.project-title: {visibility: visible;};
 	}
 
 	&:hover,
@@ -29,6 +31,7 @@
 		&:before {
 			@include prefixed(transform, scaleY(1));
 			@include prefixed(transition-timing-function, cubic-bezier(.52,1.64,.37,.66));
+			.project-title: {visibility: visible;};
 		}
 	}
 }
