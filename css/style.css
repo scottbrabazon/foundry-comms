@@ -2547,7 +2547,8 @@ button {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s; }
+  transition-duration: 0.5s;
+  .project-title-visibility: visible; }
   .hvr-bounce-to-top:before {
     content: "";
     position: absolute;
@@ -2566,14 +2567,16 @@ button {
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out; }
+    transition-timing-function: ease-out;
+    .project-title-visibility: visible; }
   .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
     color: white; }
     .hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
       -webkit-transform: scaleY(1);
       transform: scaleY(1);
       -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+      .project-title-visibility: visible; }
 
 /* Radial Out */
 .hvr-radial-out {
@@ -5493,18 +5496,23 @@ button {
   max-width: 1500px;
   margin: 0 auto; }
   .case-studes-examples div {
+    display: block;
     width: 100%;
-    position: relative; }
+    position: relative;
+    z-index: 500; }
   .case-studes-examples img {
     width: 100%;
     margin: 0;
     padding: 0; }
 
 .project-name-panel {
+  display: none;
   padding: 10px 0 10px 0;
   background: none;
   width: 100%;
-  position: absolute; }
+  position: absolute !important;
+  bottom: 0;
+  left: 0; }
   .project-name-panel p {
     text-align: left;
     padding-left: 10px;
@@ -5515,7 +5523,12 @@ button {
     line-height: 1.2em; }
   .project-name-panel .project-client {
     font-family: "Gotham Black", sans-serif, arial, sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    visibility: hidden; }
+  .project-name-panel .project-title {
+    font-family: "Gotham Black", sans-serif, arial, sans-serif;
+    text-transform: uppercase;
+    visibility: hidden; }
 
 @media screen and (min-width: 650px) {
   .case-studes-examples {
