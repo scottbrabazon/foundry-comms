@@ -1,7 +1,7 @@
 #who-we-are {margin-top: 60px;}
 .people {flex-wrap: wrap;} 
 .people img {width: 100%;}
-.person {width: 25%; margin-bottom: 30px;}
+.person {width: 100%; margin-bottom: 30px;}
 .logo-active img {display: none}
 .logo-inactive:hover img {display: none}
 .logo-active:hover img {display: inline-block}
@@ -60,10 +60,14 @@
 	p {text-transform: uppercase;}
 }
 
+@media screen and (min-width: 350px) {
+    .person {width: 50%;}
+}
 
 @media screen and (min-width: 780px) {
     .navigation-menu {display: flex;}
     .navigation-menu-mobile {display: none;}
     .awards {width: 25%;}
     .client-logos {width: 25%;}
+    .person {width: 25%;}
 }

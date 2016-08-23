@@ -27,8 +27,8 @@
 	width: 50%;
 	h1 {text-align: center;}
 	p {text-align: center;}
-	.button-next {@include black-button-big;}
-	.button-next:hover {@include rollover-button-big;}
+	.button-next {@include black-button-small;}
+	.button-next:hover {@include rollover-button-small;}
 }
 
 #thank-you {
