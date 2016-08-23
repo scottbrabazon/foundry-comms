@@ -225,19 +225,23 @@
 		<!-- Fixed Nav Buttons -->
 
 		<div id="work-fixed-nav-buttons">
-			<div class="work-fixed-nav-buttons flexbox">
-				<a href="../matthew-clark" class="fixed-previous-page flexbox">
-					<img src="/img/buttons/big/arrow-left.svg" alt="Previous" />
-					<h2>&nbsp;&nbsp;Prev</h2>
-				</a>
+			<ul class="section_tabs flexbox work-fixed-nav-buttons">
+				<li>
+					<a href="../matthew-clark" class="nav-buttons flexbox fixed-previous-page">
+						<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+						<h2>&nbsp;&nbsp;Prev</h2>
+					</a>
+				</li>
 				<div class="fixed-spacer">
 					<h2>&nbsp;</h2>
 				</div>
-				<a href="../kumho" class="fixed-next-page flexbox">
-					<h2>Next&nbsp;&nbsp;</h2>
-					<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
-				</a>
-			</div>
+				<li>
+					<a href="../kumho" class="nav-buttons flexbox fixed-next-page">
+						<h2>Next&nbsp;&nbsp;</h2>
+						<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+					</a>
+				</li>
+			</ul>
 		</div>
 
 		<!-- End Fixed Nav Buttons -->

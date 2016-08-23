@@ -1,5 +1,14 @@
 #case-studies {
 	margin-top: 60px;
+	position: relative; z-index: 500;
+}
+
+#case-studies.white-border {
+	margin-top: 0;
+	border-style: solid;
+    border-width: 60px 0;
+    border-color: #fff;
+    background: #fff;
 }
 
 .case-studes-examples {
@@ -7,7 +16,7 @@
 	width: 100%;
 	max-width: 1500px;
 	margin: 0 auto;
-	div {display:block;width: 100%; position: relative; z-index: 500;}
+	div {display:block;width: 100%;}
 	img {
 		width: 100%;
 		margin: 0;

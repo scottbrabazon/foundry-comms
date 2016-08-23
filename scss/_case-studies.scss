@@ -56,6 +56,7 @@ hr {
 .work-fixed-nav-buttons {
 	width: 100%;
 	justify-content: space-between;
+	a {padding: 20px;}
 	h2 {
 		font-size: 1em;
 		font-family: $foundry_regular;
@@ -64,23 +65,36 @@ hr {
 		text-transform: uppercase;
 		margin-top: 6px;
 	}
-	.fixed-previous-page {
-		width: 10%;
+	img {
+		margin-top: 2px;
+	}
+	div {
+		width: 47.5%;
 		background: $foundry_red;
-		padding: 30px;
-		
+		padding: 15px 15px;
+	}
+	.fixed-previous-page {
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+	    align-items: center;
+	    pointer-events: auto;
 	}
 	.fixed-next-page {
-		width: 10%;
-		background: $foundry_red;
-		padding: 30px;
-		
+		flex-direction: row;
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+		justify-content: flex-end;
+		align-items: center;
+	    pointer-events: auto;
 	}
 	.fixed-spacer {
 		background: transparent;
 		width: auto;
 	}
 }
+
 
 
 /* Abellio */
@@ -340,4 +354,8 @@ hr {
 		.row-1 {flex-direction: column;}
 		.col-1, .col-2 {width: 100%;}
 	}
+}
+
+@media screen and (max-width: 1200px) {
+    #work-fixed-nav-buttons {display: none;}
 }

@@ -7739,30 +7739,39 @@ button img {
 /* line 1, ../scss/_case-studies-panels.scss */
 #case-studies {
   margin-top: 60px;
+  position: relative;
+  z-index: 500;
 }
 
-/* line 5, ../scss/_case-studies-panels.scss */
+/* line 6, ../scss/_case-studies-panels.scss */
+#case-studies.white-border {
+  margin-top: 0;
+  border-style: solid;
+  border-width: 60px 0;
+  border-color: #fff;
+  background: #fff;
+}
+
+/* line 14, ../scss/_case-studies-panels.scss */
 .case-studes-examples {
   flex-direction: column;
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
 }
-/* line 10, ../scss/_case-studies-panels.scss */
+/* line 19, ../scss/_case-studies-panels.scss */
 .case-studes-examples div {
   display: block;
   width: 100%;
-  position: relative;
-  z-index: 500;
 }
-/* line 11, ../scss/_case-studies-panels.scss */
+/* line 20, ../scss/_case-studies-panels.scss */
 .case-studes-examples img {
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* line 18, ../scss/_case-studies-panels.scss */
+/* line 27, ../scss/_case-studies-panels.scss */
 .project-name-panel {
   display: none;
   padding: 10px 0 10px 0;
@@ -7772,7 +7781,7 @@ button img {
   bottom: 0;
   left: 0;
 }
-/* line 26, ../scss/_case-studies-panels.scss */
+/* line 35, ../scss/_case-studies-panels.scss */
 .project-name-panel p {
   text-align: left;
   padding-left: 10px;
@@ -7782,13 +7791,13 @@ button img {
   font-size: 0.85em;
   line-height: 1.2em;
 }
-/* line 35, ../scss/_case-studies-panels.scss */
+/* line 44, ../scss/_case-studies-panels.scss */
 .project-name-panel .project-client {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   visibility: hidden;
 }
-/* line 36, ../scss/_case-studies-panels.scss */
+/* line 45, ../scss/_case-studies-panels.scss */
 .project-name-panel .project-title {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
@@ -7796,7 +7805,7 @@ button img {
 }
 
 @media screen and (min-width: 650px) {
-  /* line 40, ../scss/_case-studies-panels.scss */
+  /* line 49, ../scss/_case-studies-panels.scss */
   .case-studes-examples {
     flex-direction: row;
   }
@@ -7819,27 +7828,30 @@ button img {
   position: absolute;
   z-index: 100;
   width: 100%;
+  border-style: solid;
+  border-width: 0 0 60px 0;
+  border-color: #fff;
 }
 /* line 7, ../scss/_our-approach.scss */
 #our-approach-masthead h3 {
   margin-bottom: 1em;
 }
 
-/* line 13, ../scss/_our-approach.scss */
+/* line 17, ../scss/_our-approach.scss */
 #approach-top-nav {
   padding-top: 760px;
 }
-/* line 15, ../scss/_our-approach.scss */
+/* line 19, ../scss/_our-approach.scss */
 #approach-top-nav ul {
   padding: 0;
   margin: 0;
 }
-/* line 16, ../scss/_our-approach.scss */
+/* line 20, ../scss/_our-approach.scss */
 #approach-top-nav li {
   list-style: none;
   margin: 0 10px;
 }
-/* line 17, ../scss/_our-approach.scss */
+/* line 21, ../scss/_our-approach.scss */
 #approach-top-nav .button-next {
   background: transparent url("/img/buttons/big/arrow-right-black-no-border.svg") no-repeat right center;
   pointer-events: auto;
@@ -7860,7 +7872,7 @@ button img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 18, ../scss/_our-approach.scss */
+/* line 22, ../scss/_our-approach.scss */
 #approach-top-nav .button-next:hover {
   pointer-events: auto;
   overflow: auto;
@@ -7880,119 +7892,119 @@ button img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 19, ../scss/_our-approach.scss */
+/* line 23, ../scss/_our-approach.scss */
 #approach-top-nav .section_active a {
   margin: 0;
   outline: none;
   background: #c62b32 url("/img/buttons/small/arrow-right.svg") no-repeat scroll right center;
   border-color: #c62b32;
 }
-/* line 20, ../scss/_our-approach.scss */
+/* line 24, ../scss/_our-approach.scss */
 #approach-top-nav .section_tabs {
   justify-content: center;
 }
 
-/* line 23, ../scss/_our-approach.scss */
+/* line 27, ../scss/_our-approach.scss */
 .our-approach-intro-copy {
   margin-top: 60px;
 }
 
-/* line 24, ../scss/_our-approach.scss */
+/* line 28, ../scss/_our-approach.scss */
 .tab-content-space {
   margin-top: 60px;
 }
-/* line 26, ../scss/_our-approach.scss */
+/* line 30, ../scss/_our-approach.scss */
 .tab-content-space strong {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
 }
-/* line 27, ../scss/_our-approach.scss */
+/* line 31, ../scss/_our-approach.scss */
 .tab-content-space h4 {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: initial;
 }
 
-/* line 30, ../scss/_our-approach.scss */
+/* line 34, ../scss/_our-approach.scss */
 .listen_tab_content, .plan_tab_content, .deliver_tab_content {
   width: 75%;
 }
 
-/* line 31, ../scss/_our-approach.scss */
+/* line 35, ../scss/_our-approach.scss */
 .services-menu {
   margin-left: 5%;
   width: 20%;
 }
-/* line 34, ../scss/_our-approach.scss */
+/* line 38, ../scss/_our-approach.scss */
 .services-menu a {
   color: #000;
 }
-/* line 35, ../scss/_our-approach.scss */
+/* line 39, ../scss/_our-approach.scss */
 .services-menu ul {
   padding: 0;
   margin: 0;
 }
-/* line 36, ../scss/_our-approach.scss */
+/* line 40, ../scss/_our-approach.scss */
 .services-menu li {
   list-style: none;
 }
 
-/* line 40, ../scss/_our-approach.scss */
+/* line 44, ../scss/_our-approach.scss */
 .listen_tab_content li, .plan_tab_content li, .deliver_tab_content li, .services-menu li {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 0.85em;
   line-height: 2em;
 }
 
-/* line 47, ../scss/_our-approach.scss */
+/* line 51, ../scss/_our-approach.scss */
 .listen_active a {
   color: #c62b32;
 }
 
-/* line 48, ../scss/_our-approach.scss */
+/* line 52, ../scss/_our-approach.scss */
 .plan_active a {
   color: #c62b32;
 }
 
-/* line 49, ../scss/_our-approach.scss */
+/* line 53, ../scss/_our-approach.scss */
 .deliver_active a {
   color: #c62b32;
 }
 
-/* line 51, ../scss/_our-approach.scss */
+/* line 55, ../scss/_our-approach.scss */
 #approach-nav-buttons {
   margin: 60px 0 0 0;
   padding: 0;
 }
-/* line 52, ../scss/_our-approach.scss */
+/* line 56, ../scss/_our-approach.scss */
 #approach-nav-buttons ul {
   padding: 0;
   margin: 0;
 }
-/* line 53, ../scss/_our-approach.scss */
+/* line 57, ../scss/_our-approach.scss */
 #approach-nav-buttons li {
   list-style: none;
 }
-/* line 56, ../scss/_our-approach.scss */
+/* line 60, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons {
   display: flex;
   flex-direction: column;
 }
-/* line 59, ../scss/_our-approach.scss */
+/* line 63, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons h2 {
   color: #fff;
   margin: 0;
 }
-/* line 63, ../scss/_our-approach.scss */
+/* line 67, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons img {
   height: 100%;
   margin-top: 2px;
 }
-/* line 67, ../scss/_our-approach.scss */
+/* line 71, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons a {
   width: 100%;
   background: #c62b32;
   padding: 40px 30px 35px 30px;
 }
-/* line 73, ../scss/_our-approach.scss */
+/* line 77, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page {
   flex-direction: row;
   background: black url("/img/backgrounds/background-image-3.jpg") no-repeat top left;
@@ -8001,19 +8013,19 @@ button img {
   width: 47.5%;
   margin-right: 5%;
 }
-/* line 75, ../scss/_our-approach.scss */
+/* line 79, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page a {
   align-items: center;
 }
-/* line 76, ../scss/_our-approach.scss */
+/* line 80, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page h2 {
   margin: 0;
 }
-/* line 82, ../scss/_our-approach.scss */
+/* line 86, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page a {
   color: #fff;
 }
-/* line 84, ../scss/_our-approach.scss */
+/* line 88, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page {
   flex-direction: row;
   background: black url("/img/backgrounds/background-image-4.jpg") no-repeat top right;
@@ -8022,20 +8034,20 @@ button img {
   justify-content: flex-end;
   width: 47.5%;
 }
-/* line 86, ../scss/_our-approach.scss */
+/* line 90, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page a {
   align-items: center;
 }
-/* line 87, ../scss/_our-approach.scss */
+/* line 91, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page h2 {
   margin: 0;
 }
-/* line 93, ../scss/_our-approach.scss */
+/* line 97, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page a {
   color: #fff;
 }
 
-/* line 97, ../scss/_our-approach.scss */
+/* line 101, ../scss/_our-approach.scss */
 #approach-fixed-nav-buttons {
   width: 100%;
   position: fixed;
@@ -8044,26 +8056,26 @@ button img {
   padding: 0;
   pointer-events: none;
 }
-/* line 104, ../scss/_our-approach.scss */
+/* line 108, ../scss/_our-approach.scss */
 #approach-fixed-nav-buttons ul {
   padding: 0;
   margin: 0;
 }
-/* line 105, ../scss/_our-approach.scss */
+/* line 109, ../scss/_our-approach.scss */
 #approach-fixed-nav-buttons li {
   list-style: none;
 }
 
-/* line 108, ../scss/_our-approach.scss */
+/* line 112, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons {
   width: 100%;
   justify-content: space-between;
 }
-/* line 111, ../scss/_our-approach.scss */
+/* line 115, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons a {
   padding: 20px;
 }
-/* line 112, ../scss/_our-approach.scss */
+/* line 116, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons h2 {
   font-size: 1em;
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
@@ -8072,17 +8084,17 @@ button img {
   text-transform: uppercase;
   margin-top: 6px;
 }
-/* line 120, ../scss/_our-approach.scss */
+/* line 124, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons img {
   margin-top: 2px;
 }
-/* line 123, ../scss/_our-approach.scss */
+/* line 127, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons div {
   width: 47.5%;
   background: #c62b32;
   padding: 15px 15px;
 }
-/* line 128, ../scss/_our-approach.scss */
+/* line 132, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons .fixed-previous-page {
   flex-direction: row;
   background: #c62b32;
@@ -8090,7 +8102,7 @@ button img {
   align-items: center;
   pointer-events: auto;
 }
-/* line 135, ../scss/_our-approach.scss */
+/* line 139, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons .fixed-next-page {
   flex-direction: row;
   flex-direction: row;
@@ -8100,20 +8112,20 @@ button img {
   align-items: center;
   pointer-events: auto;
 }
-/* line 144, ../scss/_our-approach.scss */
+/* line 148, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons .fixed-spacer {
   background: transparent;
   width: auto;
 }
 
 @media screen and (max-width: 1410px) {
-  /* line 151, ../scss/_our-approach.scss */
+  /* line 155, ../scss/_our-approach.scss */
   #approach-fixed-nav-buttons {
     display: none;
   }
 }
 @media screen and (min-width: 1410px) {
-  /* line 154, ../scss/_our-approach.scss */
+  /* line 158, ../scss/_our-approach.scss */
   #approach-nav-buttons {
     display: none;
   }
@@ -8244,6 +8256,10 @@ hr {
   justify-content: space-between;
 }
 /* line 59, ../scss/_case-studies.scss */
+.work-fixed-nav-buttons a {
+  padding: 20px;
+}
+/* line 60, ../scss/_case-studies.scss */
 .work-fixed-nav-buttons h2 {
   font-size: 1em;
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
@@ -8252,51 +8268,67 @@ hr {
   text-transform: uppercase;
   margin-top: 6px;
 }
-/* line 67, ../scss/_case-studies.scss */
+/* line 68, ../scss/_case-studies.scss */
+.work-fixed-nav-buttons img {
+  margin-top: 2px;
+}
+/* line 71, ../scss/_case-studies.scss */
+.work-fixed-nav-buttons div {
+  width: 47.5%;
+  background: #c62b32;
+  padding: 15px 15px;
+}
+/* line 76, ../scss/_case-studies.scss */
 .work-fixed-nav-buttons .fixed-previous-page {
-  width: 10%;
+  flex-direction: row;
   background: #c62b32;
-  padding: 30px;
+  background-size: cover;
+  align-items: center;
+  pointer-events: auto;
 }
-/* line 73, ../scss/_case-studies.scss */
+/* line 83, ../scss/_case-studies.scss */
 .work-fixed-nav-buttons .fixed-next-page {
-  width: 10%;
+  flex-direction: row;
+  flex-direction: row;
   background: #c62b32;
-  padding: 30px;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
+  pointer-events: auto;
 }
-/* line 79, ../scss/_case-studies.scss */
+/* line 92, ../scss/_case-studies.scss */
 .work-fixed-nav-buttons .fixed-spacer {
   background: transparent;
   width: auto;
 }
 
 /* Abellio */
-/* line 88, ../scss/_case-studies.scss */
+/* line 102, ../scss/_case-studies.scss */
 #abellio-masthead.masthead {
   background: black url("/img/backgrounds/case-study-abellio.jpg") no-repeat bottom center;
   background-size: cover;
   margin-top: 63px;
 }
 
-/* line 94, ../scss/_case-studies.scss */
+/* line 108, ../scss/_case-studies.scss */
 #abellio-intro, #abellio1, #abellio2, #abellio3, #abellio4, #abellio5, #abellio6, #abellio7, #abellio8 {
   margin-top: 60px;
 }
 
-/* line 96, ../scss/_case-studies.scss */
+/* line 110, ../scss/_case-studies.scss */
 #abellio8 {
   background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom center;
   background-size: cover;
   padding: 60px 0;
 }
-/* line 100, ../scss/_case-studies.scss */
+/* line 114, ../scss/_case-studies.scss */
 #abellio8 .container {
   position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
 }
-/* line 106, ../scss/_case-studies.scss */
+/* line 120, ../scss/_case-studies.scss */
 #abellio8 .video {
   position: absolute;
   top: 0;
@@ -8306,19 +8338,19 @@ hr {
 }
 
 /* Albemarle Bond */
-/* line 117, ../scss/_case-studies.scss */
+/* line 131, ../scss/_case-studies.scss */
 #albemarle-bond-masthead.masthead {
   background: black url("/img/backgrounds/case-study-albemarle-bond.jpg") no-repeat bottom center;
   background-size: cover;
   margin-top: 63px;
 }
 
-/* line 123, ../scss/_case-studies.scss */
+/* line 137, ../scss/_case-studies.scss */
 #albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {
   margin-top: 60px;
 }
 
-/* line 125, ../scss/_case-studies.scss */
+/* line 139, ../scss/_case-studies.scss */
 #albemarle-bond1 {
   background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom center;
   background-size: cover;
@@ -8326,46 +8358,46 @@ hr {
 }
 
 /* Kumho */
-/* line 134, ../scss/_case-studies.scss */
+/* line 148, ../scss/_case-studies.scss */
 #kumho-masthead.masthead {
   background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center;
   background-size: cover;
   margin-top: 63px;
 }
 
-/* line 140, ../scss/_case-studies.scss */
+/* line 154, ../scss/_case-studies.scss */
 #kumho-intro {
   margin-top: 60px;
 }
 
-/* line 143, ../scss/_case-studies.scss */
+/* line 157, ../scss/_case-studies.scss */
 #kumho1 {
   margin-top: 60px;
 }
-/* line 145, ../scss/_case-studies.scss */
+/* line 159, ../scss/_case-studies.scss */
 #kumho1 img {
   width: 100%;
 }
-/* line 146, ../scss/_case-studies.scss */
+/* line 160, ../scss/_case-studies.scss */
 #kumho1 .rule img {
   width: 31px;
 }
-/* line 147, ../scss/_case-studies.scss */
+/* line 161, ../scss/_case-studies.scss */
 #kumho1 .main-container {
   flex-direction: row;
 }
 
-/* line 149, ../scss/_case-studies.scss */
+/* line 163, ../scss/_case-studies.scss */
 #kumho2 {
   margin-top: 60px;
 }
 
-/* line 152, ../scss/_case-studies.scss */
+/* line 166, ../scss/_case-studies.scss */
 #kumho3 {
   margin-top: 60px;
 }
 
-/* line 155, ../scss/_case-studies.scss */
+/* line 169, ../scss/_case-studies.scss */
 #kumho4 {
   margin-top: 60px;
   background: black url("/img/case-studies/kumho/kumho4.jpg") no-repeat bottom right;
@@ -8373,197 +8405,197 @@ hr {
   color: #fff;
   height: 550px;
 }
-/* line 161, ../scss/_case-studies.scss */
+/* line 175, ../scss/_case-studies.scss */
 #kumho4 .col-1 {
   padding-top: 60px;
 }
 
-/* line 163, ../scss/_case-studies.scss */
+/* line 177, ../scss/_case-studies.scss */
 #kumho5 {
   margin-top: 60px;
 }
 
-/* line 166, ../scss/_case-studies.scss */
+/* line 180, ../scss/_case-studies.scss */
 #kumho6 {
   margin-top: 60px;
 }
-/* line 168, ../scss/_case-studies.scss */
+/* line 182, ../scss/_case-studies.scss */
 #kumho6 img {
   width: 100%;
 }
-/* line 169, ../scss/_case-studies.scss */
+/* line 183, ../scss/_case-studies.scss */
 #kumho6 .rule img {
   width: 31px;
 }
-/* line 170, ../scss/_case-studies.scss */
+/* line 184, ../scss/_case-studies.scss */
 #kumho6 .row-1 {
   flex-direction: row;
 }
-/* line 171, ../scss/_case-studies.scss */
+/* line 185, ../scss/_case-studies.scss */
 #kumho6 .row-2 {
   margin-top: 40px;
 }
 
-/* line 173, ../scss/_case-studies.scss */
+/* line 187, ../scss/_case-studies.scss */
 #kumho7 {
   margin-top: 60px;
 }
-/* line 175, ../scss/_case-studies.scss */
+/* line 189, ../scss/_case-studies.scss */
 #kumho7 img {
   width: 100%;
 }
-/* line 176, ../scss/_case-studies.scss */
+/* line 190, ../scss/_case-studies.scss */
 #kumho7 .rule img {
   width: 31px;
 }
-/* line 177, ../scss/_case-studies.scss */
+/* line 191, ../scss/_case-studies.scss */
 #kumho7 .row-2 {
   flex-direction: row;
   margin-top: 40px;
 }
 
-/* line 179, ../scss/_case-studies.scss */
+/* line 193, ../scss/_case-studies.scss */
 #kumho8 {
   margin-top: 60px;
   background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom right;
   background-size: cover;
   padding-bottom: 60px;
 }
-/* line 183, ../scss/_case-studies.scss */
+/* line 197, ../scss/_case-studies.scss */
 #kumho8 img {
   width: 100%;
 }
-/* line 184, ../scss/_case-studies.scss */
+/* line 198, ../scss/_case-studies.scss */
 #kumho8 .rule img {
   width: 31px;
 }
-/* line 185, ../scss/_case-studies.scss */
+/* line 199, ../scss/_case-studies.scss */
 #kumho8 .col-1 {
   padding-top: 60px;
   order: 1;
 }
-/* line 186, ../scss/_case-studies.scss */
+/* line 200, ../scss/_case-studies.scss */
 #kumho8 .col-2 {
   order: 2;
 }
-/* line 187, ../scss/_case-studies.scss */
+/* line 201, ../scss/_case-studies.scss */
 #kumho8 .row-1 {
   flex-direction: row;
 }
-/* line 188, ../scss/_case-studies.scss */
+/* line 202, ../scss/_case-studies.scss */
 #kumho8 .row-2 {
   flex-direction: row;
 }
 
-/* line 191, ../scss/_case-studies.scss */
+/* line 205, ../scss/_case-studies.scss */
 #kumho9 {
   margin-top: 60px;
 }
-/* line 193, ../scss/_case-studies.scss */
+/* line 207, ../scss/_case-studies.scss */
 #kumho9 img {
   width: 100%;
 }
-/* line 194, ../scss/_case-studies.scss */
+/* line 208, ../scss/_case-studies.scss */
 #kumho9 .rule img {
   width: 31px;
 }
-/* line 195, ../scss/_case-studies.scss */
+/* line 209, ../scss/_case-studies.scss */
 #kumho9 .col-2 {
   margin-top: 0;
 }
-/* line 196, ../scss/_case-studies.scss */
+/* line 210, ../scss/_case-studies.scss */
 #kumho9 .row-1 {
   flex-direction: row;
 }
-/* line 197, ../scss/_case-studies.scss */
+/* line 211, ../scss/_case-studies.scss */
 #kumho9 .row-2 {
   flex-direction: row;
   margin-top: 20px;
 }
 
-/* line 199, ../scss/_case-studies.scss */
+/* line 213, ../scss/_case-studies.scss */
 #kumho10 {
   margin-top: 60px;
 }
 
 /* Matthew Clark */
-/* line 206, ../scss/_case-studies.scss */
+/* line 220, ../scss/_case-studies.scss */
 #matthew-clark-masthead.masthead {
   background: black url("/img/backgrounds/case-study-matthew-clark.jpg") no-repeat bottom center;
   background-size: cover;
   margin-top: 63px;
 }
 
-/* line 212, ../scss/_case-studies.scss */
+/* line 226, ../scss/_case-studies.scss */
 #matthew-clark-intro, #matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {
   margin-top: 60px;
 }
 
 /* PGL */
-/* line 217, ../scss/_case-studies.scss */
+/* line 231, ../scss/_case-studies.scss */
 #pgl-masthead.masthead {
   background: black url("/img/backgrounds/case-study-pgl.jpg") no-repeat bottom center;
   background-size: cover;
   margin-top: 63px;
 }
 
-/* line 223, ../scss/_case-studies.scss */
+/* line 237, ../scss/_case-studies.scss */
 #pgl-intro, #pgl1, #pgl2, #pgl3, #pgl4, #pgl5, #pgl6 {
   margin-top: 60px;
 }
 
 /* Premier Pet Care Plan */
-/* line 228, ../scss/_case-studies.scss */
+/* line 242, ../scss/_case-studies.scss */
 #ppcp-masthead.masthead {
   background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat bottom center;
   background-size: cover;
   margin-top: 63px;
 }
 
-/* line 234, ../scss/_case-studies.scss */
+/* line 248, ../scss/_case-studies.scss */
 #ppcp-intro, #ppcp1, #ppcp2, #ppcp3, #ppcp4, #ppcp5, #ppcp6, #ppcp7 {
   margin-top: 60px;
 }
 
-/* line 236, ../scss/_case-studies.scss */
+/* line 250, ../scss/_case-studies.scss */
 #ppcp1 {
   background: black url("/img/case-studies/ppcp/ppcp1a.jpg") no-repeat top right;
   background-size: cover;
 }
-/* line 239, ../scss/_case-studies.scss */
+/* line 253, ../scss/_case-studies.scss */
 #ppcp1 .row-1 {
   flex-direction: row;
 }
-/* line 240, ../scss/_case-studies.scss */
+/* line 254, ../scss/_case-studies.scss */
 #ppcp1 .col-1 {
   padding: 60px 0;
 }
 
-/* line 244, ../scss/_case-studies.scss */
+/* line 258, ../scss/_case-studies.scss */
 #ppcp3 img {
   width: 100%;
 }
-/* line 245, ../scss/_case-studies.scss */
+/* line 259, ../scss/_case-studies.scss */
 #ppcp3 .col-1, #ppcp3 .col-2 {
   margin: 0;
   width: 50%;
 }
 
-/* line 248, ../scss/_case-studies.scss */
+/* line 262, ../scss/_case-studies.scss */
 #ppcp4 img {
   width: 100%;
 }
-/* line 249, ../scss/_case-studies.scss */
+/* line 263, ../scss/_case-studies.scss */
 #ppcp4 .col-1, #ppcp4 .col-2 {
   margin: 0;
   width: 50%;
 }
 
-/* line 252, ../scss/_case-studies.scss */
+/* line 266, ../scss/_case-studies.scss */
 #ppcp7 img {
   width: 100%;
 }
-/* line 253, ../scss/_case-studies.scss */
+/* line 267, ../scss/_case-studies.scss */
 #ppcp7 .col-1, #ppcp7 .col-2 {
   margin: 0;
   width: 50%;
@@ -8572,44 +8604,44 @@ hr {
 /* Media Queries */
 @media screen and (max-width: 800px) {
   /* General */
-  /* line 263, ../scss/_case-studies.scss */
+  /* line 277, ../scss/_case-studies.scss */
   .col-1, .col-2 {
     width: 100%;
   }
 
-  /* line 264, ../scss/_case-studies.scss */
+  /* line 278, ../scss/_case-studies.scss */
   .col-1 {
     margin-right: 0;
   }
 
-  /* line 265, ../scss/_case-studies.scss */
+  /* line 279, ../scss/_case-studies.scss */
   .masthead-content {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  /* line 266, ../scss/_case-studies.scss */
+  /* line 280, ../scss/_case-studies.scss */
   .headlines {
     order: 2;
     margin-top: 20px;
   }
 
-  /* line 267, ../scss/_case-studies.scss */
+  /* line 281, ../scss/_case-studies.scss */
   .client-logo {
     order: 1;
   }
 
-  /* line 268, ../scss/_case-studies.scss */
+  /* line 282, ../scss/_case-studies.scss */
   .listen, .plan, .deliver {
     flex-direction: column;
   }
 
-  /* line 269, ../scss/_case-studies.scss */
+  /* line 283, ../scss/_case-studies.scss */
   .listen-copy, .plan-copy, .deliver-copy {
     width: 100%;
   }
 
-  /* line 270, ../scss/_case-studies.scss */
+  /* line 284, ../scss/_case-studies.scss */
   .listen h2, .plan h2, .deliver h2 {
     width: 100%;
     text-align: left;
@@ -8617,139 +8649,145 @@ hr {
   }
 
   /* Albemarle Bond */
-  /* line 275, ../scss/_case-studies.scss */
+  /* line 289, ../scss/_case-studies.scss */
   #albemarle-bond1 {
     background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom right;
     background-size: cover;
   }
-  /* line 276, ../scss/_case-studies.scss */
+  /* line 290, ../scss/_case-studies.scss */
   #albemarle-bond1 .row-1 {
     flex-direction: column;
   }
 
   /* Kumho */
-  /* line 284, ../scss/_case-studies.scss */
+  /* line 298, ../scss/_case-studies.scss */
   #kumho1 .main-container {
     flex-direction: column;
   }
 
-  /* line 287, ../scss/_case-studies.scss */
+  /* line 301, ../scss/_case-studies.scss */
   #kumho4 .full-background-left-col {
     height: 900px;
   }
-  /* line 288, ../scss/_case-studies.scss */
+  /* line 302, ../scss/_case-studies.scss */
   #kumho4 .full-background-left-col .col-1 {
     width: 100%;
   }
 
-  /* line 293, ../scss/_case-studies.scss */
+  /* line 307, ../scss/_case-studies.scss */
   #kumho6 .row-1 {
     flex-direction: column;
   }
 
-  /* line 296, ../scss/_case-studies.scss */
+  /* line 310, ../scss/_case-studies.scss */
   #kumho7 .row-2 {
     flex-direction: column;
   }
-  /* line 297, ../scss/_case-studies.scss */
+  /* line 311, ../scss/_case-studies.scss */
   #kumho7 .col-2 {
     margin-top: 60px;
   }
 
-  /* line 300, ../scss/_case-studies.scss */
+  /* line 314, ../scss/_case-studies.scss */
   #kumho8 .col-1 {
     padding-top: 20px;
     order: 2;
   }
-  /* line 301, ../scss/_case-studies.scss */
+  /* line 315, ../scss/_case-studies.scss */
   #kumho8 .col-2 {
     order: 1;
   }
-  /* line 303, ../scss/_case-studies.scss */
+  /* line 317, ../scss/_case-studies.scss */
   #kumho8 .col-2 img {
     width: 50%;
     margin: 0 25%;
   }
-  /* line 305, ../scss/_case-studies.scss */
+  /* line 319, ../scss/_case-studies.scss */
   #kumho8 .row-1 {
     flex-direction: column;
   }
-  /* line 306, ../scss/_case-studies.scss */
+  /* line 320, ../scss/_case-studies.scss */
   #kumho8 .row-2 {
     flex-direction: column;
   }
-  /* line 307, ../scss/_case-studies.scss */
+  /* line 321, ../scss/_case-studies.scss */
   #kumho8 .row-2 img {
     width: 80%;
     margin: 0 10%;
   }
 
-  /* line 311, ../scss/_case-studies.scss */
+  /* line 325, ../scss/_case-studies.scss */
   #kumho9 {
     margin-top: 60px;
   }
-  /* line 313, ../scss/_case-studies.scss */
+  /* line 327, ../scss/_case-studies.scss */
   #kumho9 .col-2 {
     margin-top: 20px;
   }
-  /* line 314, ../scss/_case-studies.scss */
+  /* line 328, ../scss/_case-studies.scss */
   #kumho9 .row-1 {
     flex-direction: column;
   }
-  /* line 316, ../scss/_case-studies.scss */
+  /* line 330, ../scss/_case-studies.scss */
   #kumho9 .row-1 img {
     width: 50%;
     margin: 0 25%;
   }
-  /* line 318, ../scss/_case-studies.scss */
+  /* line 332, ../scss/_case-studies.scss */
   #kumho9 .row-2 {
     flex-direction: column;
     margin-top: 20px;
   }
-  /* line 320, ../scss/_case-studies.scss */
+  /* line 334, ../scss/_case-studies.scss */
   #kumho9 .row-2 img {
     width: 100%;
   }
 
   /* Premier Pet Care Plan */
-  /* line 327, ../scss/_case-studies.scss */
+  /* line 341, ../scss/_case-studies.scss */
   #ppcp1 .row-1 {
     flex-direction: column;
   }
-  /* line 328, ../scss/_case-studies.scss */
+  /* line 342, ../scss/_case-studies.scss */
   #ppcp1 .col-1 {
     padding-top: 600px;
   }
 
-  /* line 331, ../scss/_case-studies.scss */
+  /* line 345, ../scss/_case-studies.scss */
   #ppcp3 .row-1 {
     flex-direction: column;
   }
-  /* line 332, ../scss/_case-studies.scss */
+  /* line 346, ../scss/_case-studies.scss */
   #ppcp3 .col-1, #ppcp3 .col-2 {
     width: 100%;
   }
-  /* line 333, ../scss/_case-studies.scss */
+  /* line 347, ../scss/_case-studies.scss */
   #ppcp3 .col-2 {
     padding-top: 60px;
   }
 
-  /* line 336, ../scss/_case-studies.scss */
+  /* line 350, ../scss/_case-studies.scss */
   #ppcp4 .row-1 {
     flex-direction: column;
   }
-  /* line 337, ../scss/_case-studies.scss */
+  /* line 351, ../scss/_case-studies.scss */
   #ppcp4 .col-1, #ppcp4 .col-2 {
     width: 100%;
   }
 
-  /* line 340, ../scss/_case-studies.scss */
+  /* line 354, ../scss/_case-studies.scss */
   #ppcp7 .row-1 {
     flex-direction: column;
   }
-  /* line 341, ../scss/_case-studies.scss */
+  /* line 355, ../scss/_case-studies.scss */
   #ppcp7 .col-1, #ppcp7 .col-2 {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 360, ../scss/_case-studies.scss */
+  #work-fixed-nav-buttons {
+    display: none;
   }
 }
 /* line 1, ../scss/_contact-us.scss */
