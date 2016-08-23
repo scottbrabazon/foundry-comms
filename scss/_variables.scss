@@ -41,11 +41,20 @@
     src: url(../fonts/gotham-light.woff);
 }
 
+@font-face {
+    font-family: 'Gotham Thin';
+    src: url(../fonts/gotham-thin.otf);
+    src: url(../fonts/gotham-thin.eot);
+    src: url(../fonts/gotham-thin.ttf);
+    src: url(../fonts/gotham-thin.woff);
+}
+
 $foundry_extra_bold: 'Gotham Black',sans-serif,arial,sans-serif;
 $foundry_bold: 'Gotham Bold',sans-serif,arial,sans-serif;
 $foundry_condensed_bold: 'Gotham Medium Condensed',sans-serif,arial,sans-serif;
 $foundry_regular: 'Gotham Medium Book',sans-serif,arial,sans-serif;
 $foundry_light: 'Gotham Light',sans-serif,arial,sans-serif;
+$foundry_thin: 'Gotham Thin',sans-serif,arial,sans-serif;
 
 
 /* Colours */

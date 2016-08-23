@@ -22,10 +22,21 @@
 	justify-content: flex-end;
 	height: 540px;
 	pointer-events: none;
-	h1 {color: #fff; height:150px;}
+	h1 {color: #fff; height:150px; font-size: 2em;}
 	p {font-size: 1em;}
-	.button-next {@include white-button-big;}
-	.button-next:hover {@include rollover-button-big;}
+	.button-next {@include white-button-small;}
+	.button-next:hover {@include rollover-button-small;}
+}
+
+@media screen and (min-width: 680px) {
+	.slide {
+		h1 {height:150px; font-size: 3em;}
+	}
+}
+@media screen and (min-width: 1000px) {
+	.slide {
+		h1 {height:150px; font-size: 4em;}
+	}
 }
 
 @media screen and (min-width: 1090px) {
@@ -98,8 +109,8 @@
     background: black url("/img/backgrounds/background-image-5.jpg") no-repeat center left;
     background-size: cover;
     p:first-of-type {font-family: $foundry_regular;}
-    .button-next {@include white-button-big;}
-	.button-next:hover {@include rollover-button-big;}
+    .button-next {@include white-button-small;}
+	.button-next:hover {@include rollover-button-small;}
 }
 
 .showreel {

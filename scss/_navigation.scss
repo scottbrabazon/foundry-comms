@@ -10,6 +10,7 @@
     padding: 20px 0;
     align-items: flex-start;
     a {
+        font-family: $foundry_thin;
 		color: #fff;
 		&.active {
 			color: $foundry-red;

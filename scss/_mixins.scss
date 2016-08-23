@@ -12,7 +12,7 @@
     border: 1px solid #000;
     align-items: center;
     height: 35px;
-    p, a {
+    p, a, input[value="Send"] {
         font-size: 13px;
         color: #000;
         text-transform: uppercase;
@@ -35,7 +35,7 @@
     border: 1px solid #fff;
     align-items: center;
     height: 35px;
-    p, a {
+    p, a, input[value="Send"] {
         font-size: 13px;
         color: #fff;
         text-transform: uppercase;
@@ -58,7 +58,7 @@
     border: 1px solid $foundry-red;
     align-items: center;
     height: 35px;
-    p, a {
+    p, a, input[value="Send"] {
         font-size: 13px;
         color: #fff;
         text-transform: uppercase;
@@ -81,7 +81,7 @@
     border: 1px solid $foundry-red;
     align-items: center;
     height: 35px;
-    p, a {
+    p, a, input[value="Send"] {
         font-size: 13px;
         color: #fff;
         text-transform: uppercase;
@@ -94,91 +94,6 @@
 
 
 
-/********* Big Buttons /*********/
-
-/* Black Button */
-
-@mixin black-button-big {
-    background: transparent url("/img/buttons/big/arrow-right-black-no-border.svg") no-repeat right center;
-    pointer-events: auto;
-    overflow: auto;
-    padding: 20px 80px 20px 30px;
-    float: left;
-    margin-top: 20px;
-    border: 1px solid #000;
-    align-items: center;
-    p, a {
-        color: #000;
-        text-transform: uppercase;
-        line-height: 20px;
-        float: left;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-    }
-}
-
-/* White Button */
-
-@mixin white-button-big {
-    background: transparent url("/img/buttons/big/arrow-right-no-border.svg") no-repeat right center;
-    pointer-events: auto;
-    overflow: auto;
-    padding: 20px 80px 20px 30px;
-    float: left;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    align-items: center;
-    p, a  {
-        color: #fff;
-        text-transform: uppercase;
-        line-height: 20px;
-        float: left;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-    }
-}
-
-/* Red Button */
-
-@mixin red-button-big {
-    background: transparent url("/img/buttons/big/arrow-right-no-border.svg") no-repeat right center;
-    pointer-events: auto;
-    overflow: auto;
-    padding: 20px 80px 20px 30px;
-    float: left;
-    margin-top: 20px;
-    border: 1px solid $foundry-red;
-    align-items: center;
-    p, a {
-        color: #fff;
-        text-transform: uppercase;
-        line-height: 20px;
-        float: left;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-    }
-}
-
-
-/* Rollover Button */
-
-@mixin rollover-button-big {
-    pointer-events: auto;
-    overflow: auto;
-    padding: 20px 80px 20px 30px;
-    float: left;
-    margin-top: 20px;
-    border: 1px solid $foundry-red;
-    align-items: center;
-    p, a {
-        color: #fff;
-        text-transform: uppercase;
-        line-height: 20px;
-        float: left;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-    }
-}
 
 // prefix declarations
 @mixin prefixed($property, $value) {

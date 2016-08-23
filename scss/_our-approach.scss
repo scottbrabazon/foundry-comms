@@ -18,10 +18,17 @@
 	padding-top: 760px;
 	ul {padding: 0; margin: 0;}
 	li {list-style: none; margin: 0 10px;}
-	.button-next {@include black-button-big; margin: 0;}
-	.button-next:hover {@include rollover-button-big; margin: 0;}
-	.section_active a {margin: 0; outline: none; background: #c62b32 url("/img/buttons/small/arrow-right.svg") no-repeat scroll right center; border-color: $foundry-red;}
-	.section_tabs {justify-content: center;}
+	.button-next {@include black-button-small; margin: 0;}
+	.button-next:hover {@include rollover-button-small; margin: 0;}
+	.section_active a {
+		margin: 0; 
+		outline: none; 
+		p {color: #fff;}
+		background: #c62b32 url("/img/buttons/small/arrow-right.svg") no-repeat scroll right center; border-color: $foundry-red;
+	}
+	.section_tabs {
+		justify-content: center;
+	}
 }
 
 .our-approach-intro-copy {margin-top: 60px;}

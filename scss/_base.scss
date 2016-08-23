@@ -87,3 +87,10 @@ img {display: block;}
     .rule img {margin-left: auto; margin-right: auto;}
     p:first-of-type {font-family: $foundry_bold;}
 }
+
+@media screen and (max-width: 1150px) {
+    .main-container {
+        max-width: initial; width: 90%; margin: 0 5%;
+    }
+
+}

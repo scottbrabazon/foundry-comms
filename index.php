@@ -283,7 +283,7 @@
 
 		<!-- Footer -->
 
-		<?php include_once($_SERVER['DOCUMENT_ROOT']."/inc/footer.php"); ?>
+		<?php include_once($_SERVER['DOCUMENT_ROOT']."/inc/footer-home.php"); ?>
 
 		<!-- End Footer -->
 
