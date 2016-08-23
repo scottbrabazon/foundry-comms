@@ -2,21 +2,32 @@
 
 @font-face {
     font-family: 'Gotham Black';
+    src: url(../fonts/gotham-black.oft);
     src: url(../fonts/gotham-black.ttf);
     src: url(../fonts/gotham-black.eot);
     src: url(../fonts/gotham-black.woff);
 }
 
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url(../fonts/gotham-bold.oft);
+    src: url(../fonts/gotham-bold.ttf);
+    src: url(../fonts/gotham-bold.eot);
+    src: url(../fonts/gotham-bold.woff);
+}
+
 @font-face {
     font-family: 'Gotham Medium Condensed';
-    src: url(../fonts/gotham-condensed-medium.eot);
     src: url(../fonts/gotham-condensed-medium.otf);
+    src: url(../fonts/gotham-condensed-medium.eot);
     src: url(../fonts/gotham-condensed-medium.ttf);
     src: url(../fonts/gotham-condensed-medium.woff);
 }
 
 @font-face {
     font-family: 'Gotham Medium Book';
+    src: url(../fonts/gotham-black.oft);
     src: url(../fonts/gotham-book.eot);
     src: url(../fonts/gotham-book.ttf);
     src: url(../fonts/gotham-book.woff);
@@ -24,12 +35,14 @@
 
 @font-face {
     font-family: 'Gotham Light';
+    src: url(../fonts/gotham-black.otf);
     src: url(../fonts/gotham-light.eot);
     src: url(../fonts/gotham-light.ttf);
     src: url(../fonts/gotham-light.woff);
 }
 
 $foundry_extra_bold: 'Gotham Black',sans-serif,arial,sans-serif;
+$foundry_bold: 'Gotham Bold',sans-serif,arial,sans-serif;
 $foundry_condensed_bold: 'Gotham Medium Condensed',sans-serif,arial,sans-serif;
 $foundry_regular: 'Gotham Medium Book',sans-serif,arial,sans-serif;
 $foundry_light: 'Gotham Light',sans-serif,arial,sans-serif;

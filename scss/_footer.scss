@@ -24,6 +24,7 @@
 }
 
 .footer-row-1 {
+	list-style: none;
 	flex-direction: column;
 	padding-top: 60px;
 	.previous-case-study {margin-right: 0;}
@@ -50,6 +51,15 @@
 	img {width: 100%;}
 	.view-all-work img {width: 75%;}
 }
+
+.footer-row-1 {
+	.paging {margin-top: 30px;}
+	ul {padding: 0; margin: 0;}
+	li {width: 30%; margin-right: 5%;}
+	li:last-child {margin-right: 0;}
+}
+
+.footer-item {flex-direction: column;}
 
 .footer-row-2 {
 	background: rgba(255,255,255,0.2);

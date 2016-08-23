@@ -35,10 +35,6 @@ perch_layout('global.header', array(
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick-settings.css">
-
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="/js/responsiveslides.min.js"></script>
 		<script src="/js/flexibility.js"></script>
@@ -80,14 +76,14 @@ perch_layout('global.header', array(
 
 		<!-- Masthead -->
 
-		<header id="work-masthead" class="masthead flexbox">
+		<header id="blog-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
-					<h1>Our News and Views</h1>
+					<h1>News and Views</h1>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>The Foundry is a creative communications agency, built around world-class people that are passionate about growing our clients’ businesses.</h3>
+					<h3>Find out what makes us get out of bed in the morning, from industry insights to agency achievements.</h3>
 				</div>
 			</div>
 		</header>	
@@ -95,16 +91,11 @@ perch_layout('global.header', array(
 		<!-- End Masthead -->
 
 
-		<section class="content content-lead-primary">
-			<section class="column primary">
+		<section id="recent-posts-index">
 
-				<?php perch_blog_recent_posts(5); ?>
+				<?php perch_blog_recent_posts(6); ?>
 
-			</section> <!-- primary -->
-		<section class="column secondary noprint">
-
-
-		<?php perch_categories(); ?>
+		</section>
 
 
 		<!-- Footer -->

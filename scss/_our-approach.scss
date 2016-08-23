@@ -8,6 +8,10 @@
 	position: absolute;
     z-index: 100;
     width: 100%;
+    border-style: solid;
+    border-width: 0 0 60px 0;
+    border-color: #fff;
+
 }
 
 #approach-top-nav {
@@ -34,6 +38,14 @@
 	a {color: #000;}
 	ul {padding: 0; margin: 0;}
 	li {list-style: none;}
+}
+
+.listen_tab_content, .plan_tab_content, .deliver_tab_content, .services-menu {
+	li {
+	font-family: $foundry_regular;
+	font-size: 0.85em;
+	line-height: 2em;
+	}
 }
 
 .listen_active a {color: $foundry-red;}

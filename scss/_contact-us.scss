@@ -31,9 +31,15 @@
 	.button-next:hover {@include rollover-button-big;}
 }
 
+#thank-you {
+	margin: 60px auto 0 auto;
+	width: 80%;
+	h1 {text-align: center;}
+}
+
 #careers {
 	clear: left;
-	margin-top: 150px;
+	margin-top: 60px;
 	h3 {margin-top: 60px;}
 }
 

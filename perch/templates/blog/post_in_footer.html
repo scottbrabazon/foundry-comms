@@ -1,0 +1,45 @@
+<perch:before>
+<ul class="hfeed listing flexbox"></perch:before>
+    <li class="hentry">
+        <div class="footer-item flexbox">
+            <div>
+                <h3>News</h3>
+                <div class="rule">
+                    <img src="/img/rule.png" alt="Rule" />
+                </div>
+            </div>
+            <h4><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a></h4>
+            <p class="blog-post-meta">
+                <perch:if id="authorSlug" match="neq" value="imported-content">
+                    Posted on <perch:blog id="postDateTime" format="l F j, Y" />.
+                </perch:if>
+            </p>
+            <div class="description entry-summary">
+                <perch:blog id="excerpt" type="textarea" textile="true" />
+            </div>
+            <a href="<perch:blog id="postURL" />" />
+                <div class="hvr-bounce-to-right button-next flexbox">
+                    <p>Find out more</p>
+                </div>
+            </a>
+        </div>
+    </li>    
+<perch:after>
+    </ul>
+    <perch:if exists="paging">
+        <div class="paging">
+            <p>Page <perch:blog id="current_page" /> of <perch:blog id="number_of_pages" />
+            <perch:blog id="page_links" encode="false" />
+            <perch:if exists="not_first_page">
+                <a href="<perch:blog id="prev_url" encode="false" />">Previous</a>
+            </perch:if>
+            <perch:if exists="not_last_page">
+                <a href="<perch:blog id="next_url" encode="false" />">Next</a></p>
+            </perch:if>
+        </div>
+    </perch:if>
+</perch:after> 
+
+
+
+

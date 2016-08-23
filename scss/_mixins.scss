@@ -12,8 +12,8 @@
     border: 1px solid #000;
     align-items: center;
     height: 35px;
-    p {
-        font-size: 0.8em;
+    p, a {
+        font-size: 13px;
         color: #000;
         text-transform: uppercase;
         line-height: 34px;
@@ -35,8 +35,8 @@
     border: 1px solid #fff;
     align-items: center;
     height: 35px;
-    p {
-        font-size: 0.8em;
+    p, a {
+        font-size: 13px;
         color: #fff;
         text-transform: uppercase;
         line-height: 34px;
@@ -58,8 +58,8 @@
     border: 1px solid $foundry-red;
     align-items: center;
     height: 35px;
-    p {
-        font-size: 0.8em;
+    p, a {
+        font-size: 13px;
         color: #fff;
         text-transform: uppercase;
         line-height: 34px;
@@ -81,8 +81,8 @@
     border: 1px solid $foundry-red;
     align-items: center;
     height: 35px;
-    p {
-        font-size: 0.8em;
+    p, a {
+        font-size: 13px;
         color: #fff;
         text-transform: uppercase;
         line-height: 34px;
@@ -107,7 +107,7 @@
     margin-top: 20px;
     border: 1px solid #000;
     align-items: center;
-    p {
+    p, a {
         color: #000;
         text-transform: uppercase;
         line-height: 20px;
@@ -128,7 +128,7 @@
     margin-top: 20px;
     border: 1px solid #fff;
     align-items: center;
-    p {
+    p, a  {
         color: #fff;
         text-transform: uppercase;
         line-height: 20px;
@@ -149,7 +149,7 @@
     margin-top: 20px;
     border: 1px solid $foundry-red;
     align-items: center;
-    p {
+    p, a {
         color: #fff;
         text-transform: uppercase;
         line-height: 20px;
@@ -170,7 +170,7 @@
     margin-top: 20px;
     border: 1px solid $foundry-red;
     align-items: center;
-    p {
+    p, a {
         color: #fff;
         text-transform: uppercase;
         line-height: 20px;
