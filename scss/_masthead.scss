@@ -12,3 +12,9 @@
     h3 {margin-bottom: 0; text-transform: initial; padding-right: 150px; font-family: $foundry_regular;}
     .headlines {flex-grow: 2;}
 }
+
+@media screen and (max-width: 570px) {
+   .masthead-content {
+    h3 {padding-right: 0;}
+    }
+}

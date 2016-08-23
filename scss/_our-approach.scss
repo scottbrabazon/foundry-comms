@@ -83,24 +83,23 @@
 	}
 	.previous-page {
 		flex-direction: row;
+		margin-bottom: 10px;
 		a {align-items: center;}
 		h2 {margin: 0;}
 	    background: black url("/img/backgrounds/background-image-3.jpg") no-repeat top left;
 	    background-size: cover;
 	    padding: 20px;
-	    width: 47.5%;
-	    margin-right: 5%;
 	    a {color: #fff;}
 	}
 	.next-page {
 		flex-direction: row;
+		margin-bottom: 10px;
 		a {align-items: center;}
 		h2 {margin: 0;}
 	    background: black url("/img/backgrounds/background-image-4.jpg") no-repeat top right;
 	    background-size: cover;
 	    padding: 20px;
 		justify-content: flex-end;
-		width: 47.5%;
 		a {color: #fff;}
 	}
 }
@@ -158,6 +157,33 @@
 	}
 }
 
+@media screen and (max-width: 600px) {
+    .section_tabs {flex-direction: column;}
+    #approach-top-nav {
+		li {margin: 10px 0;}
+		a {width: 70%;}
+	}
+	.section_tabs {justify-content: center;}
+}
+@media screen and (min-width: 600px) {
+	#approach-nav-buttons {
+		.previous-page {width: 47.5%; margin-right: 5%;}
+		.next-page {width: 47.5%;}
+	}
+}
+@media screen and (max-width: 800px) {
+    .tab-content-space {flex-direction: column;}
+    .services-menu {
+    	order: -1; 
+    	margin-left: 0; 
+    	width: 100%;
+    	.rule {display: none;}
+    	margin-bottom: 30px;
+    }
+    .services-links ul {display: flex; flex-wrap: wrap;}
+    .services-links li {margin-right: 20px;}
+    .listen_tab_content, .plan_tab_content, .deliver_tab_content {width: 100%}
+}
 @media screen and (max-width: 1410px) {
     #approach-fixed-nav-buttons {display: none;}
 }

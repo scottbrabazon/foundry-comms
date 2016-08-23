@@ -78,9 +78,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>We understand every brief is unique but, over time, we have developed a tried and trusted approach that helps us to discover your purpose, define your audience and determine the best way to engage them.</p>
-					<p>First, we build an accurate picture of your market, customers, and the landscape you operate within. This might mean conducting face-to-face interviews or commissioning a large-scale research project. Whatever it takes to uncover the problem.</p>
-					<p>Next, we’ll devise the strategy to ensure you’re delivering the right message, at the right time, to the right people. Finally, we put plans into action, developing original, award-winning, creative solutions that change the way people think about, and behave towards, your brand.</p>
+					<h3>We understand every brief is unique but, over time, we have developed a tried and trusted approach that helps us to discover your purpose, define your audience and determine the best way to engage them.</h3>
 				</div>
 			</div>
 		</header>	

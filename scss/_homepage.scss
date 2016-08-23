@@ -28,6 +28,11 @@
 	.button-next:hover {@include rollover-button-small;}
 }
 
+@media screen and (min-width: 580px) {
+	.slide {
+		h1 {height:100px;}
+	}
+}
 @media screen and (min-width: 680px) {
 	.slide {
 		h1 {height:150px; font-size: 3em;}
@@ -38,7 +43,6 @@
 		h1 {height:150px; font-size: 4em;}
 	}
 }
-
 @media screen and (min-width: 1090px) {
 	.video-masthead video {
 			width: 100%;

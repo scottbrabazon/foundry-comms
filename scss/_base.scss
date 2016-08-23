@@ -89,8 +89,9 @@ img {display: block;}
 }
 
 @media screen and (max-width: 1150px) {
-    .main-container {
-        max-width: initial; width: 90%; margin: 0 5%;
-    }
+    .main-container {max-width: initial; width: 90%; margin: 0 5%;}
+}
 
+@media screen and (max-width: 570px) {
+    .centered {width: 90%;}
 }

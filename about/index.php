@@ -71,7 +71,7 @@
 
 		<!-- Masthead -->
 
-		<header id="contact-masthead" class="masthead flexbox">
+		<header id="about-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
 					<h1>Who we are</h1>
