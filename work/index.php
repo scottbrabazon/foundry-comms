@@ -81,7 +81,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>Lorem ipsum dolor sit amet, no mei utinam eripuit mediocrem, solum aperiam ne has, nam oratio sapientem ut.</h3>
+					<h3>We solve marketing problems with compelling and creative communications. Here are some of our favourites…</h3>
 				</div>
 			</div>
 		</header>	

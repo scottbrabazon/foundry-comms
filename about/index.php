@@ -128,7 +128,7 @@
 						<div class="person-image">
 							<img src="/img/staff/barrie-thumbnail-bw.jpg" alt="Barrie Moran">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Scottish based self-confessed data geek with a growing brood, 'hangs out' with us as often as he can. Always ‘hangs out' online.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -137,9 +137,9 @@
 					</div>
 					<div class="hvr-bounce-to-right-person person">
 						<div class="person-image">
-							<img src="/img/staff/brain-thumbnail-bw.jpg" alt="Brian Childs">
+							<img src="/img/staff/brain-thumbnail-bw.jpg" alt="Brian Child">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Blessed with the anagrammatic name "Brain Child", our Non-executive Director is still opinionated after 50 years in the business.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -150,7 +150,7 @@
 						<div class="person-image">
 							<img src="/img/staff/cath-thumbnail-bw.jpg" alt="Cath Murphy">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Our Finance Director and studio Agony Aunt dreams of owning a dog. Always at the helm of incredible Xmas parties.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -161,7 +161,7 @@
 						<div class="person-image">
 							<img src="/img/staff/dave-thumbnail-bw.jpg" alt="Dave Hoare">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Appreciates precisely punctuated, well-crafted copy, with good use of commas. Always has a red pen to hand.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -172,7 +172,7 @@
 						<div class="person-image">
 							<img src="/img/staff/elaine-thumbnail-bw.jpg" alt="Elaine Lowe">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Feared by timesheet dodgers, our footy-fanatic Accounts Assistant sets a shining example for the Foundry Slimming Club.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -183,7 +183,7 @@
 						<div class="person-image">
 							<img src="/img/staff/ian-thumbnail-bw.jpg" alt="Ian McKay">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Technical wizard and Foundry founder who loves his two grown-up boys as much as AC/DC – well, almost!</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -194,7 +194,7 @@
 						<div class="person-image">
 							<img src="/img/staff/kate-thumbnail-bw.jpg" alt="Kate Booth">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>This Designer admits to watching too much ‘trash TV’ but puts her creative talents to good use in the garden.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -205,7 +205,7 @@
 						<div class="person-image">
 							<img src="/img/staff/kev-l-thumbnail-bw.jpg" alt="Kevin Lees">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Our festival-going web developer has endless skills, including cooking and an ‘A’ in GCSE History, no less.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -216,7 +216,7 @@
 						<div class="person-image">
 							<img src="/img/staff/kev-m-thumbnail-bw.jpg" alt="Kevin Murphy">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Foundry pioneer and devoted grandfather, manages and directs the agency with a big smile on his face (and trademark Friday countdown).</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -227,7 +227,7 @@
 						<div class="person-image">
 							<img src="/img/staff/kev-o-thumbnail-bw.jpg" alt="Kevin O'Driscoll">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Demonstrates with his daily digital prowess that he wasn’t just selected for his name. (We collect Kevins).</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -238,7 +238,7 @@
 						<div class="person-image">
 							<img src="/img/staff/kirsty-thumbnail-bw.jpg" alt="Kirsty Sherlock">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Our horror-hating Account Manager keeps our Digital Boys under control while eating peanut butter straight out of the jar.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -249,7 +249,7 @@
 						<div class="person-image">
 							<img src="/img/staff/mark-thumbnail-bw.jpg" alt="Mark Bottomley">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>It isn’t just luck that our festival-loving, Northern Irish MD has a history of turning clients’ fortunes around.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -260,7 +260,7 @@
 						<div class="person-image">
 							<img src="/img/staff/mital-thumbnail-bw.jpg" alt="Mital Daya">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Sharpened his yellow pencil from a young age. When will our gym-loving Designer run off with yet another award?</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -282,7 +282,7 @@
 						<div class="person-image">
 							<img src="/img/staff/scott-thumbnail-bw.jpg" alt="Scott Brabazon">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Artwork craftsman Scott is a harmonica - and football - playing Man Utd  fan with a reggae penchant.  He regularly rides a riddim, and has never missed a beat.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -293,7 +293,7 @@
 						<div class="person-image">
 							<img src="/img/staff/stuart-thumbnail-bw.jpg" alt="Stuart Simpson">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Our resident ‘go-to’ for all things type-related, this charming man once appeared in a music video for The Smiths.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -304,7 +304,7 @@
 						<div class="person-image">
 							<img src="/img/staff/tracey-thumbnail-bw.jpg" alt="Tracey Elliot">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>This Salford-born biker swapped her art pencils for airbrushes and quickly became our typesetting expert.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -315,7 +315,7 @@
 						<div class="person-image">
 							<img src="/img/staff/vicky-thumbnail-bw.jpg" alt="Vicky Green">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Often found on the dance floor without shoes, our resident writer likes to eat, drink and run in (fairly) equal measures.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -326,7 +326,7 @@
 						<div class="person-image">
 							<img src="/img/staff/will-thumbnail-bw.jpg" alt="Will English">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>Our Associate Director would like to thank his brother for all the freebie festival tickets, courtesy of his band Maximo Park.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -337,7 +337,7 @@
 						<div class="person-image">
 							<img src="/img/staff/zoe-thumbnail-bw.jpg" alt="Zoë Buckley">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>DTC, B2B, GSL. OTC. Our veteran of healthcare marketing has explored every acronym and still wants more.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -426,6 +426,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
+					<p>Awards aren’t always a measure of effectiveness, but they’re certainly nice to have. Here are some of the ones we enter, and win, for our clients.</p>
 				</div>
 				<div class="awards-panel flexbox">
 					<div class="awards">

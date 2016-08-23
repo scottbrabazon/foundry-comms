@@ -569,6 +569,14 @@ table {
 }
 
 @font-face {
+  font-family: 'Gotham Bold';
+  src: url(../fonts/gotham-bold.oft);
+  src: url(../fonts/gotham-bold.ttf);
+  src: url(../fonts/gotham-bold.eot);
+  src: url(../fonts/gotham-bold.woff);
+}
+
+@font-face {
   font-family: 'Gotham Medium Condensed';
   src: url(../fonts/gotham-condensed-medium.otf);
   src: url(../fonts/gotham-condensed-medium.eot);
@@ -675,7 +683,7 @@ li {
 
 /* line 72, ../scss/_base.scss */
 p:first-of-type {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  font-family: "Gotham Bold", sans-serif, arial, sans-serif;
 }
 
 /* line 73, ../scss/_base.scss */
@@ -728,7 +736,7 @@ img {
 }
 /* line 88, ../scss/_base.scss */
 .centered p:first-of-type {
-  font-family: "Gotham Black", sans-serif, arial, sans-serif;
+  font-family: "Gotham Bold", sans-serif, arial, sans-serif;
 }
 
 /* http://responsiveslides.com v1.54 by @viljamis */
@@ -1059,7 +1067,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 200;
+  z-index: 600;
   background-color: #000;
 }
 
@@ -1189,7 +1197,7 @@ label {
 
 /* line 17, ../scss/_form.scss */
 .form-field:nth-child(5) {
-  height: 500px;
+  height: 300px;
 }
 
 /* line 21, ../scss/_form.scss */
@@ -7188,6 +7196,7 @@ button img {
 /* line 56, ../scss/_about.scss */
 .awards-panel {
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 /* line 57, ../scss/_about.scss */
@@ -8901,35 +8910,45 @@ hr {
 }
 
 /* line 34, ../scss/_contact-us.scss */
-#careers {
-  clear: left;
-  margin-top: 150px;
+#thank-you {
+  margin: 60px auto 0 auto;
+  width: 80%;
 }
 /* line 37, ../scss/_contact-us.scss */
+#thank-you h1 {
+  text-align: center;
+}
+
+/* line 40, ../scss/_contact-us.scss */
+#careers {
+  clear: left;
+  margin-top: 60px;
+}
+/* line 43, ../scss/_contact-us.scss */
 #careers h3 {
   margin-top: 60px;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 42, ../scss/_contact-us.scss */
+  /* line 48, ../scss/_contact-us.scss */
   .contact-details {
     flex-direction: column;
     justify-content: space-around;
   }
 
-  /* line 46, ../scss/_contact-us.scss */
+  /* line 52, ../scss/_contact-us.scss */
   #enquiry-form {
     width: 90%;
   }
-  /* line 48, ../scss/_contact-us.scss */
+  /* line 54, ../scss/_contact-us.scss */
   #enquiry-form h1 {
     text-align: left;
   }
-  /* line 49, ../scss/_contact-us.scss */
+  /* line 55, ../scss/_contact-us.scss */
   #enquiry-form p {
     text-align: left;
   }
-  /* line 50, ../scss/_contact-us.scss */
+  /* line 56, ../scss/_contact-us.scss */
   #enquiry-form .rule img {
     margin: 0 0 30px 0;
   }

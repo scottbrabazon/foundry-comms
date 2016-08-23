@@ -100,11 +100,11 @@ perch_layout('global.header', array(
 		<header id="blog-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
-					<h1>Our News and Views</h1>
+					<h1>News and Views</h1>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>The Foundry is a creative communications agency, built around world-class people that are passionate about growing our clients’ businesses.</h3>
+					<h3>Find out what makes us get out of bed in the morning, from industry insights to agency achievements.</h3>
 				</div>
 			</div>
 		</header>	

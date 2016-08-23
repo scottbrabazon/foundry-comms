@@ -8,6 +8,15 @@
     src: url(../fonts/gotham-black.woff);
 }
 
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url(../fonts/gotham-bold.oft);
+    src: url(../fonts/gotham-bold.ttf);
+    src: url(../fonts/gotham-bold.eot);
+    src: url(../fonts/gotham-bold.woff);
+}
+
 @font-face {
     font-family: 'Gotham Medium Condensed';
     src: url(../fonts/gotham-condensed-medium.otf);
@@ -33,6 +42,7 @@
 }
 
 $foundry_extra_bold: 'Gotham Black',sans-serif,arial,sans-serif;
+$foundry_bold: 'Gotham Bold',sans-serif,arial,sans-serif;
 $foundry_condensed_bold: 'Gotham Medium Condensed',sans-serif,arial,sans-serif;
 $foundry_regular: 'Gotham Medium Book',sans-serif,arial,sans-serif;
 $foundry_light: 'Gotham Light',sans-serif,arial,sans-serif;

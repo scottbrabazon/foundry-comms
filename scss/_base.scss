@@ -69,7 +69,7 @@ li {
 /* General */
 
 * {outline: none;}
-p:first-of-type {font-family: $foundry_extra_bold;}
+p:first-of-type {font-family: $foundry_bold;}
 ul {list-style: none;}
 img {display: block;}
 .flexbox {display: flex;}
@@ -85,5 +85,5 @@ img {display: block;}
     margin: 0 auto;
     text-align: center;
     .rule img {margin-left: auto; margin-right: auto;}
-    p:first-of-type {font-family: $foundry_extra_bold;}
+    p:first-of-type {font-family: $foundry_bold;}
 }
