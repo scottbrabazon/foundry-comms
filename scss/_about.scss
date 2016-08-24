@@ -2,6 +2,8 @@
 	background: black url("/img/backgrounds/background-image-2.svg") no-repeat top center; 
 	background-size: cover;
 	margin-top: 63px;
+	.button-next {@include white-button-small;}
+	.button-next:hover {@include rollover-button-small;}
 }
 
 #who-we-are {

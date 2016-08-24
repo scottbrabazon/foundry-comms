@@ -1,5 +1,4 @@
-<?php include('../perch/runtime.php'); ?>
-
+<?php include('perch/runtime.php'); ?>
 
 <!DOCTYPE html>
 <!--[if IE 6]>
@@ -21,17 +20,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-		<title>The Foundry | Our Work</title>
-		<meta name="description" content="xxxxxxxxx" />
+		<title>The Foundry | 404 Error</title>
+		<meta name="description" content="xxxxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 
 
-		<link rel="stylesheet" media="all" href="../css/style.css">
-		<link rel="stylesheet" media="all" href="../css/animate.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
-		<link rel="stylesheet" type="text/css" href="../slick/slick-settings.css">
+		<link rel="stylesheet" media="all" href="/css/style.css">
+		<link rel="stylesheet" media="all" href="/css/animate.css">
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="/js/responsiveslides.min.js"></script>
@@ -53,77 +49,51 @@
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
-						<li><a href="/work" class="active">Work</a></li>
+						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
-						<li><a href="/contact">Contact</a></li>
+						<li><a href="/contact" class="active">Contact</a></li>
 						<li><a href="/blog/">News</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
 				 	<ul class="menu-links flexbox">
 						<li><a href="/about">About</a></li>
-						<li><a href="/work" class="active">Work</a></li>
+						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
-						<li><a href="/contact">Contact</a></li>
+						<li><a href="/contact" class="active">Contact</a></li>
 						<li><a href="/blog/">News</a></li>
 				 	</ul>
 				</div>
 			</div>	
 		</nav>
 
-
 		<!-- Masthead -->
 
-		<header id="work-masthead" class="masthead flexbox">
+		<header id="about-masthead" class="masthead flexbox">
 			<div class="masthead-content main-container flexbox">
 				<div class="headlines">
-					<h1>Our Work</h1>
+					<h1>OOOPS!<br>404 page not found</h1>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>We solve marketing problems with compelling and creative communications. Here are some of our favourites…</h3>
+					<h3>Sorry the page you have requested has either been moved, or does not exist.</h3>
+					<a href="/">
+						<div class="hvr-bounce-to-right button-next flexbox">
+							<p>Return home</p>
+						</div>
+					</a>
 				</div>
 			</div>
 		</header>	
 
 		<!-- End Masthead -->
 
-		<!-- Case Studes -->
-
-		<div id="case-studies">
-			<div class="case-studes-examples flexbox">
-				<div>
-					<a href="ppcp"><img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" /></a>
-				</div>
-				<div>
-					<a href="kumho"><img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" /></a>
-				</div>
-				<div>	
-					<a href="abellio"><img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" /></a>
-				</div>
-			</div>
-			<div class="case-studes-examples flexbox">
-				<div>
-					<a href="albemarle-bond"><img src="/img/case-studies/albemarle-bond.jpg" alt="PPCP Case Study" /></a>
-				</div>
-				<div>
-					<a href="pgl"><img src="/img/case-studies/pgl.jpg" alt="Kuhmo Case Study" /></a>
-				</div>
-				<div>	
-					<a href="matthew-clark"><img src="/img/case-studies/matthew-clark.jpg" alt="Bike &amp; Go Case Study" /></a>
-				</div>
-			</div>
-		</div>
-
-		<!-- End Case Studes -->
-
 		<!-- Footer -->
 
-		<?php include_once($_SERVER['DOCUMENT_ROOT']."/inc/footer-home.php"); ?>
+		<?php include_once($_SERVER['DOCUMENT_ROOT']."/inc/footer.php"); ?>
 
 		<!-- End Footer -->
 
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-
 	</body>
 </html>

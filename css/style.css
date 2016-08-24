@@ -619,11 +619,12 @@ h2 {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.25em;
+  line-height: 0.9em;
   margin: 0 0 0.5em 0;
   font-weight: 100;
 }
 
-/* line 21, ../scss/_base.scss */
+/* line 22, ../scss/_base.scss */
 h3 {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
@@ -633,7 +634,7 @@ h3 {
   font-weight: 100;
 }
 
-/* line 30, ../scss/_base.scss */
+/* line 31, ../scss/_base.scss */
 h4 {
   font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
   text-transform: uppercase;
@@ -642,7 +643,7 @@ h4 {
   font-weight: 100;
 }
 
-/* line 38, ../scss/_base.scss */
+/* line 39, ../scss/_base.scss */
 p {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 0.9em;
@@ -650,14 +651,14 @@ p {
   margin: 0 0 1em 0;
 }
 
-/* line 45, ../scss/_base.scss */
+/* line 46, ../scss/_base.scss */
 a {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 1em;
   text-decoration: none;
 }
 
-/* line 51, ../scss/_base.scss */
+/* line 52, ../scss/_base.scss */
 li {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: inherit;
@@ -666,28 +667,28 @@ li {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 59, ../scss/_base.scss */
+  /* line 60, ../scss/_base.scss */
   h1 {
     font-size: 3em;
   }
 
-  /* line 63, ../scss/_base.scss */
+  /* line 64, ../scss/_base.scss */
   h2 {
     font-size: 3em;
   }
 
-  /* line 67, ../scss/_base.scss */
+  /* line 68, ../scss/_base.scss */
   h3 {
     font-size: 2em;
   }
 }
 /* General */
-/* line 75, ../scss/_base.scss */
+/* line 76, ../scss/_base.scss */
 * {
   outline: none;
 }
 
-/* line 76, ../scss/_base.scss */
+/* line 77, ../scss/_base.scss */
 hr {
   border: 0;
   height: 1px;
@@ -695,71 +696,71 @@ hr {
   background: #c62b32;
 }
 
-/* line 82, ../scss/_base.scss */
+/* line 83, ../scss/_base.scss */
 p:first-of-type {
   font-family: "Gotham Bold", sans-serif, arial, sans-serif;
 }
 
-/* line 83, ../scss/_base.scss */
+/* line 84, ../scss/_base.scss */
 p:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 84, ../scss/_base.scss */
+/* line 85, ../scss/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 85, ../scss/_base.scss */
+/* line 86, ../scss/_base.scss */
 img {
   display: block;
 }
 
-/* line 86, ../scss/_base.scss */
+/* line 87, ../scss/_base.scss */
 .flexbox {
   display: flex;
 }
 
-/* line 87, ../scss/_base.scss */
+/* line 88, ../scss/_base.scss */
 .main-container {
   max-width: 1075px;
   margin: 0 auto;
 }
 
-/* line 91, ../scss/_base.scss */
+/* line 92, ../scss/_base.scss */
 .container {
   position: relative;
   width: 100%;
 }
 
-/* line 92, ../scss/_base.scss */
+/* line 93, ../scss/_base.scss */
 .hideme {
   opacity: 0;
 }
 
-/* line 93, ../scss/_base.scss */
+/* line 94, ../scss/_base.scss */
 .rule img {
   margin-bottom: 30px;
 }
 
-/* line 94, ../scss/_base.scss */
+/* line 95, ../scss/_base.scss */
 .centered {
   width: 70%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 98, ../scss/_base.scss */
+/* line 99, ../scss/_base.scss */
 .centered .rule img {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 99, ../scss/_base.scss */
+/* line 100, ../scss/_base.scss */
 .centered p:first-of-type {
   font-family: "Gotham Bold", sans-serif, arial, sans-serif;
 }
 
 @media screen and (max-width: 1150px) {
-  /* line 103, ../scss/_base.scss */
+  /* line 104, ../scss/_base.scss */
   .main-container {
     max-width: initial;
     width: 90%;
@@ -767,19 +768,19 @@ img {
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 107, ../scss/_base.scss */
+  /* line 108, ../scss/_base.scss */
   .centered {
     width: 100%;
     margin: 0 auto;
     text-align: left;
   }
-  /* line 111, ../scss/_base.scss */
+  /* line 112, ../scss/_base.scss */
   .centered .rule img {
     margin-left: 0;
   }
 }
 @media screen and (max-width: 570px) {
-  /* line 116, ../scss/_base.scss */
+  /* line 117, ../scss/_base.scss */
   .centered {
     width: 90%;
   }
@@ -7229,54 +7230,97 @@ button img {
   background-size: cover;
   margin-top: 63px;
 }
+/* line 5, ../scss/_about.scss */
+#about-masthead.masthead .button-next {
+  background: transparent url("/img/buttons/small/arrow-right-no-border.svg") no-repeat right center;
+  pointer-events: auto;
+  overflow: auto;
+  padding: 10px 70px 10px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  align-items: center;
+  height: 35px;
+}
+/* line 38, ../scss/_mixins.scss */
+#about-masthead.masthead .button-next p, #about-masthead.masthead .button-next a, #about-masthead.masthead .button-next input[value="Send"] {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 34px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 6, ../scss/_about.scss */
+#about-masthead.masthead .button-next:hover {
+  pointer-events: auto;
+  overflow: auto;
+  padding: 10px 70px 10px 20px;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #c62b32;
+  align-items: center;
+  height: 35px;
+}
+/* line 84, ../scss/_mixins.scss */
+#about-masthead.masthead .button-next:hover p, #about-masthead.masthead .button-next:hover a, #about-masthead.masthead .button-next:hover input[value="Send"] {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 34px;
+  float: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
 
-/* line 7, ../scss/_about.scss */
+/* line 9, ../scss/_about.scss */
 #who-we-are {
   margin-top: 60px;
 }
-/* line 9, ../scss/_about.scss */
+/* line 11, ../scss/_about.scss */
 #who-we-are p:first-of-type {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
 }
 
-/* line 11, ../scss/_about.scss */
+/* line 13, ../scss/_about.scss */
 .people {
   flex-wrap: wrap;
 }
 
-/* line 12, ../scss/_about.scss */
+/* line 14, ../scss/_about.scss */
 .people img {
   width: 100%;
 }
 
-/* line 13, ../scss/_about.scss */
+/* line 15, ../scss/_about.scss */
 .person {
   width: 100%;
   margin-bottom: 30px;
 }
 
-/* line 14, ../scss/_about.scss */
+/* line 16, ../scss/_about.scss */
 .logo-active img {
   display: none;
 }
 
-/* line 15, ../scss/_about.scss */
+/* line 17, ../scss/_about.scss */
 .logo-inactive:hover img {
   display: none;
 }
 
-/* line 16, ../scss/_about.scss */
+/* line 18, ../scss/_about.scss */
 .logo-active:hover img {
   display: inline-block;
 }
 
-/* line 17, ../scss/_about.scss */
+/* line 19, ../scss/_about.scss */
 .person-image {
   position: relative;
   overflow: hidden;
 }
 
-/* line 21, ../scss/_about.scss */
+/* line 23, ../scss/_about.scss */
 .person-biography {
   position: absolute;
   top: 0;
@@ -7285,7 +7329,7 @@ button img {
   display: none;
   visibility: hidden;
 }
-/* line 28, ../scss/_about.scss */
+/* line 30, ../scss/_about.scss */
 .person-biography p {
   color: white;
   text-align: left;
@@ -7294,12 +7338,12 @@ button img {
   padding: 15px;
 }
 
-/* line 36, ../scss/_about.scss */
+/* line 38, ../scss/_about.scss */
 .person-name-panel {
   padding: 10px 10px 10px 10px;
   background: none;
 }
-/* line 39, ../scss/_about.scss */
+/* line 41, ../scss/_about.scss */
 .person-name-panel p {
   text-align: left;
   margin: 0;
@@ -7308,84 +7352,84 @@ button img {
   font-size: 0.85em;
   line-height: 1.2em;
 }
-/* line 47, ../scss/_about.scss */
+/* line 49, ../scss/_about.scss */
 .person-name-panel .person-name {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
 }
 
-/* line 49, ../scss/_about.scss */
+/* line 51, ../scss/_about.scss */
 .person:hover p {
   color: #fff;
 }
 
-/* line 50, ../scss/_about.scss */
+/* line 52, ../scss/_about.scss */
 #our-people {
   margin-top: 60px;
   text-align: center;
 }
-/* line 53, ../scss/_about.scss */
+/* line 55, ../scss/_about.scss */
 #our-people .rule img {
   margin: 0 auto 3px auto;
 }
 
-/* line 55, ../scss/_about.scss */
+/* line 57, ../scss/_about.scss */
 .people {
   margin-top: 40px;
 }
 
-/* line 57, ../scss/_about.scss */
+/* line 59, ../scss/_about.scss */
 #our-clients {
   background-color: #e0e0e0;
   padding: 60px 0;
 }
 
-/* line 58, ../scss/_about.scss */
+/* line 60, ../scss/_about.scss */
 .client-logos-panel {
   width: 100%;
   flex-wrap: wrap;
 }
 
-/* line 59, ../scss/_about.scss */
+/* line 61, ../scss/_about.scss */
 .client-logos {
   padding: 20px 0;
   width: 50%;
 }
-/* line 62, ../scss/_about.scss */
+/* line 64, ../scss/_about.scss */
 .client-logos img {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 65, ../scss/_about.scss */
+/* line 67, ../scss/_about.scss */
 #our-awards {
   margin-top: 60px;
 }
 
-/* line 66, ../scss/_about.scss */
+/* line 68, ../scss/_about.scss */
 .awards-panel {
   flex-wrap: wrap;
   margin-top: 40px;
 }
 
-/* line 67, ../scss/_about.scss */
+/* line 69, ../scss/_about.scss */
 .awards {
   width: 50%;
 }
-/* line 69, ../scss/_about.scss */
+/* line 71, ../scss/_about.scss */
 .awards img {
   width: 100%;
 }
-/* line 70, ../scss/_about.scss */
+/* line 72, ../scss/_about.scss */
 .awards p {
   text-transform: uppercase;
 }
 
-/* line 72, ../scss/_about.scss */
+/* line 74, ../scss/_about.scss */
 .award-biography {
   padding: 20px 0 30px 0;
 }
-/* line 74, ../scss/_about.scss */
+/* line 76, ../scss/_about.scss */
 .award-biography p {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   font-size: 0.8em;
@@ -7393,24 +7437,24 @@ button img {
 }
 
 @media screen and (min-width: 500px) {
-  /* line 78, ../scss/_about.scss */
+  /* line 80, ../scss/_about.scss */
   .person {
     width: 50%;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 82, ../scss/_about.scss */
+  /* line 84, ../scss/_about.scss */
   .awards {
     width: 25%;
   }
 
-  /* line 83, ../scss/_about.scss */
+  /* line 85, ../scss/_about.scss */
   .client-logos {
     width: 25%;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 87, ../scss/_about.scss */
+  /* line 89, ../scss/_about.scss */
   .person {
     width: 25%;
   }
@@ -8473,13 +8517,13 @@ button img {
     width: 100%;
   }
 }
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1460px) {
   /* line 207, ../scss/_our-approach.scss */
   #approach-fixed-nav-buttons {
     display: none;
   }
 }
-@media screen and (min-width: 1410px) {
+@media screen and (min-width: 1460px) {
   /* line 210, ../scss/_our-approach.scss */
   #approach-nav-buttons {
     display: none;
