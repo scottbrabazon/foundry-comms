@@ -71,17 +71,16 @@
 /* Media Querys */
 
 @media screen and (max-width: 570px) {
-    .navigation-panel {flex-direction: column;}
+    .navigation-panel {justify-content: space-between;}
+    .logo img {width: 140px; margin: 0 0 0 auto;}
     .navigation-menu-mobile {
-        margin-top: 15px; 
+        order: -1;
         text-align: left;
         a {font-size: 1.5em;}
         li {padding: 0; margin: 0;}
-        ul {padding: 0; margin: 0;}
+        ul {padding: 0; margin: 10px 0 0 0;}
     }
-    .menu-toggle-button {align-self: flex-start; margin-bottom: 10px;}
-    .menu-links-mobile {
-    }
+    .menu-toggle-button {align-self: flex-start;}
 }
 
 @media screen and (min-width: 780px) {

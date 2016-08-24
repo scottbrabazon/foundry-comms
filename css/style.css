@@ -1181,42 +1181,47 @@ img {
 @media screen and (max-width: 570px) {
   /* line 74, ../scss/_navigation.scss */
   .navigation-panel {
-    flex-direction: column;
+    justify-content: space-between;
   }
 
   /* line 75, ../scss/_navigation.scss */
+  .logo img {
+    width: 140px;
+    margin: 0 0 0 auto;
+  }
+
+  /* line 76, ../scss/_navigation.scss */
   .navigation-menu-mobile {
-    margin-top: 15px;
+    order: -1;
     text-align: left;
   }
-  /* line 78, ../scss/_navigation.scss */
+  /* line 79, ../scss/_navigation.scss */
   .navigation-menu-mobile a {
     font-size: 1.5em;
   }
-  /* line 79, ../scss/_navigation.scss */
+  /* line 80, ../scss/_navigation.scss */
   .navigation-menu-mobile li {
     padding: 0;
     margin: 0;
   }
-  /* line 80, ../scss/_navigation.scss */
+  /* line 81, ../scss/_navigation.scss */
   .navigation-menu-mobile ul {
     padding: 0;
-    margin: 0;
+    margin: 10px 0 0 0;
   }
 
-  /* line 82, ../scss/_navigation.scss */
+  /* line 83, ../scss/_navigation.scss */
   .menu-toggle-button {
     align-self: flex-start;
-    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 780px) {
-  /* line 88, ../scss/_navigation.scss */
+  /* line 87, ../scss/_navigation.scss */
   .navigation-menu {
     display: flex;
   }
 
-  /* line 89, ../scss/_navigation.scss */
+  /* line 88, ../scss/_navigation.scss */
   .navigation-menu-mobile {
     display: none;
   }
@@ -7599,7 +7604,7 @@ button img {
 /* line 25, ../scss/_homepage.scss */
 .slide h1 {
   color: #fff;
-  height: 150px;
+  height: 200px;
   font-size: 2em;
 }
 /* line 26, ../scss/_homepage.scss */
@@ -7650,39 +7655,45 @@ button img {
   margin: 0 0 0 0;
 }
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 350px) {
   /* line 33, ../scss/_homepage.scss */
+  .slide h1 {
+    height: 150px;
+  }
+}
+@media screen and (min-width: 580px) {
+  /* line 38, ../scss/_homepage.scss */
   .slide h1 {
     height: 100px;
   }
 }
 @media screen and (min-width: 680px) {
-  /* line 38, ../scss/_homepage.scss */
+  /* line 43, ../scss/_homepage.scss */
   .slide h1 {
     height: 150px;
     font-size: 3em;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 43, ../scss/_homepage.scss */
+  /* line 48, ../scss/_homepage.scss */
   .slide h1 {
-    height: 150px;
+    height: 200px;
     font-size: 4em;
   }
 }
 @media screen and (min-width: 1090px) {
-  /* line 47, ../scss/_homepage.scss */
+  /* line 52, ../scss/_homepage.scss */
   .video-masthead video {
     width: 100%;
     margin: 0 auto;
   }
 }
 /* Intro */
-/* line 55, ../scss/_homepage.scss */
+/* line 60, ../scss/_homepage.scss */
 #homepage-intro-copy {
   margin-top: 60px;
 }
-/* line 57, ../scss/_homepage.scss */
+/* line 62, ../scss/_homepage.scss */
 #homepage-intro-copy .button-next {
   background: transparent url("/img/buttons/small/arrow-right-black-no-border.svg") no-repeat right center;
   pointer-events: auto;
@@ -7704,7 +7715,7 @@ button img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 58, ../scss/_homepage.scss */
+/* line 63, ../scss/_homepage.scss */
 #homepage-intro-copy .button-next:hover {
   pointer-events: auto;
   overflow: auto;
@@ -7726,83 +7737,97 @@ button img {
   margin: 0 0 0 0;
 }
 
-/* line 61, ../scss/_homepage.scss */
+/* line 66, ../scss/_homepage.scss */
 .groupthree {
   flex-direction: column;
 }
 
-/* line 62, ../scss/_homepage.scss */
+/* line 67, ../scss/_homepage.scss */
 .groupthree > div {
   margin-top: 60px;
 }
 
-/* line 63, ../scss/_homepage.scss */
+/* line 68, ../scss/_homepage.scss */
 .problem-solved {
   flex-direction: column;
+  text-align: left;
+  margin: 0;
+  width: 100%;
+}
+/* line 73, ../scss/_homepage.scss */
+.problem-solved .rule img {
+  margin-left: 0;
 }
 
-/* line 64, ../scss/_homepage.scss */
+/* line 75, ../scss/_homepage.scss */
 .groupthree-content {
   flex-direction: column;
 }
-/* line 66, ../scss/_homepage.scss */
+/* line 77, ../scss/_homepage.scss */
 .groupthree-content p:first-of-type {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
 }
-/* line 67, ../scss/_homepage.scss */
+/* line 78, ../scss/_homepage.scss */
 .groupthree-content .button-next {
   padding: 10px;
 }
-/* line 68, ../scss/_homepage.scss */
+/* line 79, ../scss/_homepage.scss */
 .groupthree-content .button-next:hover {
   padding: 10px;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 73, ../scss/_homepage.scss */
+  /* line 84, ../scss/_homepage.scss */
   .problem-solved {
     flex-direction: row;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+  }
+  /* line 89, ../scss/_homepage.scss */
+  .problem-solved .rule img {
+    margin-left: auto;
   }
 
-  /* line 74, ../scss/_homepage.scss */
+  /* line 91, ../scss/_homepage.scss */
   .problem-solved-1 {
     text-align: right;
   }
 
-  /* line 75, ../scss/_homepage.scss */
+  /* line 92, ../scss/_homepage.scss */
   .problem-solved-2 {
     padding-left: 50px;
   }
 
-  /* line 76, ../scss/_homepage.scss */
+  /* line 93, ../scss/_homepage.scss */
   .groupthree {
     flex-direction: row;
     margin-top: 0;
   }
 
-  /* line 80, ../scss/_homepage.scss */
+  /* line 97, ../scss/_homepage.scss */
   .groupthree > div {
     margin-right: 5%;
     width: 30%;
   }
 
-  /* line 84, ../scss/_homepage.scss */
+  /* line 101, ../scss/_homepage.scss */
   .groupthree > div:last-child {
     margin-right: 0;
   }
 
-  /* line 87, ../scss/_homepage.scss */
+  /* line 104, ../scss/_homepage.scss */
   .groupthree-content {
     flex-direction: column;
     justify-content: space-between;
   }
-  /* line 90, ../scss/_homepage.scss */
+  /* line 107, ../scss/_homepage.scss */
   .groupthree-content p {
     flex-grow: 2;
   }
 }
 /* Common */
-/* line 97, ../scss/_homepage.scss */
+/* line 114, ../scss/_homepage.scss */
 #client-slider {
   margin: 60px auto;
   max-width: 1500px;
@@ -7810,24 +7835,24 @@ button img {
 }
 
 @media screen and (max-width: 800px) {
-  /* line 104, ../scss/_homepage.scss */
+  /* line 121, ../scss/_homepage.scss */
   #client-slider {
     display: none;
   }
 }
 /* Showreel */
-/* line 110, ../scss/_homepage.scss */
+/* line 127, ../scss/_homepage.scss */
 #homepage-showreel {
   max-width: 1500px;
   margin: 60px auto 0 auto;
   background: black url("/img/backgrounds/background-image-5.jpg") no-repeat center left;
   background-size: cover;
 }
-/* line 115, ../scss/_homepage.scss */
+/* line 132, ../scss/_homepage.scss */
 #homepage-showreel p:first-of-type {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
 }
-/* line 116, ../scss/_homepage.scss */
+/* line 133, ../scss/_homepage.scss */
 #homepage-showreel .button-next {
   background: transparent url("/img/buttons/small/arrow-right-no-border.svg") no-repeat right center;
   pointer-events: auto;
@@ -7849,7 +7874,7 @@ button img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 117, ../scss/_homepage.scss */
+/* line 134, ../scss/_homepage.scss */
 #homepage-showreel .button-next:hover {
   pointer-events: auto;
   overflow: auto;
@@ -7871,21 +7896,21 @@ button img {
   margin: 0 0 0 0;
 }
 
-/* line 120, ../scss/_homepage.scss */
+/* line 137, ../scss/_homepage.scss */
 .showreel {
   margin-top: 60px;
 }
-/* line 122, ../scss/_homepage.scss */
+/* line 139, ../scss/_homepage.scss */
 .showreel a {
   color: #fff;
 }
-/* line 123, ../scss/_homepage.scss */
+/* line 140, ../scss/_homepage.scss */
 .showreel .rule img {
   width: 31px;
   margin: 0 0 30px 0;
 }
 
-/* line 126, ../scss/_homepage.scss */
+/* line 143, ../scss/_homepage.scss */
 .showreel .slide {
   flex-direction: column;
   justify-content: flex-end;
@@ -9011,7 +9036,7 @@ hr {
 @media screen and (max-width: 360px) {
   /* line 360, ../scss/_case-studies.scss */
   #work-masthead.masthead {
-    margin-top: 106px;
+    margin-top: 63px;
   }
 }
 @media screen and (max-width: 1200px) {
