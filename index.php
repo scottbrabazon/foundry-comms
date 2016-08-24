@@ -49,7 +49,7 @@
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
-						<img src="/img/menu.svg" alt="Menu"></a>
+						<img src="/img/menu.svg" alt="Menu">
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
@@ -75,7 +75,7 @@
 			<video autoplay muted loop><source src="/img/video-optimised.mp4" type="video/mp4"></video>
 		</div>
 
-		<main role="main" class="main-container">
+		<main class="main-container">
 
 			<!-- Masthead -->
 
@@ -207,52 +207,52 @@
 		<div id="client-slider">
 			<section class="center slider">
 				<div>
-					<img src="/img/client-logos/pgl.svg">
+					<img src="/img/client-logos/pgl.svg" alt="PGL">
 				</div>
 				<div>
-					<img src="/img/client-logos/ppcp.svg">
+					<img src="/img/client-logos/ppcp.svg" alt="PPCP">
 				</div>
 				<div>
-					<img src="/img/client-logos/hags.svg">
+					<img src="/img/client-logos/hags.svg" alt="HAGS">
 				</div>
 				<div>
-					<img src="/img/client-logos/concha-y-toro.svg">
+					<img src="/img/client-logos/concha-y-toro.svg" alt="Concha Y Toro">
 				</div>
 				<div>
-					<img src="/img/client-logos/space-zero.svg">
+					<img src="/img/client-logos/space-zero.svg" alt="Space Zero">
 				</div>
 				<div>
-					<img src="/img/client-logos/lowell.svg">
+					<img src="/img/client-logos/lowell.svg" alt="Lowell">
 				</div>
 				<div>
-					<img src="/img/client-logos/spaldings.svg">
+					<img src="/img/client-logos/spaldings.svg" alt="Spaldings">
 				</div>
 				<div>
-					<img src="/img/client-logos/kumho.svg">
+					<img src="/img/client-logos/kumho.svg" alt="Kumho">
 				</div>
 				<div>
-					<img src="/img/client-logos/matthew-clark.svg">
+					<img src="/img/client-logos/matthew-clark.svg" alt="Matthew Clark">
 				</div>
 				<div>
-					<img src="/img/client-logos/mersey-rail.svg">
+					<img src="/img/client-logos/mersey-rail.svg" alt="Mersey Rail">
 				</div>
 				<div>
-					<img src="/img/client-logos/mufc.svg">
+					<img src="/img/client-logos/mufc.svg" alt="Manchester United">
 				</div>
 				<div>
-					<img src="/img/client-logos/dr-beckmann.svg">
+					<img src="/img/client-logos/dr-beckmann.svg" alt="Dr Beckmann">
 				</div>
 				<div>
-					<img src="/img/client-logos/albemarle-bond.svg">
+					<img src="/img/client-logos/albemarle-bond.svg" alt="Almemarle Bond">
 				</div>
 				<div>
-					<img src="/img/client-logos/warren-partners.svg">
+					<img src="/img/client-logos/warren-partners.svg" alt="Warren Partners">
 				</div>
 				<div>
-					<img src="/img/client-logos/wd40.svg">
+					<img src="/img/client-logos/wd40.svg" alt="WD40">
 				</div>
 				<div>
-					<img src="/img/client-logos/bike-and-go.svg">
+					<img src="/img/client-logos/bike-and-go.svg" alt="Bike &amp; Go">
 				</div>
 			</section>
 		</div>	

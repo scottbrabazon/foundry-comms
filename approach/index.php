@@ -46,7 +46,7 @@
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
-						<img src="/img/menu.svg" alt="Menu"></a>
+						<img src="/img/menu.svg" alt="Menu">
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
@@ -104,7 +104,7 @@
 						<p>Deliver</p>
 					</a>
 				</li>
-			</div>
+			</ul>
 		</div>
 
 		<!-- End Approach Nav -->
@@ -216,9 +216,9 @@
 								<h2>&nbsp;&nbsp;Deliver</h2>
 							</a>
 						</li>
-						<div class="fixed-spacer">
+						<li class="fixed-spacer">
 							<h2>&nbsp;</h2>
-						</div>
+						</li>
 						<li>
 							<a href="#plan-content" class="nav-buttons flexbox fixed-next-page">
 								<h2>Plan&nbsp;&nbsp;</h2>
