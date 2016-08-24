@@ -40,7 +40,7 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
@@ -188,7 +188,7 @@
 			<ul class="section_tabs flexbox work-fixed-nav-buttons">
 				<li>
 					<a href="../kumho" class="nav-buttons flexbox fixed-previous-page">
-						<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-left.svg" alt="Prev" />
 						<h2>&nbsp;&nbsp;Prev</h2>
 					</a>
 				</li>
@@ -198,7 +198,7 @@
 				<li>
 					<a href="../albemarle-bond" class="nav-buttons flexbox fixed-next-page">
 						<h2>Next&nbsp;&nbsp;</h2>
-						<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
 					</a>
 				</li>
 			</ul>

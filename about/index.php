@@ -42,7 +42,7 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
@@ -364,52 +364,52 @@
 				</div>
 				<div class="client-logos-panel flexbox">
 					<div class="client-logos">
-						<img src="/img/client-logos/pgl.svg">
+						<img src="/img/client-logos/pgl.svg" alt="PGL">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/ppcp.svg">
+						<img src="/img/client-logos/ppcp.svg" alt="PPCP">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/hags.svg">
+						<img src="/img/client-logos/hags.svg" alt="HAGS">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/concha-y-toro.svg">
+						<img src="/img/client-logos/concha-y-toro.svg" alt="Concha-Y-Toro">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/space-zero.svg">
+						<img src="/img/client-logos/space-zero.svg" alt="Space Zero">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/lowell.svg">
+						<img src="/img/client-logos/lowell.svg" alt="Lowell">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/spaldings.svg">
+						<img src="/img/client-logos/spaldings.svg" alt="Spaldings">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/kumho.svg">
+						<img src="/img/client-logos/kumho.svg" alt="Kumho Tyre">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/matthew-clark.svg">
+						<img src="/img/client-logos/matthew-clark.svg" alt="Matthew Clarke">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/mersey-rail.svg">
+						<img src="/img/client-logos/mersey-rail.svg" alt="Mersey Rail">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/mufc.svg">
+						<img src="/img/client-logos/mufc.svg" alt="Manchester United">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/dr-beckmann.svg">
+						<img src="/img/client-logos/dr-beckmann.svg" alt="Dr Beckmann">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/albemarle-bond.svg">
+						<img src="/img/client-logos/albemarle-bond.svg" alt="Albemarle Bond">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/warren-partners.svg">
+						<img src="/img/client-logos/warren-partners.svg" alt="Warren Partners">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/wd40.svg">
+						<img src="/img/client-logos/wd40.svg" alt="WD40">
 					</div>
 					<div class="client-logos">
-						<img src="/img/client-logos/bike-and-go.svg">
+						<img src="/img/client-logos/bike-and-go.svg" alt="Bike and Go">
 					</div>
 				</div>
 			</div>
@@ -430,73 +430,73 @@
 				</div>
 				<div class="awards-panel flexbox">
 					<div class="awards">
-						<img src="/img/awards/summit.jpg">
+						<img src="/img/awards/summit.jpg" alt="Summit Creative Awards">
 						<div class="award-biography flexbox">
 							<p>Summit Creative Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/global.jpg">
+						<img src="/img/awards/global.jpg" alt="The Global Awards">
 						<div class="award-biography flexbox">
 							<p>The Global Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/new-york.jpg">
+						<img src="/img/awards/new-york.jpg" alt="The New York Festivals">
 						<div class="award-biography flexbox">
 							<p>The New York Festivals</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/pmea.jpg">
+						<img src="/img/awards/pmea.jpg" alt="PMEA Awards">
 						<div class="award-biography flexbox">
 							<p>PMEA Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/rx-club.jpg">
+						<img src="/img/awards/rx-club.jpg" alt="The RX Club">
 						<div class="award-biography flexbox">
 							<p>The RX Club</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/roses.jpg">
+						<img src="/img/awards/roses.jpg" alt="Roses Design Awards">
 						<div class="award-biography flexbox">
 							<p>Roses Design Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/epica.jpg">
+						<img src="/img/awards/epica.jpg" alt="EPICA Creative Awards">
 						<div class="award-biography flexbox">
 							<p>EPICA Creative Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/veterinary.jpg">
+						<img src="/img/awards/veterinary.jpg" alt="Veterinary Marketing Awards">
 						<div class="award-biography flexbox">
 							<p>Veterinary Marketing Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/ipa.jpg">
+						<img src="/img/awards/ipa.jpg" alt="IPA Awards">
 						<div class="award-biography flexbox">
 							<p>IPA Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/cresta.jpg">
+						<img src="/img/awards/cresta.jpg" alt="Creata Advertising Awards">
 						<div class="award-biography flexbox">
 							<p>Creata Advertising Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/drum.jpg">
+						<img src="/img/awards/drum.jpg" alt="The Drum Awards">
 						<div class="award-biography flexbox">
 							<p>The Drum Awards</p>
 						</div>
 					</div>
 					<div class="awards">
-						<img src="/img/awards/rar.jpg">
+						<img src="/img/awards/rar.jpg" alt="RAR Awards">
 						<div class="award-biography flexbox">
 							<p>RAR Awards</p>
 						</div>

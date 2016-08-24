@@ -7,6 +7,7 @@ h1 {
     font-size: 2.8em;
     line-height: 0.9em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
     text-transform: uppercase;
     font-size: 2.25em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 h3 {
@@ -22,6 +24,7 @@ h3 {
     line-height: 1.4em;
     font-size: 1.25em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 h4 {
@@ -29,6 +32,7 @@ h4 {
     text-transform: uppercase;
     font-size: 1em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 p {
@@ -76,6 +80,7 @@ hr {
     background: $foundry_red;
 }
 p:first-of-type {font-family: $foundry_bold;}
+p:last-of-type {margin-bottom: 0;}
 ul {list-style: none;}
 img {display: block;}
 .flexbox {display: flex;}
@@ -96,6 +101,15 @@ img {display: block;}
 
 @media screen and (max-width: 1150px) {
     .main-container {max-width: initial; width: 90%; margin: 0 5%;}
+}
+
+@media screen and (max-width: 800px) {
+    .centered {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        .rule img {margin-left: 0;}
+    }
 }
 
 @media screen and (max-width: 570px) {

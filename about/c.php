@@ -42,7 +42,7 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">

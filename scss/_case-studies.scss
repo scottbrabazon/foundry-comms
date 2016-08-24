@@ -343,7 +343,7 @@
 
 	#ppcp1 {
 		.row-1 {flex-direction: column;}
-		.col-1 {padding-top: 600px;}
+		.col-1 {padding-top: 650px;}
 	}
 	#ppcp3 {
 		.row-1 {flex-direction: column;}
@@ -361,9 +361,12 @@
 }
 
 @media screen and (max-width: 360px) {
-    #work-masthead.masthead {margin-top: 63px;}
+    #work-masthead.masthead {
+    	margin-top: 63px;}
     #ppcp1 {
-		.col-1 {padding-top: 800px;}
+    	background: black url("/img/case-studies/ppcp/ppcp1anarrow.jpg") no-repeat top right;
+    	background-size: cover;
+		.col-1 {padding-top: 350px;}
 	}
 }
 

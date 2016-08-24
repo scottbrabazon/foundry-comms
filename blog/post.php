@@ -49,7 +49,7 @@ perch_layout('global.header', array(
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | News and Views | <?php perch_blog_post_field(perch_get('s'), 'postTitle'); ?></title>
-		<meta name="description" content="Footfall description goes here" />
+		<meta name="description" content="xxxxxxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 
@@ -68,7 +68,7 @@ perch_layout('global.header', array(
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">

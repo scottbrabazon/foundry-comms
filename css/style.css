@@ -557,8 +557,9 @@ table {
 /* Fonts */
 @font-face {
   font-family: 'Gotham Black';
-  src: url(../fonts/gotham-black.woff);
-  src: url(../fonts/gotham-black.woff2);
+  src: url(../fonts/gothamhtf-black-webfont.woff);
+  src: url(../fonts/gothamhtf-black-webfont.woff2);
+  src: url(../fonts/GothamHTF-Black.otf);
 }
 
 @font-face {
@@ -610,34 +611,38 @@ h1 {
   font-size: 2.8em;
   line-height: 0.9em;
   margin: 0 0 0.5em 0;
+  font-weight: 100;
 }
 
-/* line 12, ../scss/_base.scss */
+/* line 13, ../scss/_base.scss */
 h2 {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   font-size: 2.25em;
   margin: 0 0 0.5em 0;
+  font-weight: 100;
 }
 
-/* line 19, ../scss/_base.scss */
+/* line 21, ../scss/_base.scss */
 h3 {
   font-family: "Gotham Black", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   line-height: 1.4em;
   font-size: 1.25em;
   margin: 0 0 0.5em 0;
+  font-weight: 100;
 }
 
-/* line 27, ../scss/_base.scss */
+/* line 30, ../scss/_base.scss */
 h4 {
   font-family: "Gotham Medium Condensed", sans-serif, arial, sans-serif;
   text-transform: uppercase;
   font-size: 1em;
   margin: 0 0 0.5em 0;
+  font-weight: 100;
 }
 
-/* line 34, ../scss/_base.scss */
+/* line 38, ../scss/_base.scss */
 p {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 0.9em;
@@ -645,14 +650,14 @@ p {
   margin: 0 0 1em 0;
 }
 
-/* line 41, ../scss/_base.scss */
+/* line 45, ../scss/_base.scss */
 a {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 1em;
   text-decoration: none;
 }
 
-/* line 47, ../scss/_base.scss */
+/* line 51, ../scss/_base.scss */
 li {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: inherit;
@@ -661,28 +666,28 @@ li {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 55, ../scss/_base.scss */
+  /* line 59, ../scss/_base.scss */
   h1 {
     font-size: 3em;
   }
 
-  /* line 59, ../scss/_base.scss */
+  /* line 63, ../scss/_base.scss */
   h2 {
     font-size: 3em;
   }
 
-  /* line 63, ../scss/_base.scss */
+  /* line 67, ../scss/_base.scss */
   h3 {
     font-size: 2em;
   }
 }
 /* General */
-/* line 71, ../scss/_base.scss */
+/* line 75, ../scss/_base.scss */
 * {
   outline: none;
 }
 
-/* line 72, ../scss/_base.scss */
+/* line 76, ../scss/_base.scss */
 hr {
   border: 0;
   height: 1px;
@@ -690,74 +695,91 @@ hr {
   background: #c62b32;
 }
 
-/* line 78, ../scss/_base.scss */
+/* line 82, ../scss/_base.scss */
 p:first-of-type {
   font-family: "Gotham Bold", sans-serif, arial, sans-serif;
 }
 
-/* line 79, ../scss/_base.scss */
+/* line 83, ../scss/_base.scss */
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 84, ../scss/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 80, ../scss/_base.scss */
+/* line 85, ../scss/_base.scss */
 img {
   display: block;
 }
 
-/* line 81, ../scss/_base.scss */
+/* line 86, ../scss/_base.scss */
 .flexbox {
   display: flex;
 }
 
-/* line 82, ../scss/_base.scss */
+/* line 87, ../scss/_base.scss */
 .main-container {
   max-width: 1075px;
   margin: 0 auto;
 }
 
-/* line 86, ../scss/_base.scss */
+/* line 91, ../scss/_base.scss */
 .container {
   position: relative;
   width: 100%;
 }
 
-/* line 87, ../scss/_base.scss */
+/* line 92, ../scss/_base.scss */
 .hideme {
   opacity: 0;
 }
 
-/* line 88, ../scss/_base.scss */
+/* line 93, ../scss/_base.scss */
 .rule img {
   margin-bottom: 30px;
 }
 
-/* line 89, ../scss/_base.scss */
+/* line 94, ../scss/_base.scss */
 .centered {
   width: 70%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 93, ../scss/_base.scss */
+/* line 98, ../scss/_base.scss */
 .centered .rule img {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 94, ../scss/_base.scss */
+/* line 99, ../scss/_base.scss */
 .centered p:first-of-type {
   font-family: "Gotham Bold", sans-serif, arial, sans-serif;
 }
 
 @media screen and (max-width: 1150px) {
-  /* line 98, ../scss/_base.scss */
+  /* line 103, ../scss/_base.scss */
   .main-container {
     max-width: initial;
     width: 90%;
     margin: 0 5%;
   }
 }
+@media screen and (max-width: 800px) {
+  /* line 107, ../scss/_base.scss */
+  .centered {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  /* line 111, ../scss/_base.scss */
+  .centered .rule img {
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 570px) {
-  /* line 102, ../scss/_base.scss */
+  /* line 116, ../scss/_base.scss */
   .centered {
     width: 90%;
   }
@@ -8154,6 +8176,7 @@ button img {
 .services-menu {
   margin-left: 5%;
   width: 20%;
+  margin-bottom: 40px;
 }
 /* line 45, ../scss/_our-approach.scss */
 .services-menu a {
@@ -8169,64 +8192,64 @@ button img {
   list-style: none;
 }
 
-/* line 51, ../scss/_our-approach.scss */
+/* line 52, ../scss/_our-approach.scss */
 .listen_tab_content li, .plan_tab_content li, .deliver_tab_content li, .services-menu li {
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
   font-size: 0.85em;
   line-height: 2em;
 }
 
-/* line 58, ../scss/_our-approach.scss */
+/* line 59, ../scss/_our-approach.scss */
 .listen_active a {
   color: #c62b32;
 }
 
-/* line 59, ../scss/_our-approach.scss */
+/* line 60, ../scss/_our-approach.scss */
 .plan_active a {
   color: #c62b32;
 }
 
-/* line 60, ../scss/_our-approach.scss */
+/* line 61, ../scss/_our-approach.scss */
 .deliver_active a {
   color: #c62b32;
 }
 
-/* line 62, ../scss/_our-approach.scss */
+/* line 63, ../scss/_our-approach.scss */
 #approach-nav-buttons {
   margin: 60px 0 0 0;
   padding: 0;
 }
-/* line 63, ../scss/_our-approach.scss */
+/* line 64, ../scss/_our-approach.scss */
 #approach-nav-buttons ul {
   padding: 0;
   margin: 0;
 }
-/* line 64, ../scss/_our-approach.scss */
+/* line 65, ../scss/_our-approach.scss */
 #approach-nav-buttons li {
   list-style: none;
 }
-/* line 67, ../scss/_our-approach.scss */
+/* line 68, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons {
   display: flex;
   flex-direction: column;
 }
-/* line 70, ../scss/_our-approach.scss */
+/* line 71, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons h2 {
   color: #fff;
   margin: 0;
 }
-/* line 74, ../scss/_our-approach.scss */
+/* line 75, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons img {
   height: 100%;
   margin-top: 2px;
 }
-/* line 78, ../scss/_our-approach.scss */
+/* line 79, ../scss/_our-approach.scss */
 #approach-nav-buttons .nav-buttons a {
   width: 100%;
   background: #c62b32;
   padding: 40px 30px 35px 30px;
 }
-/* line 84, ../scss/_our-approach.scss */
+/* line 85, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page {
   flex-direction: row;
   margin-bottom: 10px;
@@ -8234,19 +8257,19 @@ button img {
   background-size: cover;
   padding: 20px;
 }
-/* line 87, ../scss/_our-approach.scss */
+/* line 88, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page a {
   align-items: center;
 }
-/* line 88, ../scss/_our-approach.scss */
+/* line 89, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page h2 {
   margin: 0;
 }
-/* line 92, ../scss/_our-approach.scss */
+/* line 93, ../scss/_our-approach.scss */
 #approach-nav-buttons .previous-page a {
   color: #fff;
 }
-/* line 94, ../scss/_our-approach.scss */
+/* line 95, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page {
   flex-direction: row;
   margin-bottom: 10px;
@@ -8255,20 +8278,20 @@ button img {
   padding: 20px;
   justify-content: flex-end;
 }
-/* line 97, ../scss/_our-approach.scss */
+/* line 98, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page a {
   align-items: center;
 }
-/* line 98, ../scss/_our-approach.scss */
+/* line 99, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page h2 {
   margin: 0;
 }
-/* line 103, ../scss/_our-approach.scss */
+/* line 104, ../scss/_our-approach.scss */
 #approach-nav-buttons .next-page a {
   color: #fff;
 }
 
-/* line 107, ../scss/_our-approach.scss */
+/* line 108, ../scss/_our-approach.scss */
 #approach-fixed-nav-buttons {
   width: 100%;
   position: fixed;
@@ -8277,26 +8300,26 @@ button img {
   padding: 0;
   pointer-events: none;
 }
-/* line 114, ../scss/_our-approach.scss */
+/* line 115, ../scss/_our-approach.scss */
 #approach-fixed-nav-buttons ul {
   padding: 0;
   margin: 0;
 }
-/* line 115, ../scss/_our-approach.scss */
+/* line 116, ../scss/_our-approach.scss */
 #approach-fixed-nav-buttons li {
   list-style: none;
 }
 
-/* line 118, ../scss/_our-approach.scss */
+/* line 119, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons {
   width: 100%;
   justify-content: space-between;
 }
-/* line 121, ../scss/_our-approach.scss */
+/* line 122, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons a {
   padding: 20px;
 }
-/* line 122, ../scss/_our-approach.scss */
+/* line 123, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons h2 {
   font-size: 1em;
   font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
@@ -8305,17 +8328,17 @@ button img {
   text-transform: uppercase;
   margin-top: 6px;
 }
-/* line 130, ../scss/_our-approach.scss */
+/* line 131, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons img {
   margin-top: 2px;
 }
-/* line 133, ../scss/_our-approach.scss */
+/* line 134, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons div {
   width: 47.5%;
   background: #c62b32;
   padding: 15px 15px;
 }
-/* line 138, ../scss/_our-approach.scss */
+/* line 139, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons .fixed-previous-page {
   flex-direction: row;
   background: #c62b32;
@@ -8323,7 +8346,7 @@ button img {
   align-items: center;
   pointer-events: auto;
 }
-/* line 145, ../scss/_our-approach.scss */
+/* line 146, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons .fixed-next-page {
   flex-direction: row;
   flex-direction: row;
@@ -8333,66 +8356,65 @@ button img {
   align-items: center;
   pointer-events: auto;
 }
-/* line 154, ../scss/_our-approach.scss */
+/* line 155, ../scss/_our-approach.scss */
 .approach-fixed-nav-buttons .fixed-spacer {
   background: transparent;
   width: auto;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 161, ../scss/_our-approach.scss */
+  /* line 162, ../scss/_our-approach.scss */
   .section_tabs {
     flex-direction: column;
   }
 
-  /* line 163, ../scss/_our-approach.scss */
+  /* line 164, ../scss/_our-approach.scss */
   #approach-top-nav li {
     margin: 10px 0;
   }
-  /* line 164, ../scss/_our-approach.scss */
+  /* line 165, ../scss/_our-approach.scss */
   #approach-top-nav a {
     width: 100%;
   }
-  /* line 165, ../scss/_our-approach.scss */
+  /* line 166, ../scss/_our-approach.scss */
   #approach-top-nav .button-next, #approach-top-nav .button-next:hover {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 168, ../scss/_our-approach.scss */
+  /* line 169, ../scss/_our-approach.scss */
   #approach-top-nav .button-next p, #approach-top-nav .button-next:hover p {
     margin-left: 10px;
   }
 
-  /* line 171, ../scss/_our-approach.scss */
+  /* line 172, ../scss/_our-approach.scss */
   .section_tabs {
     justify-content: center;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 175, ../scss/_our-approach.scss */
+  /* line 176, ../scss/_our-approach.scss */
   #approach-nav-buttons .previous-page {
     width: 47.5%;
     margin-right: 5%;
   }
-  /* line 176, ../scss/_our-approach.scss */
+  /* line 177, ../scss/_our-approach.scss */
   #approach-nav-buttons .next-page {
     width: 47.5%;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 180, ../scss/_our-approach.scss */
+  /* line 181, ../scss/_our-approach.scss */
   .our-approach-intro-copy {
     width: 100%;
   }
 
-  /* line 181, ../scss/_our-approach.scss */
+  /* line 182, ../scss/_our-approach.scss */
   .services-menu {
     order: -1;
     margin-left: 0;
     width: 100%;
-    margin-bottom: 40px;
   }
-  /* line 185, ../scss/_our-approach.scss */
+  /* line 186, ../scss/_our-approach.scss */
   .services-menu .rule {
     display: none;
   }
@@ -9079,7 +9101,7 @@ button img {
   }
   /* line 346, ../scss/_case-studies.scss */
   #ppcp1 .col-1 {
-    padding-top: 600px;
+    padding-top: 650px;
   }
 
   /* line 349, ../scss/_case-studies.scss */
@@ -9120,12 +9142,17 @@ button img {
   }
 
   /* line 366, ../scss/_case-studies.scss */
+  #ppcp1 {
+    background: black url("/img/case-studies/ppcp/ppcp1anarrow.jpg") no-repeat top right;
+    background-size: cover;
+  }
+  /* line 369, ../scss/_case-studies.scss */
   #ppcp1 .col-1 {
-    padding-top: 800px;
+    padding-top: 350px;
   }
 }
 @media screen and (max-width: 1200px) {
-  /* line 371, ../scss/_case-studies.scss */
+  /* line 374, ../scss/_case-studies.scss */
   #work-fixed-nav-buttons {
     display: none;
   }
