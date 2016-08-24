@@ -125,3 +125,7 @@
 		}
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.footer-row-1 {flex-direction: column;}
+}

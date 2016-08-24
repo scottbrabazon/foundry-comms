@@ -27,8 +27,8 @@ perch_layout('global.header', array(
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
-		<meta name="description" content="Footfall description goes here" />
+		<title>The Foundry | News and Views</title>
+		<meta name="description" content="xxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 

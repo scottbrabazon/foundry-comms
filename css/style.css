@@ -557,10 +557,8 @@ table {
 /* Fonts */
 @font-face {
   font-family: 'Gotham Black';
-  src: url(../fonts/gotham-black.oft);
-  src: url(../fonts/gotham-black.ttf);
-  src: url(../fonts/gotham-black.eot);
   src: url(../fonts/gotham-black.woff);
+  src: url(../fonts/gotham-black.woff2);
 }
 
 @font-face {
@@ -1655,6 +1653,12 @@ button img {
     width: 100px;
     margin: 0;
     padding: 0 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 130, ../scss/_footer.scss */
+  .footer-row-1 {
+    flex-direction: column;
   }
 }
 /* line 1, ../scss/_masthead.scss */
