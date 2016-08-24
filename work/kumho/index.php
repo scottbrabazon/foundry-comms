@@ -75,7 +75,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>Helping an unknown Korean tyre brand take the UK by storm.</h3>
+					<h3>Delivering a global brand to the UK market.</h3>
 				</div>
 				<div class="client-logo">
 					<img src="/img//client-logos/kumho-white.svg" alt="Kumho" />
@@ -88,7 +88,7 @@
 		<!-- Intro Copy -->
 
 		<section id="kumho-intro" class="main-container">
-			<div class="centered">
+			<div class="centered intoduction-paragraph">
 				<p>Kumho Tyre might be big in Korea, but in the UK they weren’t on the map. We developed a strategic approach and creative campaign that defined them as a Company that not only makes tyres; but also makes a difference to dealers, schools charities and communities.</p>
 			</div>
 			<hr />
@@ -168,7 +168,7 @@
 				</div>
 			</div>
 			
-			<div id="kumho3">
+			<div id="kumho3" class="main-container">
 				<div class="centered">
 					<h4>Campaign</h4>
 					<h2>Play Safer</h2>
@@ -216,7 +216,7 @@
 				<hr />
 			</div>
 			
-			<div id="kumho7">
+			<div id="kumho7" class="main-container">
 				<div class="centered">
 					<h4>Campaign</h4>
 					<h2>A tyre for all seasons</h2>
@@ -226,7 +226,7 @@
 					<p>A consumer press campaign highlighting the importance of choosing the right tyre for the conditions.</p>
 					<p>Given the UK’s famously inconsistent weather, Kumho provides car owners with a choice of tyres to help people stay safe on the roads. We used universally recognisable icons to encourage people to reconsider their choice of tyres.</p>
 				</div>
-				<div class="row-2 main-container flexbox">
+				<div class="row-2 flexbox">
 					<div class="col-1">
 						<img src="/img/case-studies/kumho/kumho7a.jpg" alt="Kumho creative" />
 					</div>

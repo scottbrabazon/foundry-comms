@@ -88,7 +88,7 @@
 		<!-- Intro Copy -->
 
 		<section id="pgl-intro" class="main-container">
-			<div class="centered">
+			<div class="centered intoduction-paragraph">
 				<p>A market-leading activity holiday provider came to us with an extremely complex multi-lingual website. They needed to make it more functional, compatible and accessible on all platforms, whilst protecting the interests of multiple users and audience types. We developed a bespoke framework and streamlined processes that resulted in lower bounce rates, longer sessions and increased bookings.</p>
 			</div>
 			<hr />

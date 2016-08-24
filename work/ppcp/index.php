@@ -88,7 +88,7 @@
 		<!-- Intro Copy -->
 
 		<section id="ppcp-intro" class="main-container">
-			<div class="centered">
+			<div class="centered intoduction-paragraph">
 				<p>Premier Vet Group had a pet wellness plan that wasn’t as healthy as it could be. Our research revealed vets and pet owners both want the same thing: pets at their best. We brought this new direction to life with refreshed branding, photography with real personality and dynamic communications that sold the concept effortlessly to practices and their clients.</p>
 			</div>
 			<hr />
@@ -159,7 +159,7 @@
 
 			<div id="ppcp2" class="main-container">
 				<div class="centered">
-					<h2>Practise Materials</h2>
+					<h2>Practice Materials</h2>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>

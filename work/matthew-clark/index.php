@@ -88,7 +88,7 @@
 		<!-- Intro Copy -->
 
 		<section id="matthew-clark-intro" class="main-container">
-			<div class="centered">
+			<div class="centered intoduction-paragraph">
 				<p>The UK’s largest drinks wholesaler had a sales force that relied on out-of-date, inconsistent data to sell their products to the on- and off-trade. We invented a unique digital sales toolkit that helped them to ensure all communications were unified and on-brand, enabling the Company to build profitable long-term relationships.</p>
 			</div>
 			<hr />

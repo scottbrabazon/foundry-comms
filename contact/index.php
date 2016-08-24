@@ -77,17 +77,20 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<div class="contact-details flexbox">
-						<div class="address">
+						<div class="address flexbox">
+							<img src="/img/address.svg" alt="Address" />
 							<p>
 								<strong>The Foundry Communications</strong><br>
 								3 Denmark Street, Altrincham<br>
 								Cheshire WA14 2SS
 							</p>
 						</div>
-						<div class="telephone">
+						<div class="telephone flexbox">
+							<img src="/img/telephone.svg" alt="Telephone" />
 							<a href="tel:+441619268444"><p>+44 (0)161 926 8444<p></a>
 						</div>
-						<div class="email">
+						<div class="email flexbox">
+							<img src="/img/email.svg" alt="Email" />
 							<a href="mailto:info@foundrycomms.co.uk"><p>info@foundrycomms.co.uk<p></a>
 						</div>
 					</div>

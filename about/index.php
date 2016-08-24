@@ -264,14 +264,14 @@
 							</div>
 						</div>
 						<div class="person-name-panel">
-							<p><span class="person-name">Mital Daya</span><br><span class="job-title">Art Director</span></p>
+							<p><span class="person-name">Mital Daya</span><br><span class="job-title">Senior Art Director</span></p>
 						</div>
 					</div>
 					<div class="hvr-bounce-to-right-person person">
 						<div class="person-image">
 							<img src="/img/staff/natalie-thumbnail-bw.jpg" alt="Natalie Whitten">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>A degree in Tropical Disease Biology means this puppy-mad foodie is the perfect tonic for our healthcare brands.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -282,11 +282,11 @@
 						<div class="person-image">
 							<img src="/img/staff/scott-thumbnail-bw.jpg" alt="Scott Brabazon">
 							<div class="person-biography flexbox">
-								<p>Artwork craftsman Scott is a harmonica - and football - playing Man Utd  fan with a reggae penchant.  He regularly rides a riddim, and has never missed a beat.</p>
+								<p>Artwork craftsman Scott is a football - playing Man Utd fan with a reggae penchant. He regularly rides a riddim, and has never missed a beat.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
-							<p><span class="person-name">Scott Brabazon</span><br><span class="job-title">Artworker</span></p>
+							<p><span class="person-name">Scott Brabazon</span><br><span class="job-title">Artworker/Developer</span></p>
 						</div>
 					</div>
 					<div class="hvr-bounce-to-right-person person">

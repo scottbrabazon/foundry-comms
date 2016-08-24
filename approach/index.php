@@ -114,7 +114,7 @@
 		<div class="main-container our-approach-content-copy">
 
 			<div id="listen-content" class="section_tab_content">
-				<div class="main-container">
+				<div>
 					<div class="our-approach-intro-copy">
 						<h1>Listen</h1>
 						<div class="rule">
@@ -238,7 +238,7 @@
 		<div class="main-container our-approach-content-copy">
 
 			<div id="plan-content" class="section_tab_content">
-				<div class="main-container">
+				<div>
 					<div class="our-approach-intro-copy">
 						<h1>Plan</h1>
 						<div class="rule">
@@ -341,7 +341,7 @@
 		<div class="main-container flexbox our-approach-content-copy">
 
 			<div id="deliver-content" class="section_tab_content">
-				<div class="main-container">
+				<div>
 					<div class="our-approach-intro-copy">
 						<h1>Deliver</h1>
 						<div class="rule">

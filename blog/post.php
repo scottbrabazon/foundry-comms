@@ -113,7 +113,7 @@ perch_layout('global.header', array(
 
 		<section id="posts" class="content content-lead-primary">
 		    <section class="column primary">
-		        <?php perch_blog_post_categories(perch_get('s'), 'post_categories.html'); ?>
+		       
 				<?php perch_blog_post(perch_get('s')); ?>
 				
 				
