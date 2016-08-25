@@ -27,8 +27,8 @@
 		<meta name="keywords" content="Keywords" />
 
 
-		<link rel="stylesheet" media="all" href="/css/style.css">
-		<link rel="stylesheet" media="all" href="/css/animate.css">
+		<link rel="stylesheet" media="all" href="../css/style.css">
+		<link rel="stylesheet" media="all" href="../css/animate.css">
 		<link rel="stylesheet" type="text/css" href="./slick/slick.css">
 		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
 		<link rel="stylesheet" type="text/css" href="./slick/slick-settings.css">

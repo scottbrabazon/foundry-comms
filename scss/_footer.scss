@@ -1,5 +1,4 @@
 #footer {
-	margin-top: 60px;
 	width: 100%;
     background: black url("/img/backgrounds/background-image-1.jpg") no-repeat center left;
     background-size: cover;
@@ -66,6 +65,7 @@
 
 .footer-row-1 {
 	.paging {margin-top: 30px;}
+	.paging strong {font-family: $foundry_bold;}
 	ul {padding: 0; margin: 0;}
 	li {width: 100%; margin-right: 0;}
 	li:last-child {margin-right: 0;}

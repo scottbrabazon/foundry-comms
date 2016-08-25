@@ -18,7 +18,7 @@
 #case-study-examples {
 	width: 100%; 
 	max-width: 1500px; 
-	margin: 0 auto;
+	margin: 0 auto 60px auto;
 	p:first-of-type {font-family: $foundry_regular;}
 }
 .full-width-image {
@@ -35,7 +35,9 @@
 #work-masthead.masthead {
 	background: black url("/img/backgrounds/case-study-intro.jpg") no-repeat top center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
+	.masthead-content {width: 100%;}
 }
 #work-intro {margin-top: 60px;}
 
@@ -45,7 +47,7 @@
 #work-fixed-nav-buttons {
 	width: 100%;
 	position: fixed;
-	top: 50%;
+	top: 40%;
 	left: 0;
 	padding: 0;
 	pointer-events: none;
@@ -102,7 +104,10 @@
 #abellio-masthead.masthead {
 	background: black url("/img/backgrounds/case-study-abellio.jpg") no-repeat bottom center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
 }
 
 #abellio-intro, #abellio1, #abellio2, #abellio3, #abellio4, #abellio5, #abellio6, #abellio7, #abellio8 {margin-top: 60px;}
@@ -131,7 +136,10 @@
 #albemarle-bond-masthead.masthead {
 	background: black url("/img/backgrounds/case-study-albemarle-bond.jpg") no-repeat bottom center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
 }
 
 #albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {margin-top: 60px;}
@@ -148,7 +156,10 @@
 #kumho-masthead.masthead {
 	background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
 }
 
 #kumho-intro {
@@ -223,7 +234,10 @@
 #matthew-clark-masthead.masthead {
 	background: black url("/img/backgrounds/case-study-matthew-clark.jpg") no-repeat bottom center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
 }
 
 #matthew-clark-intro, #matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {margin-top: 60px;}
@@ -234,7 +248,10 @@
 #pgl-masthead.masthead {
 	background: black url("/img/backgrounds/case-study-pgl.jpg") no-repeat bottom center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
 }
 
 #pgl-intro, #pgl1, #pgl2, #pgl3, #pgl4, #pgl5, #pgl6 {margin-top: 60px;}
@@ -245,7 +262,10 @@
 #ppcp-masthead.masthead {
 	background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat bottom center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
 }
 
 #ppcp-intro, #ppcp1, #ppcp2, #ppcp3, #ppcp4, #ppcp5, #ppcp6, #ppcp7 {margin-top: 60px;}

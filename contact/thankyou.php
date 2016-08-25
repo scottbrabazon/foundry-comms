@@ -22,12 +22,12 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Contact Us</title>
 		<meta name="description" content="xxxxxxxxxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/contact/" />
+		<link rel="canonical" href="http://dev.foundrydev.co.uk/contact/thankyou.php/" />
 		<meta name="keywords" content="Keywords" />
 
 
-		<link rel="stylesheet" media="all" href="../css/style.css">
-		<link rel="stylesheet" media="all" href="../css/animate.css">
+		<link rel="stylesheet" media="all" href="/css/style.css">
+		<link rel="stylesheet" media="all" href="/css/animate.css">
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="/js/responsiveslides.min.js"></script>
@@ -112,9 +112,17 @@
 
 		<!-- Enquiry Form -->
 
-		<?php perch_content('Enquiry Form'); ?>
+		<section id="thank-you">
+			<div class="centered">
+				<h1>Thank you for your enquiry<br>We will be in touch very soon</h1>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+			</div>
+		</section>
 
 		<!-- End Enquiry Form -->
+
 
 		<!-- Careers -->
 

@@ -1,7 +1,8 @@
 #contact-masthead.masthead {
 	background: black url("/img/backgrounds/background-image-2.svg") no-repeat top center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
+	height: 532px;
 	.masthead-content {width: 100%;}
 }
 
@@ -12,7 +13,7 @@
 	a {color: #fff;}
 }
 
-.address, .telephone, .email {flex-direction: column; justify-content: flex-start;}
+.address, .telephone, .email {flex-direction: column; justify-content: flex-start; margin-bottom: 20px;}
 .address img, .telephone img, .email img {align-self: flex-start;}
 
 #map img {width: 100%;}
@@ -36,6 +37,7 @@
 #careers {
 	clear: left;
 	margin-top: 60px;
+	margin-bottom: 60px;
 	h3 {margin-top: 60px;}
 }
 

@@ -112,7 +112,7 @@
 /* Common */
 
 #client-slider {
-	margin: 60px auto;
+	margin: 0 auto 60px auto;
 	max-width: 1500px;
 	background: #e0e0e0;
 }
@@ -126,7 +126,7 @@
 
 #homepage-showreel {
 	max-width: 1500px;
-    margin: 60px auto 0 auto;
+    margin: 60px auto 60px auto;
     background: black url("/img/backgrounds/background-image-5.jpg") no-repeat center left;
     background-size: cover;
     p:first-of-type {font-family: $foundry_regular;}

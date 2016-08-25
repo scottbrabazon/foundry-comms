@@ -98,6 +98,7 @@ img {display: block;}
     text-align: center;
     .rule img {margin-left: auto; margin-right: auto;}
     p:first-of-type {font-family: $foundry_bold;}
+    a {color: $foundry_red;}
 }
 
 @media screen and (max-width: 1150px) {
@@ -114,5 +115,5 @@ img {display: block;}
 }
 
 @media screen and (max-width: 570px) {
-    .centered {width: 90%;}
+    .centered {width: 100%;}
 }

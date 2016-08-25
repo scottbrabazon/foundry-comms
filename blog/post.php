@@ -111,7 +111,7 @@ perch_layout('global.header', array(
 
 		<!-- End Masthead -->
 
-		<section id="posts" class="content content-lead-primary">
+		<section id="posts" class="content content-lead-primary main-container">
 		    <section class="column primary">
 		       
 				<?php perch_blog_post(perch_get('s')); ?>

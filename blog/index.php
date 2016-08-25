@@ -91,7 +91,7 @@ perch_layout('global.header', array(
 		<!-- End Masthead -->
 
 
-		<section id="recent-posts-index">
+		<section id="recent-posts-index" class="main-container">
 
 				<?php perch_blog_recent_posts(6); ?>
 

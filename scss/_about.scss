@@ -1,9 +1,11 @@
 #about-masthead.masthead {
 	background: black url("/img/backgrounds/background-image-2.svg") no-repeat top center; 
 	background-size: cover;
-	margin-top: 63px;
+	margin-top: 68px;
 	.button-next {@include white-button-small;}
 	.button-next:hover {@include rollover-button-small;}
+	height: 532px;
+	.masthead-content {width: 100%;}
 }
 
 #who-we-are {
@@ -52,7 +54,6 @@
 #our-people {
 	margin-top: 60px; 
 	text-align: center;
-	.rule img {margin: 0 auto 3px auto;}
 }
 .people {margin-top: 40px;}
 
@@ -64,7 +65,7 @@
 	img {width: 80%; margin: 0 auto;}
 }
 
-#our-awards {margin-top: 60px;}
+#our-awards {margin-top: 60px; margin-bottom: 60px;}
 .awards-panel {flex-wrap: wrap; margin-top: 40px;}
 .awards {
 	width: 50%;
