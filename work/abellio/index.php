@@ -212,8 +212,13 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<a href="../kumho">
-							<img src="/img/case-studies/kumho.jpg" alt="Kumho Tyre case study" />
+						<a href="/work/kumho/">
+							<div class="project-image">
+								<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">Kumho Tyres</span><br><span class="project-title">Helping a Korean tyre brand take the UK by storm</span></p>
+							</div>
 						</a>
 					</div>
 					<div class="view-all-work flexbox">
@@ -223,8 +228,13 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<a href="../albemarle-bond">
-							<img src="/img/case-studies/albemarle-bond.jpg" alt="Albemarle Bond case study" />
+						<a href="/work/albemarle-bond/">
+							<div class="project-image">
+								<img src="/img/case-studies/albemarle-bond.jpg" alt="Albemarle Bond Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">Albemarle Bond</span><br><span class="project-title">Taking a brand from administration to sale in three years</span></p>
+							</div>
 						</a>
 					</div>
 				</div>

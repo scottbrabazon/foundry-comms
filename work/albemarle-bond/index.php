@@ -255,8 +255,13 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<a href="../abellio">
-							<img src="/img/case-studies/abellio.jpg" alt="Abellio case study" />
+						<a href="/work/abellio/">
+							<div class="project-image">
+								<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">Bike and Go</span><br><span class="project-title">Launching a revolutionary national bike hire scheme</span></p>
+							</div>
 						</a>
 					</div>
 					<div class="view-all-work flexbox">
@@ -266,8 +271,13 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<a href="../pgl">
-							<img src="/img/case-studies/pgl.jpg" alt="PGL case study" />
+						<a href="/work/pgl/">
+							<div class="project-image">
+								<img src="/img/case-studies/pgl.jpg" alt="PGL Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">PGL</span><br><span class="project-title">Turning complexity and scale into simplicity and ease</span></p>
+							</div>
 						</a>
 					</div>
 				</div>

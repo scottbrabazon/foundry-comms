@@ -315,8 +315,13 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<a href="../ppcp">
-							<img src="/img/case-studies/ppcp.jpg" alt="PPCP case study" />
+						<a href="/work/ppcp/">
+							<div class="project-image">
+								<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
+							</div>
 						</a>
 					</div>
 					<div class="view-all-work flexbox">
@@ -326,8 +331,13 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<a href="../abellio">
-							<img src="/img/case-studies/abellio.jpg" alt="Abellio case study" />
+						<a href="/work/abellio/">
+							<div class="project-image">
+								<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">Bike and Go</span><br><span class="project-title">Launching a revolutionary national bike hire scheme</span></p>
+							</div>
 						</a>
 					</div>
 				</div>

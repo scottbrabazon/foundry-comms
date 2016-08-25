@@ -92,25 +92,67 @@
 
 		<div id="case-studies">
 			<div class="case-studes-examples flexbox">
+					<div>
+						<a href="/work/ppcp/">
+							<div class="project-image">
+								<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
+							</div>
+						</a>
+					</div>
 				<div>
-					<a href="ppcp"><img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" /></a>
-				</div>
-				<div>
-					<a href="kumho"><img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" /></a>
+					<a href="/work/kumho/">
+						<div class="project-image">
+							<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
+						</div>
+						<div class="hvr-bounce-to-top project-name-panel">
+							<p class="project-info"><span class="project-client">Kumho Tyres</span><br><span class="project-title">Helping a Korean tyre brand take the UK by storm</span></p>
+						</div>
+					</a>
 				</div>
 				<div>	
-					<a href="abellio"><img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" /></a>
+					<a href="/work/abellio/">
+						<div class="project-image">
+							<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
+						</div>
+						<div class="hvr-bounce-to-top project-name-panel">
+							<p class="project-info"><span class="project-client">Bike and Go</span><br><span class="project-title">Launching a revolutionary national bike hire scheme</span></p>
+						</div>
+					</a>
 				</div>
 			</div>
 			<div class="case-studes-examples flexbox">
+					<div>
+						<a href="/work/albemarle-bond/">
+							<div class="project-image">
+								<img src="/img/case-studies/albemarle-bond.jpg" alt="Albemarle Bond Case Study" />
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">Albemarle Bond</span><br><span class="project-title">Taking a brand from administration to sale in three years</span></p>
+							</div>
+						</a>
+					</div>
 				<div>
-					<a href="albemarle-bond"><img src="/img/case-studies/albemarle-bond.jpg" alt="PPCP Case Study" /></a>
-				</div>
-				<div>
-					<a href="pgl"><img src="/img/case-studies/pgl.jpg" alt="Kuhmo Case Study" /></a>
+					<a href="/work/pgl/">
+						<div class="project-image">
+							<img src="/img/case-studies/pgl.jpg" alt="PGL Case Study" />
+						</div>
+						<div class="hvr-bounce-to-top project-name-panel">
+							<p class="project-info"><span class="project-client">PGL</span><br><span class="project-title">Turning complexity and scale into simplicity and ease</span></p>
+						</div>
+					</a>
 				</div>
 				<div>	
-					<a href="matthew-clark"><img src="/img/case-studies/matthew-clark.jpg" alt="Bike &amp; Go Case Study" /></a>
+					<a href="/work/matthew-clark/">
+						<div class="project-image">
+							<img src="/img/case-studies/matthew-clark.jpg" alt="Matthew Clark Case Study" />
+						</div>
+						<div class="hvr-bounce-to-top project-name-panel">
+							<p class="project-info"><span class="project-client">Matthew Clark</span><br><span class="project-title">Helping 1400 sales people tell &lsquo;one version of the truth&rsquo;</span></p>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>

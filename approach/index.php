@@ -537,19 +537,8 @@
 		<!-- End Deliver -->
 
 		<!-- Case Studes -->
-
-		<div id="case-studies" class="white-border">
-			<div class="case-studes-examples flexbox">
-				<div>
-					<a href="/work/ppcp"><img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" /></a>
-				</div>
-				<div>
-					<a href="/work/kumho"><img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" /></a>
-				</div>
-				<div>	
-					<a href="/work/abellio"><img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" /></a>
-				</div>
-			</div>
+		
+		<?php include_once($_SERVER['DOCUMENT_ROOT']."/inc/case-study-panel.php"); ?>
 
 		<!-- End Case Studes -->
 
