@@ -23,7 +23,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Who we are</title>
 		<meta name="description" content="xxxx" />
-		<link rel="canonical" href="/" />
+		<link rel="canonical" href="http://dev.foundrydev.co.uk/about/" />
 		<meta name="keywords" content="Keywords" />
 
 
@@ -79,8 +79,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<div class="contact-details flexbox">
-						<h3>The Foundry is a creative communications agency, built around world-class people that are passionate about growing our clients’ businesses.</h3>
-
+						<h3>The Foundry is a creative communications agency, built around world-class people who are passionate about growing our clients’ businesses.</h3>
 					</div>
 				</div>
 			</div>
@@ -96,7 +95,7 @@
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
-				<p>...we have helped to build brands, big and small, across all sectors, business and consumer, from automotive and retail to healthcare and travel.</p>
+				<p>...we have helped to build brands, big and small, across all sectors - business and consumer - from automotive and retail, to healthcare and travel.</p>
 				<p>If you have a marketing problem that could use a fresh pair of eyes, our planners, designers, art directors, writers and web developers are ready to solve it.</p>
 				<hr />
 			</div>
@@ -117,7 +116,7 @@
 						<div class="person-image">
 							<img src="/img/staff/anna-thumbnail-bw.jpg" alt="Anna Scott">
 							<div class="person-biography flexbox">
-								<p>Biog will go here when the animation is completed</p>
+								<p>This marathon-training Swede was a Graphic Designer before she moved to the dark side. Usually found drinking very strong coffee.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -143,14 +142,14 @@
 							</div>
 						</div>
 						<div class="person-name-panel">
-							<p><span class="person-name">Brian Childs</span><br><span class="job-title">Non Executive Director</span></p>
+							<p><span class="person-name">Brian Child</span><br><span class="job-title">Non Executive Director</span></p>
 						</div>
 					</div>
 					<div class="hvr-bounce-to-right-person person">
 						<div class="person-image">
 							<img src="/img/staff/cath-thumbnail-bw.jpg" alt="Cath Murphy">
 							<div class="person-biography flexbox">
-								<p>Our Finance Director and studio Agony Aunt dreams of owning a dog. Always at the helm of incredible Xmas parties.</p>
+								<p>Our Finance Director and company Agony Aunt dreams of owning a dog. Always at the helm of incredible Xmas parties.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -194,7 +193,7 @@
 						<div class="person-image">
 							<img src="/img/staff/kate-thumbnail-bw.jpg" alt="Kate Booth">
 							<div class="person-biography flexbox">
-								<p>This Designer admits to watching too much ‘trash TV’ but puts her creative talents to good use in the garden.</p>
+								<p>This Art Director admits to watching too much ‘trash TV’ but puts her creative talents to good use in the garden.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -260,7 +259,7 @@
 						<div class="person-image">
 							<img src="/img/staff/mital-thumbnail-bw.jpg" alt="Mital Daya">
 							<div class="person-biography flexbox">
-								<p>Sharpened his yellow pencil from a young age. When will our gym-loving Designer run off with yet another award?</p>
+								<p>Sharpened his yellow pencil from a young age. When will our gym-loving Senior Art Director run off with yet another award?</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -269,20 +268,20 @@
 					</div>
 					<div class="hvr-bounce-to-right-person person">
 						<div class="person-image">
-							<img src="/img/staff/natalie-thumbnail-bw.jpg" alt="Natalie Whitten">
+							<img src="/img/staff/natalie-thumbnail-bw.jpg" alt="Natalie Whiten">
 							<div class="person-biography flexbox">
 								<p>A degree in Tropical Disease Biology means this puppy-mad foodie is the perfect tonic for our healthcare brands.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
-							<p><span class="person-name">Natalie Whitten</span><br><span class="job-title">Account Executive</span></p>
+							<p><span class="person-name">Natalie Whiten</span><br><span class="job-title">Account Executive</span></p>
 						</div>
 					</div>
 					<div class="hvr-bounce-to-right-person person">
 						<div class="person-image">
 							<img src="/img/staff/scott-thumbnail-bw.jpg" alt="Scott Brabazon">
 							<div class="person-biography flexbox">
-								<p>Artwork craftsman Scott is a football - playing Man Utd fan with a reggae penchant. He regularly rides a riddim, and has never missed a beat.</p>
+								<p>Artwork craftsman Scott is a football-playing Man Utd fan with a reggae penchant. He regularly rides a riddim, and has never missed a beat.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -308,7 +307,7 @@
 							</div>
 						</div>
 						<div class="person-name-panel">
-							<p><span class="person-name">Tracey Elliot</span><br><span class="job-title">Production Manager</span></p>
+							<p><span class="person-name">Tracey Elliott</span><br><span class="job-title">Production Manager</span></p>
 						</div>
 					</div>
 					<div class="hvr-bounce-to-right-person person">
@@ -326,7 +325,7 @@
 						<div class="person-image">
 							<img src="/img/staff/will-thumbnail-bw.jpg" alt="Will English">
 							<div class="person-biography flexbox">
-								<p>Our Associate Director would like to thank his brother for all the freebie festival tickets, courtesy of his band Maximo Park.</p>
+								<p>Our Associate Director would like to thank his brother for all the freebie festival tickets, courtesy of his band Maxïmo Park.</p>
 							</div>
 						</div>
 						<div class="person-name-panel">
@@ -515,6 +514,20 @@
 		<!-- End Footer -->
 
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript" src="//dust.ipfingerprint.com/1631.js"></script>
+
+		<div class="analytics">
+	    <!-- Google Analytics -->
+		    <script type="text/javascript">
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-76745-2', 'foundrycomms.co.uk');
+				ga('send', 'pageview');
+			</script>
+		</div>
 
 	</body>
 </html>

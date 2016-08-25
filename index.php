@@ -23,7 +23,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
 		<meta name="description" content="xxx" />
-		<link rel="canonical" href="/" />
+		<link rel="canonical" href="http://dev.foundrydev.co.uk/" />
 		<meta name="keywords" content="Keywords" />
 
 
@@ -122,7 +122,7 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>If you have a marketing problem, we’ll solve it. Whatever challenges you face as a business, we find the answers, strategically and creatively, and determine the right channels for you to market your products or services more effectively.</p>
-						<p>We start by listening to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but build your brand for tomorrow.</p>
+						<p>We start by listening, to generate actionable insights. This informs strategic development and helps formulate a plan. Then we deliver the ideas. Big ideas, that not only help you sell today, but also build your brand for tomorrow.</p>
 					</div>	
 					<div class="groupthree flexbox">
 						<div class="groupthree-content flexbox">
@@ -154,7 +154,7 @@
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p>On or offline, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
+							<p>On- or off-line, we are specialists across a range of services that can deliver either a one-off project or a fully integrated campaign. Whether it’s advertising, packaging, corporate identity, videos, events or digital development, we create solutions that work.</p>
 							<a href="/approach/#deliver-content">
 								<div class="hvr-bounce-to-right button-next flexbox">
 									<p>Find out more</p>
@@ -268,7 +268,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<a href="#">
-						<h1>New agency<br>show reel</h1>
+						<h1>New agency<br>showreel</h1>
 					</a>
 					<a href="#">
 						<div class="hvr-bounce-to-right button-next flexbox">
@@ -305,6 +305,20 @@
 			});
 		</script>
 		<script src="/js/fadein.js"></script>
+
+		<script type="text/javascript" src="//dust.ipfingerprint.com/1631.js"></script>
+
+		<div class="analytics">
+	    <!-- Google Analytics -->
+		    <script type="text/javascript">
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-76745-2', 'foundrycomms.co.uk');
+				ga('send', 'pageview');
+			</script>
+		</div>
 
 	</body>
 </html>

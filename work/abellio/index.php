@@ -22,7 +22,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Our Work | Abellio</title>
 		<meta name="description" content="xxxxxxxxxxx" />
-		<link rel="canonical" href="/" />
+		<link rel="canonical" href="http://dev.foundrydev.co.uk/work/abellio/" />
 		<meta name="keywords" content="Keywords" />
 
 
@@ -231,12 +231,21 @@
 			</div>	
 			<div class="footer-row-2">
 				<div class="social">
-					<img src="/img/social/twitter.svg" alt="Twitter" />
-					<img src="/img/social/facebook.svg" alt="Facebook" />
-					<img src="/img/social/you-tube.svg" alt="YouTube" />
-					<img src="/img/social/google-plus.svg" alt="Google Plus" />
-					<img src="/img/social/linkedin.svg" alt="LinkedIn" />
-					<img src="/img/social/pinterest.svg" alt="Pinterest" />
+					<a href="http://www.twitter.com/foundrycomms">
+						<img src="/img/social/twitter.svg" alt="Twitter" />
+					</a>
+					<a href="http://www.facebook.com/foundrycomms">
+						<img src="/img/social/facebook.svg" alt="Facebook" />
+					</a>
+					<a href="http://www.youtube.com/foundrycomms">
+						<img src="/img/social/you-tube.svg" alt="YouTube" />
+					</a>
+					<a href="http://www.linkedin.com/company/the-foundry-communications">
+						<img src="/img/social/linkedin.svg" alt="LinkedIn" />
+					</a>
+					<a href="http://www.pinterest.com/thefoundrycomms">
+						<img src="/img/social/pinterest.svg" alt="Pinterest" />
+					</a>
 				</div>	
 			</div>
 			<div class="footer main-container">
@@ -256,6 +265,20 @@
 		<!-- End Footer -->
 
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript" src="//dust.ipfingerprint.com/1631.js"></script>
+
+		<div class="analytics">
+	    <!-- Google Analytics -->
+		    <script type="text/javascript">
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-76745-2', 'foundrycomms.co.uk');
+				ga('send', 'pageview');
+			</script>
+		</div>
 
 	</body>
 </html>

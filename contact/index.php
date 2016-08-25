@@ -22,7 +22,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Contact Us</title>
 		<meta name="description" content="xxxxxxxxxx" />
-		<link rel="canonical" href="/" />
+		<link rel="canonical" href="http://dev.foundrydev.co.uk/contact/" />
 		<meta name="keywords" content="Keywords" />
 
 
@@ -124,7 +124,7 @@
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
-				<p>The Foundry is nothing without its people - and they are some of the best in the business. Hence our policy is to recruit only those who are better than us… or have the potential to be. That means finding people who can help deliver and service the diverse communication solutions we offer.</p>
+				<p>The Foundry is nothing without its people &ndash; and they are some of the best in the business. Hence our policy is to recruit only those who are <i>better</i> than us… or have the potential to be. That means finding people who can help deliver and service the diverse communication solutions we offer.</p>
 				<p>Our focus is building brands and profits for both our clients and ourselves.</p>
 				<p>In return for dedication, professionalism and a passion for excellence, we offer generous remuneration packages for the right candidates.</p>
 
@@ -132,7 +132,7 @@
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
-				<p>Unfortunately there are no vacancies. However we are always interested in talented people, so if you think you could add to The Foundry then please email us your CV.</p>
+				<p>Unfortunately, there are no vacancies, at the moment. However we are always interested in talented people, so if you think you could add to The Foundry, then please <a href="mailto:info@foundrycomms.co.uk">email us</a> your CV.</p>
 			</div>
 		</section>
 
@@ -145,5 +145,19 @@
 		<!-- End Footer -->
 
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript" src="//dust.ipfingerprint.com/1631.js"></script>
+
+		<div class="analytics">
+	    <!-- Google Analytics -->
+		    <script type="text/javascript">
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-76745-2', 'foundrycomms.co.uk');
+				ga('send', 'pageview');
+			</script>
+		</div>
 	</body>
 </html>
