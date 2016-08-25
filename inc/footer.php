@@ -4,7 +4,7 @@
 			<?php 
 			perch_blog_custom(array(
 				'sort'=>'postDateTime',
-				'sort-order'=>'RAND',
+				'sort-order'=>'DESC',
 				'template'=>'blog/post_in_footer.html',
 				'count'=>'3'
 			)); ?>

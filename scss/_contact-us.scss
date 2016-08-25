@@ -12,12 +12,8 @@
 	a {color: #fff;}
 }
 
-.address {background: transparent url("/img/address.svg") no-repeat top left;}
-.telephone {background: transparent url("/img/telephone.svg") no-repeat top left;}
-.email {background: transparent url("/img/email.svg") no-repeat top left;}
-
-.address, .telephone, .email {padding-left: 50px;}
-.address, .telephone {height: 105px;}
+.address, .telephone, .email {flex-direction: column; justify-content: flex-start;}
+.address img, .telephone img, .email img {align-self: flex-start;}
 
 #map img {width: 100%;}
 #map {margin-top: 60px;}
@@ -43,7 +39,6 @@
 	h3 {margin-top: 60px;}
 }
 
-
 @media screen and (max-width: 800px) {
 	.contact-details {
 		flex-direction: column;
@@ -51,8 +46,17 @@
 	}
 	#enquiry-form {
 		width: 90%;
-			h1 {text-align: left;}
-			p {text-align: left;}
-			.rule img {margin: 0 0 30px 0;}
-		}
+		h1 {text-align: left;}
+		p {text-align: left;}
+		.rule img {margin: 0 0 30px 0;}
+	}
+}
+@media screen and (min-width: 800px) {
+	.address, .telephone, .email {flex-direction: row;}
+	.address img, .telephone img, .email img {padding-right: 10px;}
+}
+@media screen and (max-width: 1150px) {
+	#contact-masthead.masthead {
+		.masthead-content {width: 90%;}
+	}
 }

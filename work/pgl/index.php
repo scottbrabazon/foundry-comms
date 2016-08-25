@@ -20,8 +20,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
-		<meta name="description" content="Footfall description goes here" />
+		<title>The Foundry | Our Work | PGL</title>
+		<meta name="description" content="xxxxxxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 
@@ -40,11 +40,11 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
-						<img src="/img/menu.svg" alt="Menu"></a>
+						<img src="/img/menu.svg" alt="Menu">
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
@@ -88,7 +88,7 @@
 		<!-- Intro Copy -->
 
 		<section id="pgl-intro" class="main-container">
-			<div class="centered">
+			<div class="centered intoduction-paragraph">
 				<p>A market-leading activity holiday provider came to us with an extremely complex multi-lingual website. They needed to make it more functional, compatible and accessible on all platforms, whilst protecting the interests of multiple users and audience types. We developed a bespoke framework and streamlined processes that resulted in lower bounce rates, longer sessions and increased bookings.</p>
 			</div>
 			<hr />
@@ -179,7 +179,7 @@
 			<ul class="section_tabs flexbox work-fixed-nav-buttons">
 				<li>
 					<a href="../albemarle-bond" class="nav-buttons flexbox fixed-previous-page">
-						<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-left.svg" alt="Prev" />
 						<h2>&nbsp;&nbsp;Prev</h2>
 					</a>
 				</li>
@@ -189,7 +189,7 @@
 				<li>
 					<a href="../matthew-clark" class="nav-buttons flexbox fixed-next-page">
 						<h2>Next&nbsp;&nbsp;</h2>
-						<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
 					</a>
 				</li>
 			</ul>
@@ -237,7 +237,6 @@
 						<a href="/contact">
 							<div class="hvr-bounce-to-right button-next flexbox">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right-no-border.svg" alt="Make Enquiry" />
 							</div>
 						</a>
 					</div>

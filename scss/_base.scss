@@ -4,24 +4,28 @@
 h1 {
     font-family: $foundry_extra_bold;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.8em;
     line-height: 0.9em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 h2 {
     font-family: $foundry_extra_bold;
     text-transform: uppercase;
     font-size: 2.25em;
+    line-height: 0.9em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 h3 {
     font-family: $foundry_extra_bold;
     text-transform: uppercase;
-    line-height: 1.2em;
+    line-height: 1.4em;
     font-size: 1.25em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 h4 {
@@ -29,6 +33,7 @@ h4 {
     text-transform: uppercase;
     font-size: 1em;
     margin: 0 0 0.5em 0;
+    font-weight: 100;
 }
 
 p {
@@ -53,7 +58,7 @@ li {
 
 @media screen and (min-width: 800px) {
     h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     h2 {
@@ -69,7 +74,14 @@ li {
 /* General */
 
 * {outline: none;}
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 60px;
+    background: $foundry_red;
+}
 p:first-of-type {font-family: $foundry_bold;}
+p:last-of-type {margin-bottom: 0;}
 ul {list-style: none;}
 img {display: block;}
 .flexbox {display: flex;}
@@ -89,8 +101,18 @@ img {display: block;}
 }
 
 @media screen and (max-width: 1150px) {
-    .main-container {
-        max-width: initial; width: 90%; margin: 0 5%;
-    }
+    .main-container {max-width: initial; width: 90%; margin: 0 5%;}
+}
 
+@media screen and (max-width: 800px) {
+    .centered {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        .rule img {margin-left: 0;}
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .centered {width: 90%;}
 }

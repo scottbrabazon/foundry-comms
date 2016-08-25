@@ -21,7 +21,7 @@
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
-		<meta name="description" content="Footfall description goes here" />
+		<meta name="description" content="xxxxxxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 
@@ -40,11 +40,11 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
-						<img src="/img/menu.svg" alt="Menu"></a>
+						<img src="/img/menu.svg" alt="Menu">
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
@@ -88,7 +88,7 @@
 		<!-- Intro Copy -->
 
 		<section id="ppcp-intro" class="main-container">
-			<div class="centered">
+			<div class="centered intoduction-paragraph">
 				<p>Premier Vet Group had a pet wellness plan that wasn’t as healthy as it could be. Our research revealed vets and pet owners both want the same thing: pets at their best. We brought this new direction to life with refreshed branding, photography with real personality and dynamic communications that sold the concept effortlessly to practices and their clients.</p>
 			</div>
 			<hr />
@@ -159,7 +159,7 @@
 
 			<div id="ppcp2" class="main-container">
 				<div class="centered">
-					<h2>Practise Materials</h2>
+					<h2>Practice Materials</h2>
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
@@ -228,7 +228,7 @@
 			<ul class="section_tabs flexbox work-fixed-nav-buttons">
 				<li>
 					<a href="../matthew-clark" class="nav-buttons flexbox fixed-previous-page">
-						<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-left.svg" alt="Prev" />
 						<h2>&nbsp;&nbsp;Prev</h2>
 					</a>
 				</li>
@@ -238,7 +238,7 @@
 				<li>
 					<a href="../kumho" class="nav-buttons flexbox fixed-next-page">
 						<h2>Next&nbsp;&nbsp;</h2>
-						<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
 					</a>
 				</li>
 			</ul>

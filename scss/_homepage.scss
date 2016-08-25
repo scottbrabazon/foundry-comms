@@ -22,12 +22,22 @@
 	justify-content: flex-end;
 	height: 540px;
 	pointer-events: none;
-	h1 {color: #fff; height:150px; font-size: 2em;}
+	h1 {color: #fff; height:200px; font-size: 2em;}
 	p {font-size: 1em;}
 	.button-next {@include white-button-small;}
 	.button-next:hover {@include rollover-button-small;}
 }
 
+@media screen and (min-width: 350px) {
+	.slide {
+		h1 {height:150px;}
+	}
+}
+@media screen and (min-width: 580px) {
+	.slide {
+		h1 {height:100px;}
+	}
+}
 @media screen and (min-width: 680px) {
 	.slide {
 		h1 {height:150px; font-size: 3em;}
@@ -35,10 +45,9 @@
 }
 @media screen and (min-width: 1000px) {
 	.slide {
-		h1 {height:150px; font-size: 4em;}
+		h1 {height:200px; font-size: 4em;}
 	}
 }
-
 @media screen and (min-width: 1090px) {
 	.video-masthead video {
 			width: 100%;
@@ -56,7 +65,13 @@
 
 .groupthree {flex-direction: column;}
 .groupthree > div {margin-top: 60px;}
-.problem-solved {flex-direction: column;}
+.problem-solved {
+	flex-direction: column;
+	text-align: left; 
+	margin: 0; 
+	width: 100%;
+	.rule img {margin-left: 0;}
+}
 .groupthree-content {
 	flex-direction: column;
 	p:first-of-type {font-family: $foundry_regular;}
@@ -66,7 +81,13 @@
 
 
 @media screen and (min-width: 800px) {
-	.problem-solved {flex-direction: row;}
+	.problem-solved {
+		flex-direction: row;
+		text-align: center; 
+		margin: auto; 
+		width: 70%;
+		.rule img {margin-left: auto;}
+	}
 	.problem-solved-1 {text-align: right;}
 	.problem-solved-2 {padding-left: 50px;}
 	.groupthree {

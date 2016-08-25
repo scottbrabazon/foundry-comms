@@ -1,33 +1,33 @@
 /* General */
 
-hr {
-	border: 0;
-    height: 2px;
-    margin-top: 60px;
-    background: $foundry_red;
-}
 .col-1, .col-2 {width: 47.5%;}
 .col-1 {margin-right: 5%;}
-.col-1 p:first-of-type {font-family: $foundry_extra_bold;}
+.col-1 p:first-of-type {font-family: $foundry_bold;}
 .case-study-introduction {width: 70%; margin: 0 15%; text-align: center;}
 .listen-copy, .plan-copy, .deliver-copy {
 	width: 60%;
-	p:first-of-type {font-family: $foundry_extra_bold;}
+	p:first-of-type {font-family: $foundry_bold;}
+	li {
+	    font-family: $foundry_regular;
+	    font-size: 0.9em;
+	    line-height: 2.2em;
+	}
 }
 .listen h2, .plan h2, .deliver h2 {width: 30%; text-align: right; padding-right: 30px;}
 .listen, .plan, .deliver {margin-top: 60px;}
-#case-study-examples {width: 100%; max-width: 1500px; margin: 0 auto;}
+#case-study-examples {
+	width: 100%; 
+	max-width: 1500px; 
+	margin: 0 auto;
+	p:first-of-type {font-family: $foundry_regular;}
+}
 .full-width-image {
 	width: 100%;
 	img {width: 100%;}
 }
-.full-width-copy {
-	width: 70%; 
-	margin: 0 15%; 
-	text-align: center;
-	.rule {width: auto;}
-	p:first-of-type {font-family: $foundry_extra_bold;}
-	.rule img {margin: 0 auto 30px auto;}
+.intoduction-paragraph {
+	p:first-of-type {font-family: $foundry_regular;}
+	p {font-size: 1em;}
 }
 
 /* Work Intro */
@@ -172,7 +172,11 @@ hr {
 	background-size: cover;
 	color: #fff;
 	height: 550px;
-	.col-1 {padding-top: 60px;}
+	.col-1 {
+		p:first-of-type {font-family: $foundry_regular;}
+		p {font-family: $foundry_thin;}
+		padding-top: 60px;
+	}
 }
 #kumho5 {
 	margin-top: 60px;
@@ -196,8 +200,7 @@ hr {
 	background-size: cover;
 	img {width: 100%;}
 	.rule img {width: 31px;}
-	.col-1 {padding-top: 60px; order: 1;}
-	.col-2 {order: 2;}
+	.col-1 {padding-top: 60px;}
 	.row-1 {flex-direction: row;}
 	.row-2 {flex-direction: row;}
 	padding-bottom: 60px;
@@ -278,7 +281,7 @@ hr {
 	.col-1 {margin-right: 0;}
 	.masthead-content {flex-direction: column; align-items: flex-start;}
 	.headlines {order: 2; margin-top: 20px;}
-	.client-logo {order: 1;}
+	.client-logo {order: 1; visibility: hidden;}
 	.listen, .plan, .deliver {flex-direction: column;}
 	.listen-copy, .plan-copy, .deliver-copy {width: 100%;}
 	.listen h2, .plan h2, .deliver h2 {width: 100%; text-align: left; padding-right: 0;}
@@ -288,8 +291,10 @@ hr {
 
 	#albemarle-bond1 {
 		.row-1 {flex-direction: column;}
-		background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom right;
-		background-size: cover;
+		background: none;
+		height: auto;
+		text-align: center;
+		.rule img {margin: 0 auto 30px auto;}
 		}
 
 	/* Kumho */
@@ -311,10 +316,9 @@ hr {
 		.col-2 {margin-top: 60px;}
 	}
 	#kumho8 {
-		.col-1 {padding-top: 20px; order: 2;}
+		.col-1 {padding-top: 20px;}
 		.col-2 {
-			order: 1;
-			img {width: 50%; margin: 0 25%;}
+			img {width: 80%; margin: 0 10%;}
 		}
 		.row-1 {flex-direction: column;}
 		.row-2 {
@@ -339,7 +343,7 @@ hr {
 
 	#ppcp1 {
 		.row-1 {flex-direction: column;}
-		.col-1 {padding-top: 600px;}
+		.col-1 {padding-top: 650px;}
 	}
 	#ppcp3 {
 		.row-1 {flex-direction: column;}
@@ -353,6 +357,16 @@ hr {
 	#ppcp7 {
 		.row-1 {flex-direction: column;}
 		.col-1, .col-2 {width: 100%;}
+	}
+}
+
+@media screen and (max-width: 360px) {
+    #work-masthead.masthead {
+    	margin-top: 63px;}
+    #ppcp1 {
+    	background: black url("/img/case-studies/ppcp/ppcp1anarrow.jpg") no-repeat top right;
+    	background-size: cover;
+		.col-1 {padding-top: 350px;}
 	}
 }
 

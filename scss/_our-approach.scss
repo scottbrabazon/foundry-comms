@@ -31,7 +31,7 @@
 	}
 }
 
-.our-approach-intro-copy {margin-top: 60px;}
+.our-approach-intro-copy {margin: 60px auto 0 auto; width: 70%;}
 .tab-content-space {
 	margin-top: 60px;
 	strong {font-family: $foundry_extra_bold;}
@@ -45,6 +45,7 @@
 	a {color: #000;}
 	ul {padding: 0; margin: 0;}
 	li {list-style: none;}
+	margin-bottom: 40px;
 }
 
 .listen_tab_content, .plan_tab_content, .deliver_tab_content, .services-menu {
@@ -83,24 +84,23 @@
 	}
 	.previous-page {
 		flex-direction: row;
+		margin-bottom: 10px;
 		a {align-items: center;}
 		h2 {margin: 0;}
 	    background: black url("/img/backgrounds/background-image-3.jpg") no-repeat top left;
 	    background-size: cover;
 	    padding: 20px;
-	    width: 47.5%;
-	    margin-right: 5%;
 	    a {color: #fff;}
 	}
 	.next-page {
 		flex-direction: row;
+		margin-bottom: 10px;
 		a {align-items: center;}
 		h2 {margin: 0;}
 	    background: black url("/img/backgrounds/background-image-4.jpg") no-repeat top right;
 	    background-size: cover;
 	    padding: 20px;
 		justify-content: flex-end;
-		width: 47.5%;
 		a {color: #fff;}
 	}
 }
@@ -158,9 +158,54 @@
 	}
 }
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 600px) {
+    .section_tabs {flex-direction: column;}
+    #approach-top-nav {
+		li {margin: 10px 0;}
+		a {width: 100%;}
+		.button-next, .button-next:hover {
+			padding-left: 0; 
+			padding-right: 0; 
+			p {margin-left: 10px;}
+		}
+	}
+	.section_tabs {justify-content: center;}
+}
+@media screen and (min-width: 600px) {
+	#approach-nav-buttons {
+		.previous-page {width: 47.5%; margin-right: 5%;}
+		.next-page {width: 47.5%;}
+	}
+}
+@media screen and (max-width: 500px) {
+	.our-approach-intro-copy {width: 100%;}
+    .services-menu {
+    	order: -1; 
+    	margin-left: 0; 
+    	width: 100%;
+    	.rule {display: none;}
+    }
+    .services-links ul {display: flex; flex-direction: column;}
+    .services-links li {margin-right: 20px;}
+    .listen_tab_content, .plan_tab_content, .deliver_tab_content {width: 100%}
+}
+
+@media screen and (max-width: 800px) {
+	.our-approach-intro-copy {width: 100%;}
+    .tab-content-space {flex-direction: column;}
+    .services-menu {
+    	order: -1; 
+    	margin-left: 0;
+    	width: 100%;
+    	.rule {display: none;}
+    }
+    .services-links ul {display: flex; flex-direction: column;}
+    .services-links li {margin-right: 20px;}
+    .listen_tab_content, .plan_tab_content, .deliver_tab_content {width: 100%}
+}
+@media screen and (max-width: 1460px) {
     #approach-fixed-nav-buttons {display: none;}
 }
-@media screen and (min-width: 1410px) {
+@media screen and (min-width: 1460px) {
     #approach-nav-buttons {display: none;}
 }

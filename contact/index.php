@@ -20,8 +20,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
-		<meta name="description" content="Footfall description goes here" />
+		<title>The Foundry | Contact Us</title>
+		<meta name="description" content="xxxxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 
@@ -41,11 +41,11 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
-						<img src="/img/menu.svg" alt="Menu"></a>
+						<img src="/img/menu.svg" alt="Menu">
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
@@ -77,17 +77,20 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<div class="contact-details flexbox">
-						<div class="address">
+						<div class="address flexbox">
+							<img src="/img/address.svg" alt="Address" />
 							<p>
 								<strong>The Foundry Communications</strong><br>
 								3 Denmark Street, Altrincham<br>
 								Cheshire WA14 2SS
 							</p>
 						</div>
-						<div class="telephone">
+						<div class="telephone flexbox">
+							<img src="/img/telephone.svg" alt="Telephone" />
 							<a href="tel:+441619268444"><p>+44 (0)161 926 8444<p></a>
 						</div>
-						<div class="email">
+						<div class="email flexbox">
+							<img src="/img/email.svg" alt="Email" />
 							<a href="mailto:info@foundrycomms.co.uk"><p>info@foundrycomms.co.uk<p></a>
 						</div>
 					</div>

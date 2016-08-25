@@ -21,8 +21,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
-		<meta name="description" content="Footfall description goes here" />
+		<title>The Foundry | Listen, Plan, Deliver</title>
+		<meta name="description" content="xxxxxxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 
@@ -42,11 +42,11 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
-						<img src="/img/menu.svg" alt="Menu"></a>
+						<img src="/img/menu.svg" alt="Menu">
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
@@ -78,9 +78,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>We understand every brief is unique but, over time, we have developed a tried and trusted approach that helps us to discover your purpose, define your audience and determine the best way to engage them.</p>
-					<p>First, we build an accurate picture of your market, customers, and the landscape you operate within. This might mean conducting face-to-face interviews or commissioning a large-scale research project. Whatever it takes to uncover the problem.</p>
-					<p>Next, we’ll devise the strategy to ensure you’re delivering the right message, at the right time, to the right people. Finally, we put plans into action, developing original, award-winning, creative solutions that change the way people think about, and behave towards, your brand.</p>
+					<h3>We understand every brief is unique but, over time, we have developed a tried and trusted approach that helps us to discover your purpose, define your audience and determine the best way to engage them.</h3>
 				</div>
 			</div>
 		</header>	
@@ -106,7 +104,7 @@
 						<p>Deliver</p>
 					</a>
 				</li>
-			</div>
+			</ul>
 		</div>
 
 		<!-- End Approach Nav -->
@@ -116,7 +114,7 @@
 		<div class="main-container our-approach-content-copy">
 
 			<div id="listen-content" class="section_tab_content">
-				<div class="main-container">
+				<div>
 					<div class="our-approach-intro-copy">
 						<h1>Listen</h1>
 						<div class="rule">
@@ -196,14 +194,14 @@
 					<ul class="section_tabs flexbox">
 						<li class="flexbox previous-page">
 							<a href="#deliver-content" class="flexbox">
-								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Deliver" />
 								<h2>&nbsp;&nbsp;Deliver</h2>
 							</a>
 						</li>
 						<li class="flexbox next-page">
 							<a href="#plan-content" class="flexbox">
 								<h2>Plan&nbsp;&nbsp;</h2>
-								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Plan" />
 							</a>
 						</li>
 					</ul>
@@ -214,17 +212,17 @@
 					<ul class="section_tabs flexbox approach-fixed-nav-buttons">
 						<li>
 							<a href="#deliver-content" class="nav-buttons flexbox fixed-previous-page">
-								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Deliver" />
 								<h2>&nbsp;&nbsp;Deliver</h2>
 							</a>
 						</li>
-						<div class="fixed-spacer">
+						<li class="fixed-spacer">
 							<h2>&nbsp;</h2>
-						</div>
+						</li>
 						<li>
 							<a href="#plan-content" class="nav-buttons flexbox fixed-next-page">
 								<h2>Plan&nbsp;&nbsp;</h2>
-								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Plan" />
 							</a>
 						</li>
 					</ul>
@@ -240,7 +238,7 @@
 		<div class="main-container our-approach-content-copy">
 
 			<div id="plan-content" class="section_tab_content">
-				<div class="main-container">
+				<div>
 					<div class="our-approach-intro-copy">
 						<h1>Plan</h1>
 						<div class="rule">
@@ -299,14 +297,14 @@
 					<ul class="section_tabs flexbox">
 						<li class="flexbox previous-page">
 							<a href="#listen-content" class="flexbox">
-								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Listen" />
 								<h2>&nbsp;&nbsp;Listen</h2>
 							</a>
 						</li>
 						<li class="flexbox next-page">
 							<a href="#deliver-content" class="flexbox">
 								<h2>Deliver&nbsp;&nbsp;</h2>
-								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Deliver" />
 							</a>
 						</li>
 					</ul>
@@ -317,7 +315,7 @@
 					<ul class="section_tabs flexbox approach-fixed-nav-buttons">
 						<li>
 							<a href="#listen-content" class="nav-buttons flexbox fixed-next-page">
-								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Listen" />
 								<h2>&nbsp;&nbsp;Listen</h2>
 							</a>
 						</li>
@@ -327,7 +325,7 @@
 						<li>
 							<a href="#deliver-content" class="nav-buttons flexbox fixed-next-page">
 								<h2>Deliver&nbsp;&nbsp;</h2>
-								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Deliver" />
 							</a>
 						</li>
 					</ul>
@@ -343,7 +341,7 @@
 		<div class="main-container flexbox our-approach-content-copy">
 
 			<div id="deliver-content" class="section_tab_content">
-				<div class="main-container">
+				<div>
 					<div class="our-approach-intro-copy">
 						<h1>Deliver</h1>
 						<div class="rule">
@@ -499,14 +497,14 @@
 					<ul class="section_tabs flexbox">
 						<li class="flexbox previous-page">
 							<a href="#plan-content" class="flexbox">
-								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Plan" />
 								<h2>&nbsp;&nbsp;Plan</h2>
 							</a>
 						</li>
 						<li class="flexbox next-page">
 							<a href="#listen-content" class="flexbox">
 								<h2>Listen&nbsp;&nbsp;</h2>
-								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Listen" />
 							</a>
 						</li>
 					</ul>
@@ -517,7 +515,7 @@
 					<ul class="section_tabs flexbox approach-fixed-nav-buttons">
 						<li>
 							<a href="#plan-content" class="nav-buttons flexbox fixed-previous-page">
-								<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-left.svg" alt="Plan" />
 								<h2>&nbsp;&nbsp;Plan</h2>
 							</a>
 						</li>
@@ -527,7 +525,7 @@
 						<li>
 							<a href="#listen-content" class="nav-buttons flexbox fixed-next-page">
 								<h2>Listen&nbsp;&nbsp;</h2>
-								<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+								<img src="/img/buttons/big/arrow-right.svg" alt="Listen" />
 							</a>
 						</li>
 					</ul>

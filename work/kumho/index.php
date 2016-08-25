@@ -20,8 +20,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
-		<meta name="description" content="Footfall description goes here" />
+		<title>The Foundry | Our Work | Kumho Tyre</title>
+		<meta name="description" content="xxxxxxxxxx" />
 		<link rel="canonical" href="/" />
 		<meta name="keywords" content="Keywords" />
 
@@ -40,11 +40,11 @@
 		<nav id="navigation">
 			<div class="navigation-panel flexbox main-container">
 				<div class="logo">
-					<a href="/"><img src="/img/foundry-logo.png" alt="The Foundry Logo"></a>
+					<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
 				</div>
 				<div class="flexbox navigation-menu-mobile">
 					<div class="menu-toggle-button">
-						<img src="/img/menu.svg" alt="Menu"></a>
+						<img src="/img/menu.svg" alt="Menu">
 					</div>
 				 	<ul class="menu-links-mobile">
 						<li><a href="/about">About</a></li>
@@ -75,7 +75,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>Helping an unknown Korean tyre brand take the UK by storm.</h3>
+					<h3>Delivering a global brand to the UK market.</h3>
 				</div>
 				<div class="client-logo">
 					<img src="/img//client-logos/kumho-white.svg" alt="Kumho" />
@@ -88,7 +88,7 @@
 		<!-- Intro Copy -->
 
 		<section id="kumho-intro" class="main-container">
-			<div class="centered">
+			<div class="centered intoduction-paragraph">
 				<p>Kumho Tyre might be big in Korea, but in the UK they weren’t on the map. We developed a strategic approach and creative campaign that defined them as a Company that not only makes tyres; but also makes a difference to dealers, schools charities and communities.</p>
 			</div>
 			<hr />
@@ -168,7 +168,7 @@
 				</div>
 			</div>
 			
-			<div id="kumho3">
+			<div id="kumho3" class="main-container">
 				<div class="centered">
 					<h4>Campaign</h4>
 					<h2>Play Safer</h2>
@@ -216,7 +216,7 @@
 				<hr />
 			</div>
 			
-			<div id="kumho7">
+			<div id="kumho7" class="main-container">
 				<div class="centered">
 					<h4>Campaign</h4>
 					<h2>A tyre for all seasons</h2>
@@ -226,7 +226,7 @@
 					<p>A consumer press campaign highlighting the importance of choosing the right tyre for the conditions.</p>
 					<p>Given the UK’s famously inconsistent weather, Kumho provides car owners with a choice of tyres to help people stay safe on the roads. We used universally recognisable icons to encourage people to reconsider their choice of tyres.</p>
 				</div>
-				<div class="row-2 main-container flexbox">
+				<div class="row-2 flexbox">
 					<div class="col-1">
 						<img src="/img/case-studies/kumho/kumho7a.jpg" alt="Kumho creative" />
 					</div>
@@ -291,7 +291,7 @@
 			<ul class="section_tabs flexbox work-fixed-nav-buttons">
 				<li>
 					<a href="../ppcp" class="nav-buttons flexbox fixed-previous-page">
-						<img src="/img/buttons/big/arrow-left.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-left.svg" alt="Prev" />
 						<h2>&nbsp;&nbsp;Prev</h2>
 					</a>
 				</li>
@@ -301,7 +301,7 @@
 				<li>
 					<a href="../abellio" class="nav-buttons flexbox fixed-next-page">
 						<h2>Next&nbsp;&nbsp;</h2>
-						<img src="/img/buttons/big/arrow-right.svg" alt="Show me the showreel" />
+						<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
 					</a>
 				</li>
 			</ul>
@@ -349,7 +349,6 @@
 						<a href="/contact">
 							<div class="hvr-bounce-to-right button-next flexbox">
 								<p>Make Enquiry</p>
-								<img src="/img/arrow-right-no-border.svg" alt="Make Enquiry" />
 							</div>
 						</a>
 					</div>

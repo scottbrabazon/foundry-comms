@@ -48,8 +48,14 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-	.button-next {@include white-button-small;}
-	.button-next:hover {@include rollover-button-small;}
+	.button-next {
+		@include white-button-small;
+		p {font-family: $foundry_regular;}
+	}
+	.button-next:hover {
+		@include rollover-button-small;
+		p {font-family: $foundry_regular;}
+	}
 }
 
 .footer-row-1 > div {
@@ -118,4 +124,8 @@
 			}
 		}
 	}
+}
+
+@media screen and (max-width: 800px) {
+	.footer-row-1 {flex-direction: column;}
 }
