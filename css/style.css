@@ -2685,19 +2685,16 @@ button {
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out; }
-    .hvr-bounce-to-top:before .project-title {
-      display: block;
-      visibility: visible; }
   .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
     color: white; }
+    .hvr-bounce-to-top:hover .project-info, .hvr-bounce-to-top:focus .project-info, .hvr-bounce-to-top:active .project-info {
+      display: block;
+      visibility: visible; }
     .hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
       -webkit-transform: scaleY(1);
       transform: scaleY(1);
       -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
       transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
-      .hvr-bounce-to-top:hover:before .project-title, .hvr-bounce-to-top:focus:before .project-title, .hvr-bounce-to-top:active:before .project-title {
-        display: block;
-        visibility: visible; }
 
 /* Radial Out */
 .hvr-radial-out {
@@ -5894,27 +5891,28 @@ button {
   bottom: 0;
   left: 0;
   height: 400px; }
-  .project-name-panel p {
-    text-align: left;
-    padding-left: 10px;
-    margin: 0;
-    font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
-    color: #000;
-    font-size: 0.85em;
-    line-height: 1.4em;
-    position: absolute;
-    margin-bottom: 10px;
-    bottom: 0; }
   .project-name-panel .project-client {
     font-family: "Gotham Black", sans-serif, arial, sans-serif;
     text-transform: uppercase;
-    color: white;
-    visibility: hidden; }
+    color: white; }
   .project-name-panel .project-title {
     font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
     text-transform: uppercase;
-    color: white;
-    visibility: hidden; }
+    color: white; }
+
+.project-info {
+  text-align: left;
+  padding-left: 10px;
+  margin: 0;
+  font-family: "Gotham Medium Book", sans-serif, arial, sans-serif;
+  color: #000;
+  font-size: 0.85em;
+  line-height: 1.4em;
+  position: absolute;
+  padding-bottom: 10px;
+  bottom: 0;
+  z-index: 1000;
+  visibility: hidden; }
 
 @media screen and (min-width: 650px) {
   .case-studes-examples {

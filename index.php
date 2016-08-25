@@ -178,7 +178,7 @@
 						<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
 					</div>
 					<div class="hvr-bounce-to-top project-name-panel">
-						<p><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">International launch of the Premier Pet Care Plan</span></p>
+						<p class="project-info"><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">International launch of the Premier Pet Care Plan</span></p>
 					</div>
 				</div>
 				<div>
@@ -186,7 +186,7 @@
 						<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
 					</div>
 					<div class="hvr-bounce-to-top project-name-panel">
-						<p><span class="project-client">Kumho Tyres</span><br><span class="project-title">International launch of the Premier Pet Care Plan</span></p>
+						<p class="project-info"><span class="project-client">Kumho Tyres</span><br><span class="project-title">International launch of the Premier Pet Care Plan</span></p>
 					</div>
 				</div>
 				<div>	
@@ -194,7 +194,7 @@
 						<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
 					</div>
 					<div class="hvr-bounce-to-top project-name-panel">
-						<p><span class="project-client">Bike and Go</span><br><span class="project-title">International launch of the Premier Pet Care Plan</span></p>
+						<p class="project-info"><span class="project-client">Bike and Go</span><br><span class="project-title">International launch of the Premier Pet Care Plan</span></p>
 					</div>
 				</div>
 			</div>

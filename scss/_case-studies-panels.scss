@@ -33,20 +33,24 @@
 	bottom: 0;
 	left: 0;
 	height:400px;
-    p {
-    	text-align: left;
-		padding-left: 10px;
-    	margin: 0;
-		font-family: $foundry_regular;
-		color: #000;
-	    font-size: 0.85em;
-	    line-height: 1.4em;
-		position:absolute;
-		margin-bottom: 10px;
-		bottom:0;
-	    }
-    .project-client {font-family: $foundry_extra_bold; text-transform: uppercase;color:white;visibility:hidden;}
-	.project-title {font-family: $foundry_regular; text-transform: uppercase;color:white;visibility:hidden;}
+	
+	.project-client {font-family: $foundry_extra_bold; text-transform: uppercase;color:white;}
+	.project-title {font-family: $foundry_regular; text-transform: uppercase;color:white;}
+}
+
+.project-info {
+	text-align: left;
+	padding-left: 10px;
+	margin: 0;
+	font-family: $foundry_regular;
+	color: #000;
+    font-size: 0.85em;
+    line-height: 1.4em;
+	position:absolute;
+	padding-bottom: 10px;
+	bottom:0;
+	z-index:1000;
+	visibility:hidden;
 }
 
 @media screen and (min-width: 650px) {

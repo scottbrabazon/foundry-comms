@@ -15,10 +15,7 @@
 		bottom: 0;
 		background: $activeColor;
 		background-color: rgba(255, 0, 0, 0.6);
-		.project-title {
-			display: block;
-			visibility: visible;
-		}
+
 		@include prefixed(transform, scaleY(0));
 		@include prefixed(transform-origin, 50% 100%);
 		@include prefixed(transition-property, transform);
@@ -30,15 +27,15 @@
 	&:focus,
 	&:active {
 		color: white;
-
+		
+		.project-info {
+			display: block;
+			visibility: visible;
+		}
 		&:before {
 			@include prefixed(transform, scaleY(1));
 			@include prefixed(transition-timing-function, cubic-bezier(.52,1.64,.37,.66));
 
-			.project-title {
-				display: block;
-				visibility: visible;
-			}
 		}
 	}
 }
