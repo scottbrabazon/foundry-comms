@@ -4,7 +4,6 @@
 	position: relative;
 	@include prefixed(transition-property, color);
 	@include prefixed(transition-duration, $slowDuration);
-	.project-title: {visibility: visible;};
 	
 	&:before {
 		content: "";
@@ -15,12 +14,16 @@
 		right: 0;
 		bottom: 0;
 		background: $activeColor;
+		background-color: rgba(255, 0, 0, 0.6);
+		.project-title {
+			display: block;
+			visibility: visible;
+		}
 		@include prefixed(transform, scaleY(0));
 		@include prefixed(transform-origin, 50% 100%);
 		@include prefixed(transition-property, transform);
 		@include prefixed(transition-duration, $slowDuration);
 		@include prefixed(transition-timing-function, ease-out);
-		.project-title: {visibility: visible;};
 	}
 
 	&:hover,
@@ -31,7 +34,11 @@
 		&:before {
 			@include prefixed(transform, scaleY(1));
 			@include prefixed(transition-timing-function, cubic-bezier(.52,1.64,.37,.66));
-			.project-title: {visibility: visible;};
+
+			.project-title {
+				display: block;
+				visibility: visible;
+			}
 		}
 	}
 }
