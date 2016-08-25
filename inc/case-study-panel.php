@@ -1,4 +1,4 @@
-		<div id="case-studies">
+		<div id="case-studies" class="white-border">
 			<div class="case-studes-examples flexbox">
 					<div>
 						<a href="/work/ppcp/">
