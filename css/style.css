@@ -557,10 +557,10 @@ table {
 /* Fonts */
 @font-face {
   font-family: 'Gotham Black';
-  src: url(../fonts/GothamHTF-Black.otf);
   src: url(../fonts/gotham-black.ttf);
-  src: url(../fonts/gothamhtf-black-webfont.woff);
   src: url(../fonts/gothamhtf-black-webfont.woff2);
+  src: url(../fonts/GothamHTF-Black.otf);
+  src: url(../fonts/gothamhtf-black-webfont.woff);
 }
 
 @font-face {
@@ -9287,7 +9287,6 @@ button img {
 .address, .telephone, .email {
   flex-direction: column;
   justify-content: flex-start;
-  margin-bottom: 20px;
 }
 
 /* line 17, ../scss/_contact-us.scss */
@@ -9295,30 +9294,35 @@ button img {
   align-self: flex-start;
 }
 
-/* line 19, ../scss/_contact-us.scss */
+/* line 18, ../scss/_contact-us.scss */
+.address, .telephone {
+  margin-bottom: 20px;
+}
+
+/* line 20, ../scss/_contact-us.scss */
 #map img {
   width: 100%;
 }
 
-/* line 20, ../scss/_contact-us.scss */
+/* line 21, ../scss/_contact-us.scss */
 #map {
   margin-top: 60px;
 }
 
-/* line 22, ../scss/_contact-us.scss */
+/* line 23, ../scss/_contact-us.scss */
 #enquiry-form {
   margin: 60px auto 0 auto;
   width: 50%;
 }
-/* line 25, ../scss/_contact-us.scss */
+/* line 26, ../scss/_contact-us.scss */
 #enquiry-form h1 {
   text-align: center;
 }
-/* line 26, ../scss/_contact-us.scss */
+/* line 27, ../scss/_contact-us.scss */
 #enquiry-form p {
   text-align: center;
 }
-/* line 27, ../scss/_contact-us.scss */
+/* line 28, ../scss/_contact-us.scss */
 #enquiry-form .button-next {
   background: transparent url("/img/buttons/small/arrow-right-black-no-border.svg") no-repeat right center;
   pointer-events: auto;
@@ -9340,7 +9344,7 @@ button img {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-/* line 28, ../scss/_contact-us.scss */
+/* line 29, ../scss/_contact-us.scss */
 #enquiry-form .button-next:hover {
   pointer-events: auto;
   overflow: auto;
@@ -9362,64 +9366,64 @@ button img {
   margin: 0 0 0 0;
 }
 
-/* line 31, ../scss/_contact-us.scss */
+/* line 32, ../scss/_contact-us.scss */
 #thank-you {
   margin: 60px auto 0 auto;
   width: 80%;
 }
-/* line 34, ../scss/_contact-us.scss */
+/* line 35, ../scss/_contact-us.scss */
 #thank-you h1 {
   text-align: center;
 }
 
-/* line 37, ../scss/_contact-us.scss */
+/* line 38, ../scss/_contact-us.scss */
 #careers {
   clear: left;
   margin-top: 60px;
   margin-bottom: 60px;
 }
-/* line 41, ../scss/_contact-us.scss */
+/* line 42, ../scss/_contact-us.scss */
 #careers h3 {
   margin-top: 60px;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 45, ../scss/_contact-us.scss */
+  /* line 46, ../scss/_contact-us.scss */
   .contact-details {
     flex-direction: column;
     justify-content: space-around;
   }
 
-  /* line 49, ../scss/_contact-us.scss */
+  /* line 50, ../scss/_contact-us.scss */
   #enquiry-form {
     width: 90%;
   }
-  /* line 51, ../scss/_contact-us.scss */
+  /* line 52, ../scss/_contact-us.scss */
   #enquiry-form h1 {
     text-align: left;
   }
-  /* line 52, ../scss/_contact-us.scss */
+  /* line 53, ../scss/_contact-us.scss */
   #enquiry-form p {
     text-align: left;
   }
-  /* line 53, ../scss/_contact-us.scss */
+  /* line 54, ../scss/_contact-us.scss */
   #enquiry-form .rule img {
     margin: 0 0 30px 0;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 57, ../scss/_contact-us.scss */
+  /* line 58, ../scss/_contact-us.scss */
   .address, .telephone, .email {
     flex-direction: row;
   }
 
-  /* line 58, ../scss/_contact-us.scss */
+  /* line 59, ../scss/_contact-us.scss */
   .address img, .telephone img, .email img {
     padding-right: 10px;
   }
 }
 @media screen and (max-width: 1150px) {
-  /* line 62, ../scss/_contact-us.scss */
+  /* line 63, ../scss/_contact-us.scss */
   #contact-masthead.masthead .masthead-content {
     width: 90%;
   }
