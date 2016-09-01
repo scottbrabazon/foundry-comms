@@ -1,4 +1,6 @@
 /* Bounce To Right */
+$foundry_red: #c62b32;
+
 @mixin bounce-to-right {
 	@include hacks();
 	position: relative;
