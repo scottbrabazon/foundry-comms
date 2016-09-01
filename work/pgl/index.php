@@ -100,7 +100,7 @@
 					</div>
 					<p>PGL is a market-leading provider of activity courses and holidays for schools, youth groups, family holidays and summer camps for unaccompanied children.</p>
 					<p>The existing website was already successful and generating large volumes of traffic, but competitors were nibbling at their market share and, creatively, it lacked differentiation. We had to get to grips with the complexity of the company’s product offering and audience types (parents, schools, scout groups, overseas, and even job seekers).</p>
-					<p>We spent a number of days with customer-facing members of the PGL team, to gain their perspective on day-to-day issues and an understanding of the customer journey. We then conducted telephone interviews with existing customers and competitor’s customers to identify current and changing needs within the market.</p>
+					<p>We spent a number of days with customer-facing members of the PGL team, to gain their perspective on day-to-day issues and an understanding of the customer journey. We then conducted telephone interviews with existing customers and competitors' customers to identify current and changing needs within the market.</p>
 				</div>	
 			</div>
 			<hr />
@@ -110,7 +110,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>The two-stage research meant we had a robust understanding of the needs and wants of the key segments at each stage of the customer journey (which can be up to 18 months’ duration). We could also be confident of the site structure at an early stage, saving costs on any later revisions that may arise as a result of usability testing.</p>
+					<p>The two-stage research meant we had a robust understanding of the needs and wants of the key segments at each stage of the customer journey (which can be up to 18 months’ duration). We could also be confident of the site structure at an early stage, saving costs on any later revisions that may have arisen as a result of usability testing.</p>
 					<p>With 50% of website visitors coming through mobile devices, it was essential that the single site application was fully responsive. Another key requirement was to cater for five separate marketing organisations in the business, all with their own very specific wants and needs.</p>
 					<p>Informed by our in-depth understanding of the different audience demographics and each division’s unique approach to market, the UX design team tested different layout configurations, taking into account customer journey and site architecture, before arriving at a successful solution.</p>
 				</div>	
@@ -122,14 +122,14 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>It quickly became apparent that with almost 5,000 pages and 40,000 content items to manage, we couldn’t build a site of this magnitude page by page. That inspired the creation of a framework – a bespoke grid system built in CSS that allowed us greater flexibility over design.</p>
+					<p>It quickly became apparent that, with almost 5,000 pages and 40,000 content items to manage, we couldn’t build a site of this magnitude page by page. That inspired the creation of a framework – a bespoke grid system built in CSS that allowed us greater flexibility over design.</p>
 					<p>Building a theming layer into the corporate site also allowed us to quickly and easily make amends and replicate pages. This not only saved us time during the build; it remains a system that can be used to update the site as it grows and develops.</p>
 					<p>We catered for the different audience demographics by introducing dynamic theming and bespoke detailed Content Management, but using common and highly intelligent custom modules that can be used by all the internal marketing teams.</p>
-					<p>Under the covers, key data is mined and mixed in from their extensive back office systems to ensure continuity with bookings, availability and eligibility for holidays, as well as a jobs’ board, all in a live environment using very secure web services.</p>
-					<p>Full Holiday Search, Booking, Payment Facilities and User Management Systems were developed specifically to cater for customers’ unique requirements using the latest Dot.Net C# technologies, in a secure environment that protects children’s data and personal details online.</p>
-					<p>The site is currently live in English, but also supports Spanish and French languages with a view to adding further variations as the business grows.</p>
-					<p>The response from stakeholders and PGL’s network of centres has been extremely positive and has enabled us as a team to build bigger, more complex sites in a shorter time.</p>
-					<p>Overall, customers are staying on the new site for 20% longer; mobile sessions are up 44% and bounce rate is down by 13%. Specifically, bookings have increased for school groups; 30% of all adventure holiday bookings are now made online and job applications are up 29.5%.</p>
+					<p>Under the covers, key data is mined and mixed in from PGL's extensive back office systems to ensure continuity with bookings, availability and eligibility for holidays, as well as a Jobs Board, all in a live environment using very secure web services.</p>
+					<p>Full Holiday Search, Booking, Payment Facilities and User Management Systems were developed specifically to cater for customers’ unique requirements, using the latest Dot.Net C# technologies, in a secure environment that protects children’s data and personal details online.</p>
+					<p>The site is currently live in English, but also supports Spanish and French languages, with a view to adding further variations as the business grows.</p>
+					<p>The response from stakeholders and PGL’s network of centres has been extremely positive and has enabled us, as a team, to build bigger and more complex sites in a shorter time.</p>
+					<p>Overall, customers are staying on the new site for 20% longer; mobile sessions are up 44%, and bounce rate is down by 13%. Specifically, bookings have increased for school groups; 30% of all adventure holiday bookings are now made online, and job applications are up 29.5%.</p>
 				</div>
 			</div>
 		</section>

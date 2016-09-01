@@ -98,12 +98,12 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Spanning three countries, Abellio provide bus, tram and train services to 13,000 people every day. In the UK, they operate Greater Anglia, Mersey Rail and Northern Rail. How could they launch a new cycle rental scheme, Bike &amp; Go, on train stations to an audience of disengaged cyclists?</p>
-					<p>We embarked upon a research project that would define our audience and create the strategy for our marketing campaign. The initial brief had defined the scheme as targeting commuter and leisure cyclists. But research exposed real problems with the language of these definitions.</p>
-					<p>Firstly, commuting connoted Lycra-clad, 5-day-a-week cyclists and the proposition and pricing didn’t work as a replacement for the way these people used their own bikes – largely cost and comfort.</p>
-					<p>Secondly, Leisure suggested family days out in the park or days out which focused solely on bike rides. With no children’s bikes available and the bike design being unsuitable for long distances or uneven terrain, this proposition was rejected too.</p>
-					<p>Our niche was what we termed ‘functional’ journeys – getting somewhere in conjunction with your train journey (whether that’s going to work, exploring the city or visiting friends) rather than being on the bike for its own sake.</p>
-					<p>Research also recognised that this isn’t an every day proposition – people who want to cycle every day use their own bike. Rather, it’s an option for when it suits you – the sun is shining or it just fits in with your day.</p>
+					<p>Spanning three countries, Abellio provides bus, tram and train services to 13,000 people every day. In the UK, they operate Greater Anglia, Mersey Rail and Northern Rail. How could they launch a new cycle rental scheme, Bike &amp; Go, on train stations to an audience of somewhat disengaged cyclists?</p>
+					<p>We embarked upon a research project that would define our audience and create the strategy for our marketing campaign. The initial brief had seen the scheme as targeting commuter and leisure cyclists. But research exposed real problems with the language of these definitions.</p>
+					<p>Firstly, <i>commuting</i> connoted Lycra-clad, 5-day-a-week cyclists and the proposition and pricing didn’t work as a replacement for the way these people used their own bikes – largely based on cost and comfort.</p>
+					<p>Secondly, <i>leisure</i> suggested family days out in the park, or days out which focused solely on bike rides. With no children’s bikes available and the bike design being unsuitable for long distances or uneven terrain, this proposition was rejected, too.</p>
+					<p>Our niche was what we termed ‘functional’ journeys – getting somewhere in conjunction with your train journey (whether that’s going to work, exploring the city or visiting friends), rather than being on the bike for its own sake.</p>
+					<p>Research also recognised that this isn’t an everyday proposition – people who want to cycle every day use their own bike. Rather, it’s an option for when it suits you – the sun is shining or it just fits in with your day.</p>
 				</div>	
 			</div>
 			<hr />
@@ -114,7 +114,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>We started developing creative concepts based on the connection between the train and various functional journeys – getting to college, travelling to work, shopping and visiting friends.</p>
-					<p>To differentiate Bike &amp; Go from similar schemes such as Boris Bikes and Brompton Bikes, it was essential we highlighted our unique benefits – a flat fee for all day rental – and tested the creative with audiences to ensure the proposition was understood.</p>
+					<p>To differentiate Bike &amp; Go from similar schemes such as Boris Bikes and Brompton Bikes, it was essential we highlighted our unique benefits – a flat fee for all-day rental – and tested the creative with audiences to ensure the proposition was understood.</p>
 				</div>	
 			</div>
 			<hr />

@@ -89,7 +89,7 @@
 
 		<section id="kumho-intro" class="main-container">
 			<div class="centered intoduction-paragraph">
-				<p>Kumho Tyre might be big in Korea, but in the UK they weren’t on the map. We developed a strategic approach and creative campaign that defined them as a Company that not only makes tyres; but also makes a difference to dealers, schools charities and communities.</p>
+				<p>Kumho Tyre might be big in Korea, but in the UK they weren’t really on the map. We developed a strategic approach and creative campaign that defined them as a company that not only makes tyres; but also <i>makes a difference</i> to retailers, schools, charities and communities.</p>
 			</div>
 			<hr />
 			<div class="flexbox listen">
@@ -98,9 +98,9 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Kumho Tyre – a major global manufacturer but with little UK brand penetration - have to build brand awareness and grow trade relationships in a low interest, over-saturated category. How can they connect with customers and independent retailers?</p>
-					<p>Our initial research revealed that most tyre brands fought on technical and performance advantages and as such, this would be a difficult area for Kumho to break into, despite the brand’s good reputation amongst fitters.</p>
-					<p>In most cases, tyres are a distress purchase made reluctantly by consumers who perceive them as homogenous black rubber. It’s a commoditised market and brands, mid-market and premium, must work hard to justify price differential over the many value products available. Adding to the challenge, independent retailers tend to have no strong brand loyalty and are reluctant salesmen. 
+					<p>Kumho Tyre – a major global manufacturer, but with little UK brand penetration &mdash; had to build brand awareness and grow trade relationships in a low-interest, over-saturated category. How can they connect with customers and independent retailers?</p>
+					<p>Our initial research revealed that most tyre brands fought on technical and performance advantages. As such, this would be a difficult area for Kumho to break into, despite the brand’s good reputation amongst fitters.</p>
+					<p>In most cases, tyres are a distress purchase, made reluctantly by consumers who perceive them as homogenous black rubber. It’s a commoditised market and brands, mid-market and premium, must work hard to justify price differential over the many value products available. Adding to the challenge, independent retailers tend to have no strong brand loyalty and can be reluctant salesmen. 
 					</p>
 				</div>	
 			</div>
@@ -112,10 +112,8 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>We needed to develop a strategic platform around which to base a long-term communications plan, both B2B (independent tyre retailers) and B2C (end consumers).</p>
-
-					<p>It had to give consumers a reason to select Kumho over similar, mid-range tyres and provide independent retailers with a powerful message to stock up and sell on. We developed a new brand proposition: Making a difference – a warmer, more human territory that positioned Kumho as not only a quality tyre, but also one with a heart.</p>
-
-					<p>This was more than just a strapline. It was an internal red thread that could run throughout the organisation – a wider commitment to good citizenship, good sense and safe roads. It would help Kumho become known as the tyre company that supports communities and their dealerships and informed our work for the best part of a decade.</p>
+					<p>It had to give consumers a reason to select Kumho over similar, mid-range tyres and provide independent retailers with a powerful message to stock up and sell on. We developed a new brand proposition: <i>Making a Difference</i> – a warmer, more human territory that positioned Kumho as not only a quality tyre, but also one with a heart.</p>
+					<p>This was more than just a strapline. It was an internal red thread that could run throughout the organisation – a wider commitment to good citizenship, good sense and safe roads. It would help Kumho become known as the tyre company that supports communities and their dealerships, and this theme informed our work for the best part of a decade.</p>
 				</div>	
 			</div>
 			<hr />
@@ -125,7 +123,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>The Making a Difference positioning enabled a clear, consistent brand message to be been delivered through trade and consumer campaigns as well as guiding the activation work when Kumho sponsored Manchester United.</p>
+					<p>The Making a Difference positioning enabled a clear, consistent brand message to be delivered through trade and consumer campaigns &mdash; as well as guiding the activation work when Kumho where Platinum Sponsors of Manchester United.</p>
 					<p>Kumho has since established itself as a key player in the dealer channel, having given retailers a point of difference around which to sell the brand to their customers. 
 					</p>
 				</div>
@@ -147,13 +145,13 @@
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p>A promotion to not only sell more tyres, but also reinforce the local connections of Kumho’s dealerships.</p>
+							<p>A promotion to not only sell more tyres, but to also reinforce the local connections of Kumho’s dealerships.</p>
 							<p>‘Cash for Causes’ was an online community engagement campaign whereby retailers nominated two local charities and customers voted for their favourite to receive a share of £100,000, donated by Kumho.</p>
 							<img src="/img/case-studies/kumho/kumho1a.jpg" alt="Kumho creative" />
 						</div>
 						<div class="col-2">
 							<img src="/img/case-studies/kumho/kumho1b.jpg" alt="Kumho creative" />
-							<p>We communicated the campaign through print, broadcast and social media. It was so successful; it became a permanent annual fixture in the comms plan.</p>
+							<p>We communicated the campaign through print, broadcast and social media. It was so successful, it became a permanent annual fixture in the Kumho comms plan.</p>
 						</div>
 					</div>
 					<div class="main-container kumho1">
@@ -183,7 +181,7 @@
 			<div id="kumho4">
 				<div class="main-container">
 					<div class="col-1">
-						<p>“A football club, especially one as big as Manchester United, has a responsibility to contribute to the local community. I’m convinced that by using the power of football and some of our iconic players, this fantastic programme will help to keep our children safe on the roads.”</p>
+						<p>“A football club, especially one as big as Manchester United, has a responsibility to contribute to the local community. I’m convinced that, by using the power of football and some of our iconic players, this fantastic programme will help to keep our children safe on the roads.”</p>
 						<p>Sir Bobby Charlton</p>
 					</div>
 				</div>
@@ -204,7 +202,7 @@
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
 						<p>A hard-working, simple sales promotion to boost sales and brand awareness.</p>
-						<p>The high-impact WIN:WIN promotion gave dealers, customers and charities a chance to win daily cash prizes and money-off vouchers. Dealerships saw an increase in footfall and three charities benefited from the campaign – the RLNI, Air Ambulance Service and the DogsTrust.</p>
+						<p>The high-impact WIN:WIN promotion gave dealers, customers and charities a chance to win daily cash prizes and money-off vouchers. Dealerships saw an increase in footfall and three charities benefited from the campaign – the RLNI volunteer lifeboat scheme, Air Ambulance Service and Dogs Trust.</p>
 					</div>
 					<div class="col-2">
 						<img src="/img/case-studies/kumho/kumho6a.jpg" alt="Kumho creative" />
@@ -223,7 +221,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>A consumer press campaign highlighting the importance of choosing the right tyre for the conditions.</p>
+					<p>A consumer press campaign highlighting the importance of choosing the right tyre for road conditions.</p>
 					<p>Given the UK’s famously inconsistent weather, Kumho provides car owners with a choice of tyres to help people stay safe on the roads. We used universally recognisable icons to encourage people to reconsider their choice of tyres.</p>
 				</div>
 				<div class="row-2 flexbox">

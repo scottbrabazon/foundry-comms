@@ -95,7 +95,7 @@
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
-				<p>...we have helped to build brands, big and small, across all sectors - business and consumer - from automotive and retail, to healthcare and travel.</p>
+				<p>...we have helped to build brands, big and small, across all sectors &mdash; business and consumer &mdash; from automotive and retail, to healthcare and travel.</p>
 				<p>If you have a marketing problem that could use a fresh pair of eyes, our planners, designers, art directors, writers and web developers are ready to solve it.</p>
 				<hr />
 			</div>
@@ -139,7 +139,7 @@
 					<div class="person-image">
 						<img src="/img/staff/brain-thumbnail-bw.jpg" alt="Brian Child">
 						<div class="person-biography flexbox">
-							<p>Blessed with the anagrammatic name "Brain Child", our Non-executive Director is still opinionated after 50 years in the business.</p>
+							<p>Blessed with the anagrammatic name "Brainchild", our Non-executive Director, is still opinionated after 50 years in the business.</p>
 						</div>
 					</div>
 					<div class="person-name-panel">
@@ -161,7 +161,7 @@
 					<div class="person-image">
 						<img src="/img/staff/dave-thumbnail-bw.jpg" alt="Dave Hoare">
 						<div class="person-biography flexbox">
-							<p>Pound Shop Protagonist and Consumers Association Advocate. Who would you want to be haggling down your print <i>(et al)</i> prices, while proof reading your ad copy?</p>
+							<p>Pound Shop Protagonist and Consumers’ Association Advocate. Who would <i>you</i> want to be haggling down your print <i>(et al)</i> prices, while proof-reading your ad copy?</p>
 						</div>
 					</div>
 					<div class="person-name-panel">

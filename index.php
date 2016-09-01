@@ -232,28 +232,6 @@
 
 		<!-- End Client Slider -->
 
-		<!-- Showreel -->
-
-		<div id="homepage-showreel">
-			<div class="showreel main-container">
-				<div class="slide flexbox">
-					<div class="rule">
-						<img src="/img/rule.png" alt="Rule" />
-					</div>
-					<a href="#">
-						<h1>New agency<br>showreel</h1>
-					</a>
-					<a href="#">
-						<div class="hvr-bounce-to-right button-next flexbox">
-							<p>Play</p>
-						</div>
-					</a>
-				</div>	
-			</div>	
-		</div>	
-
-		<!-- End Showreel -->
-
 		<!-- Footer -->
 
 		<?php include_once($_SERVER['DOCUMENT_ROOT']."/inc/footer-home.php"); ?>
