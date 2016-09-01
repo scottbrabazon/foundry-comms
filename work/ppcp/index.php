@@ -99,9 +99,9 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>Sales of Premier Vet Group’s underperforming preventative health care plan, Pet Care Plan, had started to slow. The same promotional materials had been put under vets’ noses for several years. New business was sluggish and customer retention under threat. How could they reinvigorate the brand and capture a larger share of the market?</p>
-					<p>First, we needed to get a clear picture of the current market, Pet Care Plan’s position and its relevant strengths and weaknesses. We also collated insights into the needs of both vets and pet owners, their attitudes to pets’ wellbeing and preventative health plans.</p>
-					<p>Generally, awareness of preventative health plans was low amongst consumers, who also tend to confuse them with pet insurance. Whereas vets see the plans as a tool to increase customer loyalty, help generate revenues and improve the health of pets in their care.</p>
-					<p>One of the key insights of the research was that, first and foremost, vets want to be vets. They are driven by the needs of the pets in their care and are reluctant business people.  Yet the need to make money is something they can’t afford to ignore.</p>
+					<p>First, we needed to get a clear picture of the current market, Pet Care Plan’s position and its relevant strengths and weaknesses. We also collated insights into the needs of both vets <i>and</i> pet owners, and their attitudes to pets’ wellbeing and preventative health plans.</p>
+					<p>Generally, awareness of preventative health plans was low amongst consumers, who also tend to confuse these plans with pet insurance. Whereas vets see the plans as a tool to increase customer loyalty, help generate revenues and improve the health of pets in their care.</p>
+					<p>One of the key insights of the research was that, first and foremost, vets want to <i>be</i> vets. They are driven by the needs of the pets in their care and are sometimes reluctant business people. Yet the need to make money is something they can’t afford to ignore.</p>
 				</div>	
 			</div>
 			<hr />
@@ -111,8 +111,8 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Our proposition had to be simple and resonate. Research taught us vets and owners essentially want the same thing: to keep pets at their best. Which would form the basis of our campaign strategy.</p>
-					<p>We had to demonstrate that, by focussing on the simplicity of implementation and ongoing support, we could help vets to get on with their jobs while still helping them provide the best possible care.</p>
+					<p>Our proposition had to be simple &mdash; but also had to resonate. Research taught us vets and owners essentially want the same thing: to keep pets at their best. Which would form the basis of our campaign strategy.</p>
+					<p>We had to demonstrate that, by focusing on the simplicity of implementation and ongoing support, we could help vets to get on with their jobs, while still allowing them to provide the best possible care.</p>
 					<p>Competitor literature featured overused stock imagery of cats, dogs and rabbits. To differentiate, our campaign photography had to show pets in natural situations – kittens chasing balls, dogs digging down the back of sofas. Messages had to strike a chord with pet owners; to move away from price and focus on the end goal – keeping pets at their best.</p>
 				</div>	
 			</div>
@@ -124,7 +124,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>As well as new branding, photography and campaign materials, we also introduced the prefix ‘Premier’ to Pet Care Plan.</p>
-					<p>This brought the brand in line with Premier Vet Alliance, the affiliated Buying Group, and helped to cement the connotation of high quality products and service.</p>
+					<p>This brought the brand in line with Premier Vet Alliance, the affiliated Buying Group, and helped to cement the connotation of high-quality products and service.</p>
 				</div>
 			</div>
 		</section>
@@ -143,7 +143,7 @@
 							<div class="rule">
 								<img src="/img/rule.png" alt="Rule" />
 							</div>
-							<p>Premier Pet Care Plan’s old branding was very similar to competitor’s products.</p>
+							<p>Premier Pet Care Plan’s old branding was very similar to competitors' products.</p>
 							<p>The refreshed logo, typeface and colour palette, along with the new name, has given the brand more personality and a modern, professional image.</p>
 							<p>Using this template, new branding has also been devised for Premier Vet Alliance, the Buying Group, with plans to eventually have a suite of logos promoting the various factions of the Company.</p>
 						</div>
@@ -196,9 +196,9 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>In terms of selling PPCP into vets, we have developed a dynamic PowerPoint presentation to enable the sales team to talk through all of the benefits of Premier Pet Care Plan in a more engaging way.</p>
-					<p>Flyers and discount ‘doggie dollars’ incentivise new business, and a video has also been created to jointly sell both the Premier Vet Alliance Buying Group and Premier Pet Care Plan into the US market.<p>
-					<p>As a result, one of America’s oldest and largest pet insurance providers has partnered with Premier Pet Care Plan and will be introducing it into their vast network of practices.</p>
+					<p>In terms of selling Premier Pet Care Plan (PPCP) into vets, we have developed a dynamic PowerPoint presentation to enable the sales team to talk through all of the benefits of PPCP in a more engaging way.</p>
+					<p>Flyers and discount ‘doggie dollars’ incentivise new business, and a video has also been created to jointly sell both the Premier Vet Alliance Buying Group and PPCP into the US and European market.<p>
+					<p>As a result, one of America’s oldest and largest pet insurance providers has partnered with PPCP and will be introducing it into their vast network of practices.</p>
 				</div>
 			</div>
 

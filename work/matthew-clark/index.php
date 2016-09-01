@@ -75,7 +75,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>Helping 1400 sales people tell ‘one version of the truth’.</h3>
+					<h3>Helping 1,400 sales people tell ‘one version of the truth’.</h3>
 				</div>
 				<div class="client-logo">
 					<img src="/img//client-logos/matthew-clark-white.svg" alt="Matthew Clark" />
@@ -99,8 +99,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>Matthew Clark is the UK’s largest drinks wholesaler and relies on its field-based sales team to represent the 1,500+ brands they supply to the on- and off-trade.</p>
-
-					<p>Our research uncovered that, with such a vast range, the sales team naturally struggled to accurately and consistently present the latest product information to customers. As well as needing a boot full of brochures! This clearly presented issues for the management team both in terms of control and costs.</p>
+					<p>Our research uncovered that, with such a vast range, the sales team naturally struggled to accurately and consistently present the latest product information to customers. As well as needing a boot full of brochures! This clearly presented issues for the management team, both in terms of control and costs.</p>
 				</div>	
 			</div>
 			<hr />
@@ -111,7 +110,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>We needed to create something completely new: A bespoke, digital asset management solution that could contain all of the latest Matthew Clark assets and help the sales force to tell ‘one version of the truth’.</p>
-					<p>Informed by our research, the design had to be accessible without relying on Internet connection, as much of the sales team was out in the field with limited access. It also needed to be modular – allowing for constant updates of prices, product catalogues and market data from one centrally managed database.</p>
+					<p>Informed by our research, the design had to be accessible, but without relying on Internet connection, as much of the sales team was out in the field with limited access. It also needed to be modular – allowing for constant updates of prices, product catalogues and market data from one centrally managed database.</p>
 				</div>	
 			</div>
 			<hr />
@@ -121,9 +120,9 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Our solution was the digital sales toolkit, an asset management application that enables reps to create tailored customer presentations as well as access the latest product information and pricing.</p>
+					<p>Our solution was the Digital Sales Tool Kit, an asset management application that enables reps to create tailored customer presentations as well as access the latest product information and pricing.</p>
 
-					<p>This has helped re-position the sales team as business consultants as it contains:</p>
+					<p>This has helped reposition the sales team as business consultants, as the Tool Kit contains:</p>
 
 					<ul>
 						<li>Market trends and data</li>
@@ -138,7 +137,7 @@
 
 					<p>All content is input and managed back at head office and syncs on the reps’ laptops automatically, so Matthew Clark know their brands are represented faithfully and consistently: a huge advantage when negotiating supplier contracts.</p>
 
-					<p>The sales toolkit is now embedded into the Matthew Clark business and has revolutionised the way they interface with customers. By providing essential business advice this system doesn’t just take orders; it has helped Matthew Clark build long-term (and profitable) customer relationships.</p>
+					<p>The Sales Tool Kit is now embedded into the Matthew Clark business and has revolutionised the way they interface with customers. By providing essential business advice, this system doesn’t just take orders; it has helped Matthew Clark build long-term (and profitable) customer relationships.</p>
 				</div>
 			</div>
 		</section>

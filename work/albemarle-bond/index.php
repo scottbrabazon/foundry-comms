@@ -98,7 +98,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Albemarle Bond, one of the UK’s largest jewellers and pawnbrokers, was re-launching after going into administration following the gold price crash of 2013. Beyond its commercial problems, the brand had lost connection with its customers, its messaging was aggressive and patronising, and its retail proposition was muddled.</p>
+					<p>Albemarle Bond (AB), one of the UK’s largest jewellers and pawnbrokers, was relaunching after going into administration following the gold price crash of 2013. Beyond its commercial problems, the brand had lost connection with its customers, its messaging was aggressive and patronising, and its retail proposition was muddled.</p>
 					<p>Post-administration, the brand had a fantastic opportunity to reinvent itself. We conducted internal research with 127 branch managers and geo-demographic profiling to gauge an accurate picture of each branch’s core target customer.</p>
 					<p><i>Our staff and customer research highlighted two key insights:</i><br>
 					1. AB provided valuable services to help families make ends meet during difficult times.<br>
@@ -113,7 +113,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>We developed a strategy that positioned Albemarle Bond as ‘The Family Finance People’ – underpinned by empathic customer service, respect and support for an oft-neglected demographic.</p>
-					<p>Working to a limited budget, we devised a comms strategy based on digital marketing to drive traffic to a revamped website which became a lead generation tool sending customers to their local branch.</p>
+					<p>Working to a limited budget, we devised a comms strategy based on digital marketing to drive traffic to a revamped website which became a lead generation tool, sending customers to their local branch.</p>
 					<p>Given the similar service portfolio and to help budgets work harder, we also unified the Albemarle &amp; Bond and Herbert Brown brands and campaign plan.</p>
 					<p>After the initial campaign creative was developed, we conducted further research to get feedback on the new positioning and advertising concepts from the branch managers, which was extremely positive.</p>
 				</div>	
@@ -125,7 +125,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>The Foundry acted as a de facto marketing function as AB had lost their team as a result of administration.</p>
+					<p>The Foundry acted as a <i>de facto</i> marketing function as AB had lost their team as a result of administration.</p>
 					<p>We conceived, produced and delivered all marketing communications, helping them return to profit before the company’s successful sale in 2015.</p>
 					</p>
 				</div>
@@ -149,8 +149,8 @@
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p>We created a quite a suite of point-of-sale materials invites customers into stores with reassuring messages.</p>
-						<p>While specially designed magazines give customers top tips on saving money, from holiday advice to affordable days out with the kids.</p>
+						<p>We created a suite of point-of-sale materials that invited customers into stores with reassuring messages.</p>
+						<p>At the same time, specially designed magazines gave customers top tips on saving money, from holiday advice to affordable days out with the kids.</p>
 					</div>
 				</div>
 			</div>
@@ -167,7 +167,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>The company’s chain of high-street jewellery outlets, Herbert Brown, is given a new look with point-of-sale and window displays, using bright, warm human messages in line with the new brand.</p>
+					<p>The company’s chain of high-street jewellery outlets, Herbert Brown, was given a new look with point-of-sale and window displays, using bright, warm, human messages in line with the new brand.</p>
 				</div>
 			</div>
 			
@@ -183,7 +183,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Tent cards, window displays and giveaways are used to highlight seasonal promotions throughout the year, each with an individual theme, from Valentine’s Day to Back to School.</p>
+					<p>Tent cards, window displays and giveaways were used to highlight seasonal promotions throughout the year, each with an individual theme, from Valentine’s Day to Back to School.</p>
 				</div>
 			</div>
 			
