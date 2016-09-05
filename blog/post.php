@@ -94,23 +94,6 @@ perch_layout('global.header', array(
 			</div>	
 		</nav>
 
-
-		<!-- Masthead -->
-
-		<header id="blog-masthead" class="masthead flexbox">
-			<div class="masthead-content main-container flexbox">
-				<div class="headlines">
-					<h1>News and Views</h1>
-					<div class="rule">
-						<img src="/img/rule.png" alt="Rule" />
-					</div>
-					<h3>Find out what makes us get out of bed in the morning, from industry insights to agency achievements.</h3>
-				</div>
-			</div>
-		</header>	
-
-		<!-- End Masthead -->
-
 		<section id="posts" class="content content-lead-primary main-container">
 		    <section class="column primary">
 		       

@@ -216,7 +216,7 @@
 					<div class="person-image">
 						<img src="/img/staff/kev-m-thumbnail-bw.jpg" alt="Kevin Murphy">
 						<div class="person-biography flexbox">
-							<p>Foundry pioneer and devoted grandfather, manages and directs the agency with a big smile on his face (and trademark Friday countdown).</p>
+							<p>Foundry pioneer and devoted grandfather, still delivering wit and wisdom by the bucket-load.</p>
 						</div>
 					</div>
 					<div class="person-name-panel">

@@ -19,6 +19,24 @@ $(document).ready(function() {
 
 });
 
+
+//Activate Correct Tabs
+
+$(document).ready(function() {
+
+    //Get Clicked URL
+    $(function(){
+        $('.approach-fixed-nav-buttons a').click(function(){
+            var $ClickedURL = $(this).attr('href');
+            console.log($ClickedURL);
+            var $sectionTab = $("ul.section_tabs li");
+            $SectionTab = (this).children.find("a").attr("href");
+        });
+    });
+
+});
+
+
 //Listen
 
 $(document).ready(function() {
