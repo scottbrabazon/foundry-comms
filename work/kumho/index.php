@@ -174,7 +174,7 @@
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
 					<p>A major activation campaign to leverage Kumho’s association with the world’s biggest sports brand.</p>
-					<p>We devised and delivered a road safety programme to school kids, their parents and teachers, in association with the Manchester United Foundation, Greater Manchester Police and Sir Bobby Charlton, who championed the scheme. </p>
+					<p>We devised and delivered a road safety programme to schoolkids, their parents and teachers, in association with the Manchester United Foundation, Greater Manchester Police and Sir Bobby Charlton, who championed the scheme. </p>
 				</div>
 			</div>
 			

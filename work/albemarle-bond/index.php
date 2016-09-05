@@ -149,7 +149,7 @@
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p>We created a suite of point-of-sale materials that invited customers into stores with reassuring messages.</p>
+						<p>We created a suite of point-of-sale materials that invite customers into stores with reassuring messages.</p>
 						<p>At the same time, specially designed magazines gave customers top tips on saving money, from holiday advice to affordable days out with the kids.</p>
 					</div>
 				</div>

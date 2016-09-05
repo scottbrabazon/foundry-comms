@@ -98,7 +98,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<p>Spanning three countries, Abellio provides bus, tram and train services to 13,000 people every day. In the UK, they operate Greater Anglia, Mersey Rail and Northern Rail. How could they launch a new cycle rental scheme, Bike &amp; Go, on train stations to an audience of somewhat disengaged cyclists?</p>
+					<p>Spanning three countries, Abellio provides bus, tram and train services to 13,000 people every day. In the UK, they operate Greater Anglia, Merseyrail and Northern Rail. How could they launch a new cycle rental scheme, Bike &amp; Go, on train stations to an audience of somewhat disengaged cyclists?</p>
 					<p>We embarked upon a research project that would define our audience and create the strategy for our marketing campaign. The initial brief had seen the scheme as targeting commuter and leisure cyclists. But research exposed real problems with the language of these definitions.</p>
 					<p>Firstly, <i>commuting</i> connoted Lycra-clad, 5-day-a-week cyclists and the proposition and pricing didn’t work as a replacement for the way these people used their own bikes – largely based on cost and comfort.</p>
 					<p>Secondly, <i>leisure</i> suggested family days out in the park, or days out which focused solely on bike rides. With no children’s bikes available and the bike design being unsuitable for long distances or uneven terrain, this proposition was rejected, too.</p>

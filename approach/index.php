@@ -373,7 +373,7 @@
 						<div class="rule">
 							<img src="/img/rule.png" alt="Rule" />
 						</div>
-						<p>Good corporate identity can be the reason customers choose <i>your</i> product or service over competitors. And we’ll do everything we can to make your shop window standout. We are experienced in original logo creation, name generation, straplines and typography, and can produce a full suite of brand assets for you, including brand guidelines.</p>
+						<p>Good corporate identity can be the reason customers choose <i>your</i> product or service over competitor’s. And we’ll do everything we can to make your shop window standout. We are experienced in original logo creation, name generation, straplines and typography, and can produce a full suite of brand assets for you, including brand guidelines.</p>
 					</div>
 					<div id="deliver-content-d" class="deliver_tab_content">
 						<h2>Packaging</h2>
@@ -416,10 +416,10 @@
 							<li><strong>Interface &amp; UX design</strong><br>
 							Simplify, maximise usability and improve customer experience.</li>
 
-							<li><strong>Customer Journey mapping</strong><br>
+							<li><strong>Customer journey mapping</strong><br>
 							Inform everything from UX design to PPC (Pay Per Click) and social media campaign planning.</li>
 
-							<li><strong>CMS Integration</strong><br>
+							<li><strong>CMS integration</strong><br>
 							We utilise a range of modern platforms to make it easy for your team to access, manage and edit content.</li>
 
 							<li><strong>Marketing automation</strong><br>
@@ -442,7 +442,7 @@
 							<li><strong>Paid search (PPC)/Google AdWords</strong><br>
 							We deliver campaigns that work. Our Paid team carefully manage your budget to get the maximum return.</li>
 
-							<li><strong>SEO &mdash; Search Engine Optimisation</strong><br>
+							<li><strong>Search Engine Optimisation (SEO)</strong><br>
 							Make sure search engines, and potential customers, can see your site; that your content is relevant and useful; its pages and propositions connect; and that the external links and media mentions you’re achieving are genuine.</li>
 
 							<li><strong>Social media</strong><br>

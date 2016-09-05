@@ -139,7 +139,7 @@
 					<div class="person-image">
 						<img src="/img/staff/brain-thumbnail-bw.jpg" alt="Brian Child">
 						<div class="person-biography flexbox">
-							<p>Blessed with the anagrammatic name "Brainchild", our Non-executive Director, is still opinionated after 50 years in the business.</p>
+							<p>Blessed with the anagrammatic name "Brainchild", our Non-Executive Director is still opinionated after 50 years in the business.</p>
 						</div>
 					</div>
 					<div class="person-name-panel">
@@ -337,7 +337,7 @@
 					<div class="person-image">
 						<img src="/img/staff/zoe-thumbnail-bw.jpg" alt="Zoë Buckley">
 						<div class="person-biography flexbox">
-							<p>DTC, B2B, GSL. OTC. Our veteran of healthcare marketing has explored every acronym and still wants more.</p>
+							<p>DTC, B2B, GSL, OTC. Our veteran of healthcare marketing has explored every acronym and still wants more.</p>
 						</div>
 					</div>
 					<div class="person-name-panel">

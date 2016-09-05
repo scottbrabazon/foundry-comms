@@ -98,7 +98,7 @@
 								<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
 							</div>
 							<div class="hvr-bounce-to-top project-name-panel">
-								<p class="project-info"><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
+								<p class="project-info"><span class="project-client">Premier Vet Group</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
 							</div>
 						</a>
 					</div>
@@ -108,7 +108,7 @@
 							<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
 						</div>
 						<div class="hvr-bounce-to-top project-name-panel">
-							<p class="project-info"><span class="project-client">Kumho Tyres</span><br><span class="project-title">Helping a Korean tyre brand take the UK by storm</span></p>
+							<p class="project-info"><span class="project-client">Kumho Tyre</span><br><span class="project-title">Helping a Korean tyre brand take the UK by storm</span></p>
 						</div>
 					</a>
 				</div>
@@ -118,7 +118,7 @@
 							<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
 						</div>
 						<div class="hvr-bounce-to-top project-name-panel">
-							<p class="project-info"><span class="project-client">Bike and Go</span><br><span class="project-title">Launching a revolutionary national bike hire scheme</span></p>
+							<p class="project-info"><span class="project-client">Bike &amp; Go</span><br><span class="project-title">Launching a revolutionary national bike hire scheme</span></p>
 						</div>
 					</a>
 				</div>
@@ -150,7 +150,7 @@
 							<img src="/img/case-studies/matthew-clark.jpg" alt="Matthew Clark Case Study" />
 						</div>
 						<div class="hvr-bounce-to-top project-name-panel">
-							<p class="project-info"><span class="project-client">Matthew Clark</span><br><span class="project-title">Helping 1400 sales people tell &lsquo;one version of the truth&rsquo;</span></p>
+							<p class="project-info"><span class="project-client">Matthew Clark</span><br><span class="project-title">Helping 1,400 sales people tell &lsquo;one version of the truth&rsquo;</span></p>
 						</div>
 					</a>
 				</div>

@@ -55,7 +55,7 @@
 		flex-wrap: wrap;
 		.button-next {@include black-button-small;}
 		.button-next:hover {@include rollover-button-small;}
-		p:first-of-type {font-family: $foundry_extra_bold;}
+		p:first-of-type {font-family: $foundry_bold;}
 		p {
 	        color: #000;
 	        font-family: $foundry_regular;
