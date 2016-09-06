@@ -37,7 +37,7 @@
 		<script src="/js/responsiveslides.min.js"></script>
 		<script src="/js/flexibility.js"></script>
 		<script src="/js/menu.js"></script>
-		<script>flexibility(document.documentElement);</script>
+		
 	</head>
 
 	<body>

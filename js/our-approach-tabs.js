@@ -14,32 +14,26 @@ $(document).ready(function() {
         $(".section_tab_content").hide(); //Hide all section tab content
         var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active section tab + content
         $(activeTab).fadeIn(); //Fade in the active content
+
+        //set the active class on the .approach-top-nav
+        //get the parent of the anchor tag with a matching href
+        $("#approach-top-nav").find("a[href^='" + activeTab + "']").parent().addClass("section_active");
+
         return false;
     });
 
-});
-
-
-//Activate Correct Tabs
-
-$(document).ready(function() {
+    //Activate Correct Tabs
 
     //Get Clicked URL
-    $(function(){
-        $('.approach-fixed-nav-buttons a').click(function(){
-            var $ClickedURL = $(this).attr('href');
-            console.log($ClickedURL);
-            var $sectionTab = $("ul.section_tabs li");
-            $SectionTab = (this).children.find("a").attr("href");
-        });
+    $('.approach-fixed-nav-buttons a').click(function(){
+            //var $ClickedURL = $(this).attr('href');
+            //console.log($ClickedURL);
+            //var $sectionTab = $("ul.section_tabs li");
+            //$SectionTab = $(this).children().find("a").attr("href");
     });
 
-});
+    //Listen
 
-
-//Listen
-
-$(document).ready(function() {
 
     //Default Action
     $(".listen_tab_content").hide(); //Hide all content
@@ -56,11 +50,7 @@ $(document).ready(function() {
         return false;
     });
 
-});
-
-//Plan
-
-$(document).ready(function() {
+    //Plan
 
     //Default Action
     $(".plan_tab_content").hide(); //Hide all content
@@ -77,11 +67,7 @@ $(document).ready(function() {
         return false;
     });
 
-});
-
-//Deliver
-
-$(document).ready(function() {
+    //Deliver
 
     //Default Action
     $(".deliver_tab_content").hide(); //Hide all content

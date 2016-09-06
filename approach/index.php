@@ -1,6 +1,5 @@
 <?php include('../perch/runtime.php'); ?>
 
-
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html class="ie ie6 nojs Corporate
@@ -32,6 +31,7 @@
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="/js/responsiveslides.min.js"></script>
+		<script src="/js/flexibility.js"></script>
 		<script src="/js/our-approach-tabs.js"></script>
 		<script src="/js/menu.js"></script>
 		<script>flexibility(document.documentElement);</script>
