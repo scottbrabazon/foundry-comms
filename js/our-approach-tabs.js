@@ -34,7 +34,7 @@ $(document).ready(function() {
 
     //Listen
 
-
+    /*
     //Default Action
     $(".listen_tab_content").hide(); //Hide all content
     $("ul.listen_tabs li:first").addClass("listen_active").show(); //Activate first tab
@@ -84,4 +84,32 @@ $(document).ready(function() {
         return false;
     });
 
+    */
+
+    setUpTabs("listen");
+    setUpTabs("plan");
+    setUpTabs("deliver");
+
 });
+
+
+function setUpTabs(tabName) {
+
+    var activeClassName = tabName + "_active";
+
+    //Default Action
+    $("." + tabName + "_tab_content").hide(); //Hide all content
+    $("ul." + tabName + "_tabs li:first").addClass(activeClassName).show(); //Activate first tab
+    $("." + tabName + "_tab_content:first").show(); //Show first tab content
+    
+    //On Click Event
+    $("ul." + tabName + "_tabs li").click(function() {
+        $("ul."+ tabName +"_tabs li").removeClass(activeClassName); //Remove any "active" class
+        $(this).addClass(activeClassName); //Add "active" class to selected tab
+        $("." + tabName + "_tab_content").hide(); //Hide all tab content
+        var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+        $(activeTab).fadeIn(); //Fade in the active content
+        return false;
+    });
+
+}
