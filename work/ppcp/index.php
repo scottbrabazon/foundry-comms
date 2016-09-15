@@ -51,7 +51,7 @@
 						<li><a href="/work" class="active">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="/blog/">News</a></li>
+						<li><a href="/news/">News</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
@@ -60,7 +60,7 @@
 						<li><a href="/work" class="active">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="/blog/">News</a></li>
+						<li><a href="/news/">News</a></li>
 				 	</ul>
 				</div>
 			</div>	

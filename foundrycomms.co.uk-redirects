@@ -1,0 +1,74 @@
+#redirects for new site
+location = /people/ { return 301 /about; }
+location = /jobs/ { return 301 /contact; }
+location = /advertising-and-design/ { return 301 /work; }
+location = /blog { return 301 /news; }
+
+location = /blog/ {
+    if ($args ~ page= ) { return 301 /news; }
+}
+
+location = /blog/archive.php {
+    if ($args ~ cat=advertising-design) { return 301 /news; }
+    if ($args ~ cat=digital-marketing) { return 301 /news; }
+    if ($args ~ cat=foundry-news) { return 301 /news; }
+    if ($args ~ cat=search-social) { return 301 /news; }
+    if ($args ~ cat=websites) { return 301 /news; }
+    if ($args ~ cat=work) { return 301 /news; }
+}
+
+
+location = /blog/2016-03-ready-to-mobilise-by-may { return 301 /news/post.php?s=2016-03-18-ready-to-mobilise-by-may; }
+location = /blog/2016-05-brand-in-action-on-sponsorship { return 301 /news/post.php?s=2016-05-09-brand-in-action-on-sponsorship; }
+location = /blog/2016-05-the-200-million-football-match { return 301 /news/post.php?s=2016-05-12-the-gbp-200-million-football-match; }
+location = /2016-07-dr-beckmann-tv-campaign-launched { return 301 /news/post.php?s=2016-07-04-dr-beckmann-tv-campaign-launched; }
+location = /brand-in-action/case-studies/muml.php { return 301 https://www.brandinaction.com/muml/; }
+location = /brand-in-action/case-studies/concha.php { return 301 https://www.brandinaction.com/casillero/; }
+location = /brand-in-action/case-studies/dewars.php{ return 301 https://www.brandinaction.com/dewars/; }
+location = /brand-in-action/case-studies/gordons-gin.php { return 301 https://www.brandinaction.com/gordons/; }
+location = /brand-in-action/case-studies/kumho-formula-3.php { return 301 https://www.brandinaction.com/kuhmo-hall-of-fame/; }
+location = /brand-in-action/case-studies/kumho-half-time.php { return 301 https://www.brandinaction.com/kuhmo-half-time/; }
+location = /brand-in-action/case-studies/kumho-taekwando.php { return 301 https://www.brandinaction.com/kuhmo-tae-kwon-do/; }
+location = /brand-in-action/case-studies/play-safer.php { return 301 https://www.brandinaction.com/kuhmo-play-safer/; }
+location = /brand-in-action/case-studies/swissquote.php{ return 301 https://www.brandinaction.com/swissquote/; }
+location = /brand-in-action/insights.php { return 301 https://www.brandinaction.com/#how-we-do-it-anchor; }
+location = /brand-in-action/ { return 301 https://www.brandinaction.com/; }
+location = /campaigns/christmas/2014/index.php?date=2014-12-03 { return 301 /work; }
+location = /campaigns/christmas/2014/index.php?date=2014-12-07 { return 301 /work; }
+location = /campaigns/christmas/2014/index.php?date=2014-12-17 { return 301 /work; }
+location = /campaigns/stillthirsty/ { return 301 /work; }
+location = /case-studies/albemarle-bond/{ return 301 /work/albemarle-bond/; }
+location = /case-studies/bike-and-go/ { return 301 /work/abellio/; }
+location = /case-studies/mcn/ { return 301 /work; }
+location = /case-studies/stobart-barristers/ { return 301 /work; }
+location = /clients/ { return 301 /about; }
+location = /digital-marketing/ { return 301 /approach; }
+location = /foundry-conversations/foreign-language/ { return 301 /; }
+location = /our-approach { return 301 /about; }
+location = /privacy/ { return 301 /; }
+location = /research-and-planning/ { return 301 /about; }
+location = /social-and-search/ { return 301 /about; }
+location = /websites/ { return 301 /about; }
+location = /work/ab-seasonal/ { return 301 /work/albemarle-bond/; }
+location = /work/bike-and-go-launch-campaign/ { return 301 /work/abellio/; }
+location = /work/cellarmans-reserve/ { return 301 /work/; }
+location = /work/kestrel-beer/ { return 301 /work/; }
+location = /work/kumho-business-centre/ { return 301 /work/kumho/; }
+location = /work/kumho-manchester-united-road-safety/ { return 301 /work/kumho/; }
+location = /work/kumho-trade-tyre-adverts/ { return 301 /work/kumho/; }
+location = /work/kumho-win-win/ { return 301 /work/kumho/; }
+location = /work/kumho-winter-tyres/ { return 301 /work/kumho/; }
+location = /work/mamas-papas-astro/ { return 301 /work/; }
+location = /work/marigold/ { return 301 /work/; }
+location = /work/matthew-clark-sales-toolkit/ { return 301 /work/matthew-clark/; }
+location = /work/mj-seafood/ { return 301 /work/; }
+location = /work/mobileshop/ { return 301 /work/; }
+location = /work/morphy-richards-food-fusion/ { return 301 /work/; }
+location = /work/operation-christmas-card/ { return 301 /work/; }
+location = /work/pgl-website/ { return 301 /work/pgl/; }
+location = /work/ppg-pos-store/ { return 301 /work/; }
+location = /work/rmi-trust-my-garage/ { return 301 /work/; }
+location = /work/sardine-run-association/ { return 301 /work/; }
+location = /work/scrummy-eggs/ { return 301 /work/; }
+location = /work/stobart-barristers/ { return 301 /work/; }
+location = /work/the-source/ { return 301 /work/; }
