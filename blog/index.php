@@ -58,7 +58,7 @@ perch_layout('global.header', array(
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="/blog/" class="active">News</a></li>
+						<li><a href="/news/" class="active">News</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
@@ -67,7 +67,7 @@ perch_layout('global.header', array(
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="/blog/" class="active">News</a></li>
+						<li><a href="/news/" class="active">News</a></li>
 				 	</ul>
 				</div>
 			</div>	
