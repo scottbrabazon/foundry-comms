@@ -24,12 +24,12 @@
 <perch:after>
 
     <perch:if exists="paging">
-        <div class="blog-paging button-next hvr-bounce-to-right">
+        <div class="blog-paging button-next hvr-bounce-to-right fred">
             <perch:if exists="not_last_page">
-                <a href="<perch:blog id="next_url" encode="false" />" class="blog_paging_older">OLDER POSTS</a>
+                <a href="<perch:blog id="next_url" encode="false" rewrite="/news/{page:page:%s}" />" class="blog_paging_older">OLDER POSTS</a>
             </perch:if>
             <perch:if exists="not_first_page">
-                <a href="<perch:blog id="prev_url" encode="false" />" class="blog_paging_newer">NEWER POSTS</a>
+                <a href="<perch:blog id="prev_url" encode="false" rewrite="/news/{page:page:%s}" />" class="blog_paging_newer">NEWER POSTS</a>
             </perch:if>
 			</p>
         </div>
