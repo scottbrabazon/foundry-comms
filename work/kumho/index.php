@@ -22,7 +22,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Our Work | Kumho Tyre</title>
 		<meta name="description" content="xxxxxxxxxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/work/kumho/" />
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/work/kumho/" />
 		<meta name="keywords" content="Keywords" />
 
 

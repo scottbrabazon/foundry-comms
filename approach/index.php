@@ -22,7 +22,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Listen, Plan, Deliver</title>
 		<meta name="description" content="xxxxxxxxxxxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/approach/" />
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/approach/" />
 		<meta name="keywords" content="Keywords" />
 
 

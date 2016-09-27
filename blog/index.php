@@ -29,7 +29,7 @@ perch_layout('global.header', array(
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | News and Views</title>
 		<meta name="description" content="xxxxxxxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/blog" />
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/blog" />
 		<meta name="keywords" content="Keywords" />
 
 

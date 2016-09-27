@@ -22,7 +22,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Our Work | Abellio</title>
 		<meta name="description" content="xxxxxxxxxxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/work/abellio/" />
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/work/abellio/" />
 		<meta name="keywords" content="Keywords" />
 
 

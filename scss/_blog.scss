@@ -42,6 +42,7 @@
 	max-width: 800px;
 	.blog {
 		h1 {
+			font-family: $foundry_regular;
 			text-transform: initial;
 			font-size: 2em;
 			line-height: 1.2em;
@@ -65,11 +66,32 @@
 	        color: $foundry_red;
 	        font-family: inherit;
 	    }
+	    li {
+	    	font-size: 0.9em;
+		    line-height: 2.2em;
+		}
 	}
 }
 
 .blog-post-cats {padding: 0; margin-bottom: 30px;}
 .blog-post-cats li {list-style: none; margin-right: 15px;}
+
+.author_image {align-self: center; width: 100%;}
+.author_name {padding-left: 0;}
+.blog-post-author {
+	flex-direction: column;
+	margin: 60px 0;
+	background: black url("/img/backgrounds/background-image-1.jpg") no-repeat center left;
+    background-size: cover;
+    z-index: 100;
+}
+.author_name {
+	width: 90%;
+    padding: 30px 5%;
+    h2 {font-size: 1.5em; color: #ffffff;}
+    p {color: #ffffff; font-family: $foundry_regular;}
+    .rule img {margin-bottom: 12px;}
+}
 
 
 @media screen and (min-width: 800px) {
@@ -81,5 +103,18 @@
 			margin: 0 auto;
 		}
 	}
+}
 
+@media screen and (min-width: 450px) {
+	.author_image {width: 50%; margin: 20px auto 0 5%;}
+}
+
+@media screen and (min-width: 650px) {
+	.blog-post-author {flex-direction: row;}
+	.author_name {padding-left: 20px;}
+	.author_image {width: 50%; margin: 0;}
+}
+
+@media screen and (min-width: 800px) {
+	.author_image {width: 25%;}
 }

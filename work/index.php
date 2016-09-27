@@ -23,7 +23,7 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Our Work</title>
 		<meta name="description" content="xxxxxxxxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/work/" />
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/work/" />
 		<meta name="keywords" content="Keywords" />
 
 

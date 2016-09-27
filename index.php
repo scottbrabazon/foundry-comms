@@ -23,9 +23,9 @@
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry - Design, advertising and digital agency in Manchester</title>
 		<meta name="description" content="xxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/" />
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/" />
 		<meta name="keywords" content="Keywords" />
-
+		<meta name="google-site-verification" content="m9ufvEBVyrcjgnA3N86j1UbNI4Pvfc4te9-GEinAl9M" />
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">

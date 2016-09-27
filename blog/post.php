@@ -50,7 +50,7 @@ perch_layout('global.header', array(
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | News and Views | <?php perch_blog_post_field(perch_get('s'), 'postTitle'); ?></title>
 		<meta name="description" content="xxxxxxxxxxxx" />
-		<link rel="canonical" href="http://dev.foundrydev.co.uk/blog/" />
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/blog/" />
 		<meta name="keywords" content="Keywords" />
 
 
@@ -79,7 +79,7 @@ perch_layout('global.header', array(
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="/blog/" class="active">News</a></li>
+						<li><a href="/news/" class="active">News</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
@@ -88,7 +88,7 @@ perch_layout('global.header', array(
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
-						<li><a href="/blog/" class="active">News</a></li>
+						<li><a href="/news/" class="active">News</a></li>
 				 	</ul>
 				</div>
 			</div>	
@@ -115,20 +115,30 @@ perch_layout('global.header', array(
 					<!-- AddThis Button END -->
 				</div> <!-- addthis -->
 		        
-		        <?php if (isset($author['author_image']['_default'])): ?>
-		            <div class="blog-post-author">
-		                <a href="/blog-author/<?php echo $author['authorSlug']; ?>/">
-		                    <img alt="<?php echo $author['authorGivenName'].' '.$author['authorFamilyName']; ?>" class="author_image" src="<?php echo $author['author_image']['_default']; ?>" />
-		                </a>
-		                <?php echo $author['author_biog']['raw']; ?>
-		            </div>
-		        <?php endif; ?>
 		    </section> <!-- primary -->
 
 		    <!-- Go to www.addthis.com/dashboard to customize your tools -->
 			<div class="addthis_sharing_toolbox"></div>
+
+		    	<div class="blog-post-author flexbox">
+
+			    	<?php if (isset($author['author_image']['_default'])): ?>
+			            
+		                <img alt="<?php echo $author['authorGivenName'].' '.$author['authorFamilyName']; ?>" class="author_image" src="<?php echo $author['author_image']['_default']; ?>" />
+		                <div class="author_name">
+			                <?php echo '<h2>' . $author['authorGivenName'].' '.$author['authorFamilyName'] . '</h2>'; ?>
+			                <div class="rule">
+								<img src="/img/rule.png" alt="Rule" />
+							</div>
+			                <?php echo '<p>' . $author['author_biog']['raw'] . '</p>'; ?>
+			            </div>
+
+			        <?php endif; ?>
+
+			    </div>
 				
 	    </section>
+
 		
 		<!-- Footer -->
 
@@ -137,7 +147,6 @@ perch_layout('global.header', array(
 		<!-- End Footer -->
 
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-
 		<script type="text/javascript" src="//dust.ipfingerprint.com/1631.js"></script>
 
 		<div class="analytics">
