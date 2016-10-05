@@ -54,6 +54,8 @@
 						<li><a href="/approach" class="active">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/news/">News</a></li>
+						<li class="fhc-nav"><a href="http://www.foundryhealthcare.co.uk/">Foundry Healthcare</a></li>
+						<li class="bia-nav"><a href="http://www.brandinaction.com/">Brand in Action</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
@@ -63,6 +65,8 @@
 						<li><a href="/approach" class="active">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/news/">News</a></li>
+						<li class="fhc-nav hvr-bounce-to-right flexbox"><a href="http://www.foundryhealthcare.co.uk/">FOUNDRY HEALTHCARE</a></li>
+						<li class="bia-nav hvr-bounce-to-right flexbox"><a href="http://www.brandinaction.com/">BRAND IN ACTION</a></li>
 				 	</ul>
 				</div>
 			</div>	
