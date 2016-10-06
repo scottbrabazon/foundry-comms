@@ -75,6 +75,15 @@
 			</div>	
 		</div>
 
+		<div class="gif-masthead-450px">
+			<img src="/img/video-optimised-450px.gif" alt="sparks" />
+		</div>
+		<div class="gif-masthead-750px">
+			<img src="/img/video-optimised-750px.gif" alt="sparks" />
+		</div>
+		<div class="gif-masthead-1090px">
+			<img src="/img/video-optimised-1090px.gif" alt="sparks" />
+		</div>
 		<div class="video-masthead">
 			<video autoplay muted loop><source src="/img/video-optimised.mp4" type="video/mp4"></video>
 		</div>
