@@ -71,8 +71,10 @@
             font-family: $foundry_extra_bold;
         }
     }
-    .fhc-nav a {color: #00a7df;}
-    .bia-nav a {color: #53af31;}
+    .fhc-nav a {color: #00a7df; font-family: $foundry_regular;}
+    .bia-nav a {color: #53af31; font-family: $foundry_regular;}
+    .fhc-nav {padding-top: 10px;}
+    .bia-nav {padding-top: 5px;}
 }
 
 .menu-links-mobile {
