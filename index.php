@@ -57,6 +57,8 @@
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/news/">News</a></li>
+						<li class="fhc-nav"><a href="http://www.foundryhealthcare.co.uk/">Foundry Healthcare</a></li>
+						<li class="bia-nav"><a href="http://www.brandinaction.com/">Brand in Action</a></li>
 				 	</ul>
 				</div>
 				<div class="flexbox navigation-menu">
@@ -66,11 +68,22 @@
 						<li><a href="/approach">Approach</a></li>
 						<li><a href="/contact">Contact</a></li>
 						<li><a href="/news/">News</a></li>
+						<li class="fhc-nav hvr-bounce-to-right flexbox"><a href="http://www.foundryhealthcare.co.uk/">FOUNDRY HEALTHCARE</a></li>
+						<li class="bia-nav hvr-bounce-to-right flexbox"><a href="http://www.brandinaction.com/">BRAND IN ACTION</a></li>
 				 	</ul>
 				</div>
 			</div>	
 		</div>
 
+		<div class="gif-masthead-450px">
+			<img src="/img/video-optimised-450px.gif" alt="sparks" />
+		</div>
+		<div class="gif-masthead-750px">
+			<img src="/img/video-optimised-750px.gif" alt="sparks" />
+		</div>
+		<div class="gif-masthead-1090px">
+			<img src="/img/video-optimised-1090px.gif" alt="sparks" />
+		</div>
 		<div class="video-masthead">
 			<video autoplay muted loop><source src="/img/video-optimised.mp4" type="video/mp4"></video>
 		</div>
@@ -255,7 +268,6 @@
 				});
 			});
 		</script>
-		<script src="/js/fadein.js"></script>
 
 		<script type="text/javascript" src="//dust.ipfingerprint.com/1631.js"></script>
 
