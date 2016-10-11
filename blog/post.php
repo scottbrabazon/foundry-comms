@@ -108,29 +108,13 @@ $author = perch_blog_author_for_post(perch_get('s'), array(
 
 		<section id="posts" class="content content-lead-primary main-container">
 		    <section class="column primary">
-		       
 				<?php perch_blog_post(perch_get('s')); ?>
-				
-				
-				<div class="addthis">
-					<!-- AddThis Button BEGIN -->
-				        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-				        <a class="addthis_button_preferred_3"></a>
-				        <a class="addthis_button_preferred_4"></a>
-				        <a class="addthis_button_preferred_1"></a>
-				        <a class="addthis_button_preferred_2"></a>
-				        <a class="addthis_button_compact"></a>
-				        <a class="addthis_counter addthis_bubble_style"></a>
-				        </div>
-					<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5379ef5d21908be3"></script>
-					<!-- AddThis Button END -->
-				</div> <!-- addthis -->
-		        
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+				<div class="addthis_inline_share_toolbox"></div>
 		    </section> <!-- primary -->
 
-		    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-			<div class="addthis_sharing_toolbox"></div>
+			
+			
 
 		    	<div class="blog-post-author flexbox">
 
@@ -172,5 +156,9 @@ $author = perch_blog_author_for_post(perch_get('s'), array(
 				ga('send', 'pageview');
 			</script>
 		</div>
+			
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57fcfe94759aeaf2"></script>
+	
 	</body>
 </html>
