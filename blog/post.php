@@ -19,13 +19,22 @@ $author = perch_blog_author_for_post(perch_get('s'), array(
     'skip-template' => TRUE
 ), TRUE);
 
-perch_layout('global.header', array(
-	'title'=> $this_page_title,
-	'description'=>$metadescription,
-	'page_header'=>'Blog',
-	'body_class'=>'blog '.$cats,
-    'social_image' => $image
-));
+?>
+
+<?php
+	// Defaults, which can be overridden
+	$domain = 'http://'.$_SERVER["HTTP_HOST"];
+	$url = $domain.$_SERVER["REQUEST_URI"];
+	$sitename = "The name of my website";
+	$twittername = "@mytwittername";
+	$sharing_image = '/images/default_fb_image.jpg';
+
+	PerchSystem::set_var('domain',$domain);
+	PerchSystem::set_var('url',$url);
+	PerchSystem::set_var('sitename',$sitename);
+	PerchSystem::set_var('sharing_image',$sharing_image);
+	PerchSystem::set_var('twittername',$twittername);
+
 ?>
 
 <!DOCTYPE html>
@@ -48,11 +57,10 @@ perch_layout('global.header', array(
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-		<title>The Foundry | News and Views | <?php perch_blog_post_field(perch_get('s'), 'postTitle'); ?></title>
-		<meta name="description" content="xxxxxxxxxxxx" />
-		<link rel="canonical" href="http://www.foundrycomms.co.uk/blog/" />
-		<meta name="keywords" content="Keywords" />
 
+		<?php perch_blog_post_meta(perch_get('s')); ?>
+
+		<link rel="canonical" href="http://www.foundrycomms.co.uk/blog/" />
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">
@@ -162,5 +170,3 @@ perch_layout('global.header', array(
 		</div>
 	</body>
 </html>
-
-<?php perch_layout('global.footer'); ?>
