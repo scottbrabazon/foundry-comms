@@ -2226,7 +2226,7 @@ button img { width: auto; margin-left: 10px; }
   /* line 115, ../scss/_blog.scss */
   .author_image { width: 50%; margin: 0; } }
 @media screen and (min-width: 800px) { /* line 119, ../scss/_blog.scss */
-  .author_image { width: 25%; } }
+  .author_image { width: 30%; } }
 /* Masthead */
 /* line 3, ../scss/_homepage.scss */
 #homepage-masthead { margin-top: -600px; }
