@@ -469,7 +469,7 @@ button img { width: auto; margin-left: 10px; }
 .footer .blog-post-meta { font-family: "Gotham Medium Book", sans-serif, arial, sans-serif; }
 
 /* line 20, ../scss/_footer.scss */
-.social { text-align: center; width: auto; margin: 30px auto; padding: 40px 0; }
+.social { text-align: center; width: auto; margin: 50px auto 30px auto; padding: 40px 0; }
 /* line 25, ../scss/_footer.scss */
 .social img { display: inline; }
 
@@ -520,7 +520,7 @@ button img { width: auto; margin-left: 10px; }
 /* line 69, ../scss/_footer.scss */
 .footer-row-1 ul { padding: 0; margin: 0; }
 /* line 70, ../scss/_footer.scss */
-.footer-row-1 li { width: 100%; margin-right: 0; }
+.footer-row-1 li { width: 100%; margin-right: 0; list-style: none; }
 /* line 71, ../scss/_footer.scss */
 .footer-row-1 li:last-child { margin-right: 0; }
 
