@@ -7,6 +7,15 @@ perch_layout('global.header', array(
 ));
 ?>
 
+<?php
+	// Defaults, which can be overridden
+	$domain = 'http://'.$_SERVER["HTTP_HOST"];
+	$url = $domain.$_SERVER["REQUEST_URI"];
+	
+	PerchSystem::set_var('domain',$domain);
+	PerchSystem::set_var('url',$url);
+?>
+
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html class="ie ie6 nojs Corporate
@@ -28,9 +37,7 @@ perch_layout('global.header', array(
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | News and Views</title>
-		<meta name="description" content="xxxxxxxx" />
-		<link rel="canonical" href="http://www.foundrycomms.co.uk/blog" />
-		<meta name="keywords" content="Keywords" />
+		<link rel="canonical" href="<?php echo $url; ?>" />
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">

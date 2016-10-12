@@ -1,5 +1,14 @@
 <?php include('../perch/runtime.php'); ?>
 
+<?php
+	// Defaults, which can be overridden
+	$domain = 'http://'.$_SERVER["HTTP_HOST"];
+	$url = $domain.$_SERVER["REQUEST_URI"];
+	
+	PerchSystem::set_var('domain',$domain);
+	PerchSystem::set_var('url',$url);
+?>
+
 
 <!DOCTYPE html>
 <!--[if IE 6]>
@@ -22,10 +31,10 @@
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
 		<title>The Foundry | Who we are</title>
+		<link rel="canonical" href="<?php echo $url; ?>" />
+		
 		<meta name="description" content="xxxx" />
-		<link rel="canonical" href="http://www.foundrycomms.co.uk/about/" />
 		<meta name="keywords" content="Keywords" />
-
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">

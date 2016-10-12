@@ -21,6 +21,8 @@
 <meta name="twitter:title" content="<perch:blog id="og_title" label="Social title" type="text" escape="true" />" />
 <meta name="twitter:description" content="<perch:blog id="og_description" label="Social description" type="textarea" size="s" escape="true" />" /><!--* *-->
 <perch:if exists="og_image">
-<meta property="twitter:image" content="<perch:blog id="domain" type="hidden" /><perch:blog id="og_image" label="Image when shared" help="Should be at least 1200x630" type="image" width="1200" />" />
+<meta name="twitter:image" content="<perch:blog id="domain" type="hidden" /><perch:blog id="og_image" label="Image when shared" help="Should be at least 1200x630" type="image" width="1200" />" />
 </perch:if><!--* *-->
 <meta name="twitter:url" content="<perch:blog id="domain" type="hidden" /><perch:blog id="postURL" type="hidden" />" />
+<meta name="twitter:image:width" content="800">
+<meta name="twitter:image:height" content="400">
