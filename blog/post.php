@@ -25,9 +25,9 @@ $author = perch_blog_author_for_post(perch_get('s'), array(
 	// Defaults, which can be overridden
 	$domain = 'http://'.$_SERVER["HTTP_HOST"];
 	$url = $domain.$_SERVER["REQUEST_URI"];
-	$sitename = "The name of my website";
+	$sitename = "Foundry Communications";
 	$twittername = "@mytwittername";
-	$sharing_image = '/images/default_fb_image.jpg';
+	$sharing_image = '/perch/resources/social-sharing.jpg';
 
 	PerchSystem::set_var('domain',$domain);
 	PerchSystem::set_var('url',$url);
@@ -57,10 +57,9 @@ $author = perch_blog_author_for_post(perch_get('s'), array(
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 		<meta name="msvalidate.01" content="12CA65DABA62FBA74F1C4C0248D90FC2">
-
-		<?php perch_blog_post_meta(perch_get('s')); ?>
-
 		<link rel="canonical" href="http://www.foundrycomms.co.uk/blog/" />
+		
+		<?php perch_blog_post_meta(perch_get('s')); ?>
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">

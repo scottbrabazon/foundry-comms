@@ -51,7 +51,7 @@
 						<li><a href="/about">About</a></li>
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
-						<li><a href="/contact" class="active">Contact</a></li>
+						<li><a href="/contact">Contact</a></li>
 						<li><a href="/news/">News</a></li>
 						<li class="fhc-nav"><a href="http://www.foundryhealthcare.co.uk/">Foundry Healthcare</a></li>
 						<li class="bia-nav"><a href="http://www.brandinaction.com/">Brand in Action</a></li>
@@ -62,7 +62,7 @@
 						<li><a href="/about">About</a></li>
 						<li><a href="/work">Work</a></li>
 						<li><a href="/approach">Approach</a></li>
-						<li><a href="/contact" class="active">Contact</a></li>
+						<li><a href="/contact">Contact</a></li>
 						<li><a href="/news/">News</a></li>
 						<li class="fhc-nav hvr-bounce-to-right flexbox"><a href="http://www.foundryhealthcare.co.uk/">FOUNDRY HEALTHCARE</a></li>
 						<li class="bia-nav hvr-bounce-to-right flexbox"><a href="http://www.brandinaction.com/">BRAND IN ACTION</a></li>

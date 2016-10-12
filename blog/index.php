@@ -31,8 +31,6 @@ perch_layout('global.header', array(
 		<meta name="description" content="xxxxxxxx" />
 		<link rel="canonical" href="http://www.foundrycomms.co.uk/blog" />
 		<meta name="keywords" content="Keywords" />
-		
-		<?php perch_blog_post(perch_get('s')); ?>
 
 		<link rel="stylesheet" media="all" href="../css/style.css">
 		<link rel="stylesheet" media="all" href="../css/animate.css">
