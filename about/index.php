@@ -4,9 +4,16 @@
 	// Defaults, which can be overridden
 	$domain = 'http://'.$_SERVER["HTTP_HOST"];
 	$url = $domain.$_SERVER["REQUEST_URI"];
-	
+	$sitename = "Foundry Communications";
+	$twittername = "@foundrycomms";
+	$sharing_image = '/perch/resources/social-sharing.jpg';
+
 	PerchSystem::set_var('domain',$domain);
 	PerchSystem::set_var('url',$url);
+	PerchSystem::set_var('sitename',$sitename);
+	PerchSystem::set_var('sharing_image',$sharing_image);
+	PerchSystem::set_var('twittername',$twittername);
+
 ?>
 
 
