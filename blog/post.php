@@ -61,8 +61,8 @@ $author = perch_blog_author_for_post(perch_get('s'), array(
 		
 		<?php perch_blog_post_meta(perch_get('s')); ?>
 		
-		<link rel="stylesheet" media="all" href="../css/style.css">
-		<link rel="stylesheet" media="all" href="../css/animate.css">
+		<link rel="stylesheet" media="all" href="/css/style.css">
+		<link rel="stylesheet" media="all" href="/css/animate.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="/js/responsiveslides.min.js"></script>
 		<script src="/js/flexibility.js"></script>
