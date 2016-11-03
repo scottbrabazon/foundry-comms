@@ -105,7 +105,7 @@
 
 		<div id="case-studies">
 			<div class="case-studes-examples flexbox">
-					<div>
+					<!--<div>
 						<a href="/work/ppcp/">
 							<div class="project-image">
 								<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
@@ -114,7 +114,7 @@
 								<p class="project-info"><span class="project-client">Premier Vet Group</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
 							</div>
 						</a>
-					</div>
+					</div>-->
 				<div>
 					<a href="/work/kumho/">
 						<div class="project-image">
@@ -135,18 +135,18 @@
 						</div>
 					</a>
 				</div>
+				<div>
+					<a href="/work/albemarle-bond/">
+						<div class="project-image">
+							<img src="/img/case-studies/albemarle-bond.jpg" alt="Albemarle Bond Case Study" />
+						</div>
+						<div class="hvr-bounce-to-top project-name-panel">
+							<p class="project-info"><span class="project-client">Albemarle Bond</span><br><span class="project-title">Taking a brand from administration to sale in three years</span></p>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div class="case-studes-examples flexbox">
-					<div>
-						<a href="/work/albemarle-bond/">
-							<div class="project-image">
-								<img src="/img/case-studies/albemarle-bond.jpg" alt="Albemarle Bond Case Study" />
-							</div>
-							<div class="hvr-bounce-to-top project-name-panel">
-								<p class="project-info"><span class="project-client">Albemarle Bond</span><br><span class="project-title">Taking a brand from administration to sale in three years</span></p>
-							</div>
-						</a>
-					</div>
 				<div>
 					<a href="/work/pgl/">
 						<div class="project-image">
@@ -166,6 +166,11 @@
 							<p class="project-info"><span class="project-client">Matthew Clark</span><br><span class="project-title">Helping 1,400 sales people tell &lsquo;one version of the truth&rsquo;</span></p>
 						</div>
 					</a>
+				</div>
+				<div>
+						<div class="project-image">
+							<img src="/img/case-studies/holder.jpg" alt="" />
+						</div>
 				</div>
 			</div>
 		</div>
