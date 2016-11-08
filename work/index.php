@@ -163,7 +163,7 @@
 							<img src="/img/case-studies/matthew-clark.jpg" alt="Matthew Clark Case Study" />
 						</div>
 						<div class="hvr-bounce-to-top project-name-panel">
-							<p class="project-info"><span class="project-client">Matthew Clark</span><br><span class="project-title">Helping 1,400 sales people tell &lsquo;one version of the truth&rsquo;</span></p>
+							<p class="project-info"><span class="project-client">Matthew Clark</span><br><span class="project-title">Helping the Matthew Clark sales force tell &lsquo;one version of the truth&rsquo;</span></p>
 						</div>
 					</a>
 				</div>
