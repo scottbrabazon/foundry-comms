@@ -1,0 +1,195 @@
+{% set title = "Design, advertising and digital agency in Manchester" %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+
+<div class="gif-masthead-450px">
+	<img src="/img/video-optimised-450px.gif" alt="sparks" />
+</div>
+<div class="gif-masthead-750px">
+	<img src="/img/video-optimised-750px.gif" alt="sparks" />
+</div>
+<div class="gif-masthead-1090px">
+	<img src="/img/video-optimised-1090px.gif" alt="sparks" />
+</div>
+<div class="video-masthead">
+	<video autoplay muted loop><source src="/img/video-optimised.mp4" type="video/mp4"></video>
+</div>
+
+<main class="main-container">
+
+	<!-- Masthead -->
+
+	{% set entry = craft.entries.section('Homepage').first() %}
+
+	<header id="homepage-masthead">
+		<ul class="rslides">
+			{% for headline in entry.bannerHeadlines %}
+			<li>
+				<div class="slide flexbox">
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<h1>{{ headline.headlineCopy }}</h1>
+					<a href="/work">
+						<div class="hvr-bounce-to-right button-next flexbox">
+							<p>View our work</p>
+						</div>
+					</a>
+				</div>	
+			</li>
+			{% endfor %}
+		</ul>
+	</header>
+
+	<!-- End Masthead -->
+
+	<!-- Intro Copy -->
+
+	<div id="homepage-intro-copy">
+		<div> 
+			<div class="problem-solved centered">
+				<h2>{{ entry.homeIntroductionTitle }}</h2>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+
+				<p>{{ entry.homeIntroductionFirst }}</p>
+
+				{{ entry.homeIntroductionCopy }}
+
+			</div>	
+			<div class="groupthree flexbox">
+
+				{% for panel in entry.pagePanels %}
+				<div class="groupthree-content flexbox">
+					<h2>{{ panel.panelTitle }}</h2>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<p>{{ panel.panelCopy }}</p>
+					<a href="{{ panel.panelLink }}">
+						<div class="hvr-bounce-to-right button-next flexbox">
+							<p>{{ panel.panelLinkTitle }}</p>
+						</div>
+					</a>
+				</div>
+
+				{% endfor %}
+
+			</div>
+		</div>
+	</div>
+
+	<!-- End Intro Copy -->
+
+</main>	
+
+<!-- Case Studes -->
+
+		<div id="case-studies" class="white-border">
+	<div class="case-studes-examples flexbox">
+			<!--<div>
+				<a href="/work/ppcp/">
+					<div class="project-image">
+						<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+					</div>
+					<div class="hvr-bounce-to-top project-name-panel">
+						<p class="project-info"><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
+					</div>
+				</a>
+			</div>-->
+			<div>
+				<a href="/work/pgl/">
+					<div class="project-image">
+						<img src="/img/case-studies/pgl.jpg" alt="PGL Case Study" />
+					</div>
+					<div class="hvr-bounce-to-top project-name-panel">
+						<p class="project-info"><span class="project-client">PGL</span><br><span class="project-title">Turning complexity and scale into simplicity and ease</span></p>
+					</div>
+				</a>
+			</div>
+		<div>
+			<a href="/work/kumho/">
+				<div class="project-image">
+					<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
+				</div>
+				<div class="hvr-bounce-to-top project-name-panel">
+					<p class="project-info"><span class="project-client">Kumho Tyres</span><br><span class="project-title">Helping a Korean tyre brand take the UK by storm</span></p>
+				</div>
+			</a>
+		</div>
+		<div>	
+			<a href="/work/abellio/">
+				<div class="project-image">
+					<img src="/img/case-studies/abellio.jpg" alt="Bike &amp; Go Case Study" />
+				</div>
+				<div class="hvr-bounce-to-top project-name-panel">
+					<p class="project-info"><span class="project-client">Bike and Go</span><br><span class="project-title">Launching a revolutionary national bike hire scheme</span></p>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- End Case Studes -->
+
+<!-- Client Slider -->
+
+<div id="client-slider">
+	<section class="center slider">
+		<div>
+			<img src="/img/client-logos/pgl.svg" alt="PGL">
+		</div>
+		<div>
+			<img src="/img/client-logos/ppcp.svg" alt="PPCP">
+		</div>
+		<div>
+			<img src="/img/client-logos/hags.svg" alt="HAGS">
+		</div>
+		<div>
+			<img src="/img/client-logos/concha-y-toro.svg" alt="Concha Y Toro">
+		</div>
+		<div>
+			<img src="/img/client-logos/space-zero.svg" alt="Space Zero">
+		</div>
+		<div>
+			<img src="/img/client-logos/lowell.svg" alt="Lowell">
+		</div>
+		<div>
+			<img src="/img/client-logos/spaldings.svg" alt="Spaldings">
+		</div>
+		<div>
+			<img src="/img/client-logos/kumho.svg" alt="Kumho">
+		</div>
+		<div>
+			<img src="/img/client-logos/matthew-clark.svg" alt="Matthew Clark">
+		</div>
+		<div>
+			<img src="/img/client-logos/mersey-rail.svg" alt="Mersey Rail">
+		</div>
+		<div>
+			<img src="/img/client-logos/mufc.svg" alt="Manchester United">
+		</div>
+		<div>
+			<img src="/img/client-logos/dr-beckmann.svg" alt="Dr Beckmann">
+		</div>
+		<div>
+			<img src="/img/client-logos/albemarle-bond.svg" alt="Almemarle Bond">
+		</div>
+		<div>
+			<img src="/img/client-logos/warren-partners.svg" alt="Warren Partners">
+		</div>
+		<div>
+			<img src="/img/client-logos/wd40.svg" alt="WD40">
+		</div>
+		<div>
+			<img src="/img/client-logos/bike-and-go.svg" alt="Bike &amp; Go">
+		</div>
+	</section>
+</div>	
+
+<!-- End Client Slider -->
+
+{% endblock main %}

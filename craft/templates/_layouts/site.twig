@@ -1,0 +1,91 @@
+{% extends "_layouts/base" %}
+
+{% block body %}
+
+<div id="navigation">
+	<div class="navigation-panel flexbox main-container">
+		<div class="logo">
+			<a href="/"><img src="/img/foundry-logo.svg" alt="The Foundry Logo"></a>
+		</div>
+		<div class="flexbox navigation-menu-mobile">
+			<div class="menu-toggle-button">
+				<img src="/img/menu.svg" alt="Menu">
+			</div>
+		 	<ul class="menu-links-mobile">
+				<li><a href="/about">About</a></li>
+				<li><a href="/work">Work</a></li>
+				<li><a href="/approach">Approach</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/news/">News</a></li>
+				<li class="fhc-nav"><a href="http://www.foundryhealthcare.co.uk/">Foundry Healthcare</a></li>
+				<li class="bia-nav"><a href="http://www.brandinaction.com/">Brand in Action</a></li>
+		 	</ul>
+		</div>
+		<div class="flexbox navigation-menu">
+		 	<ul class="menu-links flexbox">
+				<li><a href="/about">About</a></li>
+				<li><a href="/work">Work</a></li>
+				<li><a href="/approach">Approach</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/news/">News</a></li>
+				<li class="fhc-nav hvr-bounce-to-right flexbox"><a href="http://www.foundryhealthcare.co.uk/">FOUNDRY HEALTHCARE</a></li>
+				<li class="bia-nav hvr-bounce-to-right flexbox"><a href="http://www.brandinaction.com/">BRAND IN ACTION</a></li>
+		 	</ul>
+		</div>
+	</div>	
+</div>
+
+{% block main %}{% endblock main %}
+
+{% block footer_home %}
+		<!-- Footer -->
+
+	<div id="footer" class="background">
+	<div class="footer flexbox main-container">
+		<div class="footer-row-1">
+			{#<?php 
+			perch_blog_custom(array(
+				'sort'=>'postDateTime',
+				'sort-order'=>'DESC',
+				'template'=>'blog/post_in_footer.html',
+				'count'=>'3'
+			)); ?>#}
+		</div>
+	</div>	
+	<div class="footer-row-2">
+		<div class="social">
+			<a href="http://www.twitter.com/foundrycomms">
+				<img src="/img/social/twitter.svg" alt="Twitter" />
+			</a>
+			<a href="http://www.facebook.com/foundrycomms">
+				<img src="/img/social/facebook.svg" alt="Facebook" />
+			</a>
+			<a href="http://www.youtube.com/foundrycomms">
+				<img src="/img/social/you-tube.svg" alt="YouTube" />
+			</a>
+			<a href="http://www.linkedin.com/company/the-foundry-communications">
+				<img src="/img/social/linkedin.svg" alt="LinkedIn" />
+			</a>
+			<a href="http://www.pinterest.com/thefoundrycomms">
+				<img src="/img/social/pinterest.svg" alt="Pinterest" />
+			</a>
+		</div>	
+	</div>
+	<div class="footer main-container">
+		<div class="footer-row-3 flexbox">
+			<p class="contact-number"><span>Contact</span> <a href="tel:+441619268444">+44 (0)161 926 8444</a></p>
+			<div class="enquiry-button">
+				<a href="/contact">
+					<div class="hvr-bounce-to-right button-next flexbox">
+						<p>Make Enquiry</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>	
+</div>
+
+		<!-- End Footer -->
+{% endblock footer_home %}
+
+{% endblock body %}

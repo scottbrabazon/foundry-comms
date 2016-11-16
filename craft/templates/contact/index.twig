@@ -1,0 +1,79 @@
+{% set title = "Contact Us" %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+
+
+<!-- Masthead -->
+
+		<header id="contact-masthead" class="masthead flexbox">
+			<div class="masthead-content main-container flexbox">
+				<div class="headlines">
+					<h1>Contact Us</h1>
+					<div class="rule">
+						<img src="/img/rule.png" alt="Rule" />
+					</div>
+					<div class="contact-details flexbox">
+						<div class="address flexbox">
+							<img src="/img/address.svg" alt="Address" />
+							<p>
+								<strong>The Foundry Communications</strong><br>
+								3 Denmark Street, Altrincham<br>
+								Cheshire WA14 2SS
+							</p>
+						</div>
+						<div class="telephone flexbox">
+							<img src="/img/telephone.svg" alt="Telephone" />
+							<a href="tel:+441619268444"><p>+44 (0)161 926 8444<p></a>
+						</div>
+						<div class="email flexbox">
+							<img src="/img/email.svg" alt="Email" />
+							<a href="mailto:info@foundrycomms.co.uk"><p>info@foundrycomms.co.uk<p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- End Masthead -->
+
+		<!-- Map -->
+
+		<section id="map">
+			<div class="map centered">
+				<?php perch_content('Map'); ?>
+			</div>
+		</section>
+
+		<!-- End Map -->
+
+		<!-- Enquiry Form -->
+
+		<?php perch_content('Enquiry Form'); ?>
+
+		<!-- End Enquiry Form -->
+
+		<!-- Careers -->
+
+		<section id="careers" class="main-container">
+			<div class="centered">
+				<h1>Careers</h1>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+				<p>The Foundry is nothing without its people &ndash; and they are some of the best in the business. Hence our policy is to recruit only those who are <i>better</i> than us… or have the potential to be. That means finding people who can help deliver and service the diverse communication solutions we offer.</p>
+				<p>Our focus is building brands and profits for both our clients and ourselves.</p>
+				<p>In return for dedication, professionalism and a passion for excellence, we offer generous remuneration packages for the right candidates.</p>
+
+				<h3>Current Vacancies</h3>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+				<p>Unfortunately, there are no vacancies at the moment. However, we are always interested in talented people, so if you think you could add to The Foundry, then please <a href="mailto:info@foundrycomms.co.uk">email us</a> your CV.</p>
+			</div>
+		</section>
+
+		<!-- End Careers -->
+
+{% endblock main %}
