@@ -201,6 +201,17 @@
 				</div>
 				<div class="hvr-bounce-to-right-person person">
 					<div class="person-image">
+						<img src="/img/staff/emily-thumbnail-bw.jpg" alt="Emily Waldie">
+						<div class="person-biography flexbox">
+							<p>&nbsp;</p>
+						</div>
+					</div>
+					<div class="person-name-panel">
+						<p><span class="person-name">Emily Waldie</span><br><span class="job-title">Receptionist</span></p>
+					</div>
+				</div>
+				<div class="hvr-bounce-to-right-person person">
+					<div class="person-image">
 						<img src="/img/staff/ian-thumbnail-bw.jpg" alt="Ian McKay">
 						<div class="person-biography flexbox">
 							<p>Technical wizard and Foundry founder who loves his two grown-up boys as much as AC/DC – well, almost!</p>
@@ -342,7 +353,7 @@
 						<p><span class="person-name">Vicky Green</span><br><span class="job-title">Copywriter</span></p>
 					</div>
 				</div>
-				<div class="hvr-bounce-to-right-person person">
+				<!--<div class="hvr-bounce-to-right-person person">
 					<div class="person-image">
 						<img src="/img/staff/will-thumbnail-bw.jpg" alt="Will English">
 						<div class="person-biography flexbox">
@@ -352,7 +363,7 @@
 					<div class="person-name-panel">
 						<p><span class="person-name">Will English</span><br><span class="job-title">Associate Director</span></p>
 					</div>
-				</div>
+				</div>-->
 				<div class="hvr-bounce-to-right-person person">
 					<div class="person-image">
 						<img src="/img/staff/zoe-thumbnail-bw.jpg" alt="Zoë Buckley">

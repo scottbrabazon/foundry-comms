@@ -88,7 +88,7 @@
 					<div class="rule">
 						<img src="/img/rule.png" alt="Rule" />
 					</div>
-					<h3>Helping 1,400 sales people tell ‘one version of the truth’.</h3>
+					<h3>Helping the Matthew Clark sales force tell ‘one version of the truth’.</h3>
 				</div>
 				<div class="client-logo">
 					<img src="/img//client-logos/matthew-clark-white.svg" alt="Matthew Clark" />
