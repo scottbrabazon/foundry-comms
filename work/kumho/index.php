@@ -301,7 +301,7 @@
 		<div id="work-fixed-nav-buttons">
 			<ul class="section_tabs flexbox work-fixed-nav-buttons">
 				<li>
-					<a href="../ppcp" class="nav-buttons flexbox fixed-previous-page">
+					<a href="../matthew-clark" class="nav-buttons flexbox fixed-previous-page">
 						<img src="/img/buttons/big/arrow-left.svg" alt="Prev" />
 						<h2>&nbsp;&nbsp;Prev</h2>
 					</a>
@@ -326,12 +326,12 @@
 			<div class="footer flexbox main-container">
 				<div class="footer-row-1 flexbox">
 					<div class="previous-case-study">
-						<a href="/work/ppcp/">
+						<a href="/work/matthew-clark/">
 							<div class="project-image">
-								<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+								<img src="/img/case-studies/matthew-clark.jpg" alt="Matthew Clark Case Study" />
 							</div>
 							<div class="hvr-bounce-to-top project-name-panel">
-								<p class="project-info"><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
+								<p class="project-info"><span class="project-client">Matthew Clark</span><br><span class="project-title">Helping 1400 sales people tell &lsquo;one version of the truth&rsquo;</span></p>
 							</div>
 						</a>
 					</div>

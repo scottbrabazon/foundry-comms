@@ -213,7 +213,7 @@
 					<h2>&nbsp;</h2>
 				</div>
 				<li>
-					<a href="../ppcp" class="nav-buttons flexbox fixed-next-page">
+					<a href="../kumho" class="nav-buttons flexbox fixed-next-page">
 						<h2>Next&nbsp;&nbsp;</h2>
 						<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
 					</a>
@@ -245,12 +245,12 @@
 						</a>
 					</div>
 					<div class="next-case-study">
-						<a href="/work/ppcp/">
+						<a href="/work/kumho/">
 							<div class="project-image">
-								<img src="/img/case-studies/ppcp.jpg" alt="PPCP Case Study" />
+								<img src="/img/case-studies/kumho.jpg" alt="Kuhmo Case Study" />
 							</div>
 							<div class="hvr-bounce-to-top project-name-panel">
-								<p class="project-info"><span class="project-client">Premier Vet Alliance</span><br><span class="project-title">Shaking things up in a stagnant market</span></p>
+								<p class="project-info"><span class="project-client">Kumho Tyres</span><br><span class="project-title">Helping a Korean tyre brand take the UK by storm</span></p>
 							</div>
 						</a>
 					</div>
