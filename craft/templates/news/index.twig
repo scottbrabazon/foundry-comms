@@ -1,0 +1,80 @@
+{% set title = "Contact Us" %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+
+<header id="blog-masthead" class="masthead flexbox">
+	<div class="masthead-content main-container flexbox">
+		<div class="headlines">
+			<h1>News and Views</h1>
+			<div class="rule">
+				<img src="/img/rule.png" alt="Rule" />
+			</div>
+			<h3>Find out what makes us get out of bed in the morning, from industry insights to agency achievements.</h3>
+		</div>
+	</div>
+</header>	
+
+<!-- End Masthead -->
+
+
+<section id="recent-posts-index" class="main-container">
+
+{% paginate craft.entries().section("news").order('postDate desc').limit(6) as pageInfo, news %}
+
+{% set pageNav %}
+
+{% if pageInfo.totalPages >  0 %}
+
+ <div class="blog-paging button-next hvr-bounce-to-right">
+    {% if pageInfo.nextUrl %}
+        <a href="{{ pageInfo.nextUrl }}" class="blog_paging_older">OLDER POSTS</a>
+    {% endif %}
+    {% if pageInfo.prevUrl %}
+        <a href="{{ pageInfo.prevUrl }}" class="blog_paging_newer">NEWER POSTS</a>
+    {% endif %}
+</div>
+
+{% endif %}
+
+{% endset %}
+
+{% if not news | length %}
+<p>Sorry, there are no items currently available.</p>
+{% endif %}
+
+<section class="blog flexbox">
+
+{% for newsItem in news %}
+
+
+<article class="blog-post blog-post-list">
+
+<header>
+<h1 class="blog-post-title blog-post-title-list"><a href="{{ newsItem.url }}" rel="bookmark">{{ newsItem.title }}</a></h1>
+<p class="blog-post-meta">Posted on {{ newsItem.postDate | date("l F j, Y") }}.</p>
+</header>
+
+<div class="blog-post-body">
+    <div class="blog-index-image">
+    	{% set image = newsItem.articleMainImage.first() %}
+    	{% if image %}
+    	<a href="{{ newsItem.url }}" class="blog-post-image blog-post-image-list"><img src="{{ image.url }}" alt="{{ newsItem.title }}" /></a>
+    	{% endif %}
+    </div>
+    <p>{{ newsItem.articleSummary }}</p>
+    <p class="button-next hvr-bounce-to-right"><a href="{{ newsItem.url }}" />Read More</a></p>
+</div>
+
+</article>
+
+{% endfor %}
+
+{{ pageNav }}
+
+</section>
+
+</section>
+
+{% endblock main %}
