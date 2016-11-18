@@ -12,12 +12,12 @@
 	<div class="masthead-content main-container flexbox">
 		{% for headline in entry.bannerHeadlines %}
 		<div class="headlines">
-			<h1>{{ headline.headlineCopy }}</h1>
+			<h1>{{ headline.bannerHeadline }}</h1>
 			<div class="rule">
 				<img src="/img/rule.png" alt="Rule" />
 			</div>
 			<div>
-				<h3>The Foundry is a creative communications agency, built around world-class people who are passionate about growing our clients’ businesses.</h3>
+				<h3>{{ headline.bannerCopy }}</h3>
 			</div>
 		</div>
 		{% endfor %}
@@ -28,17 +28,18 @@
 
 <!-- Who We Are -->
 
+{% for paragraph in entry.generalParagraph %}
 <section id="who-we-are" class="main-container">
 	<div class="centered">
-		<h1>Since 1998...</h1>
+		<h1>{{ paragraph.paragraphHeadline }}</h1>
 		<div class="rule">
 			<img src="/img/rule.png" alt="Rule" />
 		</div>
-		<p>...we have helped to build brands, big and small, across all sectors &mdash; business and consumer &mdash; from automotive and retail, to healthcare and travel.</p>
-		<p>If you have a marketing problem that could use a fresh pair of eyes, our planners, designers, art directors, writers and web developers are ready to solve it.</p>
+		{{ paragraph.paragraphCopy }}
 		<hr />
 	</div>
 </section>
+{% endfor %}
 
 <!-- End Who We Are -->
 
@@ -120,78 +121,25 @@
 			<p>Awards aren’t always a measure of effectiveness, but they’re certainly nice to have. Here are some of the ones we enter, and win, for our clients.</p>
 		</div>
 		<div class="awards-panel flexbox">
+
+			{% set awards = craft.entries.section('awards') %}
+			{% for award in awards %}
+
 			<div class="awards">
-				<img src="/img/awards/summit.jpg" alt="Summit Creative Awards">
+
+				{% if award.awardImage | length %}
+    			{% set image = award.awardImage.first() %}
+        			<img src="{{ image.url }}" alt="PGL">
+				{% endif %}
+
 				<div class="award-biography flexbox">
-					<p>Summit Creative Awards</p>
+					<p>{{ award }}</p>
 				</div>
+
 			</div>
-			<div class="awards">
-				<img src="/img/awards/global.jpg" alt="The Global Awards">
-				<div class="award-biography flexbox">
-					<p>The Global Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/new-york.jpg" alt="The New York Festivals">
-				<div class="award-biography flexbox">
-					<p>The New York Festivals<sup>&trade;</sup></p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/pmea.jpg" alt="PMEA Awards">
-				<div class="award-biography flexbox">
-					<p>PMEA Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/rx-club.jpg" alt="The RX Club">
-				<div class="award-biography flexbox">
-					<p>The RX Club</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/roses.jpg" alt="Roses Design Awards">
-				<div class="award-biography flexbox">
-					<p>The Drum<sup>&reg;</sup>Roses<br>Creative Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/epica.jpg" alt="EPICA Creative Awards">
-				<div class="award-biography flexbox">
-					<p>EPICA Creative Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/veterinary.jpg" alt="Veterinary Marketing Awards">
-				<div class="award-biography flexbox">
-					<p>Veterinary Marketing Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/ipa.jpg" alt="IPA Awards">
-				<div class="award-biography flexbox">
-					<p>IPA Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/cresta.jpg" alt="Creata Advertising Awards">
-				<div class="award-biography flexbox">
-					<p>Cresta Advertising Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/drum.jpg" alt="The Drum Awards">
-				<div class="award-biography flexbox">
-					<p>The Drum Awards</p>
-				</div>
-			</div>
-			<div class="awards">
-				<img src="/img/awards/rar.jpg" alt="RAR Awards">
-				<div class="award-biography flexbox">
-					<p>RAR Digital Awards</p>
-				</div>
-			</div>
+
+			{% endfor %}
+			
 		</div>
 	</div>
 </section>

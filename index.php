@@ -44,6 +44,7 @@
 		<link rel="stylesheet" type="text/css" href="./slick/slick-settings.css">
 
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="/js/our-approach-tabs.js"></script>
 		<script src="/js/responsiveslides.min.js"></script>
 		<script src="/js/flexibility.js"></script>
 		<script src="/js/menu.js"></script>
