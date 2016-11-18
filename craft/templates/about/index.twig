@@ -4,7 +4,7 @@
 
 {% block main %}
 
-{% set entry = craft.entries.section('aboutUs').first() %}
+{% set entry = craft.entries.section('about').first() %}
 
 <!-- Masthead -->
 
@@ -89,7 +89,7 @@
 		</div>
 		<div class="client-logos-panel flexbox">
 
-			{% set clients = craft.entries.section('clients') %}
+			{% set clients = craft.entries.section('clients').order('title') %}
 			{% for client in clients %}
 
 			<div class="client-logos">
@@ -122,7 +122,7 @@
 		</div>
 		<div class="awards-panel flexbox">
 
-			{% set awards = craft.entries.section('awards') %}
+			{% set awards = craft.entries.section('awards').order('title') %}
 			{% for award in awards %}
 
 			<div class="awards">

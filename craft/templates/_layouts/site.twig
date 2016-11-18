@@ -43,14 +43,44 @@
 	<div id="footer" class="background">
 	<div class="footer flexbox main-container">
 		<div class="footer-row-1">
-			{#<?php 
-			perch_blog_custom(array(
-				'sort'=>'postDateTime',
-				'sort-order'=>'DESC',
-				'template'=>'blog/post_in_footer.html',
-				'count'=>'3'
-			)); ?>#}
-		</div>
+
+			{% paginate craft.entries().section("news").order('postDate desc').limit(3) as pageInfo, news %}
+
+			{% set pageNav %}
+
+			{% if pageInfo.totalPages >  0 %}
+
+			{% endif %}
+
+			{% endset %}
+
+			<section class="blog flexbox hfeed listing">
+
+				{% for newsItem in news %}
+
+				<article class="blog-post blog-post-list hentry">
+					<div>
+		                <h3>News</h3>
+		                <div class="rule">
+		                    <img src="/img/rule.png" alt="Rule" />
+		                </div>
+		            </div>
+					<header>
+						<h4 class="blog-post-title blog-post-title-list"><a href="{{ newsItem.url }}" rel="bookmark">{{ newsItem.title }}</a></h4>
+						<p class="blog-post-meta">Posted on {{ newsItem.postDate | date("l F j, Y") }}.</p>
+					</header>
+					<div class="blog-post-body">
+					    <p>{{ newsItem.articleSummary }}</p>
+					    <p class="button-next hvr-bounce-to-right"><a href="{{ newsItem.url }}" />Find out more</a></p>
+					</div>
+				</article>
+
+				{% endfor %}
+
+				{{ pageNav }}
+
+			</section>
+	    </div>
 	</div>	
 	<div class="footer-row-2">
 		<div class="social">
