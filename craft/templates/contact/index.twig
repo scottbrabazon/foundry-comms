@@ -18,18 +18,16 @@
 						<div class="address flexbox">
 							<img src="/img/address.svg" alt="Address" />
 							<p>
-								<strong>The Foundry Communications</strong><br>
-								3 Denmark Street, Altrincham<br>
-								Cheshire WA14 2SS
+								{{ companyDetails.postalAddress | raw }}
 							</p>
 						</div>
 						<div class="telephone flexbox">
 							<img src="/img/telephone.svg" alt="Telephone" />
-							<a href="tel:+441619268444"><p>+44 (0)161 926 8444<p></a>
+							<a href="tel:+{{ companyDetails.phoneNumber }}"><p>{{ companyDetails.phoneNumber }}<p></a>
 						</div>
 						<div class="email flexbox">
 							<img src="/img/email.svg" alt="Email" />
-							<a href="mailto:info@foundrycomms.co.uk"><p>info@foundrycomms.co.uk<p></a>
+							<a href="mailto:{{ companyDetails.emailAddress }}"><p>{{ companyDetails.emailAddress }}<p></a>
 						</div>
 					</div>
 				</div>
@@ -50,29 +48,57 @@
 
 		<!-- Enquiry Form -->
 
-		<?php perch_content('Enquiry Form'); ?>
+		<section id="enquiry-form" class="centered">
+			<form id="form1_contact" action="#perch-reset" method="post">
+		        <h1>Make an enquiry</h1>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+				<p>Send us a message. Fill in your details and we'll be in touch as soon as possible.</p>
+				<fieldset>
+					<div class="form-field">
+						<input id="form1_name" name="user_name" placeholder="Name" type="text" required="required" />
+					</div>
+					<div class="form-field">
+						<input id="form1_position" name="user_position" placeholder="Position" type="text" required="required" />
+					</div>
+					<div class="form-field">
+						<input id="form1_company" name="user_company" placeholder="Company" type="text" required="required" />
+					</div>
+					<div class="form-field">
+						<input id="form1_email" name="user_email" placeholder="Email address" type="text" required="required" />
+
+					</div>
+					<div class="form-field">
+						<input id="form1_telephone" name="user_telephone" placeholder="Telephone number" type="text" required="required" />
+					</div>
+					<div class="form-field">
+						<input id="form1_message" name="user_message" placeholder="Message" type="text" required="required" />
+					</div>
+
+					<div class="hvr-bounce-to-right button-next">
+						<input id="form1_submit" name="submit" value="Send" type="submit" /><input type="hidden" name="cms-form" value="Y29udGFjdDpwZXJjaF9mb3JtczovdGVtcGxhdGVzL2NvbnRlbnQvZW5xdWlyeS1mb3JtLmh0bWw6MTQ3OTcyNTg2OA==" />
+					</div>
+				</fieldset>
+				
+			</form>
+		</section>
 
 		<!-- End Enquiry Form -->
 
 		<!-- Careers -->
 
+		{% for paragraph in entry.generalParagraph %}
 		<section id="careers" class="main-container">
 			<div class="centered">
-				<h1>Careers</h1>
+				<h1>{{ paragraph.paragraphHeadline }}</h1>
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
-				<p>The Foundry is nothing without its people &ndash; and they are some of the best in the business. Hence our policy is to recruit only those who are <i>better</i> than us… or have the potential to be. That means finding people who can help deliver and service the diverse communication solutions we offer.</p>
-				<p>Our focus is building brands and profits for both our clients and ourselves.</p>
-				<p>In return for dedication, professionalism and a passion for excellence, we offer generous remuneration packages for the right candidates.</p>
-
-				<h3>Current Vacancies</h3>
-				<div class="rule">
-					<img src="/img/rule.png" alt="Rule" />
-				</div>
-				<p>Unfortunately, there are no vacancies at the moment. However, we are always interested in talented people, so if you think you could add to The Foundry, then please <a href="mailto:info@foundrycomms.co.uk">email us</a> your CV.</p>
+				{{ paragraph.paragraphCopy }}
 			</div>
 		</section>
+		{% endfor %}
 
 		<!-- End Careers -->
 
