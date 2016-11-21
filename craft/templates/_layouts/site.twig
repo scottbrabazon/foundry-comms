@@ -40,7 +40,7 @@
 {% block footer_home %}
 		<!-- Footer -->
 
-	<div id="footer" class="background">
+<div id="footer" class="background">
 	<div class="footer flexbox main-container">
 		<div class="footer-row-1">
 
@@ -54,34 +54,39 @@
 
 			{% endset %}
 
-			<section class="blog flexbox hfeed listing">
+			<ul class="hfeed listing flexbox">
 
 				{% for newsItem in news %}
 
-				<article class="blog-post blog-post-list hentry">
-					<div>
-		                <h3>News</h3>
-		                <div class="rule">
-		                    <img src="/img/rule.png" alt="Rule" />
-		                </div>
-		            </div>
-					<header>
-						<h4 class="blog-post-title blog-post-title-list"><a href="{{ newsItem.url }}" rel="bookmark">{{ newsItem.title }}</a></h4>
-						<p class="blog-post-meta">Posted on {{ newsItem.postDate | date("l F j, Y") }}.</p>
-					</header>
-					<div class="blog-post-body">
-					    <p>{{ newsItem.articleSummary }}</p>
-					    <p class="button-next hvr-bounce-to-right"><a href="{{ newsItem.url }}" />Find out more</a></p>
-					</div>
-				</article>
+			    <li class="hentry">
+			        <div class="footer-item flexbox">
+			            <div>
+			                <h3>News</h3>
+			                <div class="rule">
+			                    <img src="/img/rule.png" alt="Rule" />
+			                </div>
+			            </div>
+			            <h4><a href="{{ newsItem.url }}" rel="bookmark" class="entry-title">{{ newsItem.title }}</a></h4>
+			            <p class="blog-post-meta">Posted on {{ newsItem.postDate | date("l F j, Y") }}.</p>
+			            <div class="description entry-summary">
+			                <p>{{ newsItem.articleSummary }}</p>
+			            </div>
+			            <a href="{{ newsItem.url }}" />
+			                <div class="hvr-bounce-to-right button-next flexbox">
+			                    <p>Find out more</p>
+			                </div>
+			            </a>
+			        </div>
+			    </li>
 
-				{% endfor %}
+			    {% endfor %}
 
 				{{ pageNav }}
 
-			</section>
+		    </ul>
+
 	    </div>
-	</div>	
+	</div>
 	<div class="footer-row-2">
 		<div class="social">
 			<a href="http://www.twitter.com/foundrycomms">

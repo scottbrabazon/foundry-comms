@@ -1,0 +1,126 @@
+{% set title = "Work" %}
+
+{% extends "_layouts/site" %}
+
+{% block inlineCss %}
+
+
+
+<style>
+
+{% if entry.caseStudyBackgroundImage | length %}
+{% set image = entry.caseStudyBackgroundImage.first() %}
+	#{{ entry.slug }}-masthead {
+		background: black url({{ image.url }}) no-repeat bottom center;
+	}
+{% endif %}
+
+</style>
+
+{% endblock %}
+
+{% block main %}
+
+<!-- Masthead -->
+
+<header id="{{ entry.slug }}-masthead" class="masthead flexbox">
+	<div class="masthead-content main-container flexbox">
+
+		{% for headline in entry.bannerHeadlines %}
+
+		<div class="headlines">
+			<h1>{{ headline.bannerHeadline }}</h1>
+			<div class="rule">
+				<img src="/img/rule.png" alt="Rule" />
+			</div>
+
+			<h3>{{ headline.bannerCopy }}</h3>
+		</div>
+
+		{% endfor %}
+
+		<div class="client-logo">
+
+			{% if entry.clientLogo | length %}
+			{% set image = entry.clientLogo.first() %}
+				<img src="{{ image.url }}" alt="{{ image.title }}">
+			{% endif %}
+
+		</div>
+	</div>
+</header>	
+
+<!-- End Masthead -->
+
+<!-- Intro Copy -->
+
+<section id="kumho-intro" class="main-container">
+	<div class="centered intoduction-paragraph">
+		{{ entry.caseStudyIntroduction }}
+	</div>
+	<hr />
+
+	{% for listenPlanDeliverContent in entry.listenPlanDeliver %}
+
+	<div class="flexbox listen">
+		<h2>Listen</h2>
+		<div class="listen-copy">
+			<div class="rule">
+				<img src="/img/rule.png" alt="Rule" />
+			</div>
+			{{ listenPlanDeliverContent.listenCopy }}
+		</div>	
+	</div>
+	<hr />
+	<div class="flexbox plan">
+		<h2>Plan</h2>
+		<div class="plan-copy">
+			<div class="rule">
+				<img src="/img/rule.png" alt="Rule" />
+			</div>
+			{{ listenPlanDeliverContent.planCopy }}
+		</div>	
+	</div>
+	<hr />
+	<div class="flexbox deliver">
+		<h2>Deliver</h2>
+		<div class="deliver-copy">
+			<div class="rule">
+				<img src="/img/rule.png" alt="Rule" />
+			</div>
+			{{ listenPlanDeliverContent.deliverCopy }}
+		</div>
+	</div>
+	<hr />
+
+	{% endfor %}
+
+</section>
+
+<!-- End Intro Copy -->
+
+<!-- Fixed Nav Buttons -->
+
+<div id="work-fixed-nav-buttons">
+	<ul class="section_tabs flexbox work-fixed-nav-buttons">
+		<li>
+			<a href="../matthew-clark" class="nav-buttons flexbox fixed-previous-page">
+				<img src="/img/buttons/big/arrow-left.svg" alt="Prev" />
+				<h2>&nbsp;&nbsp;Prev</h2>
+			</a>
+		</li>
+		<div class="fixed-spacer">
+			<h2>&nbsp;</h2>
+		</div>
+		<li>
+			<a href="../abellio" class="nav-buttons flexbox fixed-next-page">
+				<h2>Next&nbsp;&nbsp;</h2>
+				<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
+			</a>
+		</li>
+	</ul>
+</div>
+
+<!-- End Fixed Nav Buttons -->
+
+{% endblock main %}

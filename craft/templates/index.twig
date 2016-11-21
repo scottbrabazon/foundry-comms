@@ -140,7 +140,7 @@
 		<div>
 			{% if client.clientLogo | length %}
 			{% set image = client.clientLogo.first() %}
-				<img src="{{ image.url }}" alt="PGL">
+				<img src="{{ image.url }}" alt="{{ image.title }}">
 			{% endif %}
 		</div>
 		{% endfor %}
