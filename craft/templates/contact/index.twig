@@ -39,50 +39,125 @@
 		<!-- Map -->
 
 		<section id="map">
-			<div class="map centered">
-				<?php perch_content('Map'); ?>
-			</div>
+			<div id="map-display" class="map centered" style="width: 100%; height: 400px;"></div>
+		    <script>
+		      function initMap() {
+		        var foundry = {lat: 53.38470350000001, lng: -2.350081600000067};
+		        var map = new google.maps.Map(document.getElementById('map-display'), {
+		          zoom: 15,
+		          center: foundry
+		        });
+		        var marker = new google.maps.Marker({
+		          position: foundry,
+		          map: map
+		        });
+		      }
+		    </script>
+		    <script async defer
+		    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnR2BfgTMn0ThTvhSs1v0xc4qvgXU0sgA&callback=initMap">
+		    </script>
 		</section>
+
+		<!-- section id="map">
+			<div class="map centered">
+				<div>
+				<img id="cmsmap17-1" src="//maps.google.com/maps/api/staticmap?key=AIzaSyAd9AbybcLwk5Oo61zLP_6GHkwMP0ahBfY&amp;center=53.38470350000001,-2.350081600000067&amp;size=100%x400&amp;scale=2&amp;zoom=15&amp;maptype=map&amp;markers=color:red|color:red|53.38470350000001,-2.350081600000067"  width="100%" height="400" alt="The Foundry Communications 3 Denmark Street, Altrincham Cheshire WA14 2SS" /><script type="text/javascript">/* <![CDATA[ */ if(typeof CMSMap =='undefined'){var CMSMap={};CMSMap.maps=[];document.write('<scr'+'ipt type="text\/javascript" src="/perch/core/assets/js/public_maps.min.js"><'+'\/sc'+'ript>');}CMSMap.maps.push({'mapid':'cmsmap17-1','width':'100%','height':'400','type':'map','zoom':'15','adr':'The Foundry Communications 3 Denmark Street, Altrincham Cheshire WA14 2SS','lat':'53.38470350000001','lng':'-2.350081600000067','clat':'53.38470350000001','clng':'-2.350081600000067'});CMSMap.key='AIzaSyAd9AbybcLwk5Oo61zLP_6GHkwMP0ahBfY';/* ]]> */</script>
+				</div>
+			</div>
+		</section -->
 
 		<!-- End Map -->
 
 		<!-- Enquiry Form -->
 
+		{% if craft.request.getParam("message") != "thankyou" %}
+
 		<section id="enquiry-form" class="centered">
-			<form id="form1_contact" action="#perch-reset" method="post">
-		        <h1>Make an enquiry</h1>
+			
+			<form method="post" action="amForms/submissions/saveSubmission" accept-charset="UTF-8">
+
+	
+			    {{ getCsrfInput() }}
+
+				{# This should always be here! #}
+			    <input type="hidden" name="action" value="amForms/submissions/saveSubmission">
+
+			    {# Insert your form's handle. #}
+			    <input type="hidden" name="handle" value="contact">
+
+			    {# Optional: Redirect URL. Will redirect to current page by default. #}
+			    <input type="hidden" name="redirect" value="{{ craft.request.getSegment(1) }}?message=thankyou">
+
+			    {# Optional: Anti-spam protection. #}
+			    {{ craft.amForms.displayAntispam() }}
+
+
+			    {# Place the HTML of your fields here #}
+
+			    <h1>Make an enquiry</h1>
 				<div class="rule">
 					<img src="/img/rule.png" alt="Rule" />
 				</div>
 				<p>Send us a message. Fill in your details and we'll be in touch as soon as possible.</p>
+
 				<fieldset>
-					<div class="form-field">
-						<input id="form1_name" name="user_name" placeholder="Name" type="text" required="required" />
-					</div>
-					<div class="form-field">
-						<input id="form1_position" name="user_position" placeholder="Position" type="text" required="required" />
-					</div>
-					<div class="form-field">
-						<input id="form1_company" name="user_company" placeholder="Company" type="text" required="required" />
-					</div>
-					<div class="form-field">
-						<input id="form1_email" name="user_email" placeholder="Email address" type="text" required="required" />
 
-					</div>
-					<div class="form-field">
-						<input id="form1_telephone" name="user_telephone" placeholder="Telephone number" type="text" required="required" />
-					</div>
-					<div class="form-field">
-						<input id="form1_message" name="user_message" placeholder="Message" type="text" required="required" />
-					</div>
+				<div class="form-field">
+					<label class="required" for="fields-fullName">Name<sup>*</sup></label>
+					<input id="fields-fullName" name="fields[fullName]" placeholder="Name" type="text" required="required" autocomplete="nope" />
+				</div>
 
-					<div class="hvr-bounce-to-right button-next">
-						<input id="form1_submit" name="submit" value="Send" type="submit" /><input type="hidden" name="cms-form" value="Y29udGFjdDpwZXJjaF9mb3JtczovdGVtcGxhdGVzL2NvbnRlbnQvZW5xdWlyeS1mb3JtLmh0bWw6MTQ3OTcyNTg2OA==" />
-					</div>
+				<div class="form-field">
+					<label class="required" for="fields-companyPosition">Position<sup>*</sup></label>
+					<input id="fields-companyPosition" name="fields[companyPosition]" placeholder="Position" type="text" required="required" autocomplete="nope" />
+				</div>
+
+				<div class="form-field">
+					<label class="required" for="fields-company">Company<sup>*</sup></label>
+					<input id="fields-company" name="fields[company]" placeholder="Company" type="text" required="required" autocomplete="nope" />
+				</div>
+
+				<div class="form-field">
+					<label class="required" for="fields-emailAddress">Email<sup>*</sup></label>
+					<input id="fields-emailAddress" name="fields[emailAddress]" placeholder="Email address" type="text" required="required" autocomplete="nope" />
+				</div>
+
+				<div class="form-field">
+					<label class="required" for="fields-telephoneNumber">Telephone<sup>*</sup></label>
+					<input id="fields-telephoneNumber" name="fields[telephoneNumber]" placeholder="Telephone number" type="text" required="required" autocomplete="nope" />
+				</div>
+
+				<div class="form-field">
+					<label class="required" for="fields-message">Message<sup>*</sup></label>
+					<textarea id="fields-message" name="fields[message]" placeholder="Please enter a message" required="required"></textarea>
+				</div>
+
+				<div class="hvr-bounce-to-right button-next">
+					<input name="submit" value="Send" type="submit" />
+				</div>
+
 				</fieldset>
-				
+			    
 			</form>
+
+
 		</section>
+
+		
+		{% else %}
+
+		<section id="thank-you">
+			<div class="centered">
+				<h1>Thank you for your enquiry<br>We will be in touch very soon</h1>
+				<div class="rule">
+					<img src="/img/rule.png" alt="Rule" />
+				</div>
+			</div>
+		</section>
+    	
+
+    	{% endif %}
+
 
 		<!-- End Enquiry Form -->
 

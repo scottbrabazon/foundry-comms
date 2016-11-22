@@ -2,6 +2,8 @@
 
 {% block body %}
 
+{% set segment_1 = craft.request.firstSegment %}
+
 <div id="navigation">
 	<div class="navigation-panel flexbox main-container">
 		<div class="logo">
@@ -12,22 +14,22 @@
 				<img src="/img/menu.svg" alt="Menu">
 			</div>
 		 	<ul class="menu-links-mobile">
-				<li><a href="/about">About</a></li>
-				<li><a href="/work">Work</a></li>
-				<li><a href="/approach">Approach</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/news/">News</a></li>
+				<li><a href="/about"{% if segment_1 == "about" %} class="active"{% endif %}>About</a></li>
+				<li><a href="/work"{% if segment_1 == "work" %} class="active"{% endif %}>Work</a></li>
+				<li><a href="/approach"{% if segment_1 == "approach" %} class="active"{% endif %}>Approach</a></li>
+				<li><a href="/contact"{% if segment_1 == "contact" %} class="active"{% endif %}>Contact</a></li>
+				<li><a href="/news/"{% if segment_1 == "news" %} class="active"{% endif %}>News</a></li>
 				<li class="fhc-nav"><a href="http://www.foundryhealthcare.co.uk/">Foundry Healthcare</a></li>
 				<li class="bia-nav"><a href="http://www.brandinaction.com/">Brand in Action</a></li>
 		 	</ul>
 		</div>
 		<div class="flexbox navigation-menu">
 		 	<ul class="menu-links flexbox">
-				<li><a href="/about">About</a></li>
-				<li><a href="/work">Work</a></li>
-				<li><a href="/approach">Approach</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/news/">News</a></li>
+				<li><a href="/about"{% if segment_1 == "about" %} class="active"{% endif %}>About</a></li>
+				<li><a href="/work"{% if segment_1 == "work" %} class="active"{% endif %}>Work</a></li>
+				<li><a href="/approach"{% if segment_1 == "approach" %} class="active"{% endif %}>Approach</a></li>
+				<li><a href="/contact"{% if segment_1 == "contact" %} class="active"{% endif %}>Contact</a></li>
+				<li><a href="/news/"{% if segment_1 == "news" %} class="active"{% endif %}>News</a></li>
 				<li class="fhc-nav hvr-bounce-to-right flexbox"><a href="http://www.foundryhealthcare.co.uk/">FOUNDRY HEALTHCARE</a></li>
 				<li class="bia-nav hvr-bounce-to-right flexbox"><a href="http://www.brandinaction.com/">BRAND IN ACTION</a></li>
 		 	</ul>
