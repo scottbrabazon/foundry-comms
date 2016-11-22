@@ -1,5 +1,17 @@
 {% set title = "Work" %}
 
+{# work out previous and next pieces of work #}
+
+{% set nextEntry = entry.nextSibling %}
+{% if nextEntry is empty %}
+{% set nextEntry = entry.siblings(entry).first() %}
+{% endif %}
+
+{% set prevEntry = entry.prevSibling %}
+{% if prevEntry is empty %}
+{% set prevEntry = entry.siblings.last() %}
+{% endif %}
+
 {% extends "_layouts/site" %}
 
 {% block inlineCss %}
@@ -106,7 +118,7 @@
 <div id="work-fixed-nav-buttons">
 	<ul class="section_tabs flexbox work-fixed-nav-buttons">
 		<li>
-			<a href="../matthew-clark" class="nav-buttons flexbox fixed-previous-page">
+			<a href="{{ prevEntry.url }}" class="nav-buttons flexbox fixed-previous-page">
 				<img src="/img/buttons/big/arrow-left.svg" alt="Prev" />
 				<h2>&nbsp;&nbsp;Prev</h2>
 			</a>
@@ -115,7 +127,7 @@
 			<h2>&nbsp;</h2>
 		</div>
 		<li>
-			<a href="../abellio" class="nav-buttons flexbox fixed-next-page">
+			<a href="{{ nextEntry.url }}" class="nav-buttons flexbox fixed-next-page">
 				<h2>Next&nbsp;&nbsp;</h2>
 				<img src="/img/buttons/big/arrow-right.svg" alt="Next" />
 			</a>
@@ -126,3 +138,82 @@
 <!-- End Fixed Nav Buttons -->
 
 {% endblock main %}
+
+
+{% block footer_home %}
+
+
+		<!-- Footer -->
+
+		<footer id="footer">
+			<div class="footer flexbox main-container">
+				<div class="footer-row-1 flexbox">
+					<div class="previous-case-study">
+						<a href="{{ prevEntry.url }}">
+							<div class="project-image">
+								{% if prevEntry.caseStudyPanelImage | length %}
+				    			{% set image = prevEntry.caseStudyPanelImage.first() %}
+				        			<img src="{{ image.url }}" alt="{{prevEntry.title}}">
+								{% endif %}
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">{{ prevEntry.title }}</span><br><span class="project-title">{{ prevEntry.caseStudySubtitle }}</span></p>
+							</div>
+						</a>
+					</div>
+					<div class="view-all-work flexbox">
+						<a href="/work">
+							<img src="/img/view-all-work.svg" alt="View all work" />
+							<h3>View all work</h3>
+						</a>
+					</div>
+					<div class="next-case-study">
+						<a href="{{ nextEntry.url }}">
+							<div class="project-image">
+								{% if nextEntry.caseStudyPanelImage | length %}
+				    			{% set image = nextEntry.caseStudyPanelImage.first() %}
+				        			<img src="{{ image.url }}" alt="{{nextEntry.title}}">
+								{% endif %}
+							</div>
+							<div class="hvr-bounce-to-top project-name-panel">
+								<p class="project-info"><span class="project-client">{{ nextEntry.title }}</span><br><span class="project-title">{{ nextEntry.caseStudySubtitle }}</span></p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>	
+			<div class="footer-row-2">
+				<div class="social">
+					<a href="http://www.twitter.com/foundrycomms">
+						<img src="/img/social/twitter.svg" alt="Twitter" />
+					</a>
+					<a href="http://www.facebook.com/foundrycomms">
+						<img src="/img/social/facebook.svg" alt="Facebook" />
+					</a>
+					<a href="http://www.youtube.com/foundrycomms">
+						<img src="/img/social/you-tube.svg" alt="YouTube" />
+					</a>
+					<a href="http://www.linkedin.com/company/the-foundry-communications">
+						<img src="/img/social/linkedin.svg" alt="LinkedIn" />
+					</a>
+					<a href="http://www.pinterest.com/thefoundrycomms">
+						<img src="/img/social/pinterest.svg" alt="Pinterest" />
+					</a>
+				</div>	
+			</div>
+			<div class="footer main-container">
+				<div class="footer-row-3 flexbox">
+					<p class="contact-number"><span>Contact</span> <a href="tel:{{ companyDetails.phoneNumberLink }}">{{ companyDetails.phoneNumber }}</a></p>
+					<div class="enquiry-button">
+						<a href="/contact">
+							<div class="hvr-bounce-to-right button-next flexbox">
+								<p>Make Enquiry</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>	
+		</footer>
+
+
+{% endblock footer_home %}
