@@ -2406,7 +2406,7 @@ button img { width: auto; margin-left: 10px; }
 /* line 16, ../scss/_case-studies-panels.scss */
 .case-studes-examples { flex-direction: column; width: 100%; max-width: 1500px; margin: 0 auto; }
 /* line 21, ../scss/_case-studies-panels.scss */
-.case-studes-examples div { display: block; width: 100%; position: relative; overflow: hidden; }
+.case-studes-examples div { display: block; position: relative; overflow: hidden; }
 /* line 22, ../scss/_case-studies-panels.scss */
 .case-studes-examples img { width: 100%; margin: 0; padding: 0; }
 
@@ -2420,8 +2420,12 @@ button img { width: auto; margin-left: 10px; }
 /* line 43, ../scss/_case-studies-panels.scss */
 .project-info { text-align: left; padding-left: 10px; margin: 0; font-family: "Gotham Medium Book", sans-serif, arial, sans-serif; color: #000; font-size: 0.85em; line-height: 1.4em; position: absolute; padding-bottom: 10px; bottom: 0; z-index: 1000; visibility: hidden; }
 
-@media screen and (min-width: 650px) { /* line 59, ../scss/_case-studies-panels.scss */
-  .case-studes-examples { flex-direction: row; } }
+@media screen and (min-width: 650px) { /* line 61, ../scss/_case-studies-panels.scss */
+  .case-studes-example { width: 33.333333333%; float: left; }
+  /* line 64, ../scss/_case-studies-panels.scss */
+  .clearfix::after { content: ""; display: table; clear: both; }
+  /* line 69, ../scss/_case-studies-panels.scss */
+  .project-name-panel { float: none; } }
 /********* Small Buttons /*********/
 /* Black Button */
 /* White Button */
@@ -2693,7 +2697,7 @@ button img { width: auto; margin-left: 10px; }
 
 /* Kumho */
 /* line 156, ../scss/_case-studies.scss */
-#kumho-masthead.masthead { background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center; background-size: cover; margin-top: 68px; height: 532px; position: relative; z-index: 400; }
+#kumho-tyre-masthead.masthead { background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center; background-size: cover; margin-top: 68px; height: 532px; position: relative; z-index: 400; }
 
 /* line 165, ../scss/_case-studies.scss */
 #kumho-intro { margin-top: 60px; }

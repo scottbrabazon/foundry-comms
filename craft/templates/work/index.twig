@@ -23,18 +23,16 @@
 	<!-- Case Studes -->
 
 	<div id="case-studies">
-		<div class="case-studes-examples flexbox">
+		<div class="case-studes-examples clearfix">
 			{% for caseStudy in craft.entries.section('caseStudies').limit(6) %}
-			<div>
+			<div class="case-studes-example">
 				<a href="{{caseStudy.url}}">
-					<div class="project-image">
 
-						{% if caseStudy.caseStudyPanelImage | length %}
-		    			{% set image = caseStudy.caseStudyPanelImage.first() %}
-		        			<img src="{{ image.url }}" alt="{{caseStudy.title}}">
-						{% endif %}
+					{% if caseStudy.caseStudyPanelImage | length %}
+	    			{% set image = caseStudy.caseStudyPanelImage.first() %}
+	        			<img src="{{ image.url }}" alt="{{caseStudy.title}}">
+					{% endif %}
 
-					</div>
 					<div class="hvr-bounce-to-top project-name-panel">
 						<p class="project-info"><span class="project-client">{{caseStudy.title}}</span><br><span class="project-title">{{caseStudy.caseStudySubtitle}}</span></p>
 					</div>
